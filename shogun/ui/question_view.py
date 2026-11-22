@@ -12,13 +12,14 @@ from shogun.services.scoring import OPTION_KEYS
 from shogun.ui.components import badge, html
 
 
-def provenance_badges(source_type: str, verification: str, year: int | None = None, ref: str | None = None) -> str:
+def provenance_badges(source_type: str, verification: str, year: int | None = None, ref: str | None = None,
+                      exam_name: str | None = None) -> str:
     kind = {"official_pyq": "violet", "ai_generated": "warning", "user_practice": "blue"}.get(source_type, "")
     vkind = {"verified": "good", "unverified": "muted", "rejected": "critical"}.get(verification, "")
     parts = [badge(SOURCE_LABELS.get(source_type, source_type), kind),
              badge(VERIFICATION_LABELS.get(verification, verification), vkind)]
-    if year:
-        parts.append(badge(f"GATE {year}" + (f" · {ref}" if ref else ""), "blue"))
+    if year or exam_name:
+        parts.append(badge((exam_name or f"GATE {year}") + (f" · {ref}" if ref else ""), "blue"))
     if source_type == "official_pyq" and verification != "verified":
         parts.append(badge("Not yet verified — do not trust as a real PYQ", "warning"))
     if source_type == "ai_generated":
@@ -37,7 +38,7 @@ def answer_text(qtype: str, answer_key: str | None, nat_low: float | None, nat_h
 def render_question(q: Question, *, show_answer: bool = False, key: str = "") -> None:
     cls = "sl-pyq" if q.source_type == "official_pyq" else "sl-ai"
     marks_label = f"{q.qtype} · {q.marks} mark" + ("s" if q.marks > 1 else "")
-    html(f'<div class="{cls}">{provenance_badges(q.source_type, q.verification_status, q.exam_year, q.question_ref)}'
+    html(f'<div class="{cls}">{provenance_badges(q.source_type, q.verification_status, q.exam_year, q.question_ref, q.exam_name)}'
          f' {badge(marks_label)}</div>')
     st.markdown(q.stem)
     for k, text in zip(OPTION_KEYS, options_of(q), strict=False):

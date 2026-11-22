@@ -1,0 +1,496 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.05",
+   "GA.1.10"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Gauri said that she can play the keyboard __________ her sister",
+  "options": [
+   "as well as",
+   "as better as",
+   "as nicest as",
+   "as worse as"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The comparison of equality uses the base form of the adverb inside *as ... as*: \"she can play the keyboard **as well as** her sister\". Comparative (*better*, *worse*) and superlative (*nicest*) forms cannot be placed inside *as ... as*, so (B), (C) and (D) are ungrammatical. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.1 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If $\\theta$ is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, $\\cos\\theta =$",
+  "options": [
+   "$\\frac{1}{2}$",
+   "$\\frac{1}{\\sqrt{3}}$",
+   "$\\frac{1}{\\sqrt{2}}$",
+   "$\\frac{\\sqrt{3}}{2}$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Place the cube of side $a$ with a vertex at the origin. The longest (space) diagonal is the vector $(a, a, a)$ of length $a\\sqrt{3}$, and an edge from the same vertex is $(a, 0, 0)$ of length $a$. Then $\\cos\\theta = \\frac{a \\cdot a}{a\\sqrt{3}\\cdot a} = \\frac{1}{\\sqrt{3}}$. Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.3 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.07"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.4",
+  "key_row": 4,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If $\\left(x-\\frac{1}{2}\\right)^2 - \\left(x-\\frac{3}{2}\\right)^2 = x+2$, then the value of $x$ is:",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Using $a^2 - b^2 = (a-b)(a+b)$: $\\left(x-\\frac{1}{2}\\right)^2 - \\left(x-\\frac{3}{2}\\right)^2 = (1)(2x-2) = 2x - 2$. Setting $2x - 2 = x + 2$ gives $x = 4$. Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.4 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Pen : Write :: Knife : __________\n\nWhich one of the following options maintains a similar logical relation in the above?",
+  "options": [
+   "Vegetables",
+   "Sharp",
+   "Cut",
+   "Blunt"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The relation is object : its function. A pen is used to write, and a knife is used to cut. *Sharp* and *blunt* describe a knife, and vegetables are what may be cut, not the function. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.5 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.11"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Listening to music during exercise improves exercise performance and reduces discomfort. Scientists researched whether listening to music while studying can help students learn better and the results were inconclusive. Students who needed external stimulation for studying fared worse while students who did not need any external stimulation benefited from music.\n\nWhich one of the following statements is the CORRECT inference of the above passage?",
+  "options": [
+   "Listening to music has no effect on learning and a positive effect on physical exercise.",
+   "Listening to music has a clear positive effect both on physical exercise and on learning.",
+   "Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students.",
+   "Listening to music has a clear positive effect on learning in all students. Music has a positive effect only in some students who exercise."
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The passage states that music clearly improves exercise performance. For studying, the results were mixed: some students (those not needing external stimulation) benefited while others fared worse. So music helps exercise and helps learning only for some students. (A) wrongly says no effect on learning; (B) and (D) overstate the effect on learning. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.6 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.05"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The number of students in three classes is in the ratio 3:13:6. If 18 students are added to each class, the ratio changes to 15:35:21.\n\nThe total number of students in all the three classes in the beginning was:",
+  "options": [
+   "22",
+   "66",
+   "88",
+   "110"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let the classes have $3k$, $13k$ and $6k$ students. Then $\\frac{3k+18}{13k+18} = \\frac{15}{35} = \\frac{3}{7}$, so $21k + 126 = 39k + 54$, giving $k = 4$. Check: $30 : 70 : 42 = 15 : 35 : 21$. The initial total is $22k = 88$. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.8 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.01",
+   "GA.2.06"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.9",
+  "key_row": 9,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "| | Year 1 | Year 2 | Year 3 |\n|---|---|---|---|\n| Number of units | 100 | 200 | 300 |\n| Net Profit (₹) | 240 | 296 | 210 |\n\nThe number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year 3 was ₹1, which was half the cost/unit in Year 2. The cost/unit in Year 3 was one-third of the cost/unit in Year 1. Taxes were paid on the selling price at 10%, 13% and 15% respectively for the three years. Net profit is calculated as the difference between the selling price and the sum of cost and taxes paid in that year.\n\nThe ratio of the selling price in Year 2 to the selling price in Year 3 is __________.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "4:3",
+   "1:1",
+   "3:4",
+   "1:2"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Cost/unit is ₹1 in Year 3, so ₹2 in Year 2 (and ₹3 in Year 1). Net profit $=$ SP $-$ cost $-$ tax rate $\\times$ SP, so SP $= \\frac{\\text{net profit} + \\text{cost}}{1 - \\text{tax rate}}$. Year 2: SP $= \\frac{296 + 200 \\times 2}{0.87} = \\frac{696}{0.87} = 800$. Year 3: SP $= \\frac{210 + 300 \\times 1}{0.85} = \\frac{510}{0.85} = 600$. Ratio $= 800 : 600 = 4 : 3$. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.9 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.01"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "GA Q.10",
+  "key_row": 10,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Six students P, Q, R, S, T and U, with distinct heights, compare their heights and make the following observations.\n\nObservation I: S is taller than R.  \nObservation II: Q is the shortest of all.  \nObservation III: U is taller than only one student.  \nObservation IV: T is taller than S but is not the tallest.\n\nThe number of students that are taller than R is the same as the number of students shorter than ______.",
+  "options": [
+   "T",
+   "R",
+   "S",
+   "P"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Q is the shortest and U is taller than only one student, so U is second shortest. We have R < S < T and T is not the tallest, so P is the tallest. The order from shortest is Q, U, R, S, T, P. Three students (S, T, P) are taller than R, and exactly three students (Q, U, R) are shorter than S. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.10 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.05"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.6",
+  "key_row": 16,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the following statements S1 and S2 about the relational data model:\n\nS1: A relation scheme can have at most one foreign key.  \nS2: A foreign key in a relation scheme R cannot be used to refer to tuples of R.\n\nWhich one of the following choices is correct?",
+  "options": [
+   "Both S1 and S2 are true.",
+   "S1 is true and S2 is false.",
+   "S1 is false and S2 is true.",
+   "Both S1 and S2 are false."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "S1 is false: a relation may have several foreign keys, e.g. an enrolment relation referencing both a student relation and a course relation. S2 is false: a foreign key may reference its own relation (a self-referencing foreign key), e.g. a manager-id attribute of an employee relation referring to another employee tuple. Answer: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.6 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08",
+   "DA.5.07"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.21",
+  "key_row": 31,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "A data file consisting of 1,50,000 student-records is stored on a hard disk with block size of 4096 bytes. The data file is sorted on the primary key `RollNo`. The size of a record pointer for this disk is 7 bytes. Each student-record has a candidate key attribute called `ANum` of size 12 bytes. Suppose an index file with records consisting of two fields, `ANum` value and the record pointer to the corresponding student record, is built and stored on the same disk. Assume that the records of data file and index file are not split across disk blocks. The number of blocks in the index file is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 698.0,
+  "nat_high": 698.0,
+  "explanation": "Each index record is $12 + 7 = 19$ bytes, so a block holds $\\lfloor 4096/19 \\rfloor = 215$ index records (records are not split across blocks). The data file is ordered on `RollNo`, not on `ANum`, so the index on `ANum` is a secondary (dense) index with one entry per record: 150000 entries. Number of blocks $= \\lceil 150000/215 \\rceil = \\lceil 697.67 \\rceil = 698$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.21 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.16",
+   "DA.1.10"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.22",
+  "key_row": 32,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "For a given biased coin, the probability that the outcome of a toss is a head is 0.4. This coin is tossed 1,000 times. Let X denote the random variable whose value is the number of times that head appeared in these 1,000 tosses. The standard deviation of X (rounded to 2 decimal places) is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 15.0,
+  "nat_high": 16.0,
+  "explanation": "$X \\sim \\text{Binomial}(n = 1000, p = 0.4)$, so $\\mathrm{Var}(X) = np(1-p) = 1000 \\times 0.4 \\times 0.6 = 240$. The standard deviation is $\\sqrt{240} \\approx 15.49$, which lies in the official range 15.00 to 16.00.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.22 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.14",
+   "DA.2.15"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.24",
+  "key_row": 34,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Suppose that $P$ is a $4 \\times 5$ matrix such that every solution of the equation $P\\mathrm{x} = \\mathbf{0}$ is a scalar multiple of $[2\\ \\ 5\\ \\ 4\\ \\ 3\\ \\ 1]^T$. The rank of $P$ is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 4.0,
+  "nat_high": 4.0,
+  "explanation": "The null space of $P$ consists of the scalar multiples of one non-zero vector, so it is one-dimensional: nullity $= 1$. By the rank-nullity theorem, rank + nullity = number of columns = 5, so rank $= 5 - 1 = 4$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.24 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.03"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.25",
+  "key_row": 35,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Suppose that $f: \\mathbb{R} \\to \\mathbb{R}$ is a continuous function on the interval $[-3, 3]$ and a differentiable function in the interval $(-3, 3)$ such that for every $x$ in the interval, $f'(x) \\le 2$. If $f(-3) = 7$, then $f(3)$ is at most __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 19.0,
+  "nat_high": 19.0,
+  "explanation": "By the Mean Value Theorem there is $c \\in (-3, 3)$ with $f(3) - f(-3) = f'(c)\\,(3 - (-3)) = 6f'(c)$. Since $f'(c) \\le 2$, $f(3) \\le 7 + 6 \\times 2 = 19$. The bound is attained by $f(x) = 2x + 13$, so the answer is 19.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.25 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.12",
+   "DA.1.05"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.29",
+  "key_row": 39,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "In an examination, a student can choose the order in which two questions (`QuesA` and `QuesB`) must be attempted.\n\n- If the first question is answered wrong, the student gets zero marks.\n- If the first question is answered correctly and the second question is not answered correctly, the student gets the marks only for the first question.\n- If both the questions are answered correctly, the student gets the sum of the marks of the two questions.\n\nThe following table shows the probability of correctly answering a question and the marks of the question respectively.\n\n| question | probability of answering correctly | marks |\n|---|---|---|\n| `QuesA` | 0.8 | 10 |\n| `QuesB` | 0.5 | 20 |\n\nAssuming that the student always wants to maximize her expected marks in the examination, in which order should she attempt the questions and what is the expected marks for that order (assume that the questions are independent)?",
+  "options": [
+   "First `QuesA` and then `QuesB`. Expected marks 14.",
+   "First `QuesB` and then `QuesA`. Expected marks 14.",
+   "First `QuesB` and then `QuesA`. Expected marks 22.",
+   "First `QuesA` and then `QuesB`. Expected marks 16."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "If `QuesA` is first: marks are 0 w.p. 0.2, 10 w.p. $0.8 \\times 0.5 = 0.4$, and 30 w.p. $0.8 \\times 0.5 = 0.4$, so $E = 4 + 12 = 16$. If `QuesB` is first: 0 w.p. 0.5, 20 w.p. $0.5 \\times 0.2 = 0.1$, and 30 w.p. $0.5 \\times 0.8 = 0.4$, so $E = 2 + 12 = 14$. The better order is `QuesA` first, with expected marks 16. Answer: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.29 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.04"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.31",
+  "key_row": 41,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The relation scheme given below is used to store information about the employees of a company, where `empId` is the key and `deptId` indicates the department to which the employee is assigned. Each employee is assigned to exactly one department.\n\n$$\\texttt{emp(}\\underline{\\texttt{empId}}\\texttt{, name, gender, salary, deptId)}$$\n\nConsider the following SQL query:\n\n```sql\nselect deptId, count(*)\nfrom emp\nwhere gender = \"female\" and salary > (select avg(salary) from emp)\ngroup by deptId;\n```\n\nThe above query gives, for each department in the company, the number of female employees whose salary is greater than the average salary of",
+  "options": [
+   "employees in the department.",
+   "employees in the company.",
+   "female employees in the department.",
+   "female employees in the company."
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The subquery `(select avg(salary) from emp)` is not correlated with the outer query and has no `where` clause, so it is evaluated once over the whole `emp` table: it is the average salary of all employees in the company. The outer query keeps female employees earning more than this value and counts them per `deptId`. Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.31 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.07"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.33",
+  "key_row": 43,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A bag has $r$ red balls and $b$ black balls. All balls are identical except for their colours. In a trial, a ball is randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the fourth trial?",
+  "options": [
+   "$\\frac{r}{r+b}$",
+   "$\\frac{r}{r+b+3}$",
+   "$\\frac{r+3}{r+b+3}$",
+   "$\\left(\\frac{r}{r+b}\\right)\\left(\\frac{r+1}{r+b+1}\\right)\\left(\\frac{r+2}{r+b+2}\\right)\\left(\\frac{r+3}{r+b+3}\\right)$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "This is Polya's urn: the probability of red stays the same on every trial. For the second trial, $P(\\text{red}) = \\frac{r}{r+b}\\cdot\\frac{r+1}{r+b+1} + \\frac{b}{r+b}\\cdot\\frac{r}{r+b+1} = \\frac{r(r+b+1)}{(r+b)(r+b+1)} = \\frac{r}{r+b}$, and by induction (the expected fraction of red balls never changes) the same holds for the fourth trial. Option (D) is the probability that all four draws are red. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.33 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.03"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.37",
+  "key_row": 47,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "For two $n$-dimensional real vectors $P$ and $Q$, the operation $s(P, Q)$ is defined as follows:\n\n$$s(P,Q) = \\sum_{i=1}^{n} (P[i] \\cdot Q[i])$$\n\nLet $\\mathcal{L}$ be a set of 10-dimensional non-zero real vectors such that for every pair of distinct vectors $P, Q \\in \\mathcal{L}$, $s(P,Q) = 0$. What is the maximum cardinality possible for the set $\\mathcal{L}$?",
+  "options": [
+   "9",
+   "10",
+   "11",
+   "100"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$s(P,Q)$ is the dot product, so $\\mathcal{L}$ is a set of pairwise orthogonal non-zero vectors in $\\mathbb{R}^{10}$. Such vectors are linearly independent (dot a vanishing linear combination with each vector), and $\\mathbb{R}^{10}$ has at most 10 linearly independent vectors. The standard basis $e_1, \\dots, e_{10}$ achieves 10. Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.37 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.40",
+  "key_row": 50,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Suppose the following functional dependencies hold on a relation U with attributes $P$, $Q$, $R$, $S$, and $T$:\n\n$$\\begin{aligned} P &\\to QR \\\\ RS &\\to T \\end{aligned}$$\n\nWhich of the following functional dependencies can be inferred from the above functional dependencies?",
+  "options": [
+   "$PS \\to T$",
+   "$R \\to T$",
+   "$P \\to R$",
+   "$PS \\to Q$"
+  ],
+  "answer_key": "A,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "By decomposition, $P \\to QR$ gives $P \\to Q$ and $P \\to R$, so (C) holds. Augmenting $P \\to R$ with $S$ gives $PS \\to RS$, and with $RS \\to T$ transitivity gives $PS \\to T$ (A). Augmenting $P \\to Q$ with $S$ gives $PS \\to QS$, hence $PS \\to Q$ (D). $R \\to T$ cannot be inferred since $R^+ = \\{R\\}$. Answer: A, C, D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.40 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 2)",
+  "question_ref": "CS Q.50",
+  "key_row": 60,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $S$ be a set consisting of 10 elements. The number of tuples of the form $(A, B)$ such that $A$ and $B$ are subsets of $S$, and $A \\subseteq B$ is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 59049.0,
+  "nat_high": 59049.0,
+  "explanation": "Each element of $S$ independently falls into exactly one of three cases compatible with $A \\subseteq B$: in both $A$ and $B$, in $B$ but not $A$, or in neither. So the number of pairs is $3^{10} = 59049$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 2) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.50 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 2) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

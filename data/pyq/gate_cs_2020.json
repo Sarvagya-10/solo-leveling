@@ -1,0 +1,508 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.04",
+   "GA.1.01"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Raman is confident of speaking English _____ six months as he has been practising regularly _____ the last three weeks.",
+  "options": [
+   "during, for",
+   "for, since",
+   "for, in",
+   "within, for"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The first blank refers to a future span by the end of which Raman expects to be confident, so \"within six months\" is idiomatic. The second clause uses the present perfect continuous (\"has been practising\") with a length of time, which takes \"for\" (\"for the last three weeks\"); \"since\" would need a point in time. Hence (D) within, for.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.1 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.08",
+   "GA.1.05"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.2",
+  "key_row": 2,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "His knowledge of the subject was excellent but his classroom performance was _____.",
+  "options": [
+   "extremely poor",
+   "good",
+   "desirable",
+   "praiseworthy"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The conjunction \"but\" signals a contrast with \"excellent\". Only \"extremely poor\" contrasts with an excellent knowledge of the subject; \"good\", \"desirable\" and \"praiseworthy\" are all positive. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.2 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02",
+   "GA.1.07"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Select the word that fits the analogy:\n\nCook : Cook :: Fly : _____",
+  "options": [
+   "Flyer",
+   "Flying",
+   "Flew",
+   "Flighter"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "\"Cook\" (the verb, to prepare food) relates to \"cook\" (the noun, the person who cooks). In the same way, \"fly\" (the verb) relates to \"flyer\", the person who flies. \"Flying\" and \"flew\" are just other forms of the verb, and \"flighter\" is not a word. Hence (A) Flyer.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.3 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.11"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.4",
+  "key_row": 4,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The dawn of the 21st century witnessed the melting glaciers oscillating between giving too much and too little to billions of people who depend on them for fresh water. The UN climate report estimates that without deep cuts to man-made emissions, at least 30% of the northern hemisphere’s surface permafrost could melt by the end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas, nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.\n\nWhich one of the following statements can be inferred from the given passage?",
+  "options": [
+   "Nation-states do not have environmental concerns.",
+   "Nation-states are responsible for providing fresh water to billions of people.",
+   "Billions of people are responsible for man-made emissions.",
+   "Billions of people are affected by melting glaciers."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The passage says melting glaciers give \"too much and too little\" water to billions of people who depend on them for fresh water, so billions of people are affected by melting glaciers (D). The passage never says nation-states lack environmental concerns (\"if not for environmental ones\" only sets political concerns as a minimum), nor that they supply fresh water, nor that billions of people are responsible for the emissions.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.4 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.2.04"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "There are multiple routes to reach from node 1 to node 2, as shown in the network.\n\nThe network has the following directed edges (with the cost of travel on each edge):\n\n| From | To | Cost |\n|---|---|---|\n| 1 | a | 200 |\n| 1 | b | 300 |\n| 1 | f | 100 |\n| a | c | 100 |\n| a | 2 | 200 |\n| c | 2 | 100 |\n| b | 2 | 200 |\n| b | d | 0 |\n| d | e | 100 |\n| f | b | 0 |\n| f | e | 100 |\n| e | 2 | 200 |\n\nThe cost of travel on an edge between two nodes is given in rupees. Nodes ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, and ‘f’ are toll booths. The toll price at toll booths marked ‘a’ and ‘e’ is Rs. 200, and is Rs. 100 for the other toll booths. Which is the cheapest route from node 1 to node 2?\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "1-a-c-2",
+   "1-f-b-2",
+   "1-b-2",
+   "1-f-e-2"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Total cost = edge costs + tolls of the booths passed. 1-a-c-2: $(200+100+100) + (200+100) = 700$. 1-f-b-2: $(100+0+200) + (100+100) = 500$. 1-b-2: $(300+200) + 100 = 600$. 1-f-e-2: $(100+100+200) + (100+200) = 700$. The cheapest is 1-f-b-2 at Rs. 500, option (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.5 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.11"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Goods and Services Tax (GST) is an indirect tax introduced in India in 2017 that is imposed on the supply of goods and services, and it subsumes all indirect taxes except few. It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come. GST also has a few components specific to state governments, central government and Union Territories (UTs).\n\nWhich one of the following statements can be inferred from the given passage?",
+  "options": [
+   "GST is imposed on the production of goods and services.",
+   "GST includes all indirect taxes.",
+   "GST does not have a component specific to UT.",
+   "GST is imposed at the point of usage of goods and services."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The passage calls GST a destination-based tax \"imposed on goods and services used\" and \"not imposed at the point of origin\", i.e. it is levied where the goods and services are used (D). (A) contradicts the point-of-origin statement, (B) contradicts \"subsumes all indirect taxes except few\", and (C) contradicts the mention of components specific to UTs.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.6 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.07",
+   "GA.2.10"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.7",
+  "key_row": 7,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "If P = 3, R = 27, T = 243, then Q + S = _____.",
+  "options": [
+   "40",
+   "80",
+   "90",
+   "110"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Read the letters as consecutive positions: P = $3^1$, R = $3^3$, T = $3^5$, so each letter is a successive power of 3. Then Q = $3^2 = 9$ and S = $3^4 = 81$, giving Q + S = 90, option (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.7 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The figure below shows an annular ring with outer and inner radii as $b$ and $a$, respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum $n$ number of circles can be painted, then the unpainted area available in annular space is _____.\n\nFigure: two concentric circles, the inner one of radius $a$ and the outer one of radius $b$; blue circles are placed side by side around the annular space, each touching both the inner and the outer circle.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "$\\pi\\left[(b^2 - a^2) - \\frac{n}{4}(b - a)^2\\right]$",
+   "$\\pi\\left[(b^2 - a^2) - n(b - a)^2\\right]$",
+   "$\\pi\\left[(b^2 - a^2) + \\frac{n}{4}(b - a)^2\\right]$",
+   "$\\pi\\left[(b^2 - a^2) + n(b - a)^2\\right]$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each painted circle touches both peripheries, so its diameter is the ring width $b - a$ and its area is $\\pi\\left(\\frac{b-a}{2}\\right)^2 = \\frac{\\pi}{4}(b-a)^2$. The annulus has area $\\pi(b^2 - a^2)$. Subtracting the $n$ circles gives the unpainted area $\\pi\\left[(b^2 - a^2) - \\frac{n}{4}(b-a)^2\\right]$, option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.8 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.9",
+  "key_row": 9,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Two straight lines are drawn perpendicular to each other in X-Y plane. If $\\alpha$ and $\\beta$ are the acute angles the straight lines make with the X-axis, then $\\alpha + \\beta$ is _____.",
+  "options": [
+   "60°",
+   "90°",
+   "120°",
+   "180°"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let the first line have inclination $\\alpha$ (acute). A line perpendicular to it has inclination $\\alpha + 90^\\circ$, which is obtuse, so the acute angle it makes with the X-axis is $180^\\circ - (\\alpha + 90^\\circ) = 90^\\circ - \\alpha = \\beta$. Hence $\\alpha + \\beta = 90^\\circ$, option (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.9 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.01",
+   "GA.2.06"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "GA Q.10",
+  "key_row": 10,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The total revenue of a company during 2014-2018 is shown in the bar graph. If the total expenditure of the company in each year is 500 million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during 2014-2018 is ____.\n\nBar graph data (Revenue, in million rupees):\n\n| Year | 2014 | 2015 | 2016 | 2017 | 2018 |\n|---|---|---|---|---|---|\n| Revenue (In million rupees) | 500 | 700 | 800 | 600 | 400 |\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "16.67 % profit",
+   "16.67 % loss",
+   "20 % profit",
+   "20 % loss"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Total revenue $= 500 + 700 + 800 + 600 + 400 = 3000$ million rupees. Total expenditure $= 5 \\times 500 = 2500$ million rupees. Profit $= 3000 - 2500 = 500$, which is $\\frac{500}{2500} \\times 100 = 20\\%$ of the total expenditure. Hence 20 % profit, option (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), GA Q.10 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.03",
+   "DA.3.01"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.1",
+  "key_row": 11,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the functions\n\nI. $e^{-x}$\n\nII. $x^2 - \\sin x$\n\nIII. $\\sqrt{x^3 + 1}$\n\nWhich of the above functions is/are increasing everywhere in $[0,1]$?",
+  "options": [
+   "III only",
+   "II only",
+   "II and III only",
+   "I and III only"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Check the sign of each derivative on $[0,1]$. I: $\\frac{d}{dx}e^{-x} = -e^{-x} < 0$, so it is decreasing. II: $\\frac{d}{dx}(x^2 - \\sin x) = 2x - \\cos x$, which equals $-1 < 0$ at $x = 0$, so the function decreases near 0 (e.g. $f(0.1) \\approx -0.09 < 0 = f(0)$). III: $\\frac{d}{dx}\\sqrt{x^3+1} = \\frac{3x^2}{2\\sqrt{x^3+1}} \\ge 0$, zero only at $x = 0$, so it is increasing on all of $[0,1]$. Hence III only, option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.1 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.04"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.13",
+  "key_row": 23,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider a relational database containing the following schemas.\n\n**Catalogue**\n\n| $\\underline{\\text{sno}}$ | $\\underline{\\text{pno}}$ | cost |\n|---|---|---|\n| S1 | P1 | 150 |\n| S1 | P2 | 50 |\n| S1 | P3 | 100 |\n| S2 | P4 | 200 |\n| S2 | P5 | 250 |\n| S3 | P1 | 250 |\n| S3 | P2 | 150 |\n| S3 | P5 | 300 |\n| S3 | P4 | 250 |\n\n**Suppliers**\n\n| $\\underline{\\text{sno}}$ | sname | location |\n|---|---|---|\n| S1 | M/s Royal furniture | Delhi |\n| S2 | M/s Balaji furniture | Bangalore |\n| S3 | M/s Premium furniture | Chennai |\n\n**Parts**\n\n| $\\underline{\\text{pno}}$ | pname | part_spec |\n|---|---|---|\n| P1 | Table | Wood |\n| P2 | Chair | Wood |\n| P3 | Table | Steel |\n| P4 | Almirah | Steel |\n| P5 | Almirah | Wood |\n\nThe primary key of each table is indicated by underlining the constituent fields.\n\n```sql\nSELECT s.sno, s.sname\nFROM   Suppliers s, Catalogue c\nWHERE  s.sno = c.sno AND\n       cost > (SELECT AVG (cost)\n               FROM Catalogue\n               WHERE pno = ‘P4’\n               GROUP BY pno);\n```\n\nThe number of rows returned by the above SQL query is",
+  "options": [
+   "4",
+   "5",
+   "0",
+   "2"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The subquery averages the cost of part P4: $(200 + 250)/2 = 225$. Catalogue rows with cost $> 225$ are (S2, P5, 250), (S3, P1, 250), (S3, P5, 300) and (S3, P4, 250). Each joins with exactly one Suppliers row, and there is no DISTINCT, so the query returns 4 rows (S2 once, S3 three times). Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.13 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.01"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.14",
+  "key_row": 24,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Which one of the following is used to represent the supporting many-one relationships of a weak entity set in an entity-relationship diagram?",
+  "options": [
+   "Diamonds with double/bold border",
+   "Rectangles with double/bold border",
+   "Ovals with double/bold border",
+   "Ovals that contain underlined identifiers"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The identifying (supporting) relationship that links a weak entity set to its owner entity set is a relationship, and relationships are drawn as diamonds. The identifying relationship gets a double (bold) diamond. A double rectangle denotes the weak entity set itself, a double oval a multivalued attribute, and an underlined attribute name a key. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.14 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01",
+   "DA.1.03"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.17",
+  "key_row": 27,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Let $\\mathcal{R}$ be the set of all binary relations on the set $\\{1,2,3\\}$. Suppose a relation is chosen from $\\mathcal{R}$ at random. The probability that the chosen relation is reflexive (round off to 3 decimal places) is _______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.125,
+  "nat_high": 0.125,
+  "explanation": "A binary relation on $\\{1,2,3\\}$ is any subset of the $3 \\times 3 = 9$ ordered pairs, so $|\\mathcal{R}| = 2^9$. A reflexive relation must contain the 3 pairs $(1,1), (2,2), (3,3)$, while each of the other 6 pairs may be included or not: $2^6$ reflexive relations. With all relations equally likely, the probability is $2^6 / 2^9 = 1/8 = 0.125$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.17 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.14",
+   "DA.2.13",
+   "DA.2.04"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.27",
+  "key_row": 37,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let $A$ and $B$ be two $n \\times n$ matrices over real numbers. Let $\\text{rank}(M)$ and $\\det(M)$ denote the rank and determinant of a matrix $M$, respectively. Consider the following statements.\n\nI. $\\text{rank}(AB) = \\text{rank}(A)\\,\\text{rank}(B)$\n\nII. $\\det(AB) = \\det(A)\\det(B)$\n\nIII. $\\text{rank}(A + B) \\le \\text{rank}(A) + \\text{rank}(B)$\n\nIV. $\\det(A + B) \\le \\det(A) + \\det(B)$\n\nWhich of the above statements are TRUE?",
+  "options": [
+   "I and II only",
+   "I and IV only",
+   "II and III only",
+   "III and IV only"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "II is the multiplicative property of determinants, so it is true. III is true because every column of $A + B$ lies in the column space of $A$ plus the column space of $B$, whose dimension is at most $\\text{rank}(A) + \\text{rank}(B)$. I is false: with $A = B = I_n$ ($n \\ge 2$), $\\text{rank}(AB) = n$ but $\\text{rank}(A)\\,\\text{rank}(B) = n^2$. IV is false: with $A = B = I_2$, $\\det(A + B) = \\det(2I_2) = 4 > 1 + 1$. Hence II and III only, option (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.27 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.36",
+  "key_row": 46,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider a relational table $R$ that is in 3NF, but not in BCNF. Which one of the following statements is TRUE?",
+  "options": [
+   "$R$ has a nontrivial functional dependency $X \\rightarrow A$, where $X$ is not a superkey and $A$ is a prime attribute.",
+   "$R$ has a nontrivial functional dependency $X \\rightarrow A$, where $X$ is not a superkey and $A$ is a non-prime attribute and $X$ is not a proper subset of any key.",
+   "$R$ has a nontrivial functional dependency $X \\rightarrow A$, where $X$ is not a superkey and $A$ is a non-prime attribute and $X$ is a proper subset of some key.",
+   "A cell in $R$ holds a set instead of an atomic value."
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Since $R$ is not in BCNF, it has a nontrivial FD $X \\rightarrow A$ whose left side $X$ is not a superkey. Since $R$ is in 3NF, every such FD must have a prime attribute $A$ on the right. So (A) holds. (B) describes a transitive dependency and (C) a partial dependency of a non-prime attribute, both of which would violate 3NF; (D) would violate even 1NF.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.36 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.42",
+  "key_row": 52,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "The number of permutations of the characters in LILAC so that no character appears in its original position, if the two L’s are indistinguishable, is _______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 12.0,
+  "nat_high": 12.0,
+  "explanation": "Positions are 1:L, 2:I, 3:L, 4:A, 5:C. The two L's cannot go to positions 1 or 3, so they occupy 2 of the positions $\\{2, 4, 5\\}$: 3 choices. In each choice, I, A, C fill the remaining three positions, and exactly one of the letters I, A, C has its own original position among them (C at 5 if the L's take {2, 4}, A at 4 for {2, 5}, I at 2 for {4, 5}). That gives $3! - 2! = 4$ valid arrangements per choice. Total $= 3 \\times 4 = 12$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.42 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.05",
+   "DA.1.15",
+   "DA.1.01"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.45",
+  "key_row": 55,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "For $n > 2$, let $a \\in \\{0,1\\}^n$ be a non-zero vector. Suppose that $x$ is chosen uniformly at random from $\\{0,1\\}^n$. Then, the probability that $\\sum_{i=1}^{n} a_i x_i$ is an odd number is _______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.5,
+  "nat_high": 0.5,
+  "explanation": "Since $a \\ne 0$, pick an index $j$ with $a_j = 1$. Flipping the bit $x_j$ changes $\\sum a_i x_i$ by exactly 1, so it switches the parity. This flip pairs up the $2^n$ vectors $x$ one-to-one, each odd-sum vector with an even-sum vector. So exactly half of the equally likely vectors give an odd sum, and the probability is $0.5$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.45 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08",
+   "DA.5.07"
+  ],
+  "exam_year": 2020,
+  "exam_name": "GATE 2020 CS",
+  "question_ref": "CS Q.54",
+  "key_row": 64,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider a database implemented using B+ tree for file indexing and installed on a disk drive with block size of 4 KB. The size of search key is 12 bytes and the size of tree/disk pointer is 8 bytes. Assume that the database has one million records. Also assume that no node of the B+ tree and no records are present initially in main memory. Consider that each record fits into one disk block. The minimum number of disk accesses required to retrieve any record in the database is _______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 4.0,
+  "nat_high": 4.0,
+  "explanation": "An internal node with $p$ pointers and $p-1$ keys must fit in a block: $8p + 12(p-1) \\le 4096$, so $p = 205$. A leaf holds $k$ (key, record-pointer) pairs plus a next-leaf pointer: $20k + 8 \\le 4096$, so $k = 204$. With maximum fan-out, two index levels address at most $205 \\times 204 = 41{,}820 < 10^6$ records, but three levels address $205^2 \\times 204 \\approx 8.6 \\times 10^6 \\ge 10^6$. So the tree needs 3 levels (root, internal, leaf), and reading the record's own block adds one more access: $3 + 1 = 4$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf",
+  "source_note": "Official GATE 2020 CS master question paper (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site), CS Q.54 (paper sha256 4fb52131a757…). Answer/type/marks from the Official GATE 2020 CS answer key (IIT Delhi; answer key appended in the same official PDF; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

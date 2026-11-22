@@ -194,7 +194,7 @@ def topic_ids_of(q: Question) -> set[int]:
 
 def list_questions(
     session: Session, *, topic_id: int | None = None, paper: str | None = None,
-    source_type: str | None = None, verification: str | None = None,
+    source_type: str | None = None, verification: str | None = None, exam_name: str | None = None,
 ) -> list[Question]:
     stmt = select(Question).options(joinedload(Question.primary_topic).joinedload(Topic.subject),
                                     joinedload(Question.topic_links))
@@ -206,13 +206,20 @@ def list_questions(
         stmt = stmt.where(Question.source_type == source_type)
     if verification:
         stmt = stmt.where(Question.verification_status == verification)
+    if exam_name:
+        stmt = stmt.where(Question.exam_name == exam_name)
     return list(session.scalars(stmt.order_by(Question.exam_year.desc().nulls_last(), Question.id)).unique())
 
 
 def verified_pyqs_for_topic(session: Session, topic_id: int, limit: int = 3) -> list[Question]:
-    """Verified official PYQs tagged with the topic: primary-topic matches first, newest year first."""
+    """Verified official PYQs tagged with the topic.
+
+    Order: primary-topic matches first, then questions from the DA paper before other papers (e.g. CS),
+    then newest year first.
+    """
     found = list_questions(session, topic_id=topic_id, source_type="official_pyq", verification="verified")
-    found.sort(key=lambda q: (q.primary_topic_id != topic_id, -(q.exam_year or 0), q.id))
+    found.sort(key=lambda q: (q.primary_topic_id != topic_id, not (q.exam_name or "").endswith("DA"),
+                              -(q.exam_year or 0), q.id))
     return found[:limit]
 
 
@@ -226,6 +233,10 @@ def record_practice_attempt(session: Session, question_id: int, response: str, o
                                 response=response, is_correct=verdict, time_spent_sec=time_spent_sec))
     session.flush()
     return verdict
+
+
+def exam_names(session: Session) -> list[str]:
+    return sorted(n for n in session.scalars(select(Question.exam_name).distinct()) if n)
 
 
 def bank_counts(session: Session) -> dict[str, int]:

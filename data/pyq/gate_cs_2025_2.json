@@ -1,0 +1,430 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.08"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Despite his initial hesitation, Rehman’s _________ to contribute to the success of the project never wavered.\n\nSelect the most appropriate option to complete the above sentence.",
+  "options": [
+   "ambivalence",
+   "satisfaction",
+   "resolve",
+   "revolve"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The blank needs a noun meaning firm determination that can take \"to contribute\" and that \"never wavered\". *Resolve* means exactly that. *Ambivalence* (mixed feelings) contradicts \"never wavered\", *satisfaction* does not fit \"to contribute\", and *revolve* is a verb. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.1 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.2",
+  "key_row": 2,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Bird : Nest :: Bee : _______\n\nSelect the correct option to complete the analogy.",
+  "options": [
+   "Kennel",
+   "Hammock",
+   "Hive",
+   "Lair"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A nest is the home a bird lives in, so we need the home of a bee, which is a *hive*. A kennel houses a dog, a lair is the den of a wild animal, and a hammock is a hanging bed. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.2 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.08",
+   "GA.3.03"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If $Pe^{x} = Qe^{-x}$ for all real values of $x$, which one of the following statements is true?",
+  "options": [
+   "$P = Q = 0$",
+   "$P = Q = 1$",
+   "$P = 1;\\ Q = -1$",
+   "$\\dfrac{P}{Q} = 0$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Multiplying both sides by $e^{x}$ gives $Pe^{2x} = Q$ for every real $x$. The right side is a constant while $e^{2x}$ takes every positive value, so this holds for all $x$ only if $P = 0$, and then $Q = 0$ too. (B) and (C) fail at $x = 1$ (e.g. $e \\ne e^{-1}$), and (D) would need $P = 0$ with $Q \\ne 0$, which is impossible. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.3 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let $p_1$ and $p_2$ denote two arbitrary prime numbers. Which one of the following statements is correct for all values of $p_1$ and $p_2$?",
+  "options": [
+   "$p_1 + p_2$ is not a prime number.",
+   "$p_1 p_2$ is not a prime number.",
+   "$p_1 + p_2 + 1$ is a prime number.",
+   "$p_1 p_2 + 1$ is a prime number."
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The product $p_1p_2$ is divisible by $p_1$, which is neither 1 nor $p_1p_2$ (since $p_2 \\ge 2$), so it is always composite. The others fail for some primes: $2 + 3 = 5$ is prime (A fails), $2 + 5 + 1 = 8$ is not prime (C fails), and $3 \\cdot 5 + 1 = 16$ is not prime (D fails). Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.5 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.01",
+   "GA.1.11"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Based only on the conversation below, identify the logically correct inference:\n\n“Even if I had known that you were in the hospital, I would not have gone there to see you”, Ramya told Josephine.",
+  "options": [
+   "Ramya knew that Josephine was in the hospital.",
+   "Ramya did not know that Josephine was in the hospital.",
+   "Ramya and Josephine were once close friends; but now, they are not.",
+   "Josephine was in the hospital due to an injury to her leg."
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "\"Even if I had known…\" is a counterfactual (past perfect in the *if*-clause), which presupposes that the condition was false: Ramya did not actually know that Josephine was in the hospital. That contradicts (A), and nothing in the statement tells us about their friendship (C) or the reason for the hospital stay (D). Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.6 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.3.02"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.7",
+  "key_row": 7,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given options is the most appropriate code for BEACH ?",
+  "options": [
+   "CEADP",
+   "IDBFC",
+   "JGIBC",
+   "IBCEC"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Reverse the word and shift every letter one place forward. IMAGE reversed is EGAMI, which becomes FHBNJ. FIELD reversed is DLEIF, which becomes EMFJG. BEACH reversed is HCAEB, which becomes IDBFC. Answer: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.7 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.04",
+   "GA.3.03"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Which one of the following options is correct for the given data in the table?\n\n| Iteration ($i$) | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Input ($I$) | 20 | $-4$ | 10 | 15 |\n| Output ($X$) | 20 | 16 | 26 | 41 |\n| Output ($Y$) | 20 | $-80$ | $-800$ | $-12000$ |",
+  "options": [
+   "$X(i) = X(i-1) + I(i);\\quad Y(i) = Y(i-1)I(i);\\quad i > 0$",
+   "$X(i) = X(i-1)I(i);\\quad Y(i) = Y(i-1) + I(i);\\quad i > 0$",
+   "$X(i) = X(i-1)I(i);\\quad Y(i) = Y(i-1)I(i);\\quad i > 0$",
+   "$X(i) = X(i-1) + I(i);\\quad Y(i) = Y(i-1)I(i-1);\\quad i > 0$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "For $X$: $20 + (-4) = 16$, $16 + 10 = 26$, $26 + 15 = 41$, so $X(i) = X(i-1) + I(i)$. For $Y$: $20 \\times (-4) = -80$, $-80 \\times 10 = -800$, $-800 \\times 15 = -12000$, so $Y(i) = Y(i-1)I(i)$. (D) would give $Y(1) = 20 \\times 20 = 400$. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.8 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.9",
+  "key_row": 9,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square.\n\nWhat is the area (in cm$^2$) of the rectangle PLMN?\n\nNote: The figure shown is representative.\n\nFigure: the square is drawn with P at the top-left, Q at the bottom-left, R at the bottom-right and S at the top-right. L lies on side QR between Q and R. The rectangle PLMN is tilted: M lies outside the square to the right of side RS, N lies outside the square above side PS, and S lies on side MN between M and N.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "$2\\sqrt{2}$",
+   "2",
+   "8",
+   "4"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Look at triangle PLS. With base PS = 2, its height is the distance from L to line PS, which is 2 because L lies on the opposite side QR; so its area is $\\frac{1}{2} \\cdot 2 \\cdot 2 = 2$. With base PL instead, its third vertex S lies on side MN, the side of the rectangle opposite PL, so its height is the rectangle's width and its area is half the rectangle's area. Hence area(PLMN) $= 2 \\times 2 = 4$ cm$^2$. Answer: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.9 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.04",
+   "DA.2.12"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.11",
+  "key_row": 11,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If $A = \\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}$, then which ONE of the following is $A^8$ ?",
+  "options": [
+   "$\\begin{pmatrix} 25 & 0 \\\\ 0 & 25 \\end{pmatrix}$",
+   "$\\begin{pmatrix} 125 & 0 \\\\ 0 & 125 \\end{pmatrix}$",
+   "$\\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix}$",
+   "$\\begin{pmatrix} 3125 & 0 \\\\ 0 & 3125 \\end{pmatrix}$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$A^2 = \\begin{pmatrix} 1\\cdot1 + 2\\cdot2 & 1\\cdot2 + 2\\cdot(-1) \\\\ 2\\cdot1 + (-1)\\cdot2 & 2\\cdot2 + (-1)(-1) \\end{pmatrix} = \\begin{pmatrix} 5 & 0 \\\\ 0 & 5 \\end{pmatrix} = 5I$. Hence $A^8 = (A^2)^4 = 5^4 I = 625I$. (Equivalently, $A$ is symmetric with eigenvalues $\\pm\\sqrt{5}$, so $A^8$ has both eigenvalues equal to $5^4$.) Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.11 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.13",
+   "DA.2.04"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.14",
+  "key_row": 14,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let $L, M,$ and $N$ be non-singular matrices of order 3 satisfying the equations\n\n$L^2 = L^{-1}$, $M = L^8$ and $N = L^2$.\n\nWhich ONE of the following is the value of the determinant of $(M - N)$?",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Multiplying $L^2 = L^{-1}$ by $L$ gives $L^3 = I$. Then $M = L^8 = (L^3)^2 L^2 = L^2 = N$, so $M - N$ is the zero matrix and $\\det(M - N) = 0$. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.14 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.17",
+   "DA.2.10",
+   "DA.2.13"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.44",
+  "key_row": 44,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider a system of linear equations $PX = Q$ where $P \\in \\mathbb{R}^{3\\times 3}$ and $Q \\in \\mathbb{R}^{3\\times 1}$. Suppose $P$ has an LU decomposition, $P = LU$, where\n\n$$L = \\begin{bmatrix} 1 & 0 & 0 \\\\ l_{21} & 1 & 0 \\\\ l_{31} & l_{32} & 1 \\end{bmatrix} \\text{ and } U = \\begin{bmatrix} u_{11} & u_{12} & u_{13} \\\\ 0 & u_{22} & u_{23} \\\\ 0 & 0 & u_{33} \\end{bmatrix}.$$\n\nWhich of the following statement(s) is/are TRUE?",
+  "options": [
+   "The system $PX = Q$ can be solved by first solving $LY = Q$ and then $UX = Y$.",
+   "If $P$ is invertible, then both $L$ and $U$ are invertible.",
+   "If $P$ is singular, then at least one of the diagonal elements of $U$ is zero.",
+   "If $P$ is symmetric, then both $L$ and $U$ are symmetric."
+  ],
+  "answer_key": "A,B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) $LUX = Q$: put $Y = UX$, solve $LY = Q$ by forward substitution, then $UX = Y$ by back substitution — true. $L$ is unit lower triangular, so $\\det L = 1$ and $\\det P = \\det U = u_{11}u_{22}u_{33}$. (B) If $P$ is invertible, $\\det U = \\det P \\neq 0$ and $\\det L = 1$, so both are invertible — true. (C) If $P$ is singular, $u_{11}u_{22}u_{33} = 0$, so some $u_{ii} = 0$ — true. (D) False: $U$ is upper triangular and is symmetric only if it is diagonal; e.g. $\\begin{bmatrix}1&1&0\\\\1&2&0\\\\0&0&1\\end{bmatrix}$ has $u_{12} = 1 \\neq 0 = u_{21}$. (For symmetric $P$ one gets $P = LDL^{\\top}$ instead.) Answer: (A), (B), (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.44 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.46",
+  "key_row": 46,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider the following relational schema along with all the functional dependencies that hold on them.\n\n*R1(A, B, C, D, E)*: $\\{D \\rightarrow E,\\ EA \\rightarrow B,\\ EB \\rightarrow C\\}$\n\n*R2(A, B, C, D)*: $\\{A \\rightarrow D,\\ A \\rightarrow B,\\ C \\rightarrow A\\}$\n\nWhich of the following statement(s) is/are TRUE?",
+  "options": [
+   "*R1* is in 3NF",
+   "*R2* is in 3NF",
+   "*R1* is NOT in 3NF",
+   "*R2* is NOT in 3NF"
+  ],
+  "answer_key": "C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "R1: A and D never appear on a right-hand side, so they are in every key; $AD^+ = \\{A, D, E, B, C\\}$, so AD is the only candidate key. In $D \\rightarrow E$, D is not a superkey and E is not a prime attribute, so R1 is not in 3NF. R2: C never appears on a right-hand side and $C^+ = \\{C, A, D, B\\}$, so C is the only candidate key. In $A \\rightarrow D$, A is not a superkey and D is not prime, so R2 is not in 3NF either. Answer: (C), (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.46 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.04"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.54",
+  "key_row": 54,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider the following relational schema:\n\nStudents ($\\underline{\\text{rollno: integer}}$, name: string, age: integer, cgpa: real)\n\nCourses ($\\underline{\\text{courseno: integer}}$, cname: string, credits: integer)\n\nEnrolled ($\\underline{\\text{rollno: integer}}$, $\\underline{\\text{courseno: integer}}$, grade: string)\n\nWhich of the following options is/are correct SQL query/queries to retrieve the names of the students enrolled in course number (i.e., courseno) 1470?",
+  "options": [
+   "`SELECT S.name`  \n`FROM Students S`  \n`WHERE EXISTS (SELECT * FROM Enrolled E`  \n`WHERE E.courseno = 1470`  \n`AND E.rollno = S.rollno);`",
+   "`SELECT S.name`  \n`FROM Students S`  \n`WHERE SIZEOF (SELECT * FROM Enrolled E`  \n`WHERE E.courseno = 1470`  \n`AND E.rollno = S.rollno) > 0;`",
+   "`SELECT S.name`  \n`FROM Students S`  \n`WHERE 0 < (SELECT COUNT(*)`  \n`FROM Enrolled E`  \n`WHERE E.courseno = 1470`  \n`AND E.rollno = S.rollno);`",
+   "`SELECT S.name`  \n`FROM Students S NATURAL JOIN Enrolled E`  \n`WHERE E.courseno = 1470;`"
+  ],
+  "answer_key": "A,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) The correlated `EXISTS` subquery keeps exactly the students who have an `Enrolled` row for course 1470 — correct. (B) `SIZEOF` is not an SQL function or operator, so the query is invalid. (C) The correlated `COUNT(*)` is positive exactly for students enrolled in 1470 — correct. (D) `Students` and `Enrolled` share only the attribute `rollno`, so the natural join pairs each student with their own enrollments, and the filter keeps course 1470. Because (rollno, courseno) is the key of `Enrolled`, each such student appears once — correct. Answer: (A), (C), (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.54 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08",
+   "DA.5.07"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.57",
+  "key_row": 57,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "In a B$^+$- tree where each node can hold at most four key values, a root to leaf path consists of the following nodes:\n\nA = (49, 77, 83, -), B = (7, 19, 33, 44), C = (20\\*, 22\\*, 25\\*, 26\\*)\n\nThe \\*-marked keys signify that these are data entries in a leaf.\n\nAssume that a pointer between keys $k_1$ and $k_2$ points to a subtree containing keys in $[k_1, k_2)$, and that when a leaf is created, the smallest key in it is copied up into its parent.\n\nA record with key value 23 is inserted into the B$^+$- tree.\n\nThe smallest key value in the parent of the leaf that contains 25\\* is __________. (Answer in integer)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 33.0,
+  "nat_high": 33.0,
+  "explanation": "Key 23 belongs in leaf C (between 19 and 33 in B), which is full. C splits, e.g. into (20\\*, 22\\*) and the new leaf (23\\*, 25\\*, 26\\*); the smallest key of the new leaf, 23, is copied up into B. B already holds four keys, so with 7, 19, 23, 33, 44 it splits into (7, 19) and (33, 44), and the middle key 23 is pushed up into the root A. The leaf holding 25\\* covers keys in $[23, 33)$, so it is the leftmost child of the node (33, 44). Its smallest key is 33. (Splitting C as (20\\*, 22\\*, 23\\*) and (25\\*, 26\\*) instead copies up 25, and the parent is still (33, 44).) Answer: 33.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.57 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.03",
+   "DA.1.14"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.64",
+  "key_row": 64,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "A quadratic polynomial $(x - \\alpha)(x - \\beta)$ over complex numbers is said to be square invariant if $(x - \\alpha)(x - \\beta) = (x - \\alpha^2)(x - \\beta^2)$. Suppose from the set of all square invariant quadratic polynomials we choose one at random.\n\nThe probability that the roots of the chosen polynomial are equal is __________. (rounded off to one decimal place)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.5,
+  "nat_high": 0.5,
+  "explanation": "Square invariance means the root multisets agree: $\\{\\alpha^2, \\beta^2\\} = \\{\\alpha, \\beta\\}$. Either $\\alpha^2 = \\alpha$ and $\\beta^2 = \\beta$, so $\\alpha, \\beta \\in \\{0, 1\\}$, giving $x^2$, $x(x-1)$ and $(x-1)^2$; or $\\alpha^2 = \\beta$ and $\\beta^2 = \\alpha$, so $\\alpha^4 = \\alpha$. That gives either $\\alpha \\in \\{0, 1\\}$ (already counted) or $\\alpha = \\omega$, a primitive cube root of unity, with $\\beta = \\omega^2$, i.e. $x^2 + x + 1$. So the sample space has 4 polynomials, of which 2 ($x^2$ and $(x-1)^2$) have equal roots: probability $2/4 = 0.5$. Answer: 0.5.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.64 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.18",
+   "DA.1.12"
+  ],
+  "exam_year": 2025,
+  "exam_name": "GATE 2025 CS (Set 2)",
+  "question_ref": "Q.65",
+  "key_row": 65,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "The unit interval $(0,1)$ is divided at a point chosen uniformly distributed over $(0,1)$ in $\\mathbb{R}$ into two disjoint subintervals.\n\nThe expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.7,
+  "nat_high": 0.8,
+  "explanation": "Let the cut point be $U \\sim \\text{Uniform}(0,1)$. If $U < 0.4$, the piece containing 0.4 is $(U, 1)$, with length $1 - U$. If $U > 0.4$, it is $(0, U)$, with length $U$. Hence $E = \\int_0^{0.4} (1-u)\\,du + \\int_{0.4}^{1} u\\,du = (0.4 - 0.08) + \\frac{1 - 0.16}{2} = 0.32 + 0.42 = 0.74$. Answer: 0.74 (official range 0.70–0.80).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/CS2.pdf",
+  "source_note": "Official GATE 2025 CS (Set 2) master question paper (IIT Roorkee), Q.65 (paper sha256 6ed18668acb4…). Answer/type/marks from the Official GATE 2025 CS (Set 2) answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

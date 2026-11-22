@@ -9,6 +9,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.1",
+  "key_row": 1,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Courage : Bravery :: Yearning : __________\n\nSelect the most appropriate option to complete the analogy.",
@@ -24,7 +25,7 @@
   "explanation": "Courage and bravery are synonyms, so the blank needs a synonym of *yearning* (an intense desire). *Longing* means exactly that. Yelling (shouting), yawning and glaring (staring angrily) are unrelated in meaning. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.1 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.1 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -35,6 +36,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.2",
+  "key_row": 2,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "We __________ tennis in the lawn when it suddenly started to rain.\n\nSelect the most appropriate option to complete the above sentence.",
@@ -50,7 +52,7 @@
   "explanation": "The sentence describes an action that was in progress over a period in the past and was interrupted by another past event (\"it suddenly started to rain\", simple past). This calls for the past perfect continuous: \"We **had been playing** tennis…\". \"have been playing\" is present perfect continuous and clashes with the past-tense clause; the modal forms (C) and (D) express hypothesis/possibility, not a fact. Answer: (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.2 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.2 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -62,6 +64,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.3",
+  "key_row": 3,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "A $4 \\times 4$ digital image has pixel intensities ($U$) as shown in the figure. The number of pixels with $U \\leq 4$ is:\n\n$$\n\\begin{array}{|c|c|c|c|}\n\\hline\n0 & 1 & 0 & 2 \\\\\n\\hline\n4 & 7 & 3 & 3 \\\\\n\\hline\n5 & 5 & 4 & 4 \\\\\n\\hline\n6 & 7 & 3 & 2 \\\\\n\\hline\n\\end{array}\n$$\n\n(Figure from the official paper transcribed as text.)",
@@ -77,7 +80,7 @@
   "explanation": "Count the entries $\\le 4$ row by row: row 1 $(0,1,0,2)$ → 4; row 2 $(4,7,3,3)$ → 3; row 3 $(5,5,4,4)$ → 2; row 4 $(6,7,3,2)$ → 2. Total $= 4+3+2+2 = 11$. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.3 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.3 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -89,6 +92,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.5",
+  "key_row": 5,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "A rectangle has a length L and a width W, where L > W. If the width, W, is increased by 10%, which one of the following statements is correct for all values of L and W?",
@@ -104,7 +108,7 @@
   "explanation": "New area $= L \\times 1.1W = 1.1\\,LW$, i.e. always a 10% increase. Perimeter goes from $2(L+W)$ to $2(L+1.1W)$, an increase of $\\frac{0.1W}{L+W} < 10\\%$. The diagonal $\\sqrt{L^2+1.21W^2}$ grows by less than 10% since $L$ is unchanged. The rectangle becomes a square only in the special case $L = 1.1W$. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.5 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.5 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -116,6 +120,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.6",
+  "key_row": 6,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Column-I has statements made by Shanthala; and, Column-II has responses given by Kanishk.\n\n| Column-I | Column-II |\n|---|---|\n| P. This house is in a mess. | 1. Alright, I won’t bring it up during our conversations. |\n| Q. I am not happy with the marks given to me. | 2. Well, you can easily look it up. |\n| R. Politics is a subject I avoid talking about. | 3. No problem, let me clear it up for you. |\n| S. I don’t know what this word means. | 4. Don’t worry, I will take it up with your teacher. |\n\nIdentify the option that has the correct match between Column-I and Column-II.",
@@ -131,7 +136,7 @@
   "explanation": "Match the phrasal verbs: a messy house → \"clear it up\" (tidy) → P–3; unhappy with marks → \"take it up with your teacher\" (raise the issue) → Q–4; avoids talking about politics → \"won't bring it up\" (mention) → R–1; doesn't know a word → \"look it up\" (in a dictionary) → S–2. Answer: (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.6 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.6 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -142,6 +147,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.7",
+  "key_row": 7,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Weight of a person can be expressed as a function of their age. The function usually varies from person to person. Suppose this function is identical for two brothers, and it monotonically increases till the age of 50 years and then it monotonically decreases. Let $a_1$ and $a_2$ (in years) denote the ages of the brothers and $a_1 < a_2$.\n\nWhich one of the following statements is correct about their age on the day when they attain the same weight?",
@@ -157,7 +163,7 @@
   "explanation": "Let $w(\\cdot)$ be the common weight function. If both ages were below 50, $w$ is increasing there, so $a_1 < a_2$ would give $w(a_1) < w(a_2)$; if both were above 50, $w$ is decreasing and $w(a_1) > w(a_2)$. Equal weights with $a_1 \\ne a_2$ is therefore only possible when the ages lie on opposite sides of the peak: $a_1 < 50 < a_2$. (If one of them were exactly 50 he would be at the unique maximum weight, which the other cannot match.) Answer: (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.7 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.7 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -169,6 +175,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.9",
+  "key_row": 9,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "If a real variable $x$ satisfies $3^{x^2} = 27 \\times 9^x$, then the value of $\\dfrac{2^{x^2}}{(2^x)^2}$ is:",
@@ -184,7 +191,7 @@
   "explanation": "$27 \\times 9^x = 3^{3+2x}$, so $x^2 = 2x + 3$, i.e. $x^2 - 2x = 3$ (roots $x = 3$ or $x = -1$). The required value is $\\dfrac{2^{x^2}}{2^{2x}} = 2^{x^2-2x} = 2^3$ for either root. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.9 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.9 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -196,6 +203,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.10",
+  "key_row": 10,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "The number of patients per shift ($X$) consulting Dr. Gita in her past 100 shifts is shown in the figure. If the amount she earns is ₹ $1000(X - 0.2)$, what is the average amount (in ₹) she has earned per shift in the past 100 shifts?\n\nNote: The figure shown is representative.\n\n| Number of patients per shift ($X$) | Number of shifts |\n|---|---|\n| 5 | 20 |\n| 6 | 40 |\n| 7 | 30 |\n| 8 | 10 |\n\n(Figure from the official paper transcribed as text.)",
@@ -211,7 +219,7 @@
   "explanation": "Mean number of patients: $\\bar X = \\dfrac{5(20) + 6(40) + 7(30) + 8(10)}{100} = \\dfrac{630}{100} = 6.3$. Earnings are linear in $X$, so the average earning is $1000(\\bar X - 0.2) = 1000 \\times 6.1 = ₹\\,6{,}100$. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.10 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.10 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -222,6 +230,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.11",
+  "key_row": 11,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Suppose $X$ and $Y$ are random variables. The conditional expectation of $X$ given $Y$ is denoted by $E[X|Y]$. Then $E[E[X|Y]]$ equals",
@@ -237,7 +246,7 @@
   "explanation": "By the law of total (iterated) expectation, averaging the conditional mean $E[X|Y]$ over the distribution of $Y$ gives back the unconditional mean: $E[E[X|Y]] = \\sum_y E[X|Y=y]\\,P(Y=y) = E[X]$. (A) is a random variable, not its expectation; (B) and (D) have no general basis. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.11 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.11 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -248,6 +257,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.12",
+  "key_row": 12,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "The number of additions and multiplications involved in performing Gaussian elimination on any $n \\times n$ upper triangular matrix is of the order",
@@ -263,7 +273,7 @@
   "explanation": "An upper triangular matrix is already in echelon form, so the $O(n^3)$ forward-elimination phase has nothing to eliminate. What remains is back substitution: row $i$ needs about $n-i$ multiplications and additions, for a total of about $\\sum_i (n-i) \\approx n^2/2$ operations, i.e. $O(n^2)$. Answer: (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.12 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.12 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -275,6 +285,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.13",
+  "key_row": 13,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "The sum of the elements in each row of $A \\in \\mathbb{R}^{n \\times n}$ is 1. If $B = A^3 - 2A^2 + A$, which one of the following statements is correct (for $x \\in \\mathbb{R}^n$)?",
@@ -290,7 +301,7 @@
   "explanation": "Row sums equal to 1 means $A\\mathbf{1} = \\mathbf{1}$ for the all-ones vector $\\mathbf{1}$. Then $B\\mathbf{1} = A^3\\mathbf{1} - 2A^2\\mathbf{1} + A\\mathbf{1} = \\mathbf{1} - 2\\cdot\\mathbf{1} + \\mathbf{1} = 0$, so $B$ has a non-zero null vector and is singular. A homogeneous system always has $x=0$, and with a non-trivial null space every multiple $c\\mathbf{1}$ is also a solution, so there are infinitely many solutions. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.13 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.13 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -302,6 +313,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.14",
+  "key_row": 14,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Let $f(x) = \\dfrac{e^x - e^{-x}}{2}, x \\in \\mathbb{R}$. Let $f^{(k)}(a)$ denote the $k^{th}$ derivative of $f$ evaluated at $a$. What is the value of $f^{(10)}(0)$? (Note: ! denotes factorial)",
@@ -317,7 +329,7 @@
   "explanation": "$f(x) = \\sinh x$, and $f' = \\cosh x$, $f'' = \\sinh x$, … so every even-order derivative equals $\\sinh x$. Hence $f^{(10)}(0) = \\sinh 0 = 0$. (Equivalently, the Maclaurin series of $\\sinh x$ has only odd powers, so the coefficient of $x^{10}$, which is $f^{(10)}(0)/10!$, is 0.) Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.14 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.14 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -328,6 +340,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.15",
+  "key_row": 15,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Let $p$ and $q$ be any two propositions. Consider the following propositional statements.\n\n$S_1 : p \\rightarrow q, \\quad S_2 : \\neg p \\wedge q, \\quad S_3 : \\neg p \\vee q, \\quad S_4 : \\neg p \\vee \\neg q,$\n\nwhere $\\wedge$ denotes conjunction (AND operation), $\\vee$ denotes disjunction (OR operation), and $\\neg$ denotes negation (NOT operation). Which one of the following options is correct? (Note: $\\equiv$ denotes logical equivalence)",
@@ -343,7 +356,7 @@
   "explanation": "The implication $p \\rightarrow q$ is false only when $p$ is true and $q$ is false, which is exactly when $\\neg p \\vee q$ is false; so $S_1 \\equiv S_3$. The other pairs differ on some assignment: (B) at $p = q = \\text{F}$ ($S_2$ false, $S_3$ true); (C) at $p = q = \\text{F}$ ($S_2$ false, $S_4$ true); (D) at $p = q = \\text{T}$ ($S_1$ true, $S_4$ false). Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.15 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.15 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -355,6 +368,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.16",
+  "key_row": 16,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "If a relational decomposition is not dependency-preserving, which one of the following relational operators will be executed more frequently in order to maintain the dependencies?",
@@ -370,7 +384,7 @@
   "explanation": "In a dependency-preserving decomposition every functional dependency can be checked inside a single decomposed relation. If it is not dependency-preserving, some FD spans attributes stored in different relations, so checking it on updates requires recombining those relations, i.e. computing joins. Hence joins are executed more frequently. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.16 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.16 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -381,6 +395,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.17",
+  "key_row": 17,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Consider the following three relations:\n\n$\\texttt{Car}\\ (\\texttt{model},\\ \\texttt{year},\\ \\underline{\\texttt{serial}},\\ \\texttt{color})$\n\n$\\texttt{Make}\\ (\\texttt{maker},\\ \\underline{\\texttt{model}})$\n\n$\\texttt{Own}\\ (\\underline{\\texttt{owner}},\\ \\underline{\\texttt{serial}})$\n\nA tuple in `Car` represents a specific car of a given `model`, made in a given `year`, with a `serial` number and a `color`. A tuple in `Make` specifies that a `maker` company makes cars of a certain `model`. A tuple in `Own` specifies that an `owner` owns the car with a given `serial` number. Keys are underlined; ($\\underline{\\texttt{owner}}$, $\\underline{\\texttt{serial}}$) together form key for `Own`. ($\\bowtie$ denotes natural join)\n\n$$\\pi_{\\texttt{owner}}(\\texttt{Own} \\bowtie (\\sigma_{\\texttt{color}=\\text{“red”}}(\\texttt{Car} \\bowtie (\\sigma_{\\texttt{maker}=\\text{“ABC”}}\\texttt{Make}))))$$\n\nWhich one of the following options describes what the above expression computes?",
@@ -396,7 +411,7 @@
   "explanation": "Work inside out: $\\sigma_{maker=\\text{ABC}}(\\texttt{Make})$ gives the models made by ABC; joining with `Car` (on `model`) gives the cars of those models; $\\sigma_{color=\\text{red}}$ keeps only red ones; joining with `Own` (on `serial`) attaches their owners, and $\\pi_{owner}$ returns the owners. So the result is all owners of a red car made by ABC. (A) is a union of conditions, (B) adds a \"more than one car\" condition that is not expressed, and (D) returns cars, not owners. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.17 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.17 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -407,6 +422,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.18",
+  "key_row": 18,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Consider a hash table of size 10 with indices $\\{0, 1, \\ldots, 9\\}$, with the hash function\n\n$$h(x) = 3x \\pmod{10},$$\n\nwhere linear probing is used to handle collisions. The hash table is initially empty and then the following sequence of keys is inserted into the hash table: $1, 4, 5, 6, 14, 15$. The indices where the keys 14 and 15 are stored are, respectively",
@@ -422,7 +438,7 @@
   "explanation": "$h(1)=3$, $h(4)=12 \\bmod 10 = 2$, $h(5)=15 \\bmod 10 = 5$, $h(6)=18 \\bmod 10 = 8$ — all free. $h(14)=42 \\bmod 10 = 2$ is taken; probe 3 (taken by 1), then 4 → key 14 goes to index 4. $h(15)=45 \\bmod 10 = 5$ is taken (by 5); probe 6 → free, so 15 goes to index 6. Answer: (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.18 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.18 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -435,6 +451,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.19",
+  "key_row": 19,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Let $X$ be a continuous random variable whose cumulative distribution function (CDF) $F_X(x)$, for some $t$, is given as follows:\n\n$$F_X(x) = \\begin{cases} 0 & x \\leq t \\\\ \\dfrac{x - t}{4 - t} & t \\leq x \\leq 4 \\\\ 1 & x \\geq 4 \\end{cases}$$\n\nIf the median of $X$ is 3, then what is the value of $t$?",
@@ -450,7 +467,7 @@
   "explanation": "The median $m$ satisfies $F_X(m) = \\tfrac12$. With $m = 3$: $\\dfrac{3 - t}{4 - t} = \\dfrac12 \\Rightarrow 6 - 2t = 4 - t \\Rightarrow t = 2$. (Indeed $X$ is uniform on $[2, 4]$, whose median is 3.) Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.19 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.19 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -462,6 +479,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.20",
+  "key_row": 20,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Let $X = aZ + b$, where $Z$ is a standard normal random variable, and $a$, $b$ are two unknown constants. It is given that\n\n$$E[X] = 1, \\quad E[(X - E[X])Z] = -2, \\quad E[(X - E[X])^2] = 4,$$\n\nwhere $E[X]$ denotes the expectation of random variable $X$. The values of $a, b$ are:",
@@ -477,7 +495,7 @@
   "explanation": "$E[X] = aE[Z] + b = b = 1$. Next, $X - E[X] = aZ$, so $E[(X-E[X])Z] = aE[Z^2] = a = -2$. Check: $E[(X-E[X])^2] = a^2 E[Z^2] = 4$ ✓. Hence $a = -2$, $b = 1$. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.20 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.20 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -488,6 +506,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.21",
+  "key_row": 21,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "It is given that $P(X \\geq 2) = 0.25$ for an exponentially distributed random variable $X$ with $E[X] = \\dfrac{1}{\\lambda}$, where $E[X]$ denotes the expectation of $X$. What is the value of $\\lambda$? ($\\ln$ denotes natural logarithm)",
@@ -503,7 +522,7 @@
   "explanation": "For an exponential random variable with rate $\\lambda$, $P(X \\ge x) = e^{-\\lambda x}$. So $e^{-2\\lambda} = 0.25 = 2^{-2}$, giving $2\\lambda = \\ln 4 = 2\\ln 2$, i.e. $\\lambda = \\ln 2$. (Note $\\ln 0.25 < 0$ cannot be a rate.) Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.21 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.21 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -515,6 +534,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.22",
+  "key_row": 22,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Consider designing a linear classifier\n\n$$y = \\text{sign}(f(x; w, b)), \\quad f(x; w, b) = w^\\top x + b$$\n\non a dataset $D = \\{(x_1, y_1), (x_2, y_2), \\ldots, (x_N, y_N)\\}$, $x_i \\in \\mathbb{R}^d, y_i \\in \\{+1, -1\\}$, $i = 1, 2, \\ldots, N$. Recall that the sign function outputs +1 if the argument is positive, and $-1$ if the argument is non-positive. The parameters $w$ and $b$ are updated as per the following training algorithm:\n\n$$w_{new} = w_{old} + y_n x_n, \\quad b_{new} = b_{old} + y_n$$\n\nwhenever $\\text{sign}(f(x_n; w_{old}, b_{old})) \\neq y_n$. In other words, whenever the classifier wrongly predicts a sample $(x_n, y_n)$ from the dataset, $w_{old}$ gets updated to $w_{new}$, and likewise $b_{old}$ gets updated to $b_{new}$. Consider the case $(x_n, +1)$, $f(x_n; w_{old}, b_{old}) < 0$. Then",
@@ -530,7 +550,7 @@
   "explanation": "The sample is misclassified, so with $y_n = +1$: $w_{new} = w_{old} + x_n$, $b_{new} = b_{old} + 1$. Then $f(x_n; w_{new}, b_{new}) = (w_{old} + x_n)^\\top x_n + b_{old} + 1 = f(x_n; w_{old}, b_{old}) + \\|x_n\\|^2 + 1$, which is strictly larger. (D) is false since $y_n f(x_n; w_{old}, b_{old}) < 0$. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.22 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.22 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -541,6 +561,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.23",
+  "key_row": 23,
   "qtype": "MCQ",
   "marks": 1,
   "stem": "Consider the following Python declarations of two lists.\n\n```python\nA=[1,2,3]\nB=[4,5,6]\n```\n\nWhich one of the following statements results in `A=` $[1, 2, 3, 4, 5, 6]$?",
@@ -556,7 +577,7 @@
   "explanation": "`list.extend(iterable)` appends each element of `B` to `A`, giving `[1, 2, 3, 4, 5, 6]`. `A.append(B)` adds `B` as a single element, giving `[1, 2, 3, [4, 5, 6]]`. Lists have no `update` method (that is for sets/dicts), and `insert` needs an index and an element (`A.insert(i, x)`), so (C) and (D) raise errors. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.23 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.23 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -567,6 +588,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.24",
+  "key_row": 24,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "Consider two functions $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g : \\mathbb{R} \\rightarrow (1, \\infty)$. Both functions are differentiable at a point $c$. Which of the following functions is/are ALWAYS differentiable at $c$? The symbol $\\cdot$ denotes product and the symbol $\\circ$ denotes composition of functions.",
@@ -582,7 +604,7 @@
   "explanation": "(A) and (B): sums, differences and products of functions differentiable at $c$ are differentiable at $c$. (C): the quotient rule applies because $g(c) > 1 \\neq 0$. (D) is not guaranteed: $f \\circ g$ needs $f$ differentiable at $g(c)$ and $g \\circ f$ needs $g$ differentiable at $f(c)$, which are not given. Counterexample: $c = 0$, $f(x) = |x - 2|$, $g(x) = 1 + e^x$; then $f(g(x)) = |e^x - 1|$ is not differentiable at 0 while $g(f(x))$ is, so the sum is not differentiable at 0. Answer: (A), (B), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.24 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.24 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -594,6 +616,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.25",
+  "key_row": 25,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "Which of the following statements is/are correct?",
@@ -609,7 +632,7 @@
   "explanation": "(A) false / (B) true: rotating the standard basis (e.g. $\\tfrac{1}{\\sqrt2}(1,1), \\tfrac{1}{\\sqrt2}(1,-1)$ in $\\mathbb{R}^2$) gives another orthonormal basis, so orthonormal bases are not unique. (C) false: $(1,0)$ and $(1,1)$ are independent but not orthogonal. (D) true: if $\\sum_i c_i v_i = 0$ with orthonormal $v_i$, taking the inner product with $v_j$ gives $c_j = 0$. Answer: (B), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.25 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.25 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -621,6 +644,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.26",
+  "key_row": 26,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "Which of the following statements is/are correct in a Bayesian network?",
@@ -636,7 +660,7 @@
   "explanation": "(A) false: variable elimination computes probabilities exactly by summing out variables. (B) false: Gibbs sampling is an MCMC (approximate) method. (C) true: variable elimination is used to answer queries such as $P(X \\mid e)$. (D) true: rejection sampling estimates probabilities from samples consistent with the evidence, so it is approximate. Answer: (C), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.26 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.26 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -647,6 +671,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.27",
+  "key_row": 27,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "For which of the following inputs does binary search take time $O(\\log n)$ in the worst case?",
@@ -662,7 +687,7 @@
   "explanation": "Binary search requires sorted data (it discards half based on a comparison) and $O(1)$ random access to the middle element. Unsorted inputs (A, B) do not support binary search correctly. A sorted linked list (D) needs $O(n)$ traversal to reach middle elements, so the worst case is $O(n)$. Only a sorted array (C) gives $O(\\log n)$. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.27 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.27 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -674,6 +699,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.28",
+  "key_row": 28,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "Let $A = I_n + xx^\\top$, where $I_n$ is the $n \\times n$ identity matrix and $x \\in \\mathbb{R}^n$, $x^\\top x = 1$. Which of the following options is/are correct?",
@@ -689,7 +715,7 @@
   "explanation": "$Ax = x + x(x^\\top x) = 2x$, and for any $v \\perp x$, $Av = v$. So the eigenvalues of $A$ are $2$ (once) and $1$ ($n-1$ times), all non-zero: $A$ has rank $n$ and is invertible, so (A), (B) are true and (C) is false. $A^{-1}$ has eigenvalues $\\tfrac12$ and $1$, all positive, so (D) is false. Answer: (A), (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.28 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.28 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -700,6 +726,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.29",
+  "key_row": 29,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "Suppose that insertion sort is applied to the array $[1, 3, 5, 7, 9, 11, x, 15, 13]$ and it takes exactly two swaps to sort the array. Select all possible values of $x$.",
@@ -715,7 +742,7 @@
   "explanation": "Insertion sort performs exactly one swap per inversion. The pair $(15, 13)$ is always one inversion, so $x$ must create exactly one more. $x = 10$: inverted only with 11 → total 2 ✓. $x = 12$: no inversion (11 < 12 < 13) → total 1 ✗. $x = 14$: inverted only with 13 → total 2 ✓. $x = 16$: inverted with 15 and 13 → total 3 ✗. Answer: (A), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.29 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.29 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -728,6 +755,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.30",
+  "key_row": 30,
   "qtype": "MSQ",
   "marks": 1,
   "stem": "Let $C_1$ and $C_2$ be two sets of objects. Let $D(x, y)$ be a measure of dissimilarity between two objects $x$ and $y$. Consider the following definitions of dissimilarity between $C_1$ and $C_2$.\n\n$$\\textbf{DIS-1}(C_1, C_2) = \\max_{x \\in C_1,\\, y \\in C_2} D(x, y)$$\n\n$$\\textbf{DIS-2}(C_1, C_2) = \\min_{x \\in C_1,\\, y \\in C_2} D(x, y)$$\n\nWhich of the following statements is/are correct?",
@@ -743,7 +771,7 @@
   "explanation": "Single linkage defines the distance between two clusters as the distance between their closest pair of points (the minimum, DIS-2). Complete linkage uses the farthest pair (the maximum, DIS-1). So (B) and (D) are correct and (A), (C) swap the definitions. Answer: (B), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.30 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.30 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -755,6 +783,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.31",
+  "key_row": 31,
   "qtype": "NAT",
   "marks": 1,
   "stem": "There are three boxes containing white balls and black balls.\n\nBox-1 contains 2 black and 1 white balls.\n\nBox-2 contains 1 black and 2 white balls.\n\nBox-3 contains 3 black and 3 white balls.\n\nIn a random experiment, one of these boxes is selected, where the probability of choosing Box-1 is $\\frac{1}{2}$, Box-2 is $\\frac{1}{6}$, and Box-3 is $\\frac{1}{3}$. A ball is drawn at random from the selected box. Given that the ball drawn is white, the probability that it is drawn from Box-2 is ____________ (Round off to two decimal places)",
@@ -765,7 +794,7 @@
   "explanation": "$P(W) = \\tfrac12\\cdot\\tfrac13 + \\tfrac16\\cdot\\tfrac23 + \\tfrac13\\cdot\\tfrac12 = \\tfrac16 + \\tfrac19 + \\tfrac16 = \\tfrac{4}{9}$. By Bayes' theorem, $P(\\text{Box-2} \\mid W) = \\dfrac{\\tfrac16 \\cdot \\tfrac23}{4/9} = \\dfrac{1/9}{4/9} = \\tfrac14 = 0.25$.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.31 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.31 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -776,6 +805,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.32",
+  "key_row": 32,
   "qtype": "NAT",
   "marks": 1,
   "stem": "$\\lim\\limits_{t \\to +\\infty} \\sqrt{t^2 + t} - t =$ ____________\n\n(Round off to one decimal place)",
@@ -786,7 +816,7 @@
   "explanation": "Rationalise: $\\sqrt{t^2+t} - t = \\dfrac{(t^2 + t) - t^2}{\\sqrt{t^2+t} + t} = \\dfrac{t}{\\sqrt{t^2+t} + t} = \\dfrac{1}{\\sqrt{1 + 1/t} + 1} \\to \\dfrac{1}{2}$ as $t \\to \\infty$. Answer: 0.5.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.32 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.32 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -797,6 +827,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.33",
+  "key_row": 33,
   "qtype": "NAT",
   "marks": 1,
   "stem": "On a relation named **Loan** of a bank:\n\n**Loan**\n\n| loan_number | branch_name | amount |\n|---|---|---|\n| L11 | Banjara Hills | 90000 |\n| L14 | Kondapur | 50000 |\n| L15 | SR Nagar | 40000 |\n| L22 | SR Nagar | 25000 |\n| L23 | Balanagar | 80000 |\n| L25 | Kondapur | 70000 |\n| L19 | SR Nagar | 65000 |\n\nthe following SQL query is executed.\n\n```sql\nSELECT L1.loan_number\nFROM Loan L1\nWHERE L1.amount > (SELECT MAX (L2.amount)\n                   FROM Loan L2\n                   WHERE L2.branch_name = 'SR Nagar');\n```\n\nThe number of rows returned by the query is ____________ (Answer in integer)",
@@ -807,7 +838,7 @@
   "explanation": "The subquery returns the largest SR Nagar loan amount: $\\max(40000, 25000, 65000) = 65000$. The outer query returns loans with amount $> 65000$: L11 (90000), L23 (80000) and L25 (70000). So 3 rows are returned.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.33 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.33 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -818,6 +849,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.34",
+  "key_row": 34,
   "qtype": "NAT",
   "marks": 1,
   "stem": "Given data $\\{(-1, 1), (2, -5), (3, 5)\\}$ of the form $(x, y)$, we fit a model $y = wx$ using linear least-squares regression. The optimal value of $w$ is ____________\n\n(Round off to three decimal places)",
@@ -828,7 +860,7 @@
   "explanation": "Minimise $\\sum_i (y_i - w x_i)^2$; setting the derivative to zero gives $w^* = \\dfrac{\\sum x_i y_i}{\\sum x_i^2} = \\dfrac{(-1)(1) + (2)(-5) + (3)(5)}{1 + 4 + 9} = \\dfrac{4}{14} \\approx 0.286$.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.34 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.34 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -840,6 +872,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.35",
+  "key_row": 35,
   "qtype": "NAT",
   "marks": 1,
   "stem": "The naive Bayes classifier is used to solve a two-class classification problem with class-labels $y_1, y_2$. Suppose the prior probabilities are $P(y_1) = \\frac{1}{3}$ and $P(y_2) = \\frac{2}{3}$. Assuming a discrete feature space with\n\n$$P(x|y_1) = \\frac{3}{4} \\quad \\text{and} \\quad P(x|y_2) = \\frac{1}{4}$$\n\nfor a specific feature vector $x$. The probability of misclassifying $x$ is ____________\n\n(Round off to two decimal places)",
@@ -850,7 +883,7 @@
   "explanation": "Joint terms: $P(x|y_1)P(y_1) = \\tfrac34\\cdot\\tfrac13 = \\tfrac14$ and $P(x|y_2)P(y_2) = \\tfrac14\\cdot\\tfrac23 = \\tfrac16$. Posteriors: $P(y_1|x) = \\dfrac{1/4}{1/4 + 1/6} = 0.6$, $P(y_2|x) = 0.4$. The classifier picks $y_1$, so the probability that $x$ is misclassified is $P(y_2|x) = 0.4$.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.35 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.35 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -862,6 +895,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.36",
+  "key_row": 36,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Let $Y = Z^2$, $Z = \\dfrac{X - \\mu}{\\sigma}$, where $X$ is a normal random variable with mean $\\mu$ and variance $\\sigma^2$. The variance of $Y$ is",
@@ -877,7 +911,7 @@
   "explanation": "$Z$ is standard normal, so $E[Z^2] = 1$ and $E[Z^4] = 3$. Hence $\\operatorname{Var}(Y) = E[Z^4] - (E[Z^2])^2 = 3 - 1 = 2$ (equivalently, $Y \\sim \\chi^2_1$ with variance $2k = 2$). Answer: (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.36 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.36 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -889,6 +923,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.37",
+  "key_row": 37,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Let $A \\in \\mathbb{R}^{n \\times n}$ be such that $A^3 = A$. Which one of the following statements is ALWAYS correct?",
@@ -904,7 +939,7 @@
   "explanation": "Counterexamples: $A = 0$ satisfies $A^3 = A$ but is not invertible (rules out A); $A = I_n$ has determinant 1 (rules out B) and trace $n$ (rules out C in general). For (D): $\\operatorname{rank}(A^2) \\le \\operatorname{rank}(A)$, and $\\operatorname{rank}(A) = \\operatorname{rank}(A^3) = \\operatorname{rank}(A \\cdot A^2) \\le \\operatorname{rank}(A^2)$, so the ranks are equal. Answer: (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.37 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.37 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -916,6 +951,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.38",
+  "key_row": 38,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Let $\\{x_1, x_2, \\ldots, x_n\\}$ be a set of linearly independent vectors in $\\mathbb{R}^n$. Let the $(i, j)$-th element of matrix $A \\in \\mathbb{R}^{n \\times n}$ be given by $A_{ij} = x_i^\\top x_j$, $1 \\leq i, j \\leq n$. Which one of the following statements is correct?",
@@ -931,7 +967,7 @@
   "explanation": "Let $X = [x_1 \\cdots x_n]$; then $A = X^\\top X$ (a Gram matrix). For any $z \\ne 0$, $z^\\top A z = \\|Xz\\|^2 > 0$ because the columns of $X$ are linearly independent, so $Xz \\ne 0$. Thus $A$ is positive definite, hence invertible with non-zero determinant and all singular values positive; (B), (C), (D) are false. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.38 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.38 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -943,6 +979,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.39",
+  "key_row": 39,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Consider the cumulative distribution function (CDF) of a random variable $X$:\n\n$$F_X(x) = \\begin{cases} 0 & x \\leq -1 \\\\ \\frac{1}{4}(x+1)^2 & -1 \\leq x \\leq 1 \\\\ 1 & x \\geq 1 \\end{cases}$$\n\nThe value of $P(X^2 \\leq 0.25)$ is",
@@ -958,7 +995,7 @@
   "explanation": "$X^2 \\le 0.25 \\iff -0.5 \\le X \\le 0.5$. Since $X$ is continuous, $P = F_X(0.5) - F_X(-0.5) = \\tfrac14(1.5)^2 - \\tfrac14(0.5)^2 = \\tfrac{2.25 - 0.25}{4} = 0.5$. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.39 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.39 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -971,6 +1008,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.40",
+  "key_row": 40,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "A random variable $X$ is said to be distributed as $Bernoulli(\\theta)$, denoted by $X \\sim Bernoulli(\\theta)$, if\n\n$$P(X = 1) = \\theta, \\quad P(X = 0) = 1 - \\theta$$\n\nfor $0 < \\theta < 1$. Let $Y = \\sum_{i=1}^{300} X_i$, where $X_i \\sim Bernoulli(\\theta)$, $i = 1, 2, \\ldots, 300$ be independent and identically distributed random variables with $\\theta = 0.25$. The value of $P(60 \\leq Y \\leq 90)$, after approximation through Central Limit Theorem, is given by\n\n$\\left(\\text{Recall that } \\phi(x) = \\dfrac{1}{\\sqrt{2\\pi}} \\displaystyle\\int_{-\\infty}^{x} e^{-\\frac{t^2}{2}}\\, dt\\right)$",
@@ -986,7 +1024,7 @@
   "explanation": "$E[Y] = 300 \\times 0.25 = 75$ and $\\operatorname{Var}(Y) = 300 \\times 0.25 \\times 0.75 = 56.25$, so $\\sigma_Y = 7.5$. By the CLT, $P(60 \\le Y \\le 90) \\approx \\phi\\!\\left(\\tfrac{90-75}{7.5}\\right) - \\phi\\!\\left(\\tfrac{60-75}{7.5}\\right) = \\phi(2) - \\phi(-2)$. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.40 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.40 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -998,6 +1036,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.41",
+  "key_row": 41,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "For $x \\in \\mathbb{R}$, the floor function is denoted by $f(x) = \\lfloor x \\rfloor$ and defined as follows\n\n$$\\lfloor x \\rfloor = k, \\quad k \\leq x < k + 1,$$\n\nwhere $k$ is an integer. Let $Y = \\lfloor X \\rfloor$, where $X$ is an exponentially distributed random variable with mean $\\dfrac{1}{\\ln 10}$, where $\\ln$ denotes natural logarithm. For any positive integer $\\ell$, one can write the probability of the event $Y = \\ell$ as follows\n\n$$P(Y = \\ell) = q^{\\ell}(1 - q)$$\n\nThe value of $q$ is",
@@ -1013,7 +1052,7 @@
   "explanation": "The rate is $\\lambda = \\ln 10$. $P(Y = \\ell) = P(\\ell \\le X < \\ell + 1) = e^{-\\lambda \\ell} - e^{-\\lambda(\\ell+1)} = (e^{-\\lambda})^{\\ell}(1 - e^{-\\lambda})$. So $q = e^{-\\ln 10} = \\tfrac{1}{10} = 0.1$. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.41 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.41 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1025,6 +1064,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.42",
+  "key_row": 42,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Consider the neural network shown in the figure with\n\n*inputs*: $u, v$\n\n*weights*: $a, b, c, d, e, f$\n\n*output*: $y$\n\n$R$ denotes the ReLU function, $R(x) = \\max(0, x)$.\n\nNetwork in the figure: inputs $u$ and $v$ feed two hidden $R$ nodes (top and bottom); both hidden nodes feed one output $R$ node, whose output is $y$. Directed edges and their weights:\n\n- $u \\to$ top hidden $R$: weight $a$\n- $v \\to$ top hidden $R$: weight $b$\n- $u \\to$ bottom hidden $R$: weight $c$\n- $v \\to$ bottom hidden $R$: weight $d$\n- top hidden $R \\to$ output $R$: weight $e$\n- bottom hidden $R \\to$ output $R$: weight $f$\n- output $R \\to y$\n\nGiven $u = 2, v = 3$,\n\n$a = 1, b = 1, c = 1, d = -1, e = 4, f = -1$,\n\nwhich one of the following is correct?\n\n(Figure from the official paper transcribed as text.)",
@@ -1040,7 +1080,7 @@
   "explanation": "Forward pass: top hidden $h_1 = R(au + bv) = R(2 + 3) = 5$; bottom hidden $h_2 = R(cu + dv) = R(2 - 3) = 0$; output $y = R(eh_1 + fh_2) = R(20 + 0) = 20$. Both the output pre-activation (20) and $h_1$'s pre-activation (5) are positive, so the ReLU derivatives there are 1. Hence $\\dfrac{\\partial y}{\\partial a} = e \\cdot 1 \\cdot u = 4 \\times 2 = 8$ and $\\dfrac{\\partial y}{\\partial f} = h_2 = 0$. Answer: (A).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.42 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.42 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1051,6 +1091,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.43",
+  "key_row": 43,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Consider game trees Tree-1 and Tree-2 as shown. The first level is a MAX agent and the second level is a MIN agent. The value in the square node is the output of the utility function.\n\n- **Tree-1**: root $A$ (MAX) has two children, left to right: a square node with value $2$, and node $B$ (MIN). $B$ has two children, left to right: a square node with value $x$, and a square node with value $1$ (the edge from $B$ to this right child is drawn dotted).\n- **Tree-2**: root $C$ (MAX) has two children, left to right: node $D$ (MIN) and node $E$ (MIN). $D$ has two children, left to right: square nodes with values $5$ and $y$. $E$ has two children, left to right: a square node with value $2$, and an unspecified subtree drawn as a triangle (the edge from $E$ to it is drawn dotted).\n\nFor what ranges of $x$ and $y$, the right child of node $B$ and the right child of node $E$ will be pruned by alpha-beta pruning algorithm?\n\n(Figure from the official paper transcribed as text.)",
@@ -1066,7 +1107,7 @@
   "explanation": "Tree-1: after the left child, MAX node $A$ has $\\alpha = 2$. At MIN node $B$, after seeing $x$ its value is at most $x$; the remaining child is pruned when $x \\le \\alpha = 2$, i.e. $x \\in (-\\infty, 2]$. Tree-2: $D = \\min(5, y)$, so $C$ has $\\alpha = \\min(5, y)$. At $E$, after seeing 2 its value is at most 2; its right subtree is pruned when $2 \\le \\min(5, y)$, i.e. $y \\ge 2$, so $y \\in [2, \\infty)$. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.43 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.43 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1077,6 +1118,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.44",
+  "key_row": 44,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "The state graph shows the action cost along the edges and the heuristic function h associated with each state.\n\nDirected edges with action costs: $S \\to A$ (4), $S \\to E$ (1), $A \\to B$ (2), $B \\to C$ (2), $E \\to C$ (2), $C \\to D$ (3), $D \\to G$ (3).\n\nHeuristic values shown: $h(A) = 2$, $h(B) = 2$, $h(C) = 6$, $h(D) = 2$, $h(E) = 6$, $h(G) = 0$ (no $h$ value is shown for $S$).\n\nSuppose $A^*$ algorithm is applied on this state graph using priority queue to store the frontier. In what sequence are the nodes expanded?\n\n(Figure from the official paper transcribed as text.)",
@@ -1092,7 +1134,7 @@
   "explanation": "A* expands the frontier node with the smallest $f = g + h$. Expand S → A ($g=4, f=6$), E ($g=1, f=7$). Expand A (6) → B ($g=6, f=8$). Expand E (7) → C ($g=3, f=9$). Expand B (8) → C via B has $g=8$, worse than 3, no update. Expand C (9) → D ($g=6, f=8$). Expand D (8) → G ($g=9, f=9$). Expand G. Order: S, A, E, B, C, D, G. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.44 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.44 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1104,6 +1146,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.45",
+  "key_row": 45,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "A random experiment consists of throwing 100 fair dice, each die having six faces numbered 1 to 6. An event $A$ represents the set of all outcomes where at least one of the dice shows a 1. Then, $P(A) =$",
@@ -1119,7 +1162,7 @@
   "explanation": "The complement of $A$ is \"no die shows a 1\". The dice are independent and each avoids 1 with probability $\\tfrac56$, so $P(A^c) = \\left(\\tfrac56\\right)^{100}$ and $P(A) = 1 - \\left(\\tfrac56\\right)^{100}$. Answer: (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.45 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.45 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1132,6 +1175,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.46",
+  "key_row": 46,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Consider a fact table in an OLAP application: `Facts(D1, D2, val)`, where `D1` and `D2` are its dimension attributes and `val` is a dependent attribute. Suppose attribute `D1` takes 3 values and `D2` takes 2 values, and all combinations of these values are present in the table `Facts`. How many tuples are there in the result of the following query?\n\n```sql\nSELECT D1, D2, sum(val)\nFROM Facts\nGROUP BY CUBE (D1, D2);\n```",
@@ -1147,7 +1191,7 @@
   "explanation": "`CUBE (D1, D2)` aggregates over every subset of the grouping attributes: $(D1, D2)$ gives $3 \\times 2 = 6$ groups, $(D1)$ gives 3, $(D2)$ gives 2 and $()$ (grand total) gives 1. Total $= 6 + 3 + 2 + 1 = 12$ tuples. Answer: (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.46 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.46 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1158,6 +1202,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.47",
+  "key_row": 47,
   "qtype": "MCQ",
   "marks": 2,
   "stem": "Consider the following Python code snippet.\n\n```python\nA={\"this\",\"that\"}\nB={\"that\",\"other\"}\nC={\"other\",\"this\"}\nwhile \"other\" in C:\n    if \"this\" in A:\n        A,B,C=A-B,B-C,C-A\n    if \"that\" in B:\n        A,B,C=C|A,A|B,B|C\n```\n\nWhen the above program is executed, at the end, which of the following sets contains `\"this\"`?",
@@ -1173,7 +1218,7 @@
   "explanation": "Tuple assignment evaluates the right side with the old values. Iteration 1: \"this\" ∈ A, so A = {this}, B = {that}, C = {other}; then \"that\" ∈ B, so A = C|A = {other, this}, B = A|B = {this, that}, C = B|C = {that, other}. \"other\" ∈ C, so the loop continues. Iteration 2: \"this\" ∈ A, so A = {other}, B = {this}, C = {that}; \"that\" ∉ B, so the second `if` is skipped. Now \"other\" ∉ C and the loop ends. Only B contains \"this\". Answer: (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.47 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.47 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1185,6 +1230,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.48",
+  "key_row": 48,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Which of the following statements is/are correct about the rectified linear unit (ReLU) activation function defined as $\\text{ReLU}(x) = \\max(x, 0)$, where $x \\in \\mathbb{R}$?",
@@ -1200,7 +1246,7 @@
   "explanation": "(A) true: $\\max(x, 0)$ is a maximum of continuous functions. (B) false / (C) true: at $x = 0$ the left derivative is 0 and the right derivative is 1, so ReLU is not differentiable there. (D) false: e.g. $x = 1, a = -1$ gives $\\text{ReLU}(1) = 1 \\ne 0 = \\text{ReLU}(-1)$. Answer: (A), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.48 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.48 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1212,6 +1258,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.49",
+  "key_row": 49,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Consider the function $f(x) = \\dfrac{x^3}{3} + \\dfrac{7}{2}x^2 + 10\\,x + \\dfrac{133}{2}$, $x \\in [-8, 0]$. Which of the following statements is/are correct?",
@@ -1227,7 +1274,7 @@
   "explanation": "$f'(x) = x^2 + 7x + 10 = (x+2)(x+5)$, with critical points $-5$ (local max) and $-2$ (local min). Compare with the endpoints: $f(-8) \\approx 39.83$, $f(-5) \\approx 62.33$, $f(-2) \\approx 57.83$, $f(0) = 66.5 = \\tfrac{133}{2}$. So the maximum is $\\tfrac{133}{2}$ at $x = 0$ (C true, A false) and the minimum is at $x = -8$ (B false). $f'(x)$ is a parabola with vertex at $x = -\\tfrac72 \\in [-8, 0]$, so its minimum is attained there (D true). Answer: (C), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.49 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.49 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1240,6 +1287,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.50",
+  "key_row": 50,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Let $x_1, x_2, x_3, x_4, x_5$ be a system of orthonormal vectors in $\\mathbb{R}^{10}$. Consider the matrix $A = x_1 x_1^\\top + \\ldots + x_5 x_5^\\top$. Which of the following statements is/are correct?",
@@ -1255,7 +1303,7 @@
   "explanation": "$A$ is the orthogonal projection onto $\\text{span}\\{x_1, \\ldots, x_5\\}$: it is symmetric and $Ax_i = x_i$, while $Av = 0$ for $v$ orthogonal to all $x_i$. Its eigenvalues are 1 (five times) and 0 (five times). For a symmetric positive semidefinite matrix the singular values equal the eigenvalues, so (A) and (B) are true. Since 0 is an eigenvalue, $\\det A = 0$ and $A$ is not invertible, so (C), (D) are false. Answer: (A), (B).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.50 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.50 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1267,6 +1315,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.51",
+  "key_row": 51,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Let $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a twice-differentiable function and suppose its second derivative satisfies $f''(x) > 0$ for all $x \\in \\mathbb{R}$. Which of the following statements is/are ALWAYS correct?",
@@ -1282,7 +1331,7 @@
   "explanation": "$f'' > 0$ means $f'$ is strictly increasing, so $f'$ has at most one zero: (B) true. A local minimum of a differentiable function needs $f' = 0$, so there is at most one local minimum (D true) and hence at most one global minimum (C true). (A) is not always true: $f(x) = e^x$ has $f'' > 0$ but no minimum. Answer: (B), (C), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.51 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.51 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1293,6 +1342,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.52",
+  "key_row": 52,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "An $n \\times n$ matrix $A$ with real entries satisfies the property: $\\|Ax\\|^2 = \\|x\\|^2$, for all $x \\in \\mathbb{R}^n$, where $\\| \\cdot \\|$ denotes the Euclidean norm. Which of the following statements is/are ALWAYS correct?",
@@ -1308,7 +1358,7 @@
   "explanation": "$\\|Ax\\|^2 = x^\\top A^\\top A x = x^\\top x$ for all $x$; since $A^\\top A - I$ is symmetric, this forces $A^\\top A = I$, so $A$ is orthogonal (A true) and invertible, i.e. of full rank (D true). (B) false: $-I$ or any rotation also works. (C) false: the $90^\\circ$ rotation $\\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$ is orthogonal with eigenvalues $\\pm i$. Answer: (A), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.52 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.52 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1319,6 +1369,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.53",
+  "key_row": 53,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Consider designing a linear binary classifier $f(x) = \\text{sign}(w^\\top x + b)$, $x \\in \\mathbb{R}^2$ on the following training data:\n\n$$\\text{Class-1: } \\left\\{ \\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}, \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix}, \\begin{pmatrix} 2 \\\\ 2 \\end{pmatrix} \\right\\}, \\text{Class-2: } \\left\\{ \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix} \\right\\}$$\n\nHard-margin support vector machine (SVM) formulation is solved to obtain $w$ and $b$. Which of the following options is/are correct?",
@@ -1334,7 +1385,7 @@
   "explanation": "The closest Class-1 points $(2,0)$ and $(0,2)$ lie on the line $x_1 + x_2 = 2$, and Class-2's $(0,0)$ lies on $x_1 + x_2 = 0$, so the max-margin boundary is $x_1 + x_2 = 1$. With labels $+1$/$-1$ and canonical constraints $y_i(w^\\top x_i + b) \\ge 1$: $w = (1, 1)^\\top$, $b = -1$, tight at $(2,0)$, $(0,2)$ and $(0,0)$ → 3 support vectors (B true; $(2,2)$ has $w^\\top x + b = 3$). Margin $= 2/\\|w\\| = 2/\\sqrt2 = \\sqrt2$ (C true). (A) false: $w = (4,4)^\\top, b = 1$ gives $f(0,0) = +1$, misclassifying Class-2. (D) false: the data are separable, so hard-margin SVM has 100% training accuracy. Answer: (B), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.53 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.53 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1346,6 +1397,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.54",
+  "key_row": 54,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Consider a coin-toss experiment where the probability of head showing up is $p$. In the $i^{\\text{th}}$ coin toss, let $X_i = 1$ if head appears, and $X_i = 0$ if tail appears. Consider\n\n$$\\widehat{p} = \\frac{1}{n} \\sum_{i=1}^{n} X_i$$\n\nwhere $n$ is the total number of independent coin tosses.\n\nWhich of the following statements is/are correct?",
@@ -1361,7 +1413,7 @@
   "explanation": "$E[\\widehat p] = \\tfrac1n \\sum E[X_i] = \\tfrac1n \\cdot np = p$, so (A) is true and (B) false. By independence, $\\operatorname{Var}(\\widehat p) = \\tfrac{1}{n^2} \\cdot n\\,p(1-p) = \\tfrac{p(1-p)}{n}$, which decreases as $n$ grows: (C) true, (D) false. Answer: (A), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.54 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.54 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1373,6 +1425,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.55",
+  "key_row": 55,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Consider a two-class problem in $\\mathbb{R}^d$ with class labels *red* and *green*. Let $\\mu_{red}$ and $\\mu_{green}$ be the means of the two classes. Given test sample $x \\in \\mathbb{R}^d$, a classifier calculates the squared Euclidean distance (denoted by $\\| \\cdot \\|^2$) between $x$ and the means of the two classes and assigns the class label that the sample $x$ is closest to. That is, the classifier computes\n\n$$f(x) = \\|\\mu_{red} - x\\|^2 - \\|\\mu_{green} - x\\|^2$$\n\nand assigns the label *red* to $x$ if $f(x) < 0$, and *green* otherwise. Which of the following statements is/are correct?",
@@ -1388,7 +1441,7 @@
   "explanation": "Expanding, the $\\|x\\|^2$ terms cancel: $f(x) = 2(\\mu_{green} - \\mu_{red})^\\top x + \\|\\mu_{red}\\|^2 - \\|\\mu_{green}\\|^2$. So $f$ is linear (affine) in $x$ with $w = 2(\\mu_{green} - \\mu_{red})$ and $b = \\|\\mu_{red}\\|^2 - \\|\\mu_{green}\\|^2$: (B) and (C) true, (D) false. (A) false: $f(0) = \\|\\mu_{red}\\|^2 - \\|\\mu_{green}\\|^2 < 0$ when $\\|\\mu_{red}\\| < \\|\\mu_{green}\\|$, so $x = 0$ is labelled *red*. Answer: (B), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.55 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.55 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1400,6 +1453,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.56",
+  "key_row": 56,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Consider the following two relations, named `Customer` and `Person`, in a database:\n\n```sql\nPerson (\n    aadhaar CHAR(12) PRIMARY KEY,\n    name VARCHAR(32));\nCustomer (\n    name VARCHAR(32),\n    email VARCHAR(32) PRIMARY KEY,\n    phone CHAR(10),\n    aadhaar CHAR(12),\n      FOREIGN KEY (aadhaar) REFERENCES Person(aadhaar));\n```\n\nWhich of the following statements is/are correct?",
@@ -1415,7 +1469,7 @@
   "explanation": "(A) false: in `Customer`, `aadhaar` is only a foreign key; nothing (no UNIQUE/PRIMARY KEY) stops several customers sharing it, so it is not a candidate key. (B) true: `phone` has no NOT NULL constraint. (C) true: `aadhaar` is the primary key of `Person`, hence a candidate key. (D) false: primary-key attributes cannot be NULL. Answer: (B), (C).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.56 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.56 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1426,6 +1480,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.57",
+  "key_row": 57,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Consider a database relation R with attributes ABCDEFG, and having the following functional dependencies:\n\n$$\\text{A} \\rightarrow \\text{BCEF} \\qquad \\text{E} \\rightarrow \\text{DG} \\qquad \\text{BC} \\rightarrow \\text{A}$$\n\nWhich of the following statements is/are correct?",
@@ -1441,7 +1496,7 @@
   "explanation": "$A^+ = \\{A, B, C, E, F\\} \\cup \\{D, G\\}$ = all attributes, so A is a key. $BC^+ \\ni A$, hence all attributes; neither $B^+ = \\{B\\}$ nor $C^+ = \\{C\\}$ is a key, so BC is a candidate key. $E^+ = \\{E, D, G\\}$, so E is not a key. Thus the candidate keys are exactly A and BC: (B) true, (A) and (C) false. $E \\rightarrow DG$ has a non-superkey determinant, so R is not in BCNF: (D) true. Answer: (B), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.57 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.57 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1453,6 +1508,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.58",
+  "key_row": 58,
   "qtype": "MSQ",
   "marks": 2,
   "stem": "Let $G$ be a simple, unweighted, and undirected graph. A subset of the vertices and edges of $G$ are shown below.\n\nVertices shown: $a, b, c, d, e, f, g, h$. Edges shown: $(a, b)$, $(b, c)$, $(c, d)$, $(e, f)$, $(f, g)$, $(g, h)$, $(a, f)$, $(f, c)$, $(c, h)$.\n\nIt is given that $a - b - c - d$ is a shortest path between $a$ and $d$; $e - f - g - h$ is a shortest path between $e$ and $h$; $a - f - c - h$ is a shortest path between $a$ and $h$. Which of the following is/are NOT the edges of $G$?\n\n(Figure from the official paper transcribed as text.)",
@@ -1468,7 +1524,7 @@
   "explanation": "Each stated shortest path has length 3, so no edge may create a shorter path between those endpoints. $(b, d)$ would give $a - b - d$ of length 2 < 3 → cannot be an edge. $(b, h)$ would give $a - b - h$ of length 2 → cannot be an edge. $(e, g)$ would give $e - g - h$ of length 2 → cannot be an edge. $(b, g)$ only creates paths such as $a - b - g - h$ of length 3, which does not beat any given shortest path, so it may be an edge. Answer: (A), (C), (D).",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.58 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.58 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1480,6 +1536,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.59",
+  "key_row": 59,
   "qtype": "NAT",
   "marks": 2,
   "stem": "Let $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be such that $|f(x) - f(y)| \\leq (x - y)^2$ for all $x, y \\in \\mathbb{R}$. Then $f(1) - f(0) =$ ____________ (Answer in integer)",
@@ -1490,7 +1547,7 @@
   "explanation": "Dividing by $|x - y|$: $\\left|\\dfrac{f(x) - f(y)}{x - y}\\right| \\le |x - y| \\to 0$ as $x \\to y$, so $f'(y) = 0$ for every $y$ and $f$ is constant. Hence $f(1) - f(0) = 0$. (Directly: splitting $[0,1]$ into $n$ equal parts gives $|f(1) - f(0)| \\le n \\cdot (1/n)^2 = 1/n$ for every $n$.)",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.59 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.59 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1502,6 +1559,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.60",
+  "key_row": 60,
   "qtype": "NAT",
   "marks": 2,
   "stem": "Let $D = \\{x^{(1)}, \\ldots, x^{(n)}\\}$ be a dataset of $n$ observations where each $x^{(i)} \\in \\mathbb{R}^{100}$. It is given that $\\sum_{i=1}^{n} x^{(i)} = 0$. The covariance matrix computed from $D$ has eigenvalues $\\lambda_i = 100^{2-i}$, $1 \\leq i \\leq 100$. Let $u \\in \\mathbb{R}^{100}$ be the direction of maximum variance with $u^\\top u = 1$.\n\nThe value of\n\n$$\\frac{1}{n} \\sum_{i=1}^{n} \\left(u^\\top x^{(i)}\\right)^2 = \\underline{\\qquad\\qquad}$$\n\n(Answer in integer)",
@@ -1512,7 +1570,7 @@
   "explanation": "Because the data have zero mean, the covariance matrix is $\\Sigma = \\tfrac1n \\sum_i x^{(i)} x^{(i)\\top}$, and $\\tfrac1n \\sum_i (u^\\top x^{(i)})^2 = u^\\top \\Sigma u$ is the variance along $u$. The direction of maximum variance is the eigenvector of the largest eigenvalue, giving $u^\\top \\Sigma u = \\lambda_{\\max} = \\lambda_1 = 100^{2-1} = 100$.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.60 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.60 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1523,6 +1581,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.61",
+  "key_row": 61,
   "qtype": "NAT",
   "marks": 2,
   "stem": "A bag contains $5$ white balls and $10$ black balls. In a random experiment, $n$ balls are drawn from the bag one at a time with replacement. Let $S_n$ denote the total number of black balls drawn in the experiment.\n\nThe expectation of $S_{100}$ denoted by $E[S_{100}] =$ ____________\n\n(Round off to one decimal place)",
@@ -1533,7 +1592,7 @@
   "explanation": "With replacement, each draw is black independently with probability $\\tfrac{10}{15} = \\tfrac23$, so $S_{100} \\sim \\text{Binomial}(100, \\tfrac23)$ and $E[S_{100}] = 100 \\times \\tfrac23 \\approx 66.7$.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.61 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.61 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1544,6 +1603,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.62",
+  "key_row": 62,
   "qtype": "NAT",
   "marks": 2,
   "stem": "Consider the following tables, **Loan** and **Borrower**, of a bank.\n\n**Loan**\n\n| loan_num | branch_name | amount |\n|---|---|---|\n| L11 | Banjara Hills | 90000 |\n| L14 | Kondapur | 50000 |\n| L15 | SR Nagar | 40000 |\n| L22 | SR Nagar | 25000 |\n| L23 | Balanagar | 80000 |\n| L25 | Kondapur | 70000 |\n| L19 | SR Nagar | 65000 |\n\n**Borrower**\n\n| customer_name | loan_num |\n|---|---|\n| Anand | L11 |\n| Karteek | L11 |\n| Karteek | L14 |\n| Ankita | L15 |\n| Gopal | L19 |\n| Karteek | L22 |\n| Karteek | L23 |\n| Sunil | L23 |\n| Sunil | L25 |\n\nQuery: $\\pi_{\\textbf{branch\\_name},\\ \\textbf{customer\\_name}}(\\textbf{Loan} \\bowtie \\textbf{Borrower}) \\div \\pi_{\\textbf{branch\\_name}}(\\textbf{Loan})$\n\nwhere $\\bowtie$ denotes natural join.\n\nThe number of tuples returned by the above relational algebra query is ____________\n\n(Answer in integer)",
@@ -1554,7 +1614,7 @@
   "explanation": "The join on `loan_num` gives these (branch, customer) pairs: (Banjara Hills, Anand), (Banjara Hills, Karteek), (Kondapur, Karteek), (SR Nagar, Ankita), (SR Nagar, Gopal), (SR Nagar, Karteek), (Balanagar, Karteek), (Balanagar, Sunil), (Kondapur, Sunil). The divisor is all branches {Banjara Hills, Kondapur, SR Nagar, Balanagar}. Division returns customers paired with every branch: only Karteek (Sunil lacks Banjara Hills and SR Nagar, and the others have just one branch). So 1 tuple.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.62 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.62 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1565,6 +1625,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.63",
+  "key_row": 63,
   "qtype": "NAT",
   "marks": 2,
   "stem": "Consider the following Python code snippet.\n\n```python\ndef f(a,b):\n    if (a==0):\n        return b\n    if (a%2==1):\n        return 2*f((a-1)/2,b)\n    return b+f(a-1,b)\nprint(f(15,10))\n```\n\nThe value printed by the code snippet is ____________ (Answer in integer)",
@@ -1575,7 +1636,7 @@
   "explanation": "Every value reached is odd until 0: $f(15) = 2f(7)$, $f(7) = 2f(3)$, $f(3) = 2f(1)$, $f(1) = 2f(0)$ and $f(0) = b = 10$. (In Python 3 `(a-1)/2` gives the floats 7.0, 3.0, 1.0, 0.0, but `0.0 == 0` is true and `b` is the integer 10.) So $f(1) = 20$, $f(3) = 40$, $f(7) = 80$, $f(15) = 160$, and 160 is printed.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.63 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.63 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1586,6 +1647,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.64",
+  "key_row": 64,
   "qtype": "NAT",
   "marks": 2,
   "stem": "Consider the following pseudocode.\n\n```text\nCreate empty stack S\nSet x=0, flag=0, sum=0\nPush x onto S\nwhile (S is not empty){\n  if (flag equals 0){\n    Set x = x+1\n    Push x onto S}\n  if (x equals 8):\n    Set flag=1\n  if (flag equals 1){\n    x = Pop(S)\n    if (x is odd):\n      Pop(S)\n    Set sum = sum + x}\n}\nOutput sum\n```\n\nThe value of `sum` output by a program executing the above pseudocode is ____________\n\n(Answer in integer)",
@@ -1596,7 +1658,7 @@
   "explanation": "While flag = 0 the loop pushes 1, 2, …, 8, so S = [0, 1, …, 8]. When x = 8, flag becomes 1 and from then on each iteration pops x and, if x is odd, pops one more element. Pops: 8 (even) → sum = 8; 7 (odd, also discards 6) → 15; 5 (discards 4) → 20; 3 (discards 2) → 23; 1 (discards 0) → 24. The stack is now empty and the output is 24.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.64 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.64 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  },
  {
   "source_type": "official_pyq",
@@ -1607,6 +1669,7 @@
   "exam_year": 2025,
   "exam_name": "GATE 2025 DA",
   "question_ref": "Q.65",
+  "key_row": 65,
   "qtype": "NAT",
   "marks": 2,
   "stem": "Consider a directed graph $G = (V, E)$, where $V = \\{0, 1, 2, \\ldots, 100\\}$ and $E = \\{(i, j) : 0 < j - i \\leq 2, \\text{ for all } i, j \\in V\\}$. Suppose the adjacency list of each vertex is in *decreasing* order of vertex number, and depth-first search (DFS) is performed at vertex $0$. The number of vertices that will be discovered after vertex 50 is ____________ (Answer in integer)",
@@ -1617,6 +1680,6 @@
   "explanation": "Each vertex $i$ has edges to $i+2$ and $i+1$ and visits $i+2$ first. So DFS discovers $0, 2, 4, \\ldots, 100$ first; vertex 100 has no out-edges, so it backtracks to 98 and discovers 99, then backtracks to 96 and discovers 97, and so on, discovering $99, 97, \\ldots, 1$. Vertices discovered after 50: the evens $52, \\ldots, 100$ (25 vertices) plus all 50 odd vertices, i.e. $25 + 50 = 75$.",
   "explanation_source": "ai_authored",
   "source_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
-  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.65 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+  "source_note": "Official GATE 2025 DA master question paper (IIT Roorkee), Q.65 (paper sha256 69ba28fc60e6…). Answer/type/marks from the Official GATE 2025 DA answer key (IIT Roorkee) (https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
  }
 ]

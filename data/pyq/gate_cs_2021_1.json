@@ -1,0 +1,386 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.05"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The ratio of boys to girls in a class is 7 to 3.\n\nAmong the options below, an acceptable value for the total number of students in the class is:",
+  "options": [
+   "21",
+   "37",
+   "50",
+   "73"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "With boys : girls = 7 : 3, the class has $7k$ boys and $3k$ girls, so the total $10k$ must be a multiple of 10. Among the options only 50 is a multiple of 10 (35 boys and 15 girls). Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.1 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.06",
+   "GA.1.07"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the following sentences:\n\n(i) Everybody in the class is prepared for the exam.  \n(ii) Babu invited Danish to his home because he enjoys playing chess.\n\nWhich of the following is the CORRECT observation about the above two sentences?",
+  "options": [
+   "(i) is grammatically correct and (ii) is unambiguous",
+   "(i) is grammatically incorrect and (ii) is unambiguous",
+   "(i) is grammatically correct and (ii) is ambiguous",
+   "(i) is grammatically incorrect and (ii) is ambiguous"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In (i), the indefinite pronoun *everybody* is singular and correctly takes the singular verb *is*, so (i) is grammatically correct. In (ii), the pronoun *he* can refer either to Babu or to Danish, so it is not clear who enjoys playing chess; (ii) is ambiguous. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.3 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "_____ is to *surgery* as *writer* is to ________\n\nWhich one of the following options maintains a similar logical relation in the above sentence?",
+  "options": [
+   "Plan, outline",
+   "Hospital, library",
+   "Doctor, book",
+   "Medicine, grammar"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The second pair is *writer* : the thing a writer produces (a book). The first pair must have the same relation: the person who performs surgery is a doctor. So the pair is *Doctor, book* (a doctor performs surgery as a writer writes a book). Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.5 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "We have 2 rectangular sheets of paper, M and N, of dimensions 6 cm x 1 cm each. Sheet M is rolled to form an open cylinder by bringing the short edges of the sheet together. Sheet N is cut into equal square patches and assembled to form the largest possible closed cube. Assuming the ends of the cylinder are closed, the ratio of the volume of the cylinder to that of the cube is __________",
+  "options": [
+   "$\\frac{\\pi}{2}$",
+   "$\\frac{3}{\\pi}$",
+   "$\\frac{9}{\\pi}$",
+   "$3\\pi$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Joining the short (1 cm) edges of M gives a cylinder of height 1 cm and circumference 6 cm, so $r = \\frac{3}{\\pi}$ and $V_{cyl} = \\pi r^2 h = \\pi\\cdot\\frac{9}{\\pi^2}\\cdot 1 = \\frac{9}{\\pi}$ cm$^3$. Sheet N (area 6 cm$^2$) cut into six 1 cm $\\times$ 1 cm squares gives the largest closed cube, of side 1 cm and volume 1 cm$^3$. Ratio $= \\frac{9}{\\pi}$. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.6 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.06",
+   "GA.2.04"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.7",
+  "key_row": 7,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "| Items | Cost (₹) | Profit % | Marked Price (₹) |\n|---|---|---|---|\n| P | 5,400 | --- | 5,860 |\n| Q | --- | 25 | 10,000 |\n\nDetails of prices of two items P and Q are presented in the above table. The ratio of cost of item P to cost of item Q is 3:4. Discount is calculated as the difference between the marked price and the selling price. The profit percentage is calculated as the ratio of the difference between selling price and cost, to the cost (Profit % $= \\frac{\\text{Selling price} - \\text{Cost}}{\\text{Cost}} \\times 100$).\n\nThe discount on item Q, as a percentage of its marked price, is __________",
+  "options": [
+   "25",
+   "12.5",
+   "10",
+   "5"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Cost of P : cost of Q = 3 : 4, so cost of Q $= 5400 \\times \\frac{4}{3} = ₹7200$. A 25% profit gives selling price of Q $= 1.25 \\times 7200 = ₹9000$. Discount $= 10000 - 9000 = ₹1000$, which is $\\frac{1000}{10000} = 10\\%$ of the marked price. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.7 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.12",
+   "GA.2.09"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "There are five bags each containing identical sets of ten distinct chocolates. One chocolate is picked from each bag.\n\nThe probability that at least two chocolates are identical is __________",
+  "options": [
+   "0.3024",
+   "0.4235",
+   "0.6976",
+   "0.8125"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each of the 5 picks is one of 10 chocolate types, giving $10^5$ equally likely outcomes. All five are different in $10\\cdot 9\\cdot 8\\cdot 7\\cdot 6 = 30240$ outcomes, i.e. with probability $0.3024$. Hence $P(\\text{at least two identical}) = 1 - 0.3024 = 0.6976$. Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.8 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.11"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "GA Q.10",
+  "key_row": 10,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Some people suggest anti-obesity measures (AOM) such as displaying calorie information in restaurant menus. Such measures sidestep addressing the core problems that cause obesity: poverty and income inequality.\n\nWhich one of the following statements summarizes the passage?",
+  "options": [
+   "The proposed AOM addresses the core problems that cause obesity.",
+   "If obesity reduces, poverty will naturally reduce, since obesity causes poverty.",
+   "AOM are addressing the core problems and are likely to succeed.",
+   "AOM are addressing the problem superficially."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The passage says measures like calorie labels *sidestep* the core causes of obesity (poverty and income inequality), i.e. they deal with the problem only on the surface. (A) and (C) contradict the passage and (B) reverses the stated causality. Answer: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), GA Q.10 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.19"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.18",
+  "key_row": 28,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter 2. For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.35,
+  "nat_high": 0.39,
+  "explanation": "For an exponential random variable with rate $\\lambda$, $E[X] = \\frac{1}{\\lambda}$ and $P(X > t) = e^{-\\lambda t}$. Hence $P(X > E[X]) = e^{-\\lambda\\cdot\\frac{1}{\\lambda}} = e^{-1} \\approx 0.3679 \\approx 0.37$, whatever the parameter (here 2). This lies in the official range 0.35 to 0.39.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.18 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.19",
+  "key_row": 29,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "There are 6 jobs with distinct difficulty levels, and 3 computers with distinct processing speeds. Each job is assigned to a computer such that:\n\n- The fastest computer gets the toughest job and the slowest computer gets the easiest job.\n- Every computer gets at least one job.\n\nThe number of ways in which this can be done is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 65.0,
+  "nat_high": 65.0,
+  "explanation": "The toughest job is fixed to the fastest computer and the easiest job to the slowest, so those two computers already have a job. Each of the remaining 4 jobs can go to any of the 3 computers: $3^4 = 81$ ways. The middle computer must also get at least one job, so subtract the $2^4 = 16$ assignments that use only the fastest and slowest computers: $81 - 16 = 65$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.19 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.02"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.20",
+  "key_row": 30,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider the following expression.\n\n$$\\lim_{x \\to -3} \\frac{\\sqrt{2x+22}-4}{x+3}$$\n\nThe value of the above expression (rounded to 2 decimal places) is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.25,
+  "nat_high": 0.25,
+  "explanation": "At $x=-3$ the expression is of the form $\\frac{0}{0}$. Rationalising, $\\frac{\\sqrt{2x+22}-4}{x+3} = \\frac{(2x+22)-16}{(x+3)(\\sqrt{2x+22}+4)} = \\frac{2}{\\sqrt{2x+22}+4}$. Letting $x \\to -3$ gives $\\frac{2}{4+4} = 0.25$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.20 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.02"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.27",
+  "key_row": 37,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The following relation records the age of 500 employees of a company, where $\\mathit{empNo}$ (indicating the employee number) is the key:\n\n$$\\mathit{empAge}(\\underline{\\mathit{empNo}}, \\mathit{age})$$\n\nConsider the following relational algebra expression:\n\n$$\\Pi_{\\mathit{empNo}}\\left(\\mathit{empAge} \\bowtie_{(\\mathit{age} > \\mathit{age1})} \\rho_{\\mathit{empNo1},\\, \\mathit{age1}}(\\mathit{empAge})\\right)$$\n\nWhat does the above expression generate?",
+  "options": [
+   "Employee numbers of only those employees whose age is the maximum.",
+   "Employee numbers of only those employees whose age is more than the age of exactly one other employee.",
+   "Employee numbers of all employees whose age is not the minimum.",
+   "Employee numbers of all employees whose age is the minimum."
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The renamed copy $\\rho_{empNo1,age1}(empAge)$ lets each employee be compared with every employee. The theta join keeps a pair when $age > age1$, so an employee appears in the join exactly when at least one employee is strictly younger. Projecting on $empNo$ therefore returns every employee whose age is not the minimum (employees with the minimum age never satisfy the condition). Answer: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.27 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.33",
+  "key_row": 43,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the relation $R(P, Q, S, T, X, Y, Z, W)$ with the following functional dependencies.\n\n$$PQ \\to X;\\;\\; P \\to YX;\\;\\; Q \\to Y;\\;\\; Y \\to ZW$$\n\nConsider the decomposition of the relation $R$ into the constituent relations according to the following two decomposition schemes.\n\n$$\\begin{aligned} D_1 &: \\; R = [(P, Q, S, T);\\ (P, T, X);\\ (Q, Y);\\ (Y, Z, W)] \\\\ D_2 &: \\; R = [(P, Q, S);\\ (T, X);\\ (Q, Y);\\ (Y, Z, W)] \\end{aligned}$$\n\nWhich one of the following options is correct?",
+  "options": [
+   "$D_1$ is a lossless decomposition, but $D_2$ is a lossy decomposition.",
+   "$D_1$ is a lossy decomposition, but $D_2$ is a lossless decomposition.",
+   "Both $D_1$ and $D_2$ are lossless decompositions.",
+   "Both $D_1$ and $D_2$ are lossy decompositions."
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$D_1$: joining $(P,Q,S,T)$ and $(P,T,X)$ on $PT$ is lossless because $P \\to X$ gives $PT \\to PTX$; joining the result with $(Q,Y)$ on $Q$ is lossless since $Q \\to Y$; joining with $(Y,Z,W)$ on $Y$ is lossless since $Y \\to ZW$. So $D_1$ is lossless. In $D_2$, $(T,X)$ shares no attribute with any other relation, so it can only be combined by a Cartesian product, which creates spurious tuples; $D_2$ is lossy. Answer: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.33 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.11"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.35",
+  "key_row": 45,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the two statements.\n\n$S_1$: There exist random variables $X$ and $Y$ such that\n$$\\left(\\mathbb{E}\\left[(X-\\mathbb{E}(X))\\,(Y-\\mathbb{E}(Y))\\right]\\right)^2 > \\mathrm{Var}[X]\\,\\mathrm{Var}[Y]$$\n\n$S_2$: For all random variables $X$ and $Y$,\n$$\\mathrm{Cov}[X,Y] = \\mathbb{E}\\left[\\,\\left|X-\\mathbb{E}[X]\\right|\\,\\left|Y-\\mathbb{E}[Y]\\right|\\,\\right]$$\n\nWhich one of the following choices is correct?",
+  "options": [
+   "Both $S_1$ and $S_2$ are true.",
+   "$S_1$ is true, but $S_2$ is false.",
+   "$S_1$ is false, but $S_2$ is true.",
+   "Both $S_1$ and $S_2$ are false."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The left side of $S_1$ is $(\\mathrm{Cov}[X,Y])^2$, and by the Cauchy-Schwarz inequality $(\\mathrm{Cov}[X,Y])^2 \\le \\mathrm{Var}[X]\\,\\mathrm{Var}[Y]$ always, so $S_1$ is false. $S_2$ is false too: the right side is always $\\ge 0$, but covariance can be negative, e.g. $Y = -X$ with $\\mathrm{Var}[X] > 0$ gives $\\mathrm{Cov}[X,Y] = -\\mathrm{Var}[X] < 0$ while the right side equals $\\mathrm{Var}[X]$. Answer: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.35 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.12"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.52",
+  "key_row": 62,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider the following matrix.\n\n$$\\begin{pmatrix} 0 & 1 & 1 & 1 \\\\ 1 & 0 & 1 & 1 \\\\ 1 & 1 & 0 & 1 \\\\ 1 & 1 & 1 & 0 \\end{pmatrix}$$\n\nThe largest eigenvalue of the above matrix is __________.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 3.0,
+  "nat_high": 3.0,
+  "explanation": "The matrix is $J - I$, where $J$ is the $4 \\times 4$ all-ones matrix. $J$ has rank 1 with eigenvalues 4 (eigenvector $(1,1,1,1)^T$) and 0 (three times), so $J - I$ has eigenvalues $4-1 = 3$ and $0-1 = -1$ (three times). The largest eigenvalue is 3 (check: the trace is $3 - 1 - 1 - 1 = 0$).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.52 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.08",
+   "DA.1.07"
+  ],
+  "exam_year": 2021,
+  "exam_name": "GATE 2021 CS (Set 1)",
+  "question_ref": "CS Q.54",
+  "key_row": 64,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "A sender (S) transmits a signal, which can be one of the two kinds: $H$ and $L$ with probabilities 0.1 and 0.9 respectively, to a receiver (R).\n\nIn the graph below, the weight of edge $(u, v)$ is the probability of receiving $v$ when $u$ is transmitted, where $u, v \\in \\{H, L\\}$. For example, the probability that the received signal is $L$ given the transmitted signal was $H$, is 0.7.\n\n| Edge (transmitted at S $\\to$ received at R) | Weight |\n|---|---|\n| $H \\to H$ | 0.3 |\n| $H \\to L$ | 0.7 |\n| $L \\to H$ | 0.8 |\n| $L \\to L$ | 0.2 |\n\nIf the received signal is $H$, the probability that the transmitted signal was $H$ (rounded to 2 decimal places) is __________.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.04,
+  "nat_high": 0.04,
+  "explanation": "Let $T$ be the transmitted and $R$ the received signal. By total probability, $P(R=H) = P(T=H)P(R=H\\mid T=H) + P(T=L)P(R=H\\mid T=L) = 0.1 \\times 0.3 + 0.9 \\times 0.8 = 0.03 + 0.72 = 0.75$. By Bayes' theorem, $P(T=H \\mid R=H) = \\frac{0.03}{0.75} = 0.04$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2021/cs_2021.pdf",
+  "source_note": "Official GATE 2021 CS (Set 1) master question paper (IIT Bombay; archived on the GATE 2026 site), CS Q.54 (paper sha256 d7c76b951939…). Answer/type/marks from the Official GATE 2021 CS (Set 1) answer key (IIT Bombay; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/Answer_keys2021/cs_merged_2021.pdf; visually transcribed from the official key image). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

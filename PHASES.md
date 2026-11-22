@@ -105,6 +105,21 @@ See the final report / git log for the pushed commit.
 * One debatable official key (2024 Q.14) keeps the official answer with a transparent note.
 * Migration 0002 (`questions.explanation_source`); explanations labelled "written by AI — not official".
 
+## Follow-up — GATE CS 2020–2026 PYQs for shared syllabus areas ✅
+
+* Official CS papers and keys for 2020–2026 (11 papers incl. two sets in 2021, 2024, 2025, 2026)
+  located via SerpAPI/DuckDuckGo and the official archive on the GATE 2026 (IIT Guwahati) site.
+* Scope: General Aptitude, Probability & Statistics, Linear Algebra, Calculus & Optimization and DBMS
+  only (no AI / ML / programming / DSA); topics absent from the DA syllabus (transactions, discrete
+  maths, integration, three-schema architecture, …) excluded.
+* Keys parsed programmatically, except GATE 2021 (image-only keys read visually; all 34 in-scope rows
+  re-checked against the key images). Keys with alternative answers ("C OR D") and MTA excluded.
+* **194 CS questions** added (Prob & Stats 30, Linear Algebra 20, Calculus 10, DBMS 39, GA 95);
+  bank total **382 verified official PYQs**. Cross-bundle duplicates removed deterministically.
+* Figure-to-text conversions sampled and visually verified (ER diagrams, dot-tile puzzle, B+ trees).
+* Badges show the source paper (e.g. "GATE 2023 CS · Q.27"); cards prefer DA-paper PYQs; Question
+  Bank has a source-paper filter. Running servers re-seed automatically when bundles change.
+
 ## Test log
 
 | Phase | Command | Result |
@@ -122,6 +137,8 @@ See the final report / git log for the pushed commit.
 | 7 | Fresh clone → new venv → `pip install -r requirements-dev.txt` → pytest + ruff + mypy | all passed |
 | PYQ | `pytest` (full suite incl. bundled-bank integrity vs official keys) | **163 passed** |
 | PYQ | `ruff check .` / `mypy` | no issues |
+| CS PYQ | `pytest` (full suite incl. per-bundle key integrity, scope and duplicate checks) | **191 passed** |
+| CS PYQ | `ruff check .` / `mypy` | no issues |
 
 Issues found and fixed during testing: a Dec-31 revision expectation in a test, a nested
 f-string invalid on Python 3.11, a wrong-row update in the XP reconciler (caught by mypy),

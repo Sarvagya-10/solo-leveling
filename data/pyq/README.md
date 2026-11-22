@@ -1,6 +1,8 @@
 # PYQ bank & question import format
 
-## Bundled official bank (GATE DA 2024, 2025, 2026)
+## Bundled official bank
+
+### GATE DA 2024, 2025, 2026 (all syllabus areas)
 
 `gate_da_2024.json`, `gate_da_2025.json` and `gate_da_2026.json` are imported automatically on
 first start (once per file version — deleting a question in the app does not bring it back).
@@ -12,11 +14,32 @@ They are built by `scripts/build_pyq_bank.py` from **official sources only**:
 | 2025 | `gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf` | `gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf` |
 | 2026 | `gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf` | `gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf` |
 
+### GATE CS 2020–2026 (only areas shared with the DA 2027 syllabus)
+
+General Aptitude, Probability & Statistics, Linear Algebra, Calculus & Optimization and
+Database Management & Warehousing questions only. CS questions on AI, ML, programming/DSA and on
+topics the DA syllabus does not list (e.g. DBMS transactions, discrete maths, integration) are
+excluded. Papers and keys come from the official archive on the GATE 2026 (IIT Guwahati) site and
+the official GATE 2025 (IIT Roorkee) site:
+
+| Year | Paper(s) | Answer key(s) |
+|---|---|---|
+| 2020 | `gate2026.iitg.ac.in/doc/download/2020/cs_2020.pdf` (IIT Delhi) | appended in the same PDF |
+| 2021 | `…/2021/cs_2021.pdf` (IIT Bombay, both sets) | `…/Answer_keys2021/cs_merged_2021.pdf` (image-only: read visually) |
+| 2022 | `…/2022/cs_2022.pdf` (IIT Kharagpur) | `…/Answer_keys2022/cs_2022.pdf` |
+| 2023 | `…/2023/cs_2023.pdf` (IIT Kanpur) | `…/Answer_keys2023/CS_ANS_GATE2023.pdf` |
+| 2024 | `…/2024/CS124S5.pdf`, `…/2024/CS224S6.pdf` (IISc) | `…/2024/CS1FinalAnswerKey.pdf`, `…/2024/CS2FinalAnswerKey.pdf` |
+| 2025 | `gate2025.iitr.ac.in/doc/2025/2025_QP/CS1.pdf`, `CS2.pdf` | `…/2025_Key/CS1_Keys.pdf`, `CS2_Keys.pdf` |
+| 2026 | `gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf`, `CS2.pdf` | `…/2026/Keys/CS1_Keys.pdf`, `CS2_Keys.pdf` |
+
+### How the bank is built
+
 * **Answers, question types and marks come only from the official answer keys**, parsed
   programmatically into `keys/gate_da_<year>_key.json` (with the PDFs' SHA-256 checksums).
 * Question text and options were transcribed from the official master papers by Claude
   (math as LaTeX). Questions marked **MTA** (marks to all) and questions that depend on a figure
-  that cannot be represented exactly as text are excluded.
+  that cannot be represented exactly as text are excluded, as are keys that accept alternative
+  answers ("C OR D") and questions already present in an earlier bundle (e.g. shared GA).
 * Explanations were written by Claude and are labelled **"not official"** in the app.
 * Tests (`tests/unit/test_pyq_bank.py`) check every bundled question against its official key row.
 
@@ -24,7 +47,7 @@ Rebuild (needs the official PDFs in `var/pyq_src/<year>/`):
 
 ```bash
 python scripts/build_pyq_bank.py keys     # parse official answer keys
-python scripts/build_pyq_bank.py build    # merge transcriptions with official keys
+python scripts/build_pyq_bank.py build    # merge transcriptions with official keys (all bundles)
 ```
 
 ## Adding more questions

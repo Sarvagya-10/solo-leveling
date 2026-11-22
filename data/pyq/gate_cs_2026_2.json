@@ -1,0 +1,426 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.08"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Expedite, Hasten, Hurry, __________\n\nFill the blank by choosing a word with a meaning similar to that of the words given above.",
+  "options": [
+   "Accelerate",
+   "Retard",
+   "Provide",
+   "Disable"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Expedite, hasten and hurry all mean to make something happen or move faster. Accelerate has the same meaning, so (A) is the answer. Retard means to slow down (the opposite), and provide and disable are unrelated.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.1 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.12",
+   "GA.2.09"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+  "options": [
+   "1/4",
+   "3/4",
+   "2/3",
+   "3/8"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The number of cloudy days in four independent days is binomial with $n = 4$, $p = 0.5$. $P(\\text{3 cloudy, 1 sunny}) = \\binom{4}{3}(0.5)^3(0.5)^1 = 4/16 = 1/4$, so the answer is (A). The factor $\\binom{4}{3} = 4$ counts which of the four days is the sunny one.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.3 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.2.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.4",
+  "key_row": 4,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs. ________",
+  "options": [
+   "0",
+   "5",
+   "10",
+   "20"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Rs. 100 buys $100/50 = 2$ units of Stock A and Rs. 80 buys $80/80 = 1$ unit of Stock B, a total outlay of Rs. 180. Next day he receives $2 \\times 55 + 1 \\times 70 = 110 + 70 = 180$. The gain of Rs. 10 on A exactly cancels the loss of Rs. 10 on B, so the profit is Rs. 0: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.4 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "‘When it is raining, peacocks dance.’\n\nBased only on this sentence, which one of the following options is necessarily true?",
+  "options": [
+   "Peacocks dance only when it is raining.",
+   "When peacocks dance, it is raining.",
+   "When peacocks are not dancing, it is not raining.",
+   "When it is not raining, peacocks do not dance."
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The sentence is the implication raining $\\Rightarrow$ peacocks dance. Its contrapositive, not dancing $\\Rightarrow$ not raining, is logically equivalent, so (C) is necessarily true. (A) and (B) state the converse (dance $\\Rightarrow$ raining) and (D) states the inverse; neither follows, since peacocks may also dance when it is not raining.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.5 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Water : P :: Food : Q\n\nChoose the P and Q combination from the options below to form a meaningful analogy.",
+  "options": [
+   "P = Thirst; Q = Hunger",
+   "P = Drink; Q = Hunger",
+   "P = Thirst; Q = Satiated",
+   "P = Wet; Q = Critic"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Water satisfies (quenches) thirst, and food satisfies hunger. So P = Thirst and Q = Hunger, option (A). In (B) 'drink' is what one does with water, not the need it satisfies; in (C) 'satiated' is a state, not a need; (D) is unrelated.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.6 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.4.09",
+   "GA.3.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.7",
+  "key_row": 7,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Two tiles are missing in Panel I. Which one of the options in Panel II is the appropriate choice for the missing tiles?\n\nIn the figure below, each tile is a $3 \\times 3$ arrangement of dots: `O` is a white (hollow) dot and `#` is a black (filled) dot. In Panel I, the region marked `?` is the two missing tiles of the right-hand column (middle and bottom rows). Each option in Panel II is a vertical pair of tiles: the upper tile goes in the middle row and the lower tile in the bottom row.\n\n```\nPanel I\n+-------+-------+-------+\n| O # # | O O O | O # # |\n| # # # | O O O | O # # |\n| # # # | O O # | O # # |\n+-------+-------+-------+\n| O O # | O O # |       |\n| O O # | O # # |       |\n| O O # | O # # |       |\n+-------+-------+   ?   |\n| O O # | # # # |       |\n| O O # | # # # |       |\n| O # # | # # # |       |\n+-------+-------+-------+\n```\n\n```\nPanel II\n+-------+ +-------+ +-------+ +-------+\n| O # # | | O # # | | O # # | | O # # |\n| O # # | | O # # | | O # # | | O # # |\n| # # # | | O # # | | # # # | | O # # |\n+-------+ +-------+ +-------+ +-------+\n| O O O | | O O O | | O O # | | O O # |\n| O O # | | O O # | | O O # | | O O # |\n| O O # | | O O # | | O O # | | O # # |\n+-------+ +-------+ +-------+ +-------+\n   (i)       (ii)      (iii)      (iv)\n```\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "(i)",
+   "(ii)",
+   "(iii)",
+   "(iv)"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Count the black dots in each tile of Panel I: the rows are 8, 1, 6 / 3, 5, ? / 4, 9, ?. The counts 1 to 9 each appear once, arranged as a magic square in which every row and column sums to 15. So the middle tile needs $15 - 3 - 5 = 7$ black dots and the bottom tile needs $15 - 4 - 9 = 2$ (check the column: $6 + 7 + 2 = 15$). The dots also fill in a fixed order (right column bottom-up, then the middle column, then the left column), which gives `O##/O##/###` for 7 and `OOO/OO#/OO#` for 2. That is option (i), answer (A). Options (ii) and (iv) repeat 6, and (iii) repeats 3.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.7 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.01",
+   "GA.3.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Figures (i) and (ii) represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways.\nA salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started.\n\nWhich one of the following options is then true?\n\n- Figure (i): 16 cities arranged in a $4 \\times 4$ square grid (4 rows and 4 columns), with a highway between every pair of cities that are next to each other in the same row or in the same column (24 highways in all).\n- Figure (ii): 5 cities, labelled here U (top left), V (top right), W (centre), X (left) and Y (bottom), with the 6 highways U–V, U–W, U–X, X–Y, W–Y and V–Y.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "Such a trip is possible for (i), but not for (ii).",
+   "Such a trip is possible for (ii), but not for (i).",
+   "Such a trip is possible for both (i) and (ii).",
+   "Such a trip is possible neither for (i) nor for (ii)."
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The trip is a cycle through every city exactly once. For (i), write the cities as (row, column). One such cycle is (1,1)→(1,2)→(1,3)→(1,4)→(2,4)→(3,4)→(4,4)→(4,3)→(3,3)→(2,3)→(2,2)→(3,2)→(4,2)→(4,1)→(3,1)→(2,1)→(1,1), so the trip is possible. In (ii), cities V, W and X each have only two highways, and a cycle through them must use both. That forces U–V, U–W and U–X all into the trip, so U would be entered or left three times, which is impossible. The trip is possible for (i) only: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.8 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.4.09"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.9",
+  "key_row": 9,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The figure in Panel I below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel II below represents the grid shaded correctly?\n\n**Panel I** (numbers on the top: cells to be shaded in each column; numbers on the left: cells to be shaded in each row)\n\n|   | 2 | 2 | 2 | 2 |\n|---|---|---|---|---|\n| **3** |   |   |   |   |\n| **1** |   |   |   |   |\n| **2** |   |   |   |   |\n| **2** |   |   |   |   |\n\n**Panel II** (■ = shaded cell, □ = unshaded cell; each grid row is read left to right, rows listed top to bottom)\n\n| Row | (i) | (ii) | (iii) | (iv) |\n|---|---|---|---|---|\n| 1 | ■□■■ | ■□■■ | ■□■■ | ■□■■ |\n| 2 | □■□■ | □■□□ | □■■□ | □■□□ |\n| 3 | □□■□ | □□■■ | □□■□ | □□■□ |\n| 4 | ■■□□ | ■■□□ | ■■□□ | ■■□■ |\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "(i)",
+   "(ii)",
+   "(iii)",
+   "(iv)"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The row counts must be 3, 1, 2, 2 and every column count must be 2. Row 2 must have exactly one shaded cell, which rules out (i) and (iii) (two each). Row 4 of (iv) has three shaded cells, which rules it out. In (ii) the rows have 3, 1, 2, 2 shaded cells and the columns ■□□■, □■□■, ■□■□, ■□■□ have 2 each, so (ii) is correct: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.9 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.12",
+   "GA.2.09"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.10",
+  "key_row": 10,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is ________",
+  "options": [
+   "$\\frac{3}{36}$",
+   "$\\frac{13}{36}$",
+   "$\\frac{15}{36}$",
+   "$\\frac{19}{36}$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "There are 36 equally likely ordered outcomes, and the possible prime sums are 2, 3, 5, 7 and 11. They occur in 1, 2, 4, 6 and 2 ways respectively, e.g. sum 7 from (1,6), (2,5), …, (6,1). That totals $1 + 2 + 4 + 6 + 2 = 15$ outcomes, so the probability is $15/36$: (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.10 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.21",
+   "DA.1.17"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.14",
+  "key_row": 14,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The probability density function $f(x)$ of a random variable $X$ which takes real values is\n\n$$f(x) = \\frac{1}{3\\sqrt{2\\pi}}\\,\\exp\\left(-\\frac{x^2}{18}\\right), \\qquad x \\in (-\\infty, +\\infty)$$\n\nWhich one of the following statements is correct about the random variable $X$ ?",
+  "options": [
+   "$X$ is an exponential random variable",
+   "$X$ is a normal random variable",
+   "$X$ is a Poisson random variable",
+   "$X$ is a uniform random variable"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The normal density is $\\frac{1}{\\sigma\\sqrt{2\\pi}}\\exp\\left(-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right)$. Taking $\\mu = 0$ and $\\sigma = 3$ gives $2\\sigma^2 = 18$ and the constant $\\frac{1}{3\\sqrt{2\\pi}}$, exactly as given, so $X \\sim N(0, 9)$: (B). An exponential variable lives on $[0, \\infty)$, a Poisson variable is discrete, and a uniform density is constant on a bounded interval.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.14 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.10",
+   "DA.2.13",
+   "DA.2.14"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.31",
+  "key_row": 31,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider the system of linear equations given below.\n\n$$ax + y = b$$\n\n$$16x + ay = 24$$\n\nSuppose the values of $a$ and $b$ are chosen such that the system of linear equations produce multiple solutions. Then the product of $a$ and $b$ is __________. (*answer in integer*)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 24.0,
+  "nat_high": 24.0,
+  "explanation": "For more than one solution the coefficient matrix must be singular: $\\det\\begin{pmatrix} a & 1 \\\\ 16 & a \\end{pmatrix} = a^2 - 16 = 0$, so $a = \\pm 4$. The two equations must then be proportional, with $\\frac{a}{16} = \\frac{1}{a} = \\frac{b}{24}$. For $a = 4$ this gives $b = 6$, and for $a = -4$ it gives $b = -6$. In both cases $ab = 24$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.31 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.42",
+  "key_row": 42,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "In the context of schema normalization in relational DBMS, consider a set F of functional dependencies. The set of all functional dependencies implied by F is called the closure of F. To compute the closure of F, Armstrong’s Axioms can be applied. Consider $X, Y,$ and $Z$ as sets of attributes over a relational schema. The three rules of Armstrong’s Axioms are described as follows.\n\nReflexivity: If $Y \\subseteq X$, then $X \\rightarrow Y$\n\nAugmentation: If $X \\rightarrow Y$, then $XZ \\rightarrow YZ$ for any Z\n\nTransitivity: If $X \\rightarrow Y$ and $Y \\rightarrow Z$, then $X \\rightarrow Z$\n\nThe additional rule of Union is defined as follows.\n\nUnion: If $X \\rightarrow Y$ and $X \\rightarrow Z$, then $X \\rightarrow YZ$\n\nIt can be proved that the additional rule of Union is also implied by the three rules of Armstrong’s Axioms. Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof ?",
+  "options": [
+   "Reflexivity, Augmentation, and Transitivity",
+   "Reflexivity and Augmentation",
+   "Transitivity",
+   "Augmentation and Transitivity"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Augment $X \\rightarrow Y$ with $X$ to get $X \\rightarrow XY$ (since $XX = X$). Augment $X \\rightarrow Z$ with $Y$ to get $XY \\rightarrow YZ$. Transitivity on these two gives $X \\rightarrow YZ$. The proof needs only augmentation and transitivity, so reflexivity is not necessary. Neither rule works alone: transitivity cannot merge two right-hand sides, and augmentation cannot chain dependencies. The answer is (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.42 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08",
+   "DA.5.07"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.46",
+  "key_row": 46,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file. Otherwise it is called a sparse index. Consider the following two statements.\n\nS1: A hash index must be a dense index\n\nS2: A $B^+$ tree index can be a sparse index\n\nWhich one of the following options is correct?",
+  "options": [
+   "Both S1 and S2 are true",
+   "Both S1 and S2 are false",
+   "S1 is true and S2 is false",
+   "S1 is false and S2 is true"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A sparse index stores entries for only some key values. To find any other key, you locate the largest indexed key not exceeding it and scan forward in a file sorted on that key, which requires the index to preserve key order. Hashing scatters keys with no order, so a key missing from a hash index cannot be found from a neighbouring entry. A hash index therefore needs an entry for every search-key value, so S1 is true. A $B^+$ tree is ordered, so when it is built on a file sorted by the search key, its leaf level can hold one entry per data block (a sparse, clustering index), so S2 is true. The answer is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.46 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.13"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.62",
+  "key_row": 62,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "The determinant of a $4 \\times 4$ matrix $A$ is 3. The value of the determinant of $2A$ is ____________. (*answer in integer*)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 48.0,
+  "nat_high": 48.0,
+  "explanation": "Multiplying an $n \\times n$ matrix by $k$ multiplies each of its $n$ rows by $k$, so $\\det(kA) = k^n \\det(A)$. Here $\\det(2A) = 2^4 \\times 3 = 16 \\times 3 = 48$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.62 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.07",
+   "DA.1.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.63",
+  "key_row": 63,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Suppose an unbiased coin is tossed 6 times. Each coin toss is independent of all previous coin tosses. Let $E_1$ be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let $E_2$ be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails.\n\nThe conditional probability $\\mathrm{P}(E_1 \\mid E_2)$ is equal to ____________. (*rounded off to one decimal place*)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.5,
+  "nat_high": 0.5,
+  "explanation": "The two events share only toss 2. Given $E_2$, tosses 1, 2, 3, 5 contain exactly 2 heads, so there are $\\binom{4}{2} = 6$ equally likely patterns. Toss 2 is a head in $\\binom{3}{1} = 3$ of them, so $P(\\text{toss 2} = H \\mid E_2) = 1/2$. Tosses 4 and 6 are independent of $E_2$. If toss 2 is H, at least one of tosses 4 and 6 must be H, with probability $3/4$; if toss 2 is T, both must be H, with probability $1/4$. So $P(E_1 \\mid E_2) = \\tfrac12 \\cdot \\tfrac34 + \\tfrac12 \\cdot \\tfrac14 = \\tfrac12 = 0.5$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.63 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.03",
+   "DA.3.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 CS (Set 2)",
+  "question_ref": "Q.64",
+  "key_row": 64,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider a function $f: (0,1) \\rightarrow \\{0, 1\\}$ defined as follows.\n\nFor a real number $r \\in (0,1)$, $f(r) = 1$ if the second digit after the decimal point in $r$ is one of the four digits 2, 3, 6 and 7. Otherwise, $f(r)$ is equal to 0.\n\nThe number of points in (0,1) at which $f$ is discontinuous is ___________. (*answer in integer*)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 40.0,
+  "nat_high": 40.0,
+  "explanation": "On each interval $[k/100, (k+1)/100)$ the second decimal digit is fixed at $k \\bmod 10$, so $f$ is constant there. Discontinuities can occur only at $r = k/100$, $k = 1, \\dots, 99$. Just left of $k/100$ the digit is $(k-1) \\bmod 10$ and from $k/100$ onwards it is $k \\bmod 10$. So $f$ jumps exactly when one of these two digits is in $\\{2,3,6,7\\}$ and the other is not. Stepping through the digits $0 \\to 1 \\to \\dots \\to 9 \\to 0$, membership changes only at $1 \\to 2$, $3 \\to 4$, $5 \\to 6$ and $7 \\to 8$. That gives 4 jump points in each of the 10 tenths, $k = 10t + d$ with $d \\in \\{2,4,6,8\\}$, for $4 \\times 10 = 40$ points.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf",
+  "source_note": "Official GATE 2026 CS (Set 2) master question paper (IIT Guwahati), Q.64 (paper sha256 5016950bc4e5…). Answer/type/marks from the Official GATE 2026 CS (Set 2) answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

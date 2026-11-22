@@ -1,11 +1,12 @@
 {
- "exam": "GATE 2024",
+ "exam": "GATE 2024 DA",
  "paper": "DA",
  "source_url": "https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf",
  "source_note": "Official GATE 2024 DA final answer key (IISc Bengaluru)",
  "sha256": "3dc72f5afde9eb2e87607c98d9e057a61ccd9ff798b6fe1ad831d1cee3cdb69d",
  "paper_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
  "paper_sha256": "8ba7f11014fc63413961cde0592da1ac67babf0bb0b488db33b5b86ade1db27b",
+ "method": "parsed from the official key PDF text",
  "rows": [
   {
    "qno": 1,
@@ -14,7 +15,10 @@
    "key": "D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 1,
+   "ref": "Q.1"
   },
   {
    "qno": 2,
@@ -23,7 +27,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 2,
+   "ref": "Q.2"
   },
   {
    "qno": 3,
@@ -32,7 +39,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 3,
+   "ref": "Q.3"
   },
   {
    "qno": 4,
@@ -41,7 +51,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 4,
+   "ref": "Q.4"
   },
   {
    "qno": 5,
@@ -50,7 +63,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 5,
+   "ref": "Q.5"
   },
   {
    "qno": 6,
@@ -59,7 +75,10 @@
    "key": "D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 6,
+   "ref": "Q.6"
   },
   {
    "qno": 7,
@@ -68,7 +87,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 7,
+   "ref": "Q.7"
   },
   {
    "qno": 8,
@@ -77,7 +99,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 8,
+   "ref": "Q.8"
   },
   {
    "qno": 9,
@@ -86,7 +111,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 9,
+   "ref": "Q.9"
   },
   {
    "qno": 10,
@@ -95,7 +123,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 10,
+   "ref": "Q.10"
   },
   {
    "qno": 11,
@@ -104,7 +135,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 11,
+   "ref": "Q.11"
   },
   {
    "qno": 12,
@@ -113,7 +147,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 12,
+   "ref": "Q.12"
   },
   {
    "qno": 13,
@@ -122,7 +159,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 13,
+   "ref": "Q.13"
   },
   {
    "qno": 14,
@@ -131,7 +171,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 14,
+   "ref": "Q.14"
   },
   {
    "qno": 15,
@@ -140,7 +183,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 15,
+   "ref": "Q.15"
   },
   {
    "qno": 16,
@@ -149,7 +195,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 16,
+   "ref": "Q.16"
   },
   {
    "qno": 17,
@@ -158,7 +207,10 @@
    "key": "D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 17,
+   "ref": "Q.17"
   },
   {
    "qno": 18,
@@ -167,7 +219,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 18,
+   "ref": "Q.18"
   },
   {
    "qno": 19,
@@ -176,7 +231,10 @@
    "key": "D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 19,
+   "ref": "Q.19"
   },
   {
    "qno": 20,
@@ -185,7 +243,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 20,
+   "ref": "Q.20"
   },
   {
    "qno": 21,
@@ -194,7 +255,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 21,
+   "ref": "Q.21"
   },
   {
    "qno": 22,
@@ -203,7 +267,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 22,
+   "ref": "Q.22"
   },
   {
    "qno": 23,
@@ -212,7 +279,10 @@
    "key": "D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 23,
+   "ref": "Q.23"
   },
   {
    "qno": 24,
@@ -221,7 +291,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 24,
+   "ref": "Q.24"
   },
   {
    "qno": 25,
@@ -230,7 +303,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 25,
+   "ref": "Q.25"
   },
   {
    "qno": 26,
@@ -239,7 +315,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 26,
+   "ref": "Q.26"
   },
   {
    "qno": 27,
@@ -248,7 +327,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 27,
+   "ref": "Q.27"
   },
   {
    "qno": 28,
@@ -257,7 +339,10 @@
    "key": "A;B;C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 28,
+   "ref": "Q.28"
   },
   {
    "qno": 29,
@@ -266,7 +351,10 @@
    "key": "B;C;D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 29,
+   "ref": "Q.29"
   },
   {
    "qno": 30,
@@ -275,7 +363,10 @@
    "key": "0 to 0",
    "nat_low": 0.0,
    "nat_high": 0.0,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 30,
+   "ref": "Q.30"
   },
   {
    "qno": 31,
@@ -284,7 +375,10 @@
    "key": "3 to 3",
    "nat_low": 3.0,
    "nat_high": 3.0,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 31,
+   "ref": "Q.31"
   },
   {
    "qno": 32,
@@ -293,7 +387,10 @@
    "key": "17 to 17",
    "nat_low": 17.0,
    "nat_high": 17.0,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 32,
+   "ref": "Q.32"
   },
   {
    "qno": 33,
@@ -302,7 +399,10 @@
    "key": "0.24 to 0.24",
    "nat_low": 0.24,
    "nat_high": 0.24,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 33,
+   "ref": "Q.33"
   },
   {
    "qno": 34,
@@ -311,7 +411,10 @@
    "key": "42 to 42",
    "nat_low": 42.0,
    "nat_high": 42.0,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 34,
+   "ref": "Q.34"
   },
   {
    "qno": 35,
@@ -320,7 +423,10 @@
    "key": "0 to 0",
    "nat_low": 0.0,
    "nat_high": 0.0,
-   "marks": 1
+   "marks": 1,
+   "alternatives": false,
+   "index": 35,
+   "ref": "Q.35"
   },
   {
    "qno": 36,
@@ -329,7 +435,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 36,
+   "ref": "Q.36"
   },
   {
    "qno": 37,
@@ -338,7 +447,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 37,
+   "ref": "Q.37"
   },
   {
    "qno": 38,
@@ -347,7 +459,10 @@
    "key": "D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 38,
+   "ref": "Q.38"
   },
   {
    "qno": 39,
@@ -356,7 +471,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 39,
+   "ref": "Q.39"
   },
   {
    "qno": 40,
@@ -365,7 +483,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 40,
+   "ref": "Q.40"
   },
   {
    "qno": 41,
@@ -374,7 +495,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 41,
+   "ref": "Q.41"
   },
   {
    "qno": 42,
@@ -383,7 +507,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 42,
+   "ref": "Q.42"
   },
   {
    "qno": 43,
@@ -392,7 +519,10 @@
    "key": "A",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 43,
+   "ref": "Q.43"
   },
   {
    "qno": 44,
@@ -401,7 +531,10 @@
    "key": "C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 44,
+   "ref": "Q.44"
   },
   {
    "qno": 45,
@@ -410,7 +543,10 @@
    "key": "B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 45,
+   "ref": "Q.45"
   },
   {
    "qno": 46,
@@ -419,7 +555,10 @@
    "key": "A;B;D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 46,
+   "ref": "Q.46"
   },
   {
    "qno": 47,
@@ -428,7 +567,10 @@
    "key": "A;C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 47,
+   "ref": "Q.47"
   },
   {
    "qno": 48,
@@ -437,7 +579,10 @@
    "key": "B;D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 48,
+   "ref": "Q.48"
   },
   {
    "qno": 49,
@@ -446,7 +591,10 @@
    "key": "B;C;D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 49,
+   "ref": "Q.49"
   },
   {
    "qno": 50,
@@ -455,7 +603,10 @@
    "key": "A;B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 50,
+   "ref": "Q.50"
   },
   {
    "qno": 51,
@@ -464,7 +615,10 @@
    "key": "B;D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 51,
+   "ref": "Q.51"
   },
   {
    "qno": 52,
@@ -473,7 +627,10 @@
    "key": "A;B;C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 52,
+   "ref": "Q.52"
   },
   {
    "qno": 53,
@@ -482,7 +639,10 @@
    "key": "A;D",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 53,
+   "ref": "Q.53"
   },
   {
    "qno": 54,
@@ -491,7 +651,10 @@
    "key": "A;C",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 54,
+   "ref": "Q.54"
   },
   {
    "qno": 55,
@@ -500,7 +663,10 @@
    "key": "A;B",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 55,
+   "ref": "Q.55"
   },
   {
    "qno": 56,
@@ -509,7 +675,10 @@
    "key": "0.125 to 0.125",
    "nat_low": 0.125,
    "nat_high": 0.125,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 56,
+   "ref": "Q.56"
   },
   {
    "qno": 57,
@@ -518,7 +687,10 @@
    "key": "0.2 to 0.2",
    "nat_low": 0.2,
    "nat_high": 0.2,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 57,
+   "ref": "Q.57"
   },
   {
    "qno": 58,
@@ -527,7 +699,10 @@
    "key": "0.25 to 0.25",
    "nat_low": 0.25,
    "nat_high": 0.25,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 58,
+   "ref": "Q.58"
   },
   {
    "qno": 59,
@@ -536,7 +711,10 @@
    "key": "MTA",
    "nat_low": null,
    "nat_high": null,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 59,
+   "ref": "Q.59"
   },
   {
    "qno": 60,
@@ -545,7 +723,10 @@
    "key": "0.5 to 0.5",
    "nat_low": 0.5,
    "nat_high": 0.5,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 60,
+   "ref": "Q.60"
   },
   {
    "qno": 61,
@@ -554,7 +735,10 @@
    "key": "55 to 55",
    "nat_low": 55.0,
    "nat_high": 55.0,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 61,
+   "ref": "Q.61"
   },
   {
    "qno": 62,
@@ -563,7 +747,10 @@
    "key": "0.12 to 0.13",
    "nat_low": 0.12,
    "nat_high": 0.13,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 62,
+   "ref": "Q.62"
   },
   {
    "qno": 63,
@@ -572,7 +759,10 @@
    "key": "5 to 5",
    "nat_low": 5.0,
    "nat_high": 5.0,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 63,
+   "ref": "Q.63"
   },
   {
    "qno": 64,
@@ -581,7 +771,10 @@
    "key": "0.125 to 0.125",
    "nat_low": 0.125,
    "nat_high": 0.125,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 64,
+   "ref": "Q.64"
   },
   {
    "qno": 65,
@@ -590,7 +783,10 @@
    "key": "0.062 to 0.063",
    "nat_low": 0.062,
    "nat_high": 0.063,
-   "marks": 2
+   "marks": 2,
+   "alternatives": false,
+   "index": 65,
+   "ref": "Q.65"
   }
  ]
 }

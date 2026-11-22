@@ -31,13 +31,18 @@ def _browse(ctx: AppContext) -> None:
     labels = _topic_labels(ctx, paper) if paper != "Any" else {**_topic_labels(ctx, "DA"), **_topic_labels(ctx, "GA")}
     code = c4.selectbox("Topic", ["Any", *labels], format_func=lambda v: labels.get(v, v), key="qb_topic")
     with ctx.session() as s:
+        exams = question_service.exam_names(s)
+    exam = st.selectbox("Source paper", ["Any", *exams], key="qb_exam",
+                        help="Official PYQs come from GATE DA 2024-2026 and, for GA, maths and DBMS topics, "
+                             "GATE CS 2020-2026.")
+    with ctx.session() as s:
         tid = None
         if code != "Any":
             from shogun.db.models import Topic
             tid = s.query(Topic.id).filter(Topic.code == code).scalar()
         questions = question_service.list_questions(
             s, topic_id=tid, paper=None if paper == "Any" else paper, source_type=None if src == "Any" else src,
-            verification=None if ver == "Any" else ver)
+            verification=None if ver == "Any" else ver, exam_name=None if exam == "Any" else exam)
         for q in questions:
             _ = (q.primary_topic.name, q.topic_links)
     st.caption(f"{len(questions)} question(s)")

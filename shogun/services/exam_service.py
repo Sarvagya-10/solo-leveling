@@ -442,7 +442,7 @@ def analyse(session: Session, exam_id: int) -> ExamAnalysis:
             "source_type": meq.source_type, "topic": keys["topic"], "subject": snap.get("subject_name"),
             "stem": snap["stem"], "options": snap["options"], "answer_key": snap["answer_key"],
             "nat_low": snap["nat_low"], "nat_high": snap["nat_high"], "explanation": snap["explanation"],
-            "exam_year": snap["exam_year"], "question_ref": snap["question_ref"],
+            "exam_year": snap["exam_year"], "question_ref": snap["question_ref"], "exam_name": snap.get("exam_name"),
             "verification_status": snap["verification_status"],
             "response": a.response if a else None, "is_correct": a.is_correct if a else None,
             "marks_awarded": a.marks_awarded if a else 0.0, "time_sec": a.time_spent_sec if a else 0,

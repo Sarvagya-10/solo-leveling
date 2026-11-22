@@ -1,0 +1,465 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.08",
+   "GA.3.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words [walk → jog → sprint] is analogous to [bothered → ________ → daunted].\n\nWhich one of the given options is appropriate to fill the blank?",
+  "options": [
+   "phased",
+   "phrased",
+   "fazed",
+   "fused"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In [walk → jog → sprint] the speed rises step by step. The blank needs a word for being disturbed that is stronger than 'bothered' but weaker than 'daunted' (intimidated, discouraged). 'Fazed' means disconcerted or unsettled, which fits between them. 'Phased' means carried out in stages, 'phrased' means expressed in words and 'fused' means joined together. Hence (C) fazed.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.1 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.09"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.2",
+  "key_row": 2,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Two wizards try to create a spell using all the four elements, *water*, *air*, *fire*, and *earth*. For this, they decide to mix all these elements in all possible orders. They also decide to work independently. After trying all possible combination of elements, they conclude that the spell does not work.\n\nHow many attempts does each wizard make before coming to this conclusion, independently?",
+  "options": [
+   "24",
+   "48",
+   "16",
+   "12"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each wizard works alone and tries every order in which the four distinct elements can be mixed. The number of orderings of 4 distinct items is $4! = 24$. The other wizard's attempts do not change this count. Hence (A) 24.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.2 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.2.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "In an engineering college of 10,000 students, 1,500 like neither their core branches nor other branches. The number of students who like their core branches is $1/4^{\\text{th}}$ of the number of students who like other branches. The number of students who like both their core and other branches is 500.\n\nThe number of students who like their core branches is",
+  "options": [
+   "1,800",
+   "3,500",
+   "1,600",
+   "1,500"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let $C$ be the number who like their core branch, so $4C$ like other branches. Students liking at least one of the two number $10000 - 1500 = 8500$. By inclusion–exclusion, $C + 4C - 500 = 8500$, so $5C = 9000$ and $C = 1800$. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.3 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.4",
+  "key_row": 4,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "For positive non-zero real variables $x$ and $y$, if\n\n$$\\ln\\left(\\frac{x+y}{2}\\right) = \\frac{1}{2}[\\ln(x) + \\ln(y)]$$\n\nthen, the value of $\\frac{x}{y} + \\frac{y}{x}$ is",
+  "options": [
+   "1",
+   "1/2",
+   "2",
+   "4"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The right side is $\\ln\\sqrt{xy}$, so $\\frac{x+y}{2} = \\sqrt{xy}$. This gives $x + y - 2\\sqrt{xy} = (\\sqrt{x} - \\sqrt{y})^2 = 0$, so $x = y$ (the AM equals the GM only when the numbers are equal). Then $\\frac{x}{y} + \\frac{y}{x} = 1 + 1 = 2$. Hence (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.4 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.10"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "In the sequence 6, 9, 14, $x$, 30, 41, a possible value of $x$ is",
+  "options": [
+   "25",
+   "21",
+   "18",
+   "20"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The differences between consecutive terms are 3, 5, … and 11 at the end ($41 - 30$), which suggests the odd numbers 3, 5, 7, 9, 11. Then $x = 14 + 7 = 21$, and $21 + 9 = 30$, $30 + 11 = 41$ confirm the pattern. Hence (B) 21.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.5 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.12"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Sequence the following sentences in a coherent passage.\n\nP: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.\n\nQ: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.\n\nR: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth’s atmosphere and making it better suited for life.\n\nS: Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.",
+  "options": [
+   "QPSR",
+   "QSPR",
+   "SPRQ",
+   "SRPQ"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "S opens the passage by describing the collision 'many millennia ago'. P follows, because 'this fortuitous geological event' refers to that collision and describes the rocks rising. R continues with 'this massive edifice', the uplifted rock mass, and its cooling. Q, which begins with 'Thus', draws the conclusion. The order is SPRQ, option (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.6 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.7",
+  "key_row": 7,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A person sold two different items at the same price. He made 10% profit in one item, and 10% loss in the other item. In selling these two items, the person made a total of",
+  "options": [
+   "1% profit",
+   "2% profit",
+   "1% loss",
+   "2% loss"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let each selling price be $S$. The cost prices are $S/1.1$ and $S/0.9$, giving a total cost of $S\\left(\\frac{1}{1.1} + \\frac{1}{0.9}\\right) = S \\cdot \\frac{2}{0.99}$. The total selling price is $2S$, so selling price/cost = $0.99$, which is a 1% loss. Hence (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.7 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.01",
+   "GA.2.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The pie charts depict the shares of various power generation technologies in the total electricity generation of a country for the years 2007 and 2023.\n\nShares shown in the two pie charts:\n\n| Technology | Year 2007 | Year 2023 |\n|---|---|---|\n| Coal | 35% | 20% |\n| Gas | 25% | 15% |\n| Hydro | 30% | 35% |\n| Solar | 5% | 20% |\n| Wind | 5% | 10% |\n\nThe renewable sources of electricity generation consist of Hydro, Solar and Wind. Assuming that the total electricity generated remains the same from 2007 to 2023, what is the percentage increase in the share of the renewable sources of electricity generation over this period?\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "25%",
+   "50%",
+   "77.5%",
+   "62.5%"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The renewable share in 2007 is $30 + 5 + 5 = 40\\%$, and in 2023 it is $35 + 20 + 10 = 65\\%$. Total generation is unchanged, so the percentage increase is $\\frac{65 - 40}{40} \\times 100 = 62.5\\%$. Hence (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.8 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.4.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.9",
+  "key_row": 9,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube.\n\nThe minimum number of such cuts required is",
+  "options": [
+   "3",
+   "4",
+   "7",
+   "8"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each full straight cut is a plane through the whole cube, and it can at most double the number of pieces. Two cuts therefore give at most 4 pieces. Three mutually perpendicular cuts through the centre, parallel to the faces, give $2 \\times 2 \\times 2 = 8$ identical smaller cubes. So the minimum is 3, option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.9 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.4.09"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.10",
+  "key_row": 10,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "In the $4 \\times 4$ array shown below, each cell of the first three rows has either a cross (X) or a number.\n\n$$\n\\begin{array}{|c|c|c|c|}\n\\hline\n1 & \\text{X} & 4 & 3 \\\\\n\\hline\n\\text{X} & 5 & 5 & 4 \\\\\n\\hline\n3 & \\text{X} & 6 & \\text{X} \\\\\n\\hline\n\\phantom{0} & \\phantom{0} & \\phantom{0} & \\phantom{0} \\\\\n\\hline\n\\end{array}\n$$\n\nThe number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row has no crosses (X), the sum of the four numbers to be filled in the last row is\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "11",
+   "10",
+   "12",
+   "9"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Row 3 is 3, X, 6, X, and row 4 has no crosses. Cell (4,1) has neighbours (3,1), (3,2)=X and (4,2), so it counts 2. Cell (4,2) has neighbours (3,1), (3,2)=X, (3,3), (4,1) and (4,3), so it counts 4. Cell (4,3) has neighbours (3,2)=X, (3,3), (3,4)=X, (4,2) and (4,4), so it counts 3. Cell (4,4) has neighbours (3,3), (3,4)=X and (4,3), so it counts 2. The sum is $2 + 4 + 3 + 2 = 11$, option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.10 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01",
+   "DA.1.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.18",
+  "key_row": 18,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers (*i.e.*, 1, 2, 3, 4, 5, and 6) is",
+  "options": [
+   "$\\frac{1}{324}$",
+   "$\\frac{5}{324}$",
+   "$\\frac{7}{324}$",
+   "$\\frac{11}{324}$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "There are $6^6 = 46656$ equally likely outcomes. The outcomes with all six faces distinct are the arrangements of 1–6 over the six dice, $6! = 720$ in number. The probability is $\\frac{720}{46656} = \\frac{5}{324}$. Hence (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.18 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.20",
+  "key_row": 20,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "In the context of owner and weak entity sets in the ER (Entity-Relationship) data model, which one of the following statements is TRUE?",
+  "options": [
+   "The weak entity set MUST have total participation in the identifying relationship",
+   "The owner entity set MUST have total participation in the identifying relationship",
+   "Both weak and owner entity sets MUST have total participation in the identifying relationship",
+   "Neither weak entity set nor owner entity set MUST have total participation in the identifying relationship"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A weak entity has no key of its own. It is identified only through its owner entity together with its partial key. Every weak entity must therefore be related to an owner through the identifying relationship, which is total participation of the weak entity set. An owner entity may have no weak entities at all, for example an employee with no dependents, so the owner's participation can be partial. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.20 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.07",
+   "DA.5.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.26",
+  "key_row": 26,
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Which of the following file organizations is/are I/O efficient for the scan operation in DBMS?",
+  "options": [
+   "Sorted",
+   "Heap",
+   "Unclustered tree index",
+   "Unclustered hash index"
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A scan retrieves every record. In a heap file and in a sorted file the records are packed into data pages, so a scan reads each of the $B$ pages exactly once. With an unclustered tree or hash index, the records are reached through index entries that point to scattered data pages. That costs roughly one page I/O per record plus the index pages, which is far more than $B$. Hence (A) and (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.26 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.12",
+   "DA.1.11"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.44",
+  "key_row": 44,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let $x$ and $y$ be random variables, not necessarily independent, that take real values in the interval $[0,1]$. Let $z = xy$ and let the mean values of $x, y, z$ be $\\bar{x}, \\bar{y}, \\bar{z}$, respectively. Which one of the following statements is TRUE?",
+  "options": [
+   "$\\bar{z} = \\bar{x}\\bar{y}$",
+   "$\\bar{z} \\leq \\bar{x}\\bar{y}$",
+   "$\\bar{z} \\geq \\bar{x}\\bar{y}$",
+   "$\\bar{z} \\leq \\bar{x}$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Since $x \\ge 0$ and $y \\le 1$, we have $z = xy \\le x$ for every outcome, so taking expectations gives $\\bar{z} \\le \\bar{x}$, which always holds. Options (A)–(C) depend on the covariance, because $\\bar{z} = \\bar{x}\\bar{y} + \\mathrm{Cov}(x, y)$. With $y = x \\sim U[0,1]$, $\\bar{z} = 1/3 > 1/4 = \\bar{x}\\bar{y}$. With $y = 1 - x$, $\\bar{z} = 1/6 < 1/4$. So none of (A)–(C) always holds. Hence (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.44 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.45",
+  "key_row": 45,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The relation schema, $\\texttt{Person}(\\underline{\\texttt{pid}},\\texttt{city})$, describes the city of residence for every person uniquely identified by `pid`. The following relational algebra operators are available: `selection`, `projection`, `cross product`, and `rename`.\n\nTo find the list of cities where at least 3 persons reside, using the above operators, the minimum number of `cross product` operations that must be used is",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Without aggregation, 'at least 3 persons' must be expressed by finding three different `pid` values with the same city. Rename Person into three copies $P_1, P_2, P_3$ and compute $\\pi_{P_1.city}\\big(\\sigma_{P_1.city = P_2.city \\,\\wedge\\, P_2.city = P_3.city \\,\\wedge\\, P_1.pid \\ne P_2.pid \\,\\wedge\\, P_1.pid \\ne P_3.pid \\,\\wedge\\, P_2.pid \\ne P_3.pid}(P_1 \\times P_2 \\times P_3)\\big)$. Combining three copies needs 2 cross products. With only one cross product, a selection can compare just two tuples at a time and can only detect cities with at least 2 persons. Hence (B) 2.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.45 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.13",
+   "DA.2.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.47",
+  "key_row": 47,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $A$ be an $n \\times n$ matrix over the set of all real numbers $\\mathbb{R}$. Let $B$ be a matrix obtained from $A$ by swapping two rows. Which of the following statements is/are TRUE?",
+  "options": [
+   "The determinant of $B$ is the negative of the determinant of $A$",
+   "If $A$ is invertible, then $B$ is also invertible",
+   "If $A$ is symmetric, then $B$ is also symmetric",
+   "If the trace of $A$ is zero, then the trace of $B$ is also zero"
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Swapping two rows gives $B = PA$, where $P$ is a permutation matrix with $\\det P = -1$. Then $\\det B = -\\det A$, so (A) is true. Also $\\det B \\ne 0$ exactly when $\\det A \\ne 0$, so (B) is true. For (C), $A = \\begin{bmatrix} 1 & 2 \\\\ 2 & 3 \\end{bmatrix}$ is symmetric, but swapping its rows gives $\\begin{bmatrix} 2 & 3 \\\\ 1 & 2 \\end{bmatrix}$, which is not. For (D), $A = \\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$ has trace 0, but swapping its rows gives $I$ with trace 2. Hence (A) and (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.47 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06",
+   "DA.1.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 2)",
+  "question_ref": "Q.56",
+  "key_row": 56,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "A functional dependency $F: X \\rightarrow Y$ is termed as a *useful functional dependency* if and only if it satisfies all the following three conditions:\n\n- $X$ is not the empty set.\n- $Y$ is not the empty set.\n- Intersection of $X$ and $Y$ is the empty set.\n\nFor a relation $R$ with 4 attributes, the total number of possible useful functional dependencies is ________",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 50.0,
+  "nat_high": 50.0,
+  "explanation": "A useful FD is an ordered pair $(X, Y)$ of non-empty, disjoint subsets of the 4 attributes. Each attribute goes to $X$, to $Y$ or to neither, giving $3^4 = 81$ assignments. Subtract the $2^4 = 16$ with $X$ empty and the 16 with $Y$ empty, then add back the 1 counted twice (both empty). This gives $81 - 32 + 1 = 50$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS224S6.pdf",
+  "source_note": "Official GATE 2024 CS (Set 2) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.56 (paper sha256 b5012f2e7da3…). Answer/type/marks from the Official GATE 2024 CS (Set 2) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS2FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

@@ -1,0 +1,547 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02",
+   "GA.1.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.1",
+  "key_row": 1,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words [dry → arid → parched] is analogous to [diet → fast → ________ ].\n\nWhich one of the given options is appropriate to fill the blank?",
+  "options": [
+   "starve",
+   "reject",
+   "feast",
+   "deny"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "dry → arid → parched shows increasing intensity of lack of water. In the same way, diet (restricting food) → fast (going without food for a period) must be followed by a word for an even more extreme lack of food. 'Starve' (to suffer severely from lack of food) fits. 'Feast' is the opposite, and 'reject' and 'deny' are not about the intensity of food deprivation. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.1 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.05",
+   "GA.3.03"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.2",
+  "key_row": 2,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If two distinct non-zero real variables $x$ and $y$ are such that $(x + y)$ is proportional to $(x - y)$ then the value of $\\frac{x}{y}$",
+  "options": [
+   "depends on $xy$",
+   "depends only on $x$ and not on $y$",
+   "depends only on $y$ and not on $x$",
+   "is a constant"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Proportionality means $x + y = k(x - y)$ for a fixed constant $k$. Then $x(k - 1) = y(k + 1)$, so $\\frac{x}{y} = \\frac{k + 1}{k - 1}$. This depends only on the constant $k$, not on $x$ or $y$ ($k \\neq 1$, since $y \\neq 0$). Hence (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.2 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.12"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.3",
+  "key_row": 3,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the following sample of numbers:\n\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13\n\nThe median of the sample is",
+  "options": [
+   "13.5",
+   "14",
+   "11",
+   "18.7"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Sorted: 9, 10, 11, 11, 13, 14, 15, 17, 18, 69. With 10 values, the median is the mean of the 5th and 6th values: $(13 + 14)/2 = 13.5$. The outlier 69 does not affect the median. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.3 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.06",
+   "GA.2.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.4",
+  "key_row": 4,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The number of coins of ₹1, ₹5, and ₹10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in ₹5 coins is",
+  "options": [
+   "21%",
+   "$14\\frac{2}{7}\\%$",
+   "10%",
+   "30%"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Take $5x$, $3x$ and $13x$ coins. The amounts are $5x$, $15x$ and $130x$ rupees, a total of $150x$. The share in ₹5 coins is $15x/150x = 10\\%$. Hence (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.4 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.5",
+  "key_row": 5,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "For positive non-zero real variables $p$ and $q$, if\n\n$$\\log\\,(p^2 + q^2) = \\log p + \\log q + 2\\log 3,$$\n\nthen, the value of $\\frac{p^4 + q^4}{p^2 q^2}$ is",
+  "options": [
+   "79",
+   "81",
+   "9",
+   "83"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The right side is $\\log(9pq)$, so $p^2 + q^2 = 9pq$. Squaring gives $p^4 + q^4 + 2p^2q^2 = 81p^2q^2$, so $p^4 + q^4 = 79p^2q^2$. Hence $\\frac{p^4 + q^4}{p^2q^2} = 79$, which is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.5 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.09",
+   "GA.1.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.6",
+  "key_row": 6,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "In the given text, the blanks are numbered (i)−(iv). Select the best match for all the blanks.\n\nSteve was advised to keep his head ________(i) before heading ________(ii) to bat; for, while he had a head ________(iii) batting, he could only do so with a cool head ________(iv) his shoulders.",
+  "options": [
+   "(i) down   (ii) down   (iii) on   (iv) for",
+   "(i) on   (ii) down   (iii) for   (iv) on",
+   "(i) down   (ii) out   (iii) for   (iv) on",
+   "(i) on   (ii) out   (iii) on   (iv) for"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "'Keep one's head down' means to stay focused and avoid distraction. A batsman goes 'out' to bat, so it is 'heading out'. 'A head for' something means a natural aptitude for it (a head for batting). 'A cool head on one's shoulders' means calm good sense. The combination down / out / for / on is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.6 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.7",
+  "key_row": 7,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A rectangular paper sheet of dimensions 54 cm × 4 cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken.\n\nThen, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+  "options": [
+   "$1/\\pi$",
+   "$2/\\pi$",
+   "$3/\\pi$",
+   "$4/\\pi$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Joining the two 54 cm edges makes a tube of length 54 cm with circumference 4 cm, so $r = 2/\\pi$. Its volume is $\\pi r^2 h = \\pi \\cdot \\frac{4}{\\pi^2} \\cdot 54 = \\frac{216}{\\pi}$. The sheet's area is $216\\text{ cm}^2 = 6a^2$, so the cube has $a = 6$ and volume 216. The ratio is $\\frac{216/\\pi}{216} = \\frac{1}{\\pi}$. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.7 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.01",
+   "GA.2.06",
+   "GA.2.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.8",
+  "key_row": 8,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person.\n\n**Macronutrient energy contribution** (pie chart)\n\n| Macronutrient | Contribution |\n|---|---|\n| Carbohydrates | 35% |\n| Proteins | 20% |\n| Unsaturated fat | 20% |\n| Saturated fat | 20% |\n| Trans fat | 5% |\n\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n\n| Macronutrient | Energy density (kcal/g) |\n|---|---|\n| Carbohydrates | 4 |\n| Proteins | 4 |\n| Unsaturated fat | 9 |\n| Saturated fat | 9 |\n| Trans fat | 9 |\n\nThe total fat (all three types), in grams, this person consumes is\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "44.4",
+   "77.8",
+   "100",
+   "3,600"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Fats supply $20\\% + 20\\% + 5\\% = 45\\%$ of 2000 kcal, which is 900 kcal. All three fats provide 9 kcal/g, so the fat intake is $900/9 = 100$ g. Hence (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.8 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.4.07",
+   "GA.2.11"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.9",
+  "key_row": 9,
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A rectangular paper of 20 cm × 8 cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is",
+  "options": [
+   "18",
+   "24",
+   "20",
+   "21"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each fold halves the current long edge. Fold 1: $20 \\times 8 \\to 10 \\times 8$. Fold 2: the long edge is 10, giving $5 \\times 8$. Fold 3: the long edge is now 8, giving $5 \\times 4$. The perimeter is $2(5 + 4) = 18$ cm. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.9 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.03",
+   "DA.3.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.11",
+  "key_row": 11,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function such that $f(x) = \\max\\{x, x^3\\}$, $x \\in \\mathbb{R}$, where $\\mathbb{R}$ is the set of all real numbers. The set of all points where $f(x)$ is NOT differentiable is",
+  "options": [
+   "$\\{-1, 1, 2\\}$",
+   "$\\{-2, -1, 1\\}$",
+   "$\\{0, 1\\}$",
+   "$\\{-1, 0, 1\\}$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$x^3 - x = x(x - 1)(x + 1)$, so $f(x) = x^3$ on $[-1, 0] \\cup [1, \\infty)$ and $f(x) = x$ on $(-\\infty, -1] \\cup [0, 1]$. The pieces meet at $x = -1, 0, 1$. There the one-sided derivatives are $1$ (from $x$) and $3x^2$ (from $x^3$), which equal $3, 0, 3$ respectively. These differ from 1 at every junction, so $f$ is not differentiable exactly at $\\{-1, 0, 1\\}$. Hence (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.11 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.12",
+   "DA.2.13"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.12",
+  "key_row": 12,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The product of all eigenvalues of the matrix $\\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix}$ is",
+  "options": [
+   "$-1$",
+   "0",
+   "1",
+   "2"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The product of the eigenvalues equals the determinant. The rows satisfy $R_1 - 2R_2 + R_3 = (1 - 8 + 7,\\ 2 - 10 + 8,\\ 3 - 12 + 9) = 0$, so they are linearly dependent and the determinant is 0. Hence the product of the eigenvalues is 0, which is (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.12 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.05",
+   "DA.1.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.14",
+  "key_row": 14,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider a permutation sampled uniformly at random from the set of all permutations of $\\{1, 2, 3, \\cdots, n\\}$ for some $n \\geq 4$. Let $X$ be the event that 1 occurs before 2 in the permutation, and $Y$ the event that 3 occurs before 4. Which one of the following statements is TRUE?",
+  "options": [
+   "The events $X$ and $Y$ are mutually exclusive",
+   "The events $X$ and $Y$ are independent",
+   "Either event $X$ or $Y$ must occur",
+   "Event $X$ is more likely than event $Y$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "By symmetry, $P(X) = P(Y) = 1/2$. Only the relative order of 1, 2, 3, 4 matters, and each of its $4! = 24$ orders is equally likely. The orders with 1 before 2 and 3 before 4 number $4!/(2!\\,2!) = 6$, so $P(X \\cap Y) = 6/24 = 1/4 = P(X)P(Y)$. Hence $X$ and $Y$ are independent (B). They are not mutually exclusive, both can fail (2 before 1 and 4 before 3), and they are equally likely.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.14 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.20",
+  "key_row": 20,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let S be the specification: \"Instructors teach courses. Students register for courses. Courses are allocated classrooms. Instructors guide students.\" Which one of the following ER diagrams CORRECTLY represents S?\n\nIn the four diagrams, rectangles are entity sets and diamonds are relationship sets; \"X – Y\" means X and Y are joined by a line.\n\n- **(i)** Rectangles: Instructor, Course, Registration, Classroom. Diamonds: Teaches, Allocation, Student, Guides. Lines: Instructor – Teaches – Course; Course – Registration; Classroom – Allocation – Course; Course – Student – Guides – Instructor.\n- **(ii)** Rectangles: Instructor, Course, Classroom, Projects. Diamonds: Teaches, Allocation, Registration, Guides. Lines: Instructor – Teaches – Course; Classroom – Allocation – Course; Course – Registration – Projects; Projects – Guides – Instructor.\n- **(iii)** Rectangles: Instructor, Course, Classroom, Student. Diamonds: Teaches, Allocation, Registration, Guides. Lines: Instructor – Teaches – Course; Classroom – Course (a direct line); Allocation – Course (Allocation has no other line); Course – Registration – Student; Student – Guides – Instructor.\n- **(iv)** Rectangles: Instructor, Course, Classroom, Student. Diamonds: Teaches, Allocation, Registration, Guides. Lines: Instructor – Teaches – Course; Classroom – Allocation – Course; Course – Registration – Student; Student – Guides – Instructor.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "(i)",
+   "(ii)",
+   "(iii)",
+   "(iv)"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "S has four entity sets (Instructor, Course, Student, Classroom) and four binary relationship sets: Teaches (Instructor, Course), Registration (Student, Course), Allocation (Course, Classroom) and Guides (Instructor, Student). Diagram (i) makes Student a relationship and Registration an entity. Diagram (ii) has Projects instead of Student. Diagram (iii) links Classroom directly to Course and leaves Allocation with only one participant. Only (iv) matches S, so the answer is (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.20 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.21",
+  "key_row": 21,
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases?",
+  "options": [
+   "Only the root node",
+   "All leaf nodes",
+   "All internal nodes",
+   "Only the leftmost leaf node"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In a B+ tree, every node except the root must be at least half full; this holds for both internal and leaf nodes. The root is exempt: an internal root needs only 2 children, and a root that is a leaf may hold as few as one key. Hence (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.21 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06",
+   "DA.5.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.22",
+  "key_row": 22,
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Which of the following statements about a relation **R** in first normal form (1NF) is/are TRUE ?",
+  "options": [
+   "**R** can have a multi-attribute key",
+   "**R** cannot have a foreign key",
+   "**R** cannot have a composite attribute",
+   "**R** cannot have more than one candidate key"
+  ],
+  "answer_key": "A,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "1NF only requires every attribute value to be atomic. A composite (or multivalued) attribute violates this, so (C) is true. 1NF places no restriction on keys: a relation in 1NF may have a multi-attribute (composite) key (A true), foreign keys (B false) and several candidate keys (D false). Hence (A) and (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.22 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.02",
+   "DA.1.05",
+   "DA.1.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.27",
+  "key_row": 27,
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Let $A$ and $B$ be two events in a probability space with $P(A) = 0.3$, $P(B) = 0.5$, and $P(A \\cap B) = 0.1$. Which of the following statements is/are TRUE?",
+  "options": [
+   "The two events $A$ and $B$ are independent",
+   "$P(A \\cup B) = 0.7$",
+   "$P(A \\cap B^c) = 0.2$, where $B^c$ is the complement of the event $B$",
+   "$P(A^c \\cap B^c) = 0.4$, where $A^c$ and $B^c$ are the complements of the events $A$ and $B$, respectively"
+  ],
+  "answer_key": "B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$P(A)P(B) = 0.15 \\neq 0.1$, so $A$ and $B$ are not independent. $P(A \\cup B) = 0.3 + 0.5 - 0.1 = 0.7$ (B true). $P(A \\cap B^c) = P(A) - P(A \\cap B) = 0.2$ (C true). By De Morgan, $P(A^c \\cap B^c) = 1 - P(A \\cup B) = 0.3 \\neq 0.4$ (D false). Hence (B) and (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.27 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.35",
+  "key_row": 35,
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider the following two relations, $R(A,B)$ and $S(A,C)$:\n\n**R**\n\n| A | B |\n|---|---|\n| 10 | 20 |\n| 20 | 30 |\n| 30 | 40 |\n| 30 | 50 |\n| 50 | 95 |\n\n**S**\n\n| A | C |\n|---|---|\n| 10 | 90 |\n| 30 | 45 |\n| 40 | 80 |\n\nThe total number of tuples obtained by evaluating the following expression\n\n$$\\sigma_{B<C}(R \\bowtie_{R.A=S.A} S)$$\n\nis ______",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 2.0,
+  "nat_high": 2.0,
+  "explanation": "The join on $R.A = S.A$ gives three tuples: (10, 20, 90), (30, 40, 45) and (30, 50, 45). $R$'s tuples with $A = 20$ and $A = 50$ have no match in $S$. Applying $B < C$ keeps $20 < 90$ and $40 < 45$ but drops $50 < 45$. So 2 tuples remain.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.35 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.44",
+  "key_row": 44,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "The symbol $\\rightarrow$ indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+  "options": [
+   "$(X, Y) \\rightarrow (Z, W)$ implies $X \\rightarrow (Z, W)$",
+   "$(X, Y) \\rightarrow (Z, W)$ implies $(X, Y) \\rightarrow Z$",
+   "$\\big((X, Y) \\rightarrow Z$ and $W \\rightarrow Y\\big)$ implies $(X, W) \\rightarrow Z$",
+   "$(X \\rightarrow Y$ and $Y \\rightarrow Z)$ implies $X \\rightarrow Z$"
+  ],
+  "answer_key": "B,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) is false: a dependency on the combination $(X, Y)$ need not hold on $X$ alone (left sides cannot be shrunk). (B) is true by decomposition (projectivity). (C) is true by pseudo-transitivity: from $W \\rightarrow Y$, augmentation gives $(X, W) \\rightarrow (X, Y)$, and transitivity with $(X, Y) \\rightarrow Z$ gives $(X, W) \\rightarrow Z$. (D) is Armstrong's transitivity rule. Hence (B), (C) and (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.44 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.10",
+   "DA.2.15",
+   "DA.2.14"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.49",
+  "key_row": 49,
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $A$ be any $n \\times m$ matrix, where $m > n$. Which of the following statements is/are TRUE about the system of linear equations $Ax = \\mathbf{0}$ ?",
+  "options": [
+   "There exist at least $m - n$ linearly independent solutions to this system",
+   "There exist $m - n$ linearly independent vectors such that every solution is a linear combination of these vectors",
+   "There exists a non-zero solution in which at least $m - n$ variables are 0",
+   "There exists a solution in which at least $n$ variables are non-zero"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$\\text{rank}(A) \\leq n$, so the nullity is $m - \\text{rank}(A) \\geq m - n$, and (A) holds. (B) fails when the nullity exceeds $m - n$: for $A = 0$ every vector of $\\mathbb{R}^m$ is a solution, and $m - n < m$ vectors cannot span them all. (C) fails for $A = [1\\ \\ 1]$ ($n = 1$, $m = 2$): every non-zero solution is a multiple of $(1, -1)$ and has no zero entry. (D) fails for $A = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{bmatrix}$: the solutions are $(0, 0, t)$, with at most one non-zero entry, fewer than $n = 2$. Hence only (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.49 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.07"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 CS (Set 1)",
+  "question_ref": "Q.63",
+  "key_row": 63,
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (*rounded off to 3 decimal places*) that both balls drawn are red is ______",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.37,
+  "nat_high": 0.38,
+  "explanation": "Given that the first ball is red, both are red exactly when the second ball is red. After one red ball is removed, 24 balls remain and 9 of them are red. So the probability is $9/24 = 0.375$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/CS124S5.pdf",
+  "source_note": "Official GATE 2024 CS (Set 1) master question paper (IISc Bengaluru; archived on the GATE 2026 site), Q.63 (paper sha256 18cf9ac15c01…). Answer/type/marks from the Official GATE 2024 CS (Set 1) answer key (IISc Bengaluru; archived on the GATE 2026 site) (https://gate2026.iitg.ac.in/doc/download/2024/CS1FinalAnswerKey.pdf; parsed from the official key PDF text). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

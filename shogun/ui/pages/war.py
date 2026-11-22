@@ -288,7 +288,7 @@ def _exam_room(ctx: AppContext, exam_id: int) -> None:
         html(f'<div class="sl-kicker">Question {pos} of {len(qs)} · '
              f'{"General Aptitude" if q["section"] == "GA" else "Data Science & AI"}</div>'
              + provenance_badges(q["source_type"], snap["verification_status"], snap.get("exam_year"),
-                                 snap.get("question_ref"))
+                                 snap.get("question_ref"), snap.get("exam_name"))
              + " " + badge(f'{q["qtype"]} · {q["marks"]} mark{"s" if q["marks"] > 1 else ""}', "blue")
              + " " + badge(f"Wrong: {neg}" if q["qtype"] == "MCQ" else "No negative marking", "muted"))
         st.markdown(snap["stem"])
@@ -384,7 +384,7 @@ def _analysis(ctx: AppContext, exam_id: int) -> None:
         with st.expander(f"Q{it['position']} {verdict} · {it['qtype']} {it['marks']}m · {it['topic']} · "
                          f"{it['marks_awarded']:+.2f}"):
             html(provenance_badges(str(it["source_type"]), str(it["verification_status"]), it.get("exam_year"),  # type: ignore[arg-type]
-                                   it.get("question_ref")))  # type: ignore[arg-type]
+                                   it.get("question_ref"), it.get("exam_name")))  # type: ignore[arg-type]
             st.markdown(str(it["stem"]))
             for kk, text in zip(OPTION_KEYS, it["options"], strict=False):  # type: ignore[arg-type]
                 st.markdown(f"**({kk})** {text}")
