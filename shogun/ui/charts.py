@@ -28,11 +28,14 @@ CONFIG: dict[str, Any] = {"displaylogo": False, "responsive": True,
 
 def base_layout(fig: go.Figure, *, title: str | None = None, y_title: str | None = None, height: int = 320,
                 y_range: Sequence[float] | None = None, percent: bool = False) -> go.Figure:
+    has_legend = fig.layout.showlegend is not False and len(fig.data) > 1
+    top = (40 if title else 12) + (30 if has_legend else 0)
     fig.update_layout(
         template="plotly_dark", paper_bgcolor=SURFACE, plot_bgcolor=SURFACE, height=height,
-        margin={"l": 48, "r": 16, "t": 48 if title else 16, "b": 40},
+        margin={"l": 48, "r": 16, "t": top, "b": 40},
         title={"text": title, "font": {"family": "Rajdhani, sans-serif", "size": 18, "color": INK_PRIMARY},
-               "x": 0.01} if title else None,
+               "x": 0.01, "xanchor": "left", "y": 1, "yref": "container", "yanchor": "top",
+               "pad": {"t": 10}} if title else None,
         font={"family": "Inter, Segoe UI, sans-serif", "color": INK_SECONDARY, "size": 12},
         hovermode="x unified", hoverlabel={"bgcolor": "#1b1b27", "bordercolor": "#2a2840",
                                            "font": {"color": INK_PRIMARY}},
@@ -61,15 +64,21 @@ def line_chart(
             connectgaps=False, hovertemplate="%{y:.1f}" + ("%" if percent else "") + f"<extra>{name}</extra>",
         ))
     if missing_x:
+        # Sit just below the zero line so the marker is never clipped by the axis range.
+        floor = missing_y if missing_y is not None else 0
+        if y_range is not None:
+            span = (y_range[1] - y_range[0]) or 1
+            y_range = (min(y_range[0], floor - 0.08 * span), y_range[1])
+            floor = floor - 0.04 * span
         fig.add_trace(go.Scatter(
-            x=list(missing_x), y=[missing_y if missing_y is not None else 0] * len(missing_x), name="Missing data",
+            x=list(missing_x), y=[floor] * len(missing_x), name="Missing data",
             mode="markers", marker={"symbol": "x-thin", "size": 10, "line": {"color": MISSING, "width": 2}},
             hovertemplate="Missing data<extra></extra>",
         ))
-    for value, label in ref_lines:
+    for i, (value, label) in enumerate(ref_lines):
         fig.add_hline(y=value, line={"color": INK_MUTED, "width": 1, "dash": "dot"},
                       annotation={"text": label, "font": {"color": INK_SECONDARY, "size": 11}},
-                      annotation_position="top left")
+                      annotation_position="top left" if i % 2 == 0 else "bottom right")
     if len(series) == 1 and not missing_x:
         fig.update_layout(showlegend=False)
     return base_layout(fig, title=title, y_title=y_title, height=height, y_range=y_range, percent=percent)

@@ -54,7 +54,8 @@ h1, h2, h3, h4, .sl-display { font-family: var(--font-display) !important; lette
 h1 { font-weight: 700 !important; }
 [data-testid="stHeader"] { background: rgba(10,10,15,.75); backdrop-filter: blur(6px); }
 [data-testid="stSidebar"] { background: linear-gradient(180deg, #101019 0%%, #0c0c13 100%%); border-right: 1px solid var(--border); }
-[data-testid="stSidebarNav"] a span { font-family: var(--font-display); font-size: 1.02rem; letter-spacing: .03em; }
+[data-testid="stSidebarNav"] a span:not([data-testid="stIconMaterial"]) { font-family: var(--font-display); font-size: 1.02rem; letter-spacing: .03em; }
+.sl-kicker { color: var(--violet-soft); font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; font-family: var(--font-display); }
 .block-container { padding-top: 3.2rem; padding-bottom: 4rem; max-width: 1320px; }
 a { color: var(--violet-soft); }
 :focus-visible { outline: 2px solid var(--violet-soft) !important; outline-offset: 2px; }
@@ -117,6 +118,7 @@ a { color: var(--violet-soft); }
 .sl-hero .sl-label { color: var(--text-secondary); font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; }
 .sl-hero .sl-msg { font-family: var(--font-display); color: var(--violet-soft); letter-spacing: .12em; text-transform: uppercase; font-size: .9rem; margin-bottom: .6rem; }
 
+.sl-stat-grid { display: grid; gap: .75rem; grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); margin: 0 0 1rem; }
 .sl-stat { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: .75rem .9rem; height: 100%%; }
 .sl-stat .sl-stat-label { color: var(--text-secondary); font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; }
 .sl-stat .sl-stat-value { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; color: var(--text-primary); line-height: 1.15; }
@@ -175,6 +177,9 @@ a { color: var(--violet-soft); }
 }
 
 /* ----- Responsive ----- */
+@media (max-width: 1100px) {
+  .sl-stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (max-width: 900px) {
   .block-container { padding-left: 1rem; padding-right: 1rem; padding-top: 3rem; }
   .sl-hero .sl-big { font-size: 2.4rem; }

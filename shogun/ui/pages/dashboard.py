@@ -18,7 +18,7 @@ from shogun.services import (
 )
 from shogun.services.worklog_service import WorkLogInput
 from shogun.ui import charts, nav
-from shogun.ui.components import coverage_bar, coverage_legend, html, quest_list, stat
+from shogun.ui.components import coverage_bar, coverage_legend, html, quest_list, stat, stat_grid
 from shogun.ui.context import AppContext, action, get_ctx
 
 
@@ -125,7 +125,6 @@ def render() -> None:
     started = sum(1 for r in rows if r.coverage_status != "not_started")
     eligible = sum(1 for r in rows if r.war_eligible)
     today_m = metrics[-1] if metrics else None
-    cols = st.columns(4)
     tiles = [
         stat("GATE readiness", f"{100 * mastered / len(rows):.0f}%", f"{mastered}/{len(rows)} DA topics mastered · "
              f"{started} started · {eligible} war-eligible"),
@@ -135,11 +134,7 @@ def render() -> None:
         stat("Today's execution", f"{today_m.overall_pct:.0f}%" if today_m and today_m.overall_pct is not None else "—",
              f"{today_m.missing_items} item(s) not logged yet" if today_m else ""),
     ]
-    for col, tile in zip(cols, tiles, strict=True):
-        with col:
-            html(tile)
-    cols = st.columns(4)
-    tiles = [
+    tiles += [
         stat("Habits today", f"{habit_today.done}/{habit_today.applicable}", f"{habit_today.missing} not logged"),
         stat("Not-to-do", f"{avoid_today.complied + avoid_today.violated}/{avoid_today.applicable} logged"
              if hide_private else f"{avoid_today.complied}/{avoid_today.applicable} clean",
@@ -147,10 +142,7 @@ def render() -> None:
         stat("Finance", f"{fin_today} min today", f"target met {fin.days_met}/7 days"),
         stat("Research", f"{res_today} min today", f"target met {res.days_met}/7 days"),
     ]
-    for col, tile in zip(cols, tiles, strict=True):
-        with col:
-            html(tile)
-    st.write("")
+    html(stat_grid(tiles, 4))
     _quick_entry(ctx)
 
     left, right = st.columns([1.05, 1])

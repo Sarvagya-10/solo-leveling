@@ -18,12 +18,11 @@ def render() -> None:
                 kicker="Battle log")
     with ctx.session() as s:
         tracking_start = settings_service.tracking_start(s, today)
-    c1, c2 = st.columns([2, 1])
-    span = c1.segmented_control("Range", ["7 days", "14 days", "30 days", "90 days", "All"], default="30 days",
+    span = st.segmented_control("Range", ["7 days", "14 days", "30 days", "90 days", "All"], default="30 days",
                                 key="an_range") or "30 days"
     days = {"7 days": 7, "14 days": 14, "30 days": 30, "90 days": 90}.get(span)
     start = tracking_start if days is None else max(tracking_start, today - timedelta(days=days - 1))
-    c2.caption(f"Tracking since {tracking_start:%d %b %Y}. Days before that are not applicable.")
+    st.caption(f"Tracking since {tracking_start:%d %b %Y}. Days before that are not applicable.")
 
     with ctx.session() as s:
         metrics = analytics_service.daily_metrics(s, start, today)

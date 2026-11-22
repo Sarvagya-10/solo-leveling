@@ -46,13 +46,14 @@ def stat(label: str, value: str, sub: str | None = None) -> str:
             f'<div class="sl-stat-value">{escape(value)}</div>{sub_html}</div>')
 
 
+def stat_grid(tiles: list[str], columns: int = 4) -> str:
+    """Responsive grid: ``columns`` across on desktop, 2 across on tablets/phones."""
+    return f'<div class="sl-stat-grid" style="--cols:{columns}">{"".join(tiles)}</div>'
+
+
 def stat_row(items: list[tuple[str, str, str | None]], columns: int = 4) -> None:
-    """A responsive row of stat tiles (columns stack on phones)."""
-    for start in range(0, len(items), columns):
-        cols = st.columns(columns)
-        for col, item in zip(cols, items[start : start + columns], strict=False):
-            with col:
-                html(stat(*item))
+    """A responsive row of stat tiles."""
+    html(stat_grid([stat(*item) for item in items], columns))
 
 
 def badge(text: str, kind: str = "") -> str:
