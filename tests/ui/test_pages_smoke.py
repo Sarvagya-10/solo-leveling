@@ -166,3 +166,50 @@ def test_daily_log_form_schedules_revisions(app_env):
     with get_ctx().session() as s:
         today = get_ctx().today()
         assert len(revision_service.upcoming(s, today, days=30)) == 4
+
+
+def test_exam_room_answer_autosave_navigation_and_resume(app_env):
+    from sqlalchemy import select
+
+    from shogun.db.models import MockAnswer, Topic
+    from shogun.services import exam_service, progress_service, question_service
+    from shogun.services.question_service import QuestionInput
+    from shogun.ui.context import get_ctx
+
+    ctx = get_ctx()
+    today = ctx.today()
+    with ctx.session() as s:
+        tid = s.scalar(select(Topic.id).where(Topic.code == "DA.2.12"))
+        progress_service.override_coverage(s, tid, "mastered", "covered", today)
+        for i in range(3):
+            q = question_service.add_question(s, QuestionInput(
+                topic_codes=["DA.2.12"], source_type="official_pyq", qtype="MCQ", marks=1,
+                stem=f"Exam room question number {i} about eigenvalues", options=["p", "q", "r", "s"],
+                answer_key="B", exam_year=2025, question_ref=f"Q.{i}", source_url="https://example.org"))
+            question_service.set_verification(s, q.id, "verified")
+        exam = exam_service.create_exam(s, exam_service.plan_paper(s, seed=1), allow_short=True)
+        exam_id = exam.id
+
+    at = _run("shogun.ui.pages.war", "render")
+    assert not at.exception, [e.value for e in at.exception]
+    radios = [r for r in at.radio if r.key and r.key.endswith("_resp")]
+    assert radios, "MCQ options rendered"
+    radios[0].set_value("B").run()  # on_change autosave
+    assert not at.exception
+    with ctx.session() as s:
+        answers = s.scalars(select(MockAnswer)).all()
+        assert sum(1 for a in answers if a.response == "B") == 1
+    nxt = [b for b in at.button if b.key and b.key.endswith("_next")]
+    nxt[0].click().run()
+    assert not at.exception
+    mark = [b for b in at.button if b.key and b.key.endswith("_marknext")]
+    mark[0].click().run()
+    assert not at.exception
+    with ctx.session() as s:
+        exam = exam_service.get_exam(s, exam_id)
+        assert exam.status == "in_progress" and exam.current_position == 3
+        assert sum(1 for q in exam.questions if q.answer.marked_for_review) == 1
+    # a fresh session (e.g. browser refresh) resumes the same paper and position from the database
+    at2 = _run("shogun.ui.pages.war", "render")
+    assert not at2.exception
+    assert any("Question 3 of 3" in m.value for m in at2.markdown)

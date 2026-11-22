@@ -31,7 +31,9 @@ def render_entry_form(ctx: AppContext, paper: str, key: str) -> None:
 
     log_date = st.date_input("Study date", value=today, max_value=today, key=f"{key}_date",
                              help="Backdate if you forgot to log; future dates are not allowed.")
-    selected = st.multiselect("Topics studied", list(labels), format_func=labels.get, key=f"{key}_topics",
+    nonce = st.session_state.get(f"{key}_nonce", 0)  # bumped after a save to reset the form
+    selected = st.multiselect("Topics studied", list(labels), format_func=labels.get,
+                              key=f"{key}_topics" + (f"_{nonce}" if nonce else ""),
                               placeholder="Search and select every topic you studied")
     if not selected:
         st.caption("Select one or more topics to enter minutes, PYQs and mastery status.")
@@ -53,8 +55,11 @@ def render_entry_form(ctx: AppContext, paper: str, key: str) -> None:
         submitted = st.form_submit_button("Save study log & schedule revisions", type="primary")
     if submitted:
         entries = [StudyEntryInput(tid, m, a, c, st_, n) for tid, m, a, c, st_, n in entries_raw]
+        def reset_form(_result: object) -> None:
+            st.session_state[f"{key}_nonce"] = nonce + 1
+
         action(ctx, lambda s: study_log_service.log_study(s, log_date, entries, today=today),
-               success=_summary, days=[log_date])
+               success=_summary, days=[log_date], on_success=reset_form)
 
 
 def render_recent_logs(ctx: AppContext, paper: str, key: str, days: int = 14) -> None:

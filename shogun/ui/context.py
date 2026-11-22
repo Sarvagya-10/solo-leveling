@@ -87,15 +87,21 @@ def action(
     success: str | Callable[[Any], str],
     days: Iterable[date] | Callable[[Any], Iterable[date]] = (),
     rerun: bool = True,
+    on_success: Callable[[Any], None] | None = None,
 ) -> Any:
     """Run a write; on success commit, sync XP, flash and rerun. Returns the result or None on error."""
     try:
         with ctx.session() as s:
-            result = fn(s)
             tz = str(settings_service.get_setting(s, "timezone"))
             today = local_today(tz)
+            quests_before = {q.key for q in gamification_service.daily_quests(s, today, tz) if q.done}
+            result = fn(s)
             affected = set(days(result) if callable(days) else days)
             new_badges = gamification_service.after_change(s, affected, today, tz)
+            quests_after = gamification_service.daily_quests(s, today, tz)
+            newly_done = [q.title for q in quests_after if q.done and q.key not in quests_before]
+            applicable = [q for q in quests_after if q.applicable]
+            all_clear = bool(newly_done) and bool(applicable) and all(q.done for q in applicable)
     except ShogunError as exc:
         st.error(str(exc))
         return None
@@ -107,8 +113,15 @@ def action(
         st.error("Something went wrong while saving. Nothing was changed. Details are in var/logs/shogun.log.")
         return None
     flash(success(result) if callable(success) else success)
+    for title in newly_done:
+        flash(f"Quest complete: {title}", "quest")
+    if all_clear:
+        flash("All daily quests cleared — +30 XP bonus. The System acknowledges you.", "quest")
+        st.session_state["_quest_clear_fx"] = True
     for badge in new_badges:
         flash(f"Achievement unlocked: {badge.icon} {badge.name}", "badge")
+    if on_success is not None:
+        on_success(result)
     if rerun:
         st.rerun()
     return result

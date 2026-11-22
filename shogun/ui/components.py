@@ -131,9 +131,18 @@ def flash(message: str, kind: str = "success") -> None:
     st.session_state.setdefault("_flash", []).append((kind, message))
 
 
+def quest_clear_overlay() -> None:
+    html('<div class="sl-levelup" aria-live="polite"><div class="sl-lu-box"><div class="sl-lu-kicker">'
+         'SYSTEM MESSAGE</div><div class="sl-lu-title">QUESTS CLEARED</div><div class="sl-lu-sub">'
+         'Every daily quest is complete · +30 XP</div></div></div>')
+
+
 def show_flash() -> None:
+    if st.session_state.pop("_quest_clear_fx", False):
+        quest_clear_overlay()
     for kind, message in st.session_state.pop("_flash", []):
-        icon = {"success": "✅", "info": "ℹ️", "warning": "⚠️", "badge": "🏅", "error": "❌"}.get(kind, "ℹ️")
+        icon = {"success": "✅", "info": "ℹ️", "warning": "⚠️", "badge": "🏅", "error": "❌",
+                "quest": "⚔️"}.get(kind, "ℹ️")
         st.toast(message, icon=icon)
         if kind in ("warning", "error"):
             (st.warning if kind == "warning" else st.error)(message)
