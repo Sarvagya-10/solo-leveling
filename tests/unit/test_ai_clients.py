@@ -176,3 +176,71 @@ def test_hallucination_guard():
     src = "Q.27 In GATE 2024 the following was asked: Let X be a random variable with mean 3 and variance 4."
     assert workflows.appears_in(src, "Let X be a random variable with mean 3 and variance 4.")
     assert not workflows.appears_in(src, "Let Y be a Poisson random variable with rate 7 find P(Y=0)")
+
+
+def test_card_workflow_with_mocked_groq_uses_db_cache(db):
+    from sqlalchemy import select
+
+    from shogun.config import AppConfig
+    from shogun.db.models import Question, Topic
+    from shogun.services import card_service
+
+    calls = {"chat": 0}
+
+    def handler(request):
+        if request.url.path.endswith("/models"):
+            return httpx.Response(200, json=models_payload("llama-3.3-70b-versatile", "whisper-large-v3"))
+        calls["chat"] += 1
+        return _chat_response(json.dumps(CARD))
+
+    workflows._models_cache.clear()
+    cfg = load_config(override={"GROQ_API_KEY": "gsk_" + "y" * 40})
+    assert isinstance(cfg, AppConfig)
+    client = GroqClient(cfg.groq_api_key, transport=transport(handler), sleep=NO_SLEEP)
+    tid = db.scalar(select(Topic.id).where(Topic.code == "DA.2.12"))
+    draft, model, cached = workflows.generate_card_draft(db, cfg, tid, client=client)
+    assert (model, cached) == ("llama-3.3-70b-versatile", False)
+    _, _, cached_again = workflows.generate_card_draft(db, cfg, tid, client=client)
+    assert cached_again is True and calls["chat"] == 1
+    _, _, forced = workflows.generate_card_draft(db, cfg, tid, client=client, force=True)
+    assert forced is False and calls["chat"] == 2
+    result = card_service.apply_ai_draft(db, tid, draft, model)
+    assert result.card.review_status == "draft" and result.card.origin == "ai"
+    assert card_service.connected_codes(result.card) == ["DA.2.13"]  # unknown DA.9.99 dropped
+    ai_qs = db.scalars(select(Question).where(Question.source_type == "ai_generated")).all()
+    assert len(ai_qs) == 2 and all(q.verification_status == "unverified" for q in ai_qs)
+    workflows._models_cache.clear()
+
+
+def test_extraction_rejects_questions_not_in_source(db):
+    from sqlalchemy import select
+
+    from shogun.db.models import Topic
+
+    page = ("GATE 2024 Data Science question paper. " * 10
+            + "Q.12 Let A be a 2x2 matrix with eigenvalues 1 and 3. The determinant of A is ____. Answer: 3.")
+    fake = {"candidates": [
+        {"exam_year": 2024, "question_ref": "Q.12", "qtype": "NAT", "marks": 1,
+         "stem": "Let A be a 2x2 matrix with eigenvalues 1 and 3. The determinant of A is ____.",
+         "options": [], "answer_key": None, "nat_low": 3, "nat_high": 3, "explanation": None,
+         "evidence": "Q.12 Let A be a 2x2 matrix with eigenvalues 1 and 3. The determinant of A is ____."},
+        {"exam_year": 2024, "question_ref": "Q.99", "qtype": "NAT", "marks": 2,
+         "stem": "Invented question about the trace of a random 5x5 orthogonal matrix in GATE?",
+         "options": [], "answer_key": None, "nat_low": 1, "nat_high": 1, "explanation": None,
+         "evidence": "Invented question about the trace of a random 5x5 orthogonal matrix"},
+    ]}
+
+    def handler(request):
+        if request.url.path.endswith("/models"):
+            return httpx.Response(200, json=models_payload("llama-3.3-70b-versatile"))
+        return _chat_response(json.dumps(fake))
+
+    workflows._models_cache.clear()
+    cfg = load_config(override={"GROQ_API_KEY": "gsk_" + "z" * 40})
+    client = GroqClient(cfg.groq_api_key, transport=transport(handler), sleep=NO_SLEEP)
+    tid = db.scalar(select(Topic.id).where(Topic.code == "DA.2.13"))
+    res = workflows.extract_pyq_candidates(db, cfg, tid, "https://example.org/p", client=client, page_text=page)
+    assert len(res.added) == 1 and res.rejected_not_in_source == 1
+    q = res.added[0]
+    assert q.source_type == "official_pyq" and q.verification_status == "unverified"
+    workflows._models_cache.clear()
