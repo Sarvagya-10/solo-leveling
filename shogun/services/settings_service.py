@@ -28,6 +28,7 @@ DEFAULTS: dict[str, Any] = {
     "groq_model": None,
     "privacy_hide_not_todo": True,
     "last_seen_level": 1,
+    "bundled_pyq_imported": {},  # {bundle filename: sha256} — each bundle version is imported once
 }
 
 _INT_RANGES: dict[str, tuple[int, int]] = {

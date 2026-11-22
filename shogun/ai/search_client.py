@@ -143,6 +143,24 @@ def html_to_text(html: str) -> str:
     return re.sub(r"\n\s*\n+", "\n\n", text).strip()
 
 
+def pdf_to_text(data: bytes, max_pages: int = 60) -> str:
+    """Extract text from a PDF (e.g. an official GATE question paper). Math may extract imperfectly."""
+    import io
+
+    from pypdf import PdfReader
+    from pypdf.errors import PdfReadError
+
+    try:
+        reader = PdfReader(io.BytesIO(data))
+        pages = [page.extract_text() or "" for page in reader.pages[:max_pages]]
+    except (PdfReadError, ValueError, KeyError) as exc:
+        raise AIResponseError("Could not read text from this PDF") from exc
+    text = "\n\n".join(p.strip() for p in pages if p.strip())
+    if not text:
+        raise AIResponseError("This PDF has no extractable text (it may be scanned images)")
+    return text
+
+
 def _safe_url(url: str) -> str:
     parsed = urlparse(url.strip())
     if parsed.scheme not in ("http", "https") or not parsed.hostname:
@@ -171,7 +189,7 @@ def fetch_page_text(url: str, *, timeout: float = 20.0, max_bytes: int = 2_000_0
     if resp.status_code >= 400:
         raise AIResponseError(f"The page returned HTTP {resp.status_code}")
     ctype = resp.headers.get("content-type", "")
-    if "pdf" in ctype:
-        raise AIResponseError("This is a PDF. Open it, verify the question manually and add it with the PYQ form.")
+    if "pdf" in ctype or resp.content[:5] == b"%PDF-":
+        return pdf_to_text(resp.content[: max_bytes * 10])
     body = resp.content[:max_bytes].decode(resp.encoding or "utf-8", errors="replace")
     return html_to_text(body) if "html" in ctype or "<html" in body[:500].lower() else body

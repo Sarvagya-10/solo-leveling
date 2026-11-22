@@ -53,6 +53,10 @@ class QuestionInput:
     source_url: str | None = None
     source_note: str | None = None
     ai_model: str | None = None
+    explanation_source: str | None = None
+
+
+EXPLANATION_SOURCES = ("official", "ai_authored", "user")
 
 
 def content_hash(qtype: str, stem: str, options: list[str]) -> str:
@@ -69,6 +73,8 @@ def validate_input(data: QuestionInput) -> None:
         raise ValidationError("Question type must be MCQ, MSQ or NAT")
     if data.marks not in (1, 2):
         raise ValidationError("Marks must be 1 or 2")
+    if data.explanation_source is not None and data.explanation_source not in EXPLANATION_SOURCES:
+        raise ValidationError("Unknown explanation source")
     if len((data.stem or "").strip()) < 10:
         raise ValidationError("Question text is too short")
     if not data.topic_codes:
@@ -127,7 +133,10 @@ def add_question(session: Session, data: QuestionInput) -> Question:
         qtype=data.qtype, marks=data.marks, stem=data.stem.strip(),
         options_json=json.dumps(options) if options else None, answer_key=answer,
         nat_low=data.nat_low if data.qtype == "NAT" else None, nat_high=data.nat_high if data.qtype == "NAT" else None,
-        explanation=(data.explanation or "").strip() or None, source_url=(data.source_url or "").strip() or None,
+        explanation=(data.explanation or "").strip() or None,
+        explanation_source=(data.explanation_source or ("ai_authored" if data.source_type == "ai_generated" else "user"))
+        if (data.explanation or "").strip() else None,
+        source_url=(data.source_url or "").strip() or None,
         source_note=(data.source_note or "").strip() or None, ai_model=data.ai_model, content_hash=digest,
     )
     for t in topics:
@@ -201,7 +210,10 @@ def list_questions(
 
 
 def verified_pyqs_for_topic(session: Session, topic_id: int, limit: int = 3) -> list[Question]:
-    return list_questions(session, topic_id=topic_id, source_type="official_pyq", verification="verified")[:limit]
+    """Verified official PYQs tagged with the topic: primary-topic matches first, newest year first."""
+    found = list_questions(session, topic_id=topic_id, source_type="official_pyq", verification="verified")
+    found.sort(key=lambda q: (q.primary_topic_id != topic_id, -(q.exam_year or 0), q.id))
+    return found[:limit]
 
 
 def record_practice_attempt(session: Session, question_id: int, response: str, on_date: date,
@@ -236,8 +248,13 @@ def topic_question_counts(session: Session) -> dict[int, dict[str, int]]:
     return {tid: {"verified_pyq": int(v or 0), "ai": int(a or 0), "total": int(n or 0)} for tid, v, a, n in rows}
 
 
-def import_questions(session: Session, payload: list[dict[str, Any]]) -> tuple[int, list[str]]:
-    """Import questions from a JSON list (see data/pyq/README.md). Always imported unverified."""
+def import_questions(session: Session, payload: list[dict[str, Any]], *, trusted: bool = False) -> tuple[int, list[str]]:
+    """Import questions from a JSON list (see data/pyq/README.md).
+
+    User uploads are always imported UNVERIFIED. ``trusted=True`` is used only for the bundled
+    bank built from official papers and keys (scripts/build_pyq_bank.py), whose entries may carry
+    ``verification_status: verified``.
+    """
     added, errors = 0, []
     for idx, raw in enumerate(payload, start=1):
         try:
@@ -249,10 +266,12 @@ def import_questions(session: Session, payload: list[dict[str, Any]]) -> tuple[i
                 nat_high=parse_nat(str(raw["nat_high"])) if raw.get("nat_high") is not None else None,
                 explanation=raw.get("explanation"), exam_year=raw.get("exam_year"), exam_name=raw.get("exam_name"),
                 question_ref=raw.get("question_ref"), source_url=raw.get("source_url"),
-                source_note=raw.get("source_note"),
+                source_note=raw.get("source_note"), explanation_source=raw.get("explanation_source"),
             )
             with session.begin_nested():
-                add_question(session, data)
+                q = add_question(session, data)
+                if trusted and raw.get("verification_status") == "verified":
+                    set_verification(session, q.id, "verified")
             added += 1
         except (ValidationError, ConflictError, ValueError, TypeError) as exc:
             errors.append(f"Item {idx}: {exc}")

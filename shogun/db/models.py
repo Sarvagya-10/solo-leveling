@@ -215,6 +215,8 @@ class Question(TimestampMixin, Base):
     nat_low: Mapped[float | None] = mapped_column(Float)
     nat_high: Mapped[float | None] = mapped_column(Float)
     explanation: Mapped[str | None] = mapped_column(Text)
+    # official | ai_authored | user — who wrote the explanation (answers of official PYQs are always official)
+    explanation_source: Mapped[str | None] = mapped_column(String(20))
     source_url: Mapped[str | None] = mapped_column(String(500))
     source_note: Mapped[str | None] = mapped_column(Text)
     ai_model: Mapped[str | None] = mapped_column(String(120))

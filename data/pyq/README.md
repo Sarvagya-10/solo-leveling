@@ -1,11 +1,35 @@
-# PYQ / question import format
+# PYQ bank & question import format
 
-The app ships with **no** pre-loaded "real" GATE questions. Real PYQs must come from
-the official GATE question papers and answer keys, and are marked **verified** only by
-you, inside the app, after checking them. Nothing is ever fabricated and labelled as a
-real PYQ.
+## Bundled official bank (GATE DA 2024, 2025, 2026)
 
-Ways to add questions:
+`gate_da_2024.json`, `gate_da_2025.json` and `gate_da_2026.json` are imported automatically on
+first start (once per file version — deleting a question in the app does not bring it back).
+They are built by `scripts/build_pyq_bank.py` from **official sources only**:
+
+| Year | Master question paper | Answer key |
+|---|---|---|
+| 2024 | `gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf` (IISc paper, re-hosted by IIT Guwahati) | `gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf` |
+| 2025 | `gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf` | `gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf` |
+| 2026 | `gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf` | `gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf` |
+
+* **Answers, question types and marks come only from the official answer keys**, parsed
+  programmatically into `keys/gate_da_<year>_key.json` (with the PDFs' SHA-256 checksums).
+* Question text and options were transcribed from the official master papers by Claude
+  (math as LaTeX). Questions marked **MTA** (marks to all) and questions that depend on a figure
+  that cannot be represented exactly as text are excluded.
+* Explanations were written by Claude and are labelled **"not official"** in the app.
+* Tests (`tests/unit/test_pyq_bank.py`) check every bundled question against its official key row.
+
+Rebuild (needs the official PDFs in `var/pyq_src/<year>/`):
+
+```bash
+python scripts/build_pyq_bank.py keys     # parse official answer keys
+python scripts/build_pyq_bank.py build    # merge transcriptions with official keys
+```
+
+## Adding more questions
+
+Nothing is ever fabricated and labelled as a real PYQ. Ways to add questions:
 
 1. **Question Bank → Add official PYQ.** Transcribe from the official paper and tick the
    verification box only if you checked the official answer key.

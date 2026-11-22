@@ -1,0 +1,596 @@
+{
+ "exam": "GATE 2026",
+ "paper": "DA",
+ "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf",
+ "source_note": "Official GATE 2026 DA answer key (IIT Guwahati)",
+ "sha256": "f94cf2caf46e84cd06cc1591f375403b04466f8fa71e64ca87b49804d1e8dceb",
+ "paper_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+ "paper_sha256": "4adb2f713433ec93748ff96bc04891dc10d877e8e4fb5fe7797e36ba87f298f3",
+ "rows": [
+  {
+   "qno": 1,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 2,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 3,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 4,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 5,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 6,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 7,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 8,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 9,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 10,
+   "qtype": "MCQ",
+   "section": "GA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 11,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 12,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 13,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 14,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 15,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 16,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 17,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 18,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 19,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 20,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 21,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 22,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 23,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 24,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;B;C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 25,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 26,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 27,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "B;D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 28,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 1
+  },
+  {
+   "qno": 29,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "8.90 to 9.10",
+   "nat_low": 8.9,
+   "nat_high": 9.1,
+   "marks": 1
+  },
+  {
+   "qno": 30,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "2 to 2",
+   "nat_low": 2.0,
+   "nat_high": 2.0,
+   "marks": 1
+  },
+  {
+   "qno": 31,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "10 to 10",
+   "nat_low": 10.0,
+   "nat_high": 10.0,
+   "marks": 1
+  },
+  {
+   "qno": 32,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "195 to 195",
+   "nat_low": 195.0,
+   "nat_high": 195.0,
+   "marks": 1
+  },
+  {
+   "qno": 33,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "10 to 10",
+   "nat_low": 10.0,
+   "nat_high": 10.0,
+   "marks": 1
+  },
+  {
+   "qno": 34,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "0.34 to 0.36",
+   "nat_low": 0.34,
+   "nat_high": 0.36,
+   "marks": 1
+  },
+  {
+   "qno": 35,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "1 to 1",
+   "nat_low": 1.0,
+   "nat_high": 1.0,
+   "marks": 1
+  },
+  {
+   "qno": 36,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 37,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 38,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 39,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 40,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 41,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 42,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 43,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 44,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 45,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 46,
+   "qtype": "MCQ",
+   "section": "DA",
+   "key": "C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 47,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;B",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 48,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "B;C;D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 49,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "B;C;D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 50,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "B;D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 51,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 52,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;D",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 53,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "A;B;C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 54,
+   "qtype": "MSQ",
+   "section": "DA",
+   "key": "B;C",
+   "nat_low": null,
+   "nat_high": null,
+   "marks": 2
+  },
+  {
+   "qno": 55,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "6.90 to 7.10",
+   "nat_low": 6.9,
+   "nat_high": 7.1,
+   "marks": 2
+  },
+  {
+   "qno": 56,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "135 to 135",
+   "nat_low": 135.0,
+   "nat_high": 135.0,
+   "marks": 2
+  },
+  {
+   "qno": 57,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "0.76 to 0.78",
+   "nat_low": 0.76,
+   "nat_high": 0.78,
+   "marks": 2
+  },
+  {
+   "qno": 58,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "8 to 8",
+   "nat_low": 8.0,
+   "nat_high": 8.0,
+   "marks": 2
+  },
+  {
+   "qno": 59,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "2 to 3",
+   "nat_low": 2.0,
+   "nat_high": 3.0,
+   "marks": 2
+  },
+  {
+   "qno": 60,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "3 to 3",
+   "nat_low": 3.0,
+   "nat_high": 3.0,
+   "marks": 2
+  },
+  {
+   "qno": 61,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "4 to 4",
+   "nat_low": 4.0,
+   "nat_high": 4.0,
+   "marks": 2
+  },
+  {
+   "qno": 62,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "10 to 10",
+   "nat_low": 10.0,
+   "nat_high": 10.0,
+   "marks": 2
+  },
+  {
+   "qno": 63,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "0 to 0",
+   "nat_low": 0.0,
+   "nat_high": 0.0,
+   "marks": 2
+  },
+  {
+   "qno": 64,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "0.08 to 0.12",
+   "nat_low": 0.08,
+   "nat_high": 0.12,
+   "marks": 2
+  },
+  {
+   "qno": 65,
+   "qtype": "NAT",
+   "section": "DA",
+   "key": "1 to 1",
+   "nat_low": 1.0,
+   "nat_high": 1.0,
+   "marks": 2
+  }
+ ]
+}

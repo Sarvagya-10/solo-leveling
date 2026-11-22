@@ -33,7 +33,7 @@ SQLite/SQLAlchemy, Alembic and Plotly. Optional AI features use **Groq Cloud** a
 | **Revision Queue** | *To Revise Today*, overdue queue, 30-day calendar, explicit completion (with confirmation), undo |
 | **General Aptitude** | Official GA syllabus (Verbal, Quantitative, Analytical, Spatial — 36 topics), daily GA entry, per-category PYQ accuracy |
 | **Revision Cards** | Idea, formulae, question types & recognition patterns, traps, observations, connected DA topics, up to 3 **verified** PYQs, separately labelled AI practice; edit, bookmark, regenerate, version history, review status |
-| **Question Bank & PYQs** | Add official PYQs with provenance, verify/reject, practice, SerpAPI source search, AI extraction (always unverified), AI practice generation, JSON import |
+| **Question Bank & PYQs** | Bundled official GATE DA 2024–2026 PYQs (answers from official keys), add PYQs with provenance, verify/reject, practice, SerpAPI source search, AI extraction from web pages and PDFs (always unverified), AI practice generation, JSON import |
 | **Weekend Full War** | Timed 180-min paper on the official 65 Q / 100 marks structure, built **only** from topics you have covered; palette, navigation, mark-for-review, clear, autosave, timer, submit confirmation, refresh-safe; post-exam analysis |
 | **Attention Span** | Multiple deep-focus sessions per day; longest session vs total deep work; 7-day rolling average; personal best; progress to 200 min |
 | **Finance / Research** | Independent one-hour logs (direction, next steps, projects, tags; research adds milestones, outputs, references), history, search, trends |
@@ -155,8 +155,11 @@ unaffected by DST.
   overdue items stay visible.
 * **PYQ mastery.** Correct PYQs ≥ target (default 10, global and per-topic); attempts and
   accuracy tracked; overrides need a reason and are audited.
-* **Real PYQs are never fabricated.** No questions are bundled. Official PYQs need year,
-  question reference and source, and count as verified only after *you* verify them.
+* **Real PYQs are never fabricated.** The bundled bank (GATE DA 2024–2026) was built from the
+  official master papers and official answer keys found via SerpAPI/DuckDuckGo search; answers
+  come only from the official keys and Claude-written explanations are labelled as such (see
+  `data/pyq/README.md`). Questions you add need year, question reference and source, and count as
+  verified only after *you* verify them.
   AI output is always labelled and starts unverified. AI extraction from web pages is
   rejected unless the question appears verbatim in the page text.
 * **Weekend Full War.** Official structure from gate2027.iitm.ac.in: 65 questions
@@ -241,7 +244,7 @@ The app is single-user by design (one SQLite file).
 | "Configured model … is not available" | Use *Test Groq & discover models* and pick an available model, or clear `GROQ_MODEL`. |
 | Rate limit messages | Free tiers are rate limited; wait and retry. Responses are cached, so repeats are free. |
 | "Today" looks wrong | Set your timezone in *Settings → Targets & preferences*. |
-| Weekend Full War says the bank is short | Expected until you add/verify PYQs for covered topics. Take a shorter paper or add labelled AI questions. |
+| Weekend Full War says the bank is short | Only verified questions from topics you have *mastered* are used. Master more topics, add/verify PYQs, take a shorter paper or add labelled AI questions. |
 | `database is locked` | Close other programs using `var/shogun.db` (e.g. DB browsers). |
 | Something broke after an update | `alembic upgrade head`; check `var/logs/shogun.log`; restore a backup if needed. |
 | Want a clean slate | *Settings → Data → Reset* (backup is automatic). |

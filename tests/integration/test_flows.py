@@ -141,11 +141,11 @@ def test_export_import_roundtrip(db, engine):
     payload = json.loads(backup_service.export_json_bytes(db, include_private=True))
     assert payload["tables"]["study_logs"][0]["topic_id"] == "DA.6.05"  # stable code, not internal id
     backup_service.reset_all_data(db, "RESET")
-    seed_all(db, D)
+    seed_all(db, D, bundled_pyqs=False)
     db.commit()
     assert _snapshot(db)["logs"] == 0
     backup_service.import_data(db, payload)
-    seed_all(db, D)
+    seed_all(db, D, bundled_pyqs=False)
     db.commit()
     assert _snapshot(db) == before
 
@@ -178,7 +178,7 @@ def test_backup_and_restore_roundtrip(tmp_path: Path):
     run_migrations(url)
     engine = make_engine(url)
     with session_scope(engine) as s:
-        seed_all(s, D)
+        seed_all(s, D, bundled_pyqs=False)
         study_log_service.log_study(s, D, [StudyEntryInput(topic_id(s, "DA.1.08"), 45)], today=D)
     backup = backup_service.backup_database(engine, tmp_path / "backups", "test")
     with session_scope(engine) as s:
@@ -204,7 +204,7 @@ def test_data_persists_across_engine_restart(tmp_path: Path):
     run_migrations(url)
     engine = make_engine(url)
     with session_scope(engine) as s:
-        seed_all(s, D)
+        seed_all(s, D, bundled_pyqs=False)
         study_log_service.log_study(s, D, [StudyEntryInput(topic_id(s, "DA.2.01"), 50, status="mastered")], today=D)
     engine.dispose()
     engine2 = make_engine(url)

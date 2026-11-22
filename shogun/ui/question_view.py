@@ -43,11 +43,15 @@ def render_question(q: Question, *, show_answer: bool = False, key: str = "") ->
     for k, text in zip(OPTION_KEYS, options_of(q), strict=False):
         st.markdown(f"**({k})** {text}")
     if show_answer or st.toggle("Show answer & explanation", key=f"ans_{key}_{q.id}"):
-        st.markdown(f"**Answer:** {escape(answer_text(q.qtype, q.answer_key, q.nat_low, q.nat_high))}")
+        official = q.source_type == "official_pyq" and q.verification_status == "verified"
+        st.markdown(f"**Answer{' (official key)' if official else ''}:** "
+                    f"{escape(answer_text(q.qtype, q.answer_key, q.nat_low, q.nat_high))}")
         if q.explanation:
-            label = "Explanation (from source)" if q.source_type == "official_pyq" else "Explanation"
+            label = {"official": "Explanation (official)",
+                     "ai_authored": "Explanation (written by AI — not official; review it)",
+                     "user": "Explanation (yours)"}.get(q.explanation_source or "", "Explanation")
             st.markdown(f"**{label}:** {q.explanation}")
     if q.source_url:
         st.caption(f"Source: {q.source_url}")
-    elif q.source_note:
-        st.caption(f"Source note: {q.source_note[:300]}")
+    if q.source_note:
+        st.caption(f"Provenance: {q.source_note[:600]}")

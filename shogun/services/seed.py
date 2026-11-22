@@ -7,15 +7,19 @@ marked inactive rather than deleted, so history is preserved.
 
 from __future__ import annotations
 
+import hashlib
+import json
 from dataclasses import dataclass
 from datetime import date
+from pathlib import Path
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from shogun.config import DATA_DIR
 from shogun.db.models import Achievement, AvoidanceRule, Habit, Subject, Topic, TopicProgress
 from shogun.logging_setup import get_logger
-from shogun.services import settings_service
+from shogun.services import question_service, settings_service
 from shogun.services.defaults import ACHIEVEMENTS, DEFAULT_AVOIDANCE_RULES, DEFAULT_HABITS
 from shogun.syllabus import SyllabusSpec, load_official_syllabi
 
@@ -124,11 +128,42 @@ def seed_achievements(session: Session) -> int:
     return added
 
 
-def seed_all(session: Session, today: date, specs: list[SyllabusSpec] | None = None) -> SeedReport:
+BUNDLED_PYQ_DIR = DATA_DIR / "pyq"
+
+
+def seed_bundled_pyqs(session: Session, directory: Path | None = None) -> int:
+    """Import the bundled official PYQ bank (``data/pyq/gate_*.json``).
+
+    Each bundle file is imported once per content version (sha256 recorded in settings), so
+    questions you delete are not resurrected on every start; duplicates are skipped by content hash.
+    """
+    directory = directory or BUNDLED_PYQ_DIR
+    imported = dict(settings_service.get_setting(session, "bundled_pyq_imported") or {})
+    added = 0
+    for path in sorted(directory.glob("gate_*.json")):
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        if imported.get(path.name) == digest:
+            continue
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        n, errors = question_service.import_questions(session, payload, trusted=True)
+        added += n
+        for err in errors:
+            if "already exists" not in err:
+                log.warning("Bundled PYQ %s: %s", path.name, err)
+        imported[path.name] = digest
+        log.info("Bundled PYQ bank %s: %d new question(s)", path.name, n)
+    settings_service.set_setting(session, "bundled_pyq_imported", imported)
+    return added
+
+
+def seed_all(session: Session, today: date, specs: list[SyllabusSpec] | None = None,
+             *, bundled_pyqs: bool = True) -> SeedReport:
     report = seed_syllabus(session, specs if specs is not None else load_official_syllabi())
     seed_habits(session)
     seed_avoidance_rules(session)
     seed_achievements(session)
+    if bundled_pyqs:
+        seed_bundled_pyqs(session)
     if settings_service.get_setting(session, "tracking_start_date") is None:
         settings_service.set_setting(session, "tracking_start_date", today.isoformat())
     log.info(

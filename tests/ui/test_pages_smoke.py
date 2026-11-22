@@ -44,6 +44,7 @@ def _page_script(module_name: str, func_name: str) -> None:
 def app_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setenv("SHOGUN_DB_PATH", str(tmp_path / "ui.db"))
     monkeypatch.setenv("SHOGUN_VAR_DIR", str(tmp_path / "var"))
+    monkeypatch.setenv("SHOGUN_SKIP_BUNDLED_PYQS", "1")
     for var in ("GROQ_API_KEY", "SERPAPI_API_KEY", "GROQ_MODEL"):
         monkeypatch.delenv(var, raising=False)
     from shogun.ui import context

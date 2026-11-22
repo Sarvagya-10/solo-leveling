@@ -33,7 +33,7 @@ def engine(tmp_path: Path) -> Iterator[Engine]:
 @pytest.fixture
 def db(engine: Engine) -> Iterator[Session]:
     session = session_factory(engine)()
-    seed_all(session, today=SEED_DAY)
+    seed_all(session, today=SEED_DAY, bundled_pyqs=False)
     session.commit()
     yield session
     session.close()

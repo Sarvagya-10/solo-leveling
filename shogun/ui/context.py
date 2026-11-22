@@ -8,6 +8,7 @@ shown inline; unexpected ones are logged (redacted) and shown generically.
 
 from __future__ import annotations
 
+import os
 from collections.abc import Callable, Iterable, Iterator
 from contextlib import contextmanager
 from dataclasses import dataclass
@@ -64,7 +65,7 @@ def _bootstrap() -> AppContext:
             settings_service.set_setting(s, "timezone", config.timezone)
         tz = str(settings_service.get_setting(s, "timezone"))
         today = local_today(tz)
-        seed_all(s, today)
+        seed_all(s, today, bundled_pyqs=not os.environ.get("SHOGUN_SKIP_BUNDLED_PYQS"))
         exam_service.expire_if_overdue(s, tz)
         gamification_service.sync_all(s, tz, today)
         gamification_service.evaluate_achievements(s, today, tz)

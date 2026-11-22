@@ -244,3 +244,20 @@ def test_extraction_rejects_questions_not_in_source(db):
     q = res.added[0]
     assert q.source_type == "official_pyq" and q.verification_status == "unverified"
     workflows._models_cache.clear()
+
+
+def test_pdf_text_extraction_errors_are_clean():
+    from shogun.ai.search_client import pdf_to_text
+
+    with pytest.raises(AIResponseError):
+        pdf_to_text(b"%PDF-1.4 not really a pdf")
+
+
+def test_fetch_page_routes_pdf_bytes_to_pdf_reader():
+    from shogun.ai.search_client import fetch_page_text
+
+    def handler(request):
+        return httpx.Response(200, headers={"content-type": "application/pdf"}, content=b"%PDF-1.4 broken")
+
+    with pytest.raises(AIResponseError, match="PDF"):
+        fetch_page_text("https://gate2026.iitg.ac.in/x.pdf", transport=transport(handler))
