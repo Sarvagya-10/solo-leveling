@@ -157,6 +157,10 @@ def build_year(year: int) -> dict:
         codes = [c for c in it["topic_codes"]]
         if not codes or not all(c.startswith(expected_section + ".") for c in codes):
             raise ValueError(f"{year} Q.{qno}: topic codes {codes} do not match section {row['section']}")
+        explanation = (it.get("explanation") or "").strip()
+        concern = (it.get("key_concern") or "").strip()
+        if concern:  # keep the official answer, but be transparent about a debatable key
+            explanation += f"\n\n**Note on the official key:** {concern}"
         out.append({
             "source_type": "official_pyq",
             "verification_status": "verified",
@@ -169,8 +173,8 @@ def build_year(year: int) -> dict:
             "stem": it["stem"].strip(),
             "options": options,
             **_answer_fields(row),
-            "explanation": (it.get("explanation") or "").strip() or None,
-            "explanation_source": "ai_authored" if (it.get("explanation") or "").strip() else None,
+            "explanation": explanation or None,
+            "explanation_source": "ai_authored" if explanation else None,
             "source_url": meta["paper_url"],
             "source_note": (f"{meta['paper_note']}, Q.{qno} (paper sha256 {key['paper_sha256'][:12]}…). "
                             f"Answer/type/marks from the {meta['key_note']} ({meta['key_url']}). "

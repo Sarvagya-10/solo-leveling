@@ -214,3 +214,20 @@ def test_exam_room_answer_autosave_navigation_and_resume(app_env):
     at2 = _run("shogun.ui.pages.war", "render")
     assert not at2.exception
     assert any("Question 3 of 3" in m.value for m in at2.markdown)
+
+
+@pytest.mark.parametrize("module", ["shogun.ui.pages.question_bank", "shogun.ui.pages.cards",
+                                    "shogun.ui.pages.war"])
+def test_pages_render_with_bundled_official_pyqs(app_env, monkeypatch, module):
+    monkeypatch.delenv("SHOGUN_SKIP_BUNDLED_PYQS", raising=False)
+    from shogun.ui import context
+
+    context.reset_ctx()
+    from sqlalchemy import func, select
+
+    from shogun.db.models import Question
+
+    with context.get_ctx().session() as s:
+        assert s.scalar(select(func.count(Question.id)).where(Question.verification_status == "verified")) > 150
+    at = _run(module, "render")
+    assert not at.exception, [e.value for e in at.exception]

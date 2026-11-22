@@ -91,6 +91,20 @@ were **actually run** (see the test log at the bottom).
 
 See the final report / git log for the pushed commit.
 
+## Follow-up — official PYQ bank ✅
+
+* Keys written to the local git-ignored `.env` at the user's request (never committed).
+* Official sources located with SerpAPI (DuckDuckGo engine): GATE DA 2024 (IISc paper re-hosted by
+  IIT Guwahati + IISc final key), 2025 (IIT Roorkee paper + key), 2026 (IIT Guwahati paper + key).
+* Answer keys parsed programmatically (`data/pyq/keys/`, checksums pinned); question text transcribed
+  from the official papers; answers/types/marks always taken from the official keys.
+* **188 verified PYQs** bundled (2024: 61, 2025: 63, 2026: 64; 100 MCQ / 43 MSQ / 45 NAT; 95 topics).
+  Excluded: 2024 Q.59 (MTA), and 6 figure-only questions (2024 Q.2, Q.9, Q.53; 2025 Q.4, Q.8; 2026 Q.3).
+* Spot-checked against the official PDFs (text layer + rendered pages), including every
+  figure-to-text conversion sampled and a cross-year contamination check.
+* One debatable official key (2024 Q.14) keeps the official answer with a transparent note.
+* Migration 0002 (`questions.explanation_source`); explanations labelled "written by AI — not official".
+
 ## Test log
 
 | Phase | Command | Result |
@@ -106,6 +120,8 @@ See the final report / git log for the pushed commit.
 | 7 | Playwright layout inspection (51 page/viewport combinations) | 0 horizontal overflow, 0 exceptions |
 | 7 | Secret scan (`git grep`, `git log -p --all`) | no real keys tracked or in history |
 | 7 | Fresh clone → new venv → `pip install -r requirements-dev.txt` → pytest + ruff + mypy | all passed |
+| PYQ | `pytest` (full suite incl. bundled-bank integrity vs official keys) | **163 passed** |
+| PYQ | `ruff check .` / `mypy` | no issues |
 
 Issues found and fixed during testing: a Dec-31 revision expectation in a test, a nested
 f-string invalid on Python 3.11, a wrong-row update in the XP reconciler (caught by mypy),

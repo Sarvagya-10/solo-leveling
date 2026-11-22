@@ -1,0 +1,1544 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.08",
+   "GA.3.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.1",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "If ‘→’ denotes increasing order of intensity, then the meaning of the words [sick → infirm → moribund] is analogous to [silly → _______ → daft].\n\nWhich one of the given options is appropriate to fill the blank?",
+  "options": [
+   "frown",
+   "fawn",
+   "vein",
+   "vain"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In [sick → infirm → moribund] the intensity rises from unwell to frail to close to death. The blank must likewise be an adjective of foolishness lying between 'silly' and 'daft'. Among the options only 'vain' is such an adjective (vain: foolish, futile, lacking sense); 'frown' is a facial expression, 'fawn' is a young deer (or to flatter) and 'vein' is a blood vessel. Hence (D) vain.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.1 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.09"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.3",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "How many 4-digit positive integers divisible by 3 can be formed using only the digits $\\{1, 3, 4, 6, 7\\}$, such that no digit appears more than once in a number?",
+  "options": [
+   "24",
+   "48",
+   "72",
+   "12"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A number is divisible by 3 iff its digit sum is. The five digits sum to $1+3+4+6+7 = 21$, so a 4-digit choice (dropping one digit $d$) has sum $21 - d$, divisible by 3 only when $d = 3$ or $d = 6$. That gives two digit sets, $\\{1,4,6,7\\}$ and $\\{1,3,4,7\\}$, each arrangeable in $4! = 24$ ways. Total $= 2 \\times 24 = 48$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.3 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.10"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.4",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The sum of the following infinite series is\n\n$$2 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{9} + \\frac{1}{16} + \\frac{1}{27} + \\cdots$$",
+  "options": [
+   "11/3",
+   "7/2",
+   "13/4",
+   "9/2"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Split the series into 2 plus two geometric series: $\\left(\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\cdots\\right) = \\frac{1/2}{1 - 1/2} = 1$ and $\\left(\\frac{1}{3} + \\frac{1}{9} + \\frac{1}{27} + \\cdots\\right) = \\frac{1/3}{1 - 1/3} = \\frac{1}{2}$. Sum $= 2 + 1 + \\frac{1}{2} = \\frac{7}{2}$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.4 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.01",
+   "GA.2.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.5",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "In an election, the share of valid votes received by the four candidates A, B, C, and D is represented by the pie chart shown. The total number of votes cast in the election were 1,15,000, out of which 5,000 were invalid.\n\nPie chart titled **Share of valid votes**:\n\n| Candidate | Share of valid votes |\n|---|---|\n| A | 40% |\n| B | 25% |\n| C | 20% |\n| D | 15% |\n\nBased on the data provided, the total number of valid votes received by the candidates B and C is\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "45,000",
+   "49,500",
+   "51,750",
+   "54,000"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Valid votes $= 1{,}15{,}000 - 5{,}000 = 1{,}10{,}000$. B and C together have $25\\% + 20\\% = 45\\%$ of the valid votes, i.e. $0.45 \\times 1{,}10{,}000 = 49{,}500$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.5 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.11",
+   "GA.3.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.6",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Thousands of years ago, some people began dairy farming. This coincided with a number of mutations in a particular gene that resulted in these people developing the ability to digest dairy milk.\n\nBased on the given passage, which of the following can be inferred?",
+  "options": [
+   "All human beings can digest dairy milk.",
+   "No human being can digest dairy milk.",
+   "Digestion of dairy milk is essential for human beings.",
+   "In human beings, digestion of dairy milk resulted from a mutated gene."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The passage states that mutations in a particular gene resulted in these people developing the ability to digest dairy milk, so the ability to digest dairy milk in humans came from a mutated gene (D). The passage says nothing about all (A) or no (B) humans being able to digest milk, nor that digesting milk is essential (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.6 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.12"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.7",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "The probability of a boy or a girl being born is 1/2. For a family having only three children, what is the probability of having two girls and one boy?",
+  "options": [
+   "3/8",
+   "1/8",
+   "1/4",
+   "1/2"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The number of girls among three independent births is Binomial$(3, 1/2)$. $P(\\text{2 girls, 1 boy}) = \\binom{3}{2}\\left(\\frac{1}{2}\\right)^3 = \\frac{3}{8}$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.7 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.06",
+   "GA.2.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.8",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Person 1 and Person 2 invest in three mutual funds A, B, and C. The amounts they invest in each of these mutual funds are given in the table.\n\n| | Mutual fund A | Mutual fund B | Mutual fund C |\n|---|---|---|---|\n| Person 1 | ₹10,000 | ₹20,000 | ₹20,000 |\n| Person 2 | ₹20,000 | ₹15,000 | ₹15,000 |\n\nAt the end of one year, the total amount that Person 1 gets is ₹500 more than Person 2. The annual rate of return for the mutual funds B and C is 15% each. What is the annual rate of return for the mutual fund A?",
+  "options": [
+   "7.5%",
+   "10%",
+   "15%",
+   "20%"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let the return of fund A be $r$. Person 1 gets $10000(1+r) + 40000(1.15) = 56000 + 10000r$. Person 2 gets $20000(1+r) + 30000(1.15) = 54500 + 20000r$. Setting the difference to 500: $1500 - 10000r = 500 \\Rightarrow r = 0.10$, i.e. 10%.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.8 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.4.08",
+   "GA.2.11"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.10",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Visualize two identical right circular cones such that one is inverted over the other and they share a common circular base. If a cutting plane passes through the vertices of the assembled cones, what shape does the outer boundary of the resulting cross-section make?",
+  "options": [
+   "A rhombus",
+   "A triangle",
+   "An ellipse",
+   "A hexagon"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A plane through both vertices contains the common axis, so it cuts each cone in an isosceles triangle whose base is a diameter of the shared circular base. The two congruent triangles share that base and lie on opposite sides of it, giving a quadrilateral whose four sides are all slant heights (equal length). The outer boundary is therefore a rhombus.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.10 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.20",
+   "DA.1.22"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.11",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the following statements:\n\n(i) The mean and variance of a Poisson random variable are equal.\n\n(ii) For a standard normal random variable, the mean is zero and the variance is one.\n\nWhich **ONE** of the following options is **correct**?",
+  "options": [
+   "Both (i) and (ii) are true",
+   "(i) is true and (ii) is false",
+   "(ii) is true and (i) is false",
+   "Both (i) and (ii) are false"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(i) For $X \\sim \\text{Poisson}(\\lambda)$, $E[X] = \\text{Var}(X) = \\lambda$, so (i) is true. (ii) The standard normal is $N(0, 1)$: mean 0 and variance 1, so (ii) is true. Hence both are true.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.11 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.04",
+   "DA.1.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.12",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Three fair coins are tossed independently. $T$ is the event that two or more tosses result in heads. $S$ is the event that two or more tosses result in tails.\n\nWhat is the probability of the event $T \\cap S$ ?",
+  "options": [
+   "0",
+   "0.5",
+   "0.25",
+   "1"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "With only three tosses, having at least two heads and at least two tails would need at least four tosses. So $T \\cap S = \\emptyset$ (the events are mutually exclusive) and $P(T \\cap S) = 0$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.12 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.12"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.13",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the matrix $\\boldsymbol{M} = \\begin{bmatrix} 2 & -1 \\\\ 3 & 1 \\end{bmatrix}$.\n\nWhich **ONE** of the following statements is **TRUE**?",
+  "options": [
+   "The eigenvalues of $\\boldsymbol{M}$ are non-negative and real.",
+   "The eigenvalues of $\\boldsymbol{M}$ are complex conjugate pairs.",
+   "One eigenvalue of $\\boldsymbol{M}$ is positive and real, and another eigenvalue of $\\boldsymbol{M}$ is zero.",
+   "One eigenvalue of $\\boldsymbol{M}$ is non-negative and real, and another eigenvalue of $\\boldsymbol{M}$ is negative and real."
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The characteristic polynomial is $\\lambda^2 - (\\text{tr}\\,\\boldsymbol{M})\\lambda + \\det \\boldsymbol{M} = \\lambda^2 - 3\\lambda + 5$. Its discriminant is $9 - 20 = -11 < 0$, so the eigenvalues are $\\frac{3 \\pm i\\sqrt{11}}{2}$, a complex conjugate pair. Hence (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.13 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.15"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.14",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider performing depth-first search (DFS) on an undirected and unweighted graph $G$ starting at vertex $s$. For any vertex $u$ in $G$, $d[u]$ is the length of the shortest path from $s$ to $u$. Let $(u, v)$ be an edge in $G$ such that $d[u] < d[v]$. If the edge $(u, v)$ is explored first in the direction from $u$ to $v$ during the above DFS, then $(u, v)$ becomes a ______ edge.",
+  "options": [
+   "tree",
+   "cross",
+   "back",
+   "gray"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In a DFS of an undirected graph every edge is classified as either a tree edge or a back edge; cross edges never occur, and 'gray' is a vertex colour, not an edge type. The intended reasoning behind the official answer is that, since the edge is explored for the first time from $u$ (the endpoint closer to $s$), $v$ is still undiscovered at that moment, so DFS discovers $v$ through $(u, v)$, which therefore becomes a tree edge. Official answer: (A) tree.\n\n**Note on the official key:** Under standard DFS the edge is not forced to be a tree edge. Counterexample: edges s-u, u-v, s-a, a-b, b-v, v-w, w-u (so d[u]=1, d[v]=2). DFS s->a->b->v->w->u (v scans w first, w scans u first) reaches u while v is still gray; u then examines (u,v) for the first time, from u to v, and it becomes a back edge. So 'back' is also possible; the official key gives only 'tree'.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.14 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.15",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "For any twice differentiable function $f: \\mathbb{R} \\to \\mathbb{R}$, if at some $x^* \\in \\mathbb{R}$, $f'(x^*) = 0$ and $f''(x^*) > 0$, then the function $f$ necessarily has a ______ at $x = x^*$.\n\n**Note**: $\\mathbb{R}$ denotes the set of real numbers.",
+  "options": [
+   "local minimum",
+   "global minimum",
+   "local maximum",
+   "global maximum"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "By the second-derivative test, $f'(x^*) = 0$ with $f''(x^*) > 0$ guarantees a strict local minimum at $x^*$. It need not be a global minimum (e.g. $f(x) = x^3 - 3x$ has a local minimum at $x = 1$ but is unbounded below). So the function necessarily has a local minimum.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.15 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.02",
+   "DA.4.03",
+   "DA.4.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.16",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Match the items in **Column 1** with the items in **Column 2** in the following table:\n\n| Column 1 | Column 2 |\n|---|---|\n| (p) First In First Out | (i) Stacks |\n| (q) Lookup Operation | (ii) Queues |\n| (r) Last In First Out | (iii) Hash Tables |",
+  "options": [
+   "(p) − (ii), (q) − (iii), (r) − (i)",
+   "(p) − (ii), (q) − (i), (r) − (iii)",
+   "(p) − (i), (q) − (ii), (r) − (iii)",
+   "(p) − (i), (q) − (iii), (r) − (ii)"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Queues are First In First Out, so (p) − (ii). Hash tables are designed for fast lookup, so (q) − (iii). Stacks are Last In First Out, so (r) − (i). This is option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.16 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.09"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.17",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the dataset with six datapoints: $\\{(\\boldsymbol{x}_1, \\boldsymbol{y}_1), (\\boldsymbol{x}_2, \\boldsymbol{y}_2), \\dots, (\\boldsymbol{x}_6, \\boldsymbol{y}_6)\\}$, where $\\boldsymbol{x}_1 = \\begin{bmatrix} 1 \\\\ 0 \\end{bmatrix}$, $\\boldsymbol{x}_2 = \\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$, $\\boldsymbol{x}_3 = \\begin{bmatrix} 0 \\\\ -1 \\end{bmatrix}$, $\\boldsymbol{x}_4 = \\begin{bmatrix} -1 \\\\ 0 \\end{bmatrix}$, $\\boldsymbol{x}_5 = \\begin{bmatrix} 2 \\\\ 2 \\end{bmatrix}$, $\\boldsymbol{x}_6 = \\begin{bmatrix} -2 \\\\ -2 \\end{bmatrix}$ and the labels are given by $\\boldsymbol{y}_1 = \\boldsymbol{y}_2 = \\boldsymbol{y}_5 = 1$, and $\\boldsymbol{y}_3 = \\boldsymbol{y}_4 = \\boldsymbol{y}_6 = -1$. A hard margin linear support vector machine is trained on the above dataset.\n\nWhich **ONE** of the following sets is a possible set of support vectors?",
+  "options": [
+   "$\\{\\boldsymbol{x}_1, \\boldsymbol{x}_2, \\boldsymbol{x}_5\\}$",
+   "$\\{\\boldsymbol{x}_3, \\boldsymbol{x}_4, \\boldsymbol{x}_5\\}$",
+   "$\\{\\boldsymbol{x}_4, \\boldsymbol{x}_5\\}$",
+   "$\\{\\boldsymbol{x}_1, \\boldsymbol{x}_2, \\boldsymbol{x}_3, \\boldsymbol{x}_4\\}$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The closest parts of the two classes are the parallel segments $\\boldsymbol{x}_1\\boldsymbol{x}_2$ (positive) and $\\boldsymbol{x}_3\\boldsymbol{x}_4$ (negative), at distance $\\sqrt{2}$, so the maximum-margin hyperplane is their perpendicular bisector $w = (1, 1)$, $b = 0$, with margin $1/\\sqrt{2}$. Then $w^\\top \\boldsymbol{x}_1 = w^\\top \\boldsymbol{x}_2 = 1$ and $w^\\top \\boldsymbol{x}_3 = w^\\top \\boldsymbol{x}_4 = -1$ (on the margin), while $w^\\top \\boldsymbol{x}_5 = 4$ and $w^\\top \\boldsymbol{x}_6 = -4$ lie strictly outside. So the support vectors are $\\{\\boldsymbol{x}_1, \\boldsymbol{x}_2, \\boldsymbol{x}_3, \\boldsymbol{x}_4\\}$; every other option contains $\\boldsymbol{x}_5$, which is not on the margin.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.17 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.24",
+   "DA.6.07",
+   "DA.6.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.18",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Match the items in **Column 1** with the items in **Column 2** in the following table:\n\n| Column 1 | Column 2 |\n|---|---|\n| (p) Principal Component Analysis | (i) Discriminative Model |\n| (q) Naïve Bayes Classification | (ii) Dimensionality Reduction |\n| (r) Logistic Regression | (iii) Generative Model |",
+  "options": [
+   "(p) − (iii), (q) − (i), (r) − (ii)",
+   "(p) − (ii), (q) − (i), (r) − (iii)",
+   "(p) − (ii), (q) − (iii), (r) − (i)",
+   "(p) − (iii), (q) − (ii), (r) − (i)"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "PCA is a dimensionality-reduction technique, so (p) − (ii). Naïve Bayes models the joint distribution $P(x \\mid y)P(y)$, so it is generative: (q) − (iii). Logistic regression models $P(y \\mid x)$ directly, so it is discriminative: (r) − (i). This is option (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.18 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.17"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.19",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Euclidean distance based $k$-means clustering algorithm was run on a dataset of 100 points with $k = 3$. If the points $\\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix}$ and $\\begin{bmatrix} -1 \\\\ 1 \\end{bmatrix}$ are both part of cluster 3, then which **ONE** of the following points is necessarily also part of cluster 3?",
+  "options": [
+   "$\\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}$",
+   "$\\begin{bmatrix} 0 \\\\ 2 \\end{bmatrix}$",
+   "$\\begin{bmatrix} 2 \\\\ 0 \\end{bmatrix}$",
+   "$\\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In $k$-means every point is assigned to its nearest centroid, so each cluster's region is a Voronoi cell, i.e. an intersection of half-planes, which is convex. Since $(1, 1)$ and $(-1, 1)$ are both in cluster 3, every point on the segment between them, in particular the midpoint $(0, 1)$, is also in cluster 3. The other points lie outside that segment, so their assignment depends on where the other centroids are.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.19 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.07"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.20",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Given a dataset with $K$ binary-valued attributes (where $K > 2$) for a two-class classification task, the number of parameters to be estimated for learning a naïve Bayes classifier is",
+  "options": [
+   "$2^K + 1$",
+   "$2K + 1$",
+   "$2^{K+1} + 1$",
+   "$K^2 + 1$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Naïve Bayes needs the class prior $P(C = 1)$, which is 1 parameter because $P(C = 0) = 1 - P(C = 1)$. Because the attributes are conditionally independent given the class, each attribute $j$ needs one Bernoulli parameter $P(x_j = 1 \\mid C = c)$ per class, which gives $2K$ parameters. The total is $2K + 1$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.20 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.21",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider performing uniform hashing on an open address hash table with load factor $\\alpha = \\frac{n}{m} < 1$, where $n$ elements are stored in the table with $m$ slots. The expected number of probes in an unsuccessful search is at most $\\frac{1}{1-\\alpha}$.\n\nInserting an element in this hash table requires at most ______ probes, on average.",
+  "options": [
+   "$\\ln\\left(\\frac{1}{1 - \\alpha}\\right)$",
+   "$\\frac{1}{1 - \\alpha}$",
+   "$1 + \\frac{\\alpha}{2}$",
+   "$\\frac{1}{1 + \\alpha}$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Inserting a key into an open-address table probes the same sequence as an unsuccessful search, stopping at the first empty slot, where the key is placed. So insertion takes at most as many probes as an unsuccessful search, i.e. at most $\\frac{1}{1-\\alpha}$ on average.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.21 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.08",
+   "DA.2.12"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.22",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "For any binary classification dataset, let $S_B \\in \\mathbb{R}^{d \\times d}$ and $S_W \\in \\mathbb{R}^{d \\times d}$ be the between-class and within-class scatter (covariance) matrices, respectively. The Fisher linear discriminant is defined by $u^* \\in \\mathbb{R}^d$, that maximizes\n\n$$J(u) = \\frac{u^T S_B u}{u^T S_W u}$$\n\nIf $\\lambda = J(u^*)$, $S_W$ is non-singular and $S_B \\neq 0$, then $(u^*, \\lambda)$ must satisfy which **ONE** of the following equations?\n\n**Note**: $\\mathbb{R}$ denotes the set of real numbers.",
+  "options": [
+   "$S_W^{-1} S_B u^* = \\lambda u^*$",
+   "$S_W u^* = \\lambda S_B u^*$",
+   "$S_B S_W u^* = \\lambda u^*$",
+   "${u^*}^T u^* = \\lambda^2$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "At the maximiser the gradient of $J$ vanishes: $\\nabla J = \\frac{2 S_B u (u^T S_W u) - 2 S_W u (u^T S_B u)}{(u^T S_W u)^2} = 0$, which gives $S_B u^* = J(u^*) S_W u^* = \\lambda S_W u^*$. Since $S_W$ is invertible, $S_W^{-1} S_B u^* = \\lambda u^*$. In other words, $u^*$ is an eigenvector of $S_W^{-1} S_B$ with eigenvalue $\\lambda$, which is option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.22 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.23",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let $h_1$ and $h_2$ be two admissible heuristics used in $A^*$ search.\n\nWhich **ONE** of the following expressions is always an admissible heuristic?",
+  "options": [
+   "$h_1 + h_2$",
+   "$h_1 \\times h_2$",
+   "$h_1/h_2, (h_2 \\neq 0)$",
+   "$|h_1 - h_2|$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Admissible means $0 \\le h_i(n) \\le h^*(n)$ for every node $n$. Then $0 \\le |h_1 - h_2| \\le \\max(h_1, h_2) \\le h^*$, so (D) is always admissible. $h_1 + h_2$ can reach $2h^*$. $h_1 \\times h_2$ exceeds $h^*$ when both values are larger than 1. $h_1/h_2$ becomes arbitrarily large when $h_2$ is small. So (A), (B) and (C) can overestimate.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.23 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.24",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider five random variables $U, V, W, X$, and $Y$ whose joint distribution satisfies:\n\n$$P(U, V, W, X, Y) = P(U)P(V)P(W|U, V)P(X|W)P(Y|W)$$\n\nWhich **ONE** of the following statements is **FALSE**?",
+  "options": [
+   "$Y$ is conditionally independent of $V$ given $W$",
+   "$X$ is conditionally independent of $U$ given $W$",
+   "$U$ and $V$ are conditionally independent given $W$",
+   "$Y$ and $X$ are conditionally independent given $W$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The factorisation is the Bayesian network $U \\to W \\leftarrow V$, $W \\to X$, $W \\to Y$. Conditioning on $W$ blocks the chains $V \\to W \\to Y$ and $U \\to W \\to X$, so (A) and (B) hold. It also blocks the common-cause fork $X \\leftarrow W \\to Y$, so (D) holds. However, $W$ is a collider (v-structure) between $U$ and $V$. $U$ and $V$ are marginally independent but generally dependent given $W$ ('explaining away'), so (C) is false.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.24 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.03"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.25",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the following statement:\n\nIn adversarial search, $\\alpha$–$\\beta$ pruning can be applied to game trees of any depth where $\\alpha$ is the \\_\\_**(m)**\\_\\_ value choice we have formed so far at any choice point along the path for the MAX player and $\\beta$ is the \\_\\_**(n)**\\_\\_ value choice we have formed so far at any choice point along the path for the MIN player.\n\nWhich **ONE** of the following choices of **(m)** and **(n)** makes the above statement valid?",
+  "options": [
+   "**(m)** = highest, **(n)** = highest",
+   "**(m)** = lowest, **(n)** = highest",
+   "**(m)** = highest, **(n)** = lowest",
+   "**(m)** = lowest, **(n)** = lowest"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "In alpha-beta pruning, $\\alpha$ is the best value found so far for MAX along the path, which is the highest value. $\\beta$ is the best value found so far for MIN, which is the lowest value. A branch is pruned once $\\alpha \\ge \\beta$. So (m) = highest and (n) = lowest.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.25 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.26",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider a database that includes the following relations:\n\nDefender(*name*, *rating*, *side*, *goals*)\n\nForward(*name*, *rating*, *assists*, *goals*)\n\nTeam(*name*, *club*, *price*)\n\nWhich **ONE** of the following relational algebra expressions checks that every name occurring in Team appears in either Defender or Forward, where $\\phi$ denotes the empty set?",
+  "options": [
+   "$\\Pi_{name}(\\text{Team}) \\setminus \\left(\\Pi_{name}(\\text{Defender}) \\cap \\Pi_{name}(\\text{Forward})\\right) = \\phi$",
+   "$\\left(\\Pi_{name}(\\text{Defender}) \\cap \\Pi_{name}(\\text{Forward})\\right) \\setminus \\Pi_{name}(\\text{Team}) = \\phi$",
+   "$\\Pi_{name}(\\text{Team}) \\setminus \\left(\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})\\right) = \\phi$",
+   "$\\left(\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})\\right) \\setminus \\Pi_{name}(\\text{Team}) = \\phi$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "'Every Team name appears in Defender or Forward' means $\\Pi_{name}(\\text{Team}) \\subseteq \\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})$. This is equivalent to the set difference Team-names minus (Defender-names $\\cup$ Forward-names) being empty, which is (C). (A) uses intersection, which would require each name to be in both relations. (B) and (D) check the reverse containment.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.26 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.10",
+   "DA.1.10"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.27",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let the minimum, maximum, mean and standard deviation values for the attribute *income* of data scientists be ₹46000, ₹170000, ₹96000, and ₹21000, respectively. The $z$-score normalized *income* value of ₹106000 is closest to which **ONE** of the following options?",
+  "options": [
+   "0.217",
+   "0.476",
+   "0.623",
+   "2.304"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$z$-score normalization uses only the mean and standard deviation: $z = \\frac{106000 - 96000}{21000} = \\frac{10000}{21000} \\approx 0.476$. (The minimum and maximum would matter only for min-max normalization.)",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.27 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.28",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Consider the following tree traversals on a full binary tree:\n\n(i) Preorder\n\n(ii) Inorder\n\n(iii) Postorder\n\nWhich of the following traversal options **is/are** sufficient to uniquely reconstruct the full binary tree?",
+  "options": [
+   "(i) and (ii)",
+   "(ii) and (iii)",
+   "(i) and (iii)",
+   "(ii) only"
+  ],
+  "answer_key": "A,B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) and (B): inorder together with either preorder or postorder uniquely determines any binary tree with distinct keys. The root comes from pre/postorder and splits the inorder sequence into left and right subtrees. (C): in a full binary tree every internal node has exactly two children. So in preorder the element after the root is the root of the left subtree, and locating it in postorder fixes the left subtree's extent, which makes preorder + postorder sufficient. (D): inorder alone is not sufficient, since different full binary trees can share the same inorder sequence.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.28 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.29",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Let $x$ and $y$ be two propositions. Which of the following statements **is a tautology /are tautologies**?",
+  "options": [
+   "$(\\neg x \\wedge y) \\implies (y \\implies x)$",
+   "$(x \\wedge \\neg y) \\implies (\\neg x \\implies y)$",
+   "$(\\neg x \\wedge y) \\implies (\\neg x \\implies y)$",
+   "$(x \\wedge \\neg y) \\implies (y \\implies x)$"
+  ],
+  "answer_key": "B,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "An implication can fail only when its antecedent is true, so check each option at the single assignment that makes the antecedent true. (A) $x = F, y = T$: $y \\implies x$ is $T \\implies F = F$, so (A) is not a tautology. (B) $x = T, y = F$: $\\neg x \\implies y$ is $F \\implies F = T$, so it is a tautology. (C) $x = F, y = T$: $\\neg x \\implies y$ is $T \\implies T = T$, so it is a tautology. (D) $x = T, y = F$: $y \\implies x$ is $F \\implies T = T$, so it is a tautology.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.29 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.13"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.30",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider sorting the following array of integers in ascending order using an in-place Quicksort algorithm that uses the last element as the pivot.\n\n| 60 | 70 | 80 | 90 | 100 |\n|---|---|---|---|---|\n\nThe minimum number of swaps performed during this Quicksort is ______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.0,
+  "nat_high": 0.0,
+  "explanation": "The array is already sorted. In every partition step the pivot (last element) is the largest element of its subarray, so every other element already lies on the correct ('smaller than pivot') side and the pivot is already in its final position. No element ever has to change position, so the minimum number of swaps (exchanges that actually move elements) is 0.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.30 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.04"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.31",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider the following two tables named Raider and Team in a relational database maintained by a Kabaddi league. The attribute *ID* in table Team references the primary key of the Raider table, *ID*.\n\n**Raider**\n\n| *ID* | *Name* | *Raids* | *RaidPoints* |\n|---|---|---|---|\n| 1 | Arjun | 200 | 250 |\n| 2 | Ankush | 190 | 219 |\n| 3 | Sunil | 150 | 200 |\n| 4 | Reza | 150 | 190 |\n| 5 | Pratham | 175 | 220 |\n| 6 | Gopal | 193 | 215 |\n\n**Team**\n\n| *City* | *ID* | *BidPoints* |\n|---|---|---|\n| Jaipur | 2 | 200 |\n| Patna | 3 | 195 |\n| Hyderabad | 5 | 175 |\n| Jaipur | 1 | 250 |\n| Patna | 4 | 200 |\n| Jaipur | 6 | 200 |\n\nThe SQL query described below is executed on this database:\n\n```sql\nSELECT *\nFROM Raider, Team\nWHERE Raider.ID=Team.ID AND City=“Jaipur” AND\nRaidPoints > 200;\n```\n\nThe number of rows returned by this query is ______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 3.0,
+  "nat_high": 3.0,
+  "explanation": "The join on ID followed by City = Jaipur keeps the Team rows with IDs 2, 1 and 6. The matching raiders have RaidPoints 219 (Ankush), 250 (Arjun) and 215 (Gopal), all greater than 200. So the query returns 3 rows.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.31 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.03",
+   "DA.4.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.32",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "The fundamental operations in a double-ended queue D are:\n\n`insertFirst(e)` – Insert a new element `e` at the beginning of D.\n\n`insertLast(e)` – Insert a new element `e` at the end of D.\n\n`removeFirst()` – Remove and return the first element of D.\n\n`removeLast()` – Remove and return the last element of D.\n\nIn an empty double-ended queue, the following operations are performed:\n\n```\ninsertFirst(10)\ninsertLast(32)\na ←removeFirst()\ninsertLast(28)\ninsertLast(17)\na ←removeFirst()\na ← removeLast()\n```\n\nThe value of **a** is ______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 17.0,
+  "nat_high": 17.0,
+  "explanation": "Trace the deque contents: insertFirst(10) gives [10]; insertLast(32) gives [10, 32]; removeFirst() returns 10, leaving [32]; insertLast(28) gives [32, 28]; insertLast(17) gives [32, 28, 17]; removeFirst() returns 32, leaving [28, 17]; removeLast() returns 17. The final value of a is 17.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.32 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.03",
+   "DA.3.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.33",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be the function $f(x) = \\frac{1}{1+e^{-x}}$.\n\nThe value of the derivative of $f$ at $x$ where $f(x) = 0.4$ is ______ (rounded off to **two** decimal places).\n\n**Note**: $\\mathbb{R}$ denotes the set of real numbers.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.24,
+  "nat_high": 0.24,
+  "explanation": "For the sigmoid, $f'(x) = \\frac{e^{-x}}{(1+e^{-x})^2} = f(x)\\,(1 - f(x))$. At the point where $f(x) = 0.4$: $f'(x) = 0.4 \\times 0.6 = 0.24$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.33 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.10"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.34",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "The sample average of 50 data points is 40. The updated sample average after including a new data point taking the value of 142 is ______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 42.0,
+  "nat_high": 42.0,
+  "explanation": "The sum of the 50 points is $50 \\times 40 = 2000$. Adding 142 gives a total of 2142 over 51 points, so the new average is $2142 / 51 = 42$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.34 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.13"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.35",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider the $3 \\times 3$ matrix $\\boldsymbol{M} = \\begin{bmatrix} 1 & 2 & 3 \\\\ 3 & 1 & 3 \\\\ 4 & 3 & 6 \\end{bmatrix}$.\n\nThe determinant of $(\\boldsymbol{M}^2 + 12\\boldsymbol{M})$ is ______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.0,
+  "nat_high": 0.0,
+  "explanation": "$\\det \\boldsymbol{M} = 1(6 - 9) - 2(18 - 12) + 3(9 - 4) = -3 - 12 + 15 = 0$ (row 3 = row 1 + row 2). Since $\\boldsymbol{M}^2 + 12\\boldsymbol{M} = \\boldsymbol{M}(\\boldsymbol{M} + 12I)$, $\\det(\\boldsymbol{M}^2 + 12\\boldsymbol{M}) = \\det \\boldsymbol{M} \\cdot \\det(\\boldsymbol{M} + 12I) = 0$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.35 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.09",
+   "DA.1.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.36",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A fair six-sided die (with faces numbered 1, 2, 3, 4, 5, 6) is repeatedly thrown independently.\n\nWhat is the expected number of times the die is thrown until **two** consecutive throws of even numbers are seen?",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each throw is even with probability $p = 1/2$. Let $E_0$ be the expected number of further throws from the start (or after an odd throw), and $E_1$ the expected number after a single even throw. Then $E_0 = 1 + \\frac{1}{2}E_1 + \\frac{1}{2}E_0$ and $E_1 = 1 + \\frac{1}{2}\\cdot 0 + \\frac{1}{2}E_0$. The first equation gives $E_0 = 2 + E_1$; substituting the second gives $E_0 = 3 + E_0/2$, so $E_0 = 6$. (This matches the general formula $1/p + 1/p^2 = 2 + 4$.)",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.36 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.03"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.37",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function. **Note**: $\\mathbb{R}$ denotes the set of real numbers.\n\n$$f(x) = \\begin{cases} -x, & \\text{if } x < -2 \\\\ ax^2 + bx + c, & \\text{if } x \\in [-2, 2] \\\\ x, & \\text{if } x > 2 \\end{cases}$$\n\nWhich **ONE** of the following choices gives the values of $a, b, c$ that make the function $f$ continuous and differentiable?",
+  "options": [
+   "$a = \\frac{1}{4}, b = 0, c = 1$",
+   "$a = \\frac{1}{2}, b = 0, c = 0$",
+   "$a = 0, b = 0, c = 0$",
+   "$a = 1, b = 1, c = -4$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Continuity at $x = 2$ requires $4a + 2b + c = 2$, and at $x = -2$ it requires $4a - 2b + c = 2$. Together these give $b = 0$ and $4a + c = 2$. Differentiability at $x = 2$ requires $2a(2) + b = 1$, so $a = \\frac{1}{4}$. At $x = -2$ it requires $2a(-2) + b = -1$, which is also satisfied by $a = \\frac{1}{4}$. Then $c = 2 - 1 = 1$. Hence $a = \\frac{1}{4}, b = 0, c = 1$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.37 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01",
+   "DA.4.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.38",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the following Python code:\n\n```python\ndef count(child_dict, i):\n    if i not in child_dict.keys():\n        return 1\n    ans = 1\n    for j in child_dict[i]:\n        ans += count(child_dict, j)\n    return ans\n\nchild_dict = dict()\nchild_dict[0] = [1,2]\nchild_dict[1] = [3,4,5]\nchild_dict[2] = [6,7,8]\nprint(count(child_dict,0))\n```\n\nWhich **ONE** of the following is the output of this code?",
+  "options": [
+   "6",
+   "1",
+   "8",
+   "9"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "`count` returns the number of nodes in the subtree rooted at `i`: 1 for the node itself plus the counts of its children, and 1 for a leaf. Nodes 3–8 are leaves, so count(1) = 1 + 3 = 4 and count(2) = 1 + 3 = 4. Then count(0) = 1 + 4 + 4 = 9, which is the total of nodes 0–8.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.38 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.39",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the function `computeS(X)` whose pseudocode is given below:\n\n```\ncomputeS(X)\nS[1] ← 1\nfor i ←2 to length(X)\n   S[i] ← 1\n   if X[i - 1] ≤ X[i]\n       S[i] ← S[i] + S[i - 1]\n   end if\nend for\nreturn S\n```\n\nWhich **ONE** of the following values is returned by the function `computeS(X)` for $X$ = [6, 3, 5, 4, 10]?",
+  "options": [
+   "[1, 1, 2, 3, 4]",
+   "[1, 1, 2, 3, 3]",
+   "[1, 1, 2, 1, 2]",
+   "[1, 1, 2, 1, 5]"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$S[1] = 1$. For $i = 2$: $6 \\le 3$ is false, so $S[2] = 1$. For $i = 3$: $3 \\le 5$ is true, so $S[3] = 1 + S[2] = 2$. For $i = 4$: $5 \\le 4$ is false, so $S[4] = 1$. For $i = 5$: $4 \\le 10$ is true, so $S[5] = 1 + S[4] = 2$. Result: [1, 1, 2, 1, 2].",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.39 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.40",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let $F(n)$ denote the maximum number of comparisons made while searching for an entry in a sorted array of size $n$ using binary search.\n\nWhich **ONE** of the following options is **TRUE**?",
+  "options": [
+   "$F(n) = F(\\lfloor n/2 \\rfloor) + 1$",
+   "$F(n) = F(\\lfloor n/2 \\rfloor) + F(\\lceil n/2 \\rceil)$",
+   "$F(n) = F(\\lfloor n/2 \\rfloor)$",
+   "$F(n) = F(n - 1) + 1$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Binary search makes one comparison with the middle element and then continues in one half. The larger remaining half has $\\lfloor n/2 \\rfloor$ elements, so the worst case satisfies $F(n) = F(\\lfloor n/2 \\rfloor) + 1$, which gives $F(n) = \\lfloor \\log_2 n \\rfloor + 1$. (B) would describe searching both halves, (C) has no cost per step, and (D) is linear search.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.40 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.41",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the following Python function:\n\n```python\ndef fun(D, s1, s2):\n    if s1 < s2:\n        D[s1], D[s2] = D[s2], D[s1]\n        fun(D, s1+1, s2-1)\n```\n\nWhat does this Python function `fun()` do? Select the **ONE** appropriate option below.",
+  "options": [
+   "It finds the smallest element in D from index s1 to s2, both inclusive.",
+   "It performs a merge sort in-place on this list D between indices s1 and s2, both inclusive.",
+   "It reverses the list D between indices s1 and s2, both inclusive.",
+   "It swaps the elements in D at indices s1 and s2, and leaves the remaining elements unchanged."
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each call swaps the outermost pair `D[s1]` and `D[s2]` and then recurses on the inner range `s1+1 .. s2-1`, stopping when the indices meet or cross. This is the two-pointer reversal, so the sublist from index s1 to s2 (both inclusive) is reversed. (D) is wrong because the inner elements are swapped too.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.41 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.21",
+   "DA.6.20"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.42",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the table below, where the $(i, j)^{th}$ element of the table is the distance between points $x_i$ and $x_j$. Single linkage clustering is performed on data points, $x_1, x_2, x_3, x_4, x_5$.\n\n| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ |\n|---|---|---|---|---|---|\n| $x_1$ | 0 | 1 | 4 | 3 | 6 |\n| $x_2$ | 1 | 0 | 3 | 5 | 3 |\n| $x_3$ | 4 | 3 | 0 | 2 | 5 |\n| $x_4$ | 3 | 5 | 2 | 0 | 1 |\n| $x_5$ | 6 | 3 | 5 | 1 | 0 |\n\nWhich **ONE** of the following is the correct representation of the clusters produced?\n\n(In the official paper each option is a dendrogram drawing over the leaves $x_1, x_2, x_3, x_4, x_5$; below, each dendrogram is written as nested clusters together with the order of merges shown in the drawing.) (Figure from the official paper transcribed as text.)",
+  "options": [
+   "Dendrogram $((x_1, x_2), (x_3, (x_4, x_5)))$: $x_1$–$x_2$ and $x_4$–$x_5$ merge at the lowest level, then $x_3$ joins $\\{x_4, x_5\\}$, and finally $\\{x_1, x_2\\}$ merges with $\\{x_3, x_4, x_5\\}$",
+   "Dendrogram $(((x_1, x_2), x_3), (x_4, x_5))$: $x_1$–$x_2$ and $x_4$–$x_5$ merge at the lowest level, then $x_3$ joins $\\{x_1, x_2\\}$, and finally $\\{x_1, x_2, x_3\\}$ merges with $\\{x_4, x_5\\}$",
+   "Dendrogram $((x_1, x_2), ((x_3, x_4), x_5))$: $x_1$–$x_2$ and $x_3$–$x_4$ merge at the lowest level, then $x_5$ joins $\\{x_3, x_4\\}$, and finally $\\{x_1, x_2\\}$ merges with $\\{x_3, x_4, x_5\\}$",
+   "Dendrogram $(((x_1, x_2), (x_3, x_4)), x_5)$: $x_1$–$x_2$ and $x_3$–$x_4$ merge at the lowest level, then $\\{x_1, x_2\\}$ merges with $\\{x_3, x_4\\}$, and finally $x_5$ joins $\\{x_1, x_2, x_3, x_4\\}$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The smallest distances are $d(x_1, x_2) = 1$ and $d(x_4, x_5) = 1$, so $\\{x_1, x_2\\}$ and $\\{x_4, x_5\\}$ form first. Single-linkage (minimum) distances are then $d(\\{x_4, x_5\\}, x_3) = \\min(2, 5) = 2$, $d(\\{x_1, x_2\\}, x_3) = \\min(4, 3) = 3$ and $d(\\{x_1, x_2\\}, \\{x_4, x_5\\}) = \\min(3, 6, 5, 3) = 3$. So $x_3$ joins $\\{x_4, x_5\\}$ at height 2, and the final merge happens at height 3. This is the dendrogram $((x_1, x_2), (x_3, (x_4, x_5)))$, option (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.42 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.15",
+   "DA.6.14"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.43",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the two neural networks (NNs) shown in Figures 1 and 2, with $ReLU$ activation ($ReLU(z) = \\max\\{0, z\\}, \\forall z \\in \\mathbb{R}$). $\\mathbb{R}$ denotes the set of real numbers. The connections and their corresponding weights are shown in the Figures. The biases at every neuron are set to 0. For what values of $p, q, r$ in Figure 2 are the two NNs equivalent, when $x_1, x_2, x_3$ are positive?\n\n**Figure 1**: inputs $x_1, x_2, x_3$; a first hidden layer of three neurons (labelled here $h_1, h_2, h_3$, top to bottom); a second hidden layer of two neurons (labelled here $g_1, g_2$, top to bottom); one output neuron $o$. Connections (weight):\n\n- $x_1 \\to h_1$ (1), $x_1 \\to h_2$ (1), $x_1 \\to h_3$ (1)\n- $x_2 \\to h_1$ (1), $x_2 \\to h_3$ (1)\n- $x_3 \\to h_2$ (1), $x_3 \\to h_3$ (1)\n- $h_1 \\to g_1$ (2), $h_1 \\to g_2$ (2), $h_2 \\to g_1$ (2), $h_2 \\to g_2$ (2), $h_3 \\to g_1$ (2), $h_3 \\to g_2$ (2)\n- $g_1 \\to o$ (3), $g_2 \\to o$ (3)\n\n**Figure 2**: inputs $x_1, x_2, x_3$ connected directly to a single output neuron, with weights $x_1 \\to$ output ($p$), $x_2 \\to$ output ($q$), $x_3 \\to$ output ($r$).\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "$p = 36, q = 24, r = 24$",
+   "$p = 24, q = 24, r = 36$",
+   "$p = 18, q = 36, r = 24$",
+   "$p = 36, q = 36, r = 36$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "With positive inputs, non-negative weights and zero biases every pre-activation is non-negative, so each ReLU acts as the identity and Figure 1 is linear. $h_1 = x_1 + x_2$, $h_2 = x_1 + x_3$, $h_3 = x_1 + x_2 + x_3$; $g_1 = g_2 = 2(h_1 + h_2 + h_3)$; output $= 3g_1 + 3g_2 = 12(h_1 + h_2 + h_3) = 12(3x_1 + 2x_2 + 2x_3) = 36x_1 + 24x_2 + 24x_3$. So $p = 36, q = 24, r = 24$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.43 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.44",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider a state space where the start state is number 1. The successor function for the state numbered *n* returns two states numbered *n+1* and *n+2*. Assume that the states in the unexpanded state list are expanded in the ascending order of numbers and the previously expanded states are not added to the unexpanded state list.\n\nWhich **ONE** of the following statements about breadth-first search (BFS) and depth-first search (DFS) is true, when reaching the goal state number 6?",
+  "options": [
+   "BFS expands more states than DFS.",
+   "DFS expands more states than BFS.",
+   "Both BFS and DFS expand equal number of states.",
+   "Both BFS and DFS do not reach the goal state number 6."
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "BFS: expand 1 (adds 2, 3), then 2 (adds 4), 3 (adds 5), 4 (adds 6), 5, and then 6 is reached. DFS, always taking the smallest-numbered unexpanded state, expands 1, 2, 3, 4, 5 and then reaches 6. Both searches expand states 1–5 before reaching state 6, so they expand an equal number of states.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.44 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.09",
+   "DA.4.10",
+   "DA.4.11"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.45",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the following sorting algorithms:\n\n(i) Bubble sort\n\n(ii) Insertion sort\n\n(iii) Selection sort\n\nWhich **ONE** among the following choices of sorting algorithms sorts the numbers in the array [4, 3, 2, 1, 5] in increasing order after **exactly two** passes over the array?",
+  "options": [
+   "(i) only",
+   "(iii) only",
+   "(i) and (iii) only",
+   "(ii) and (iii) only"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Bubble sort: pass 1 gives [3, 2, 1, 4, 5] and pass 2 gives [2, 1, 3, 4, 5], which is not sorted. Insertion sort: inserting 3 gives [3, 4, 2, 1, 5] and inserting 2 gives [2, 3, 4, 1, 5], which is not sorted. Selection sort: pass 1 swaps the minimum 1 with 4, giving [1, 3, 2, 4, 5]; pass 2 swaps 2 with 3, giving [1, 2, 3, 4, 5], which is sorted. So only (iii).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.45 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06",
+   "DA.5.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.46",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Given the relational schema $R = (U, V, W, X, Y, Z)$ and the set of functional dependencies:\n\n$$\\{U \\to V, U \\to W, WX \\to Y, WX \\to Z, V \\to X\\}$$\n\nWhich of the following functional dependencies can be derived from the above set?",
+  "options": [
+   "$VW \\to YZ$",
+   "$WX \\to YZ$",
+   "$VW \\to U$",
+   "$VW \\to Y$"
+  ],
+  "answer_key": "A,B,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Compute the closure: $(VW)^+$: $V \\to X$ adds $X$; $WX \\to Y$ and $WX \\to Z$ add $Y, Z$. So $(VW)^+ = \\{V, W, X, Y, Z\\}$, which does not contain $U$. Therefore $VW \\to YZ$ (A) and $VW \\to Y$ (D) hold, and $VW \\to U$ (C) does not. (B) $WX \\to YZ$ follows from $WX \\to Y$ and $WX \\to Z$ by the union rule.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.46 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.02",
+   "DA.2.01"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.47",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Select all choices that are subspaces of $\\mathbb{R}^3$.\n\n**Note**: $\\mathbb{R}$ denotes the set of real numbers.",
+  "options": [
+   "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 :\\ \\mathbf{x} = \\alpha \\begin{bmatrix} 1 \\\\ 1 \\\\ 0 \\end{bmatrix} + \\beta \\begin{bmatrix} 1 \\\\ 0 \\\\ 0 \\end{bmatrix}, \\alpha, \\beta \\in \\mathbb{R}\\right\\}$",
+   "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix} 1 \\\\ 2 \\\\ 0 \\end{bmatrix} + \\beta^2 \\begin{bmatrix} 1 \\\\ 0 \\\\ 1 \\end{bmatrix}, \\alpha, \\beta \\in \\mathbb{R}\\right\\}$",
+   "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 :\\ 5x_1 + 2x_3 = 0, 4x_1 - 2x_2 + 3x_3 = 0\\right\\}$",
+   "$\\left\\{\\mathbf{x} = \\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{bmatrix} \\in \\mathbb{R}^3 :\\ 5x_1 + 2x_3 + 4 = 0\\right\\}$"
+  ],
+  "answer_key": "A,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) is the span of two vectors, so it is a subspace. (B) has non-negative coefficients $\\alpha^2, \\beta^2 \\ge 0$, so it is a cone. It contains $(1, 2, 0)$ but not $-(1, 2, 0)$, so it is not closed under scalar multiplication and is not a subspace. (C) is the solution set of a homogeneous linear system (a null space), so it is a subspace. (D) does not contain $\\mathbf{0}$ (since $0 + 4 \\ne 0$); it is an affine plane, not a subspace. Answer: A, C.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.47 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.10",
+   "DA.2.14"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.48",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Which of the following statements is/are **TRUE**?\n\n**Note**: $\\mathbb{R}$ denotes the set of real numbers.",
+  "options": [
+   "There exist $\\boldsymbol{M} \\in \\mathbb{R}^{3 \\times 3}$, $\\boldsymbol{p} \\in \\mathbb{R}^3$, and $\\boldsymbol{q} \\in \\mathbb{R}^3$ such that $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{p}$ has a unique solution and $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{q}$ has infinite solutions.",
+   "There exist $\\boldsymbol{M} \\in \\mathbb{R}^{3 \\times 3}$, $\\boldsymbol{p} \\in \\mathbb{R}^3$, and $\\boldsymbol{q} \\in \\mathbb{R}^3$ such that $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{p}$ has no solutions and $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{q}$ has infinite solutions.",
+   "There exist $\\boldsymbol{M} \\in \\mathbb{R}^{2 \\times 3}$, $\\boldsymbol{p} \\in \\mathbb{R}^2$, and $\\boldsymbol{q} \\in \\mathbb{R}^2$ such that $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{p}$ has a unique solution and $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{q}$ has infinite solutions.",
+   "There exist $\\boldsymbol{M} \\in \\mathbb{R}^{3 \\times 2}$, $\\boldsymbol{p} \\in \\mathbb{R}^3$, and $\\boldsymbol{q} \\in \\mathbb{R}^3$ such that $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{p}$ has a unique solution and $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{q}$ has no solutions."
+  ],
+  "answer_key": "B,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) False: a unique solution for a square $\\boldsymbol{M}$ means the null space is $\\{0\\}$, so $\\boldsymbol{M}$ is invertible and every system $\\boldsymbol{M}\\mathbf{x} = \\boldsymbol{q}$ has exactly one solution. (B) True: take a singular $\\boldsymbol{M}$, with $\\boldsymbol{p}$ outside its column space (no solution) and $\\boldsymbol{q}$ inside it (infinitely many solutions). (C) False: a $2 \\times 3$ matrix has nullity at least 1, so a consistent system always has infinitely many solutions. (D) True: a $3 \\times 2$ matrix of rank 2 has nullity 0. Then $\\boldsymbol{p}$ in its 2-D column space gives a unique solution and $\\boldsymbol{q}$ outside it gives none.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.48 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.05",
+   "DA.2.07",
+   "DA.2.15"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.49",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $\\mathbb{R}$ be the set of real numbers, $U$ be a subspace of $\\mathbb{R}^3$ and $\\boldsymbol{M} \\in \\mathbb{R}^{3 \\times 3}$ be the matrix corresponding to the projection on to the subspace $U$.\n\nWhich of the following statements is/are **TRUE**?",
+  "options": [
+   "If $U$ is a 1-dimensional subspace of $\\mathbb{R}^3$, then the null space of $\\boldsymbol{M}$ is a 1-dimensional subspace.",
+   "If $U$ is a 2-dimensional subspace of $\\mathbb{R}^3$, then the null space of $\\boldsymbol{M}$ is a 1-dimensional subspace.",
+   "$\\boldsymbol{M}^2 = \\boldsymbol{M}$",
+   "$\\boldsymbol{M}^3 = \\boldsymbol{M}$"
+  ],
+  "answer_key": "B,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A projection onto $U$ has range $U$, so $\\text{rank}(\\boldsymbol{M}) = \\dim U$ and nullity $= 3 - \\dim U$. If $\\dim U = 1$ the null space is 2-dimensional, so (A) is false. If $\\dim U = 2$ the null space is 1-dimensional, so (B) is true. Projecting twice changes nothing, so $\\boldsymbol{M}^2 = \\boldsymbol{M}$ (C), and then $\\boldsymbol{M}^3 = \\boldsymbol{M}\\boldsymbol{M}^2 = \\boldsymbol{M}^2 = \\boldsymbol{M}$ (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.49 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.50",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider the function $f: \\mathbb{R} \\to \\mathbb{R}$ where $\\mathbb{R}$ is the set of all real numbers.\n\n$$f(x) = \\frac{x^4}{4} - \\frac{2x^3}{3} - \\frac{3x^2}{2} + 1$$\n\nWhich of the following statements is/are **TRUE**?",
+  "options": [
+   "$x = 0$ is a local maximum of $f$",
+   "$x = 3$ is a local minimum of $f$",
+   "$x = -1$ is a local maximum of $f$",
+   "$x = 0$ is a local minimum of $f$"
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$f'(x) = x^3 - 2x^2 - 3x = x(x - 3)(x + 1)$, so the critical points are $x = -1, 0, 3$. $f''(x) = 3x^2 - 4x - 3$. $f''(0) = -3 < 0$, so $x = 0$ is a local maximum: (A) true, (D) false. $f''(3) = 12 > 0$, so $x = 3$ is a local minimum: (B) true. $f''(-1) = 4 > 0$, so $x = -1$ is a local minimum, not a maximum: (C) false.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.50 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.14",
+   "DA.4.15"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.51",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider the directed acyclic graph (DAG) below:\n\nVertices: P, Q, R, S, T, U, V. Directed edges: P → Q, R → Q, Q → S, Q → V, S → U, V → T.\n\nWhich of the following is/are valid vertex orderings that can be obtained from a topological sort of the DAG?\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "P Q R S T U V",
+   "P R Q V S U T",
+   "P Q R S V U T",
+   "P R Q S V T U"
+  ],
+  "answer_key": "B,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Q must come after both P and R; S and V after Q; U after S; T after V. (A) and (C) place Q before R, so both are invalid. (B) P R Q V S U T satisfies every edge (Q before V and S, S before U, V before T). (D) P R Q S V T U also satisfies every edge. Answer: B, D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.51 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.52",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $H, I, L$, and $N$ represent height, number of internal nodes, number of leaf nodes, and the total number of nodes respectively in a rooted binary tree.\n\nWhich of the following statements is/are always **TRUE**?",
+  "options": [
+   "$L \\le I + 1$",
+   "$H + 1 \\le N \\le 2^{H+1} - 1$",
+   "$H \\le I \\le 2^H - 1$",
+   "$H \\le L \\le 2^{H-1}$"
+  ],
+  "answer_key": "A,B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) In a binary tree $L = (\\text{number of nodes with 2 children}) + 1 \\le I + 1$, so (A) is true. (B) A tree of height $H$ has at least the $H + 1$ nodes of one root-to-leaf path and at most the $2^{H+1} - 1$ nodes of a complete tree, so (B) is true. (C) The $H$ non-leaf nodes on a longest path are internal, and a perfect tree has $2^H - 1$ internal nodes, so (C) is true. (D) is false: a path-shaped tree has $L = 1 < H$ when $H > 1$, and a perfect tree has $L = 2^H > 2^{H-1}$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.52 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.05"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.54",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let *game(ball, rugby)* be true if the ball is used in rugby and false otherwise.\n\nLet *shape(ball, round)* be true if the ball is round and false otherwise.\n\nConsider the following logical sentences:\n\n$s1: \\forall \\textit{ball}\\ \\neg\\, \\textit{game(ball, rugby)} \\implies \\textit{shape(ball, round)}$\n\n$s2: \\forall \\textit{ball}\\ \\neg\\, \\textit{shape(ball, round)} \\implies \\textit{game(ball, rugby)}$\n\n$s3: \\forall \\textit{ball}\\ \\textit{game(ball, rugby)} \\implies \\neg\\, \\textit{shape(ball, round)}$\n\n$s4: \\forall \\textit{ball}\\ \\textit{shape(ball, round)} \\implies \\neg\\, \\textit{game(ball, rugby)}$\n\nWhich of the following choices is/are logical representations of the assertion,\n\n“All balls are round except balls used in rugby”?",
+  "options": [
+   "$s1 \\wedge s3$",
+   "$s1 \\wedge s2$",
+   "$s2 \\wedge s3$",
+   "$s3 \\wedge s4$"
+  ],
+  "answer_key": "A,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The assertion says two things: balls not used in rugby are round (s1), and balls used in rugby are not round (s3). So $s1 \\wedge s3$ (A) is correct. s2 is the contrapositive of s1, so $s2 \\wedge s3 \\equiv s1 \\wedge s3$ (C) is also correct. s4 is the contrapositive of s3, so $s1 \\wedge s2 \\equiv s1$ (B) and $s3 \\wedge s4 \\equiv s3$ (D) each capture only half of the assertion.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.54 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.55",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "An OTT company is maintaining a large disk-based relational database of different movies with the following schema:\n\n$\\texttt{Movie}(\\underline{\\textit{ID}}, \\textit{CustomerRating})$\n\n$\\texttt{Genre}(\\underline{\\textit{ID}}, \\textit{Name})$\n\n$\\texttt{Movie\\_Genre}(\\underline{\\textit{MovieID}}, \\underline{\\textit{GenreID}})$\n\nConsider the following SQL query on the relation database above:\n\n```sql\nSELECT *\nFROM Movie, Genre, Movie_Genre\nWHERE\n     Movie.CustomerRating > 3.4 AND\n     Genre.Name = “Comedy” AND\n     Movie_Genre.MovieID = Movie.ID AND\n     Movie_Genre.GenreID = Genre.ID;\n```\n\nThis SQL query can be sped up using which of the following indexing options?",
+  "options": [
+   "B$^+$ tree on all the attributes.",
+   "Hash index on `Genre.Name` and B$^+$ tree on the remaining attributes.",
+   "Hash index on `Movie.CustomerRating` and B$^+$ tree on the remaining attributes.",
+   "Hash index on all the attributes."
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The query has a range predicate (CustomerRating > 3.4), an equality predicate (Name = 'Comedy') and equi-joins on the ID attributes. B$^+$ trees support both range and equality lookups, so (A) helps every predicate. A hash index supports equality lookups, so hashing Genre.Name with B$^+$ trees elsewhere (B) also works. (C) and (D) put a hash index on CustomerRating, which cannot serve the range condition > 3.4. Official answer: A, B.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.55 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.18",
+   "DA.1.07"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.56",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $X$ be a random variable uniformly distributed in the interval [1, 3] and $Y$ be a random variable uniformly distributed in the interval [2, 4]. If $X$ and $Y$ are independent of each other, the probability $P(X \\ge Y)$ is ______ (rounded off to **three** decimal places).",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.125,
+  "nat_high": 0.125,
+  "explanation": "$(X, Y)$ is uniform on the square $[1,3] \\times [2,4]$ with joint density $\\frac{1}{4}$. $X \\ge Y$ requires $2 \\le Y \\le X \\le 3$, a triangle of area $\\int_2^3 (x - 2)\\,dx = \\frac{1}{2}$. Hence $P(X \\ge Y) = \\frac{1}{2} \\cdot \\frac{1}{4} = 0.125$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.56 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.19"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.57",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $X$ be a random variable exponentially distributed with parameter $\\lambda > 0$. The probability density function of $X$ is given by:\n\n$$f_X(x) = \\begin{cases} \\lambda\\, e^{-\\lambda x}, & x \\ge 0 \\\\ 0, & \\textit{otherwise} \\end{cases}$$\n\nIf $5E(X) = Var(X)$, where $E(X)$ and $Var(X)$ indicate the expectation and variance of $X$, respectively, the value of $\\lambda$ is ______ (rounded off to **one** decimal place).",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.2,
+  "nat_high": 0.2,
+  "explanation": "For the exponential distribution $E(X) = 1/\\lambda$ and $Var(X) = 1/\\lambda^2$. Then $5/\\lambda = 1/\\lambda^2$ gives $\\lambda = 1/5 = 0.2$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.57 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.08"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.58",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider two events $T$ and $S$. Let $\\overline{T}$ denote the complement of the event $T$. The probability associated with different events are given as follows:\n\n$$P(\\overline{T}) = 0.6, \\quad P(S|T) = 0.3, \\quad P(S|\\overline{T}) = 0.6$$\n\nThen, $P(T|S)$ is ______ (rounded off to **two** decimal places).",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.25,
+  "nat_high": 0.25,
+  "explanation": "$P(T) = 0.4$. By total probability, $P(S) = 0.4 \\times 0.3 + 0.6 \\times 0.6 = 0.12 + 0.36 = 0.48$. By Bayes' theorem, $P(T|S) = \\frac{0.12}{0.48} = 0.25$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.58 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.02"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.60",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Evaluate the following limit:\n\n$$\\lim_{x \\to 0} \\frac{\\ln((x^2+1)\\cos x)}{x^2} = \\underline{\\qquad}.$$",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.5,
+  "nat_high": 0.5,
+  "explanation": "Write $\\ln((x^2+1)\\cos x) = \\ln(1 + x^2) + \\ln \\cos x$. As $x \\to 0$, $\\ln(1 + x^2) = x^2 + O(x^4)$ and $\\ln \\cos x = \\ln\\left(1 - \\frac{x^2}{2} + \\cdots\\right) = -\\frac{x^2}{2} + O(x^4)$. Dividing by $x^2$ gives $1 - \\frac{1}{2} = 0.5$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.60 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.18",
+   "DA.2.14"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.61",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $\\boldsymbol{u} = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\\\ 4 \\\\ 5 \\end{bmatrix}$, and let $\\sigma_1, \\sigma_2, \\sigma_3, \\sigma_4, \\sigma_5$ be the singular values of the matrix $\\boldsymbol{M} = \\boldsymbol{u}\\boldsymbol{u}^T$ (where $\\boldsymbol{u}^T$ is the transpose of $\\boldsymbol{u}$). The value of $\\sum_{i=1}^{5} \\sigma_i$ is ______.",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 55.0,
+  "nat_high": 55.0,
+  "explanation": "$\\boldsymbol{M} = \\boldsymbol{u}\\boldsymbol{u}^T$ is symmetric positive semidefinite of rank 1. Its only non-zero eigenvalue is $\\boldsymbol{u}^T\\boldsymbol{u}$ (eigenvector $\\boldsymbol{u}$), so its singular values are $\\|\\boldsymbol{u}\\|^2, 0, 0, 0, 0$. Sum $= 1 + 4 + 9 + 16 + 25 = 55$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.61 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.10"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.62",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Details of ten international cricket games between two teams “Green” and “Blue” are given in Table C. This table consists of matches played on different pitches, across formats along with their winners. The attribute *Pitch* can take one of two values: spin-friendly (represented as $S$) or pace-friendly (represented as $F$). The attribute *Format* can take one of two values: one-day match (represented as $O$) or test match (represented as $T$).\n\nA cricket organization would like to use the information given in Table C to develop a decision-tree model to predict outcomes of future games between these two teams.\n\nTo develop such a model, the computed InformationGain(C, *Pitch*) with respect to the Target is ______ (rounded off to **two** decimal places).\n\n**Table C**\n\n| Match Number | Pitch | Format | Winner (Target) |\n|---|---|---|---|\n| 1 | $S$ | $T$ | Green |\n| 2 | $S$ | $T$ | Blue |\n| 3 | $F$ | $O$ | Blue |\n| 4 | $S$ | $O$ | Blue |\n| 5 | $F$ | $T$ | Green |\n| 6 | $F$ | $O$ | Blue |\n| 7 | $S$ | $O$ | Green |\n| 8 | $F$ | $T$ | Blue |\n| 9 | $F$ | $O$ | Blue |\n| 10 | $S$ | $O$ | Green |",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.12,
+  "nat_high": 0.13,
+  "explanation": "Target: 4 Green, 6 Blue, so $H(C) = -0.4\\log_2 0.4 - 0.6\\log_2 0.6 \\approx 0.971$. Pitch $= S$ (matches 1, 2, 4, 7, 10): 3 Green, 2 Blue, $H \\approx 0.971$. Pitch $= F$ (matches 3, 5, 6, 8, 9): 1 Green, 4 Blue, $H = -0.2\\log_2 0.2 - 0.8\\log_2 0.8 \\approx 0.722$. Weighted entropy $= 0.5(0.971) + 0.5(0.722) \\approx 0.846$. Information gain $\\approx 0.971 - 0.846 = 0.125 \\approx 0.12$ (official range 0.12–0.13).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.62 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.06"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.63",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Given the two-dimensional dataset consisting of 5 data points from two classes (circles and squares) and assume that the Euclidean distance is used to measure the distance between two points. The minimum odd value of $k$ in $k$-nearest neighbor algorithm for which the diamond (⋄) shaped data point is assigned the label square is ______.\n\nPoints shown in the figure (coordinates as labelled in the figure): circles at (1,1) and (1,2); squares at (2,3), (3,3) and (3,2); the diamond (⋄) shaped data point at (2,1).\n\n(Figure from the official paper transcribed as text.)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 5.0,
+  "nat_high": 5.0,
+  "explanation": "Distances from the diamond $(2,1)$: circle $(1,1)$: 1; circle $(1,2)$: $\\sqrt{2}$; square $(3,2)$: $\\sqrt{2}$; square $(2,3)$: 2; square $(3,3)$: $\\sqrt{5}$. With $k = 1$ the nearest point is a circle. With $k = 3$ the neighbours $(1,1), (1,2), (3,2)$ give 2 circles vs 1 square, so the label is circle. With $k = 5$ all points vote: 3 squares vs 2 circles, so the label is square. The minimum odd $k$ is 5.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.63 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.06",
+   "DA.1.07"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.64",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Given the following Bayesian Network consisting of four Bernoulli random variables and the associated conditional probability tables:\n\nNetwork structure (directed edges): $U \\to V$, $U \\to W$, $V \\to Z$, $W \\to Z$.\n\n| | $P(\\cdot)$ |\n|---|---|\n| $U = 0$ | 0.5 |\n| $U = 1$ | 0.5 |\n\n| | $P(V = 0 \\mid \\cdot)$ | $P(V = 1 \\mid \\cdot)$ |\n|---|---|---|\n| $U = 0$ | 0.5 | 0.5 |\n| $U = 1$ | 0.5 | 0.5 |\n\n| | $P(W = 0 \\mid \\cdot)$ | $P(W = 1 \\mid \\cdot)$ |\n|---|---|---|\n| $U = 0$ | 1 | 0 |\n| $U = 1$ | 0 | 1 |\n\n| | | $P(Z = 0 \\mid \\cdot)$ | $P(Z = 1 \\mid \\cdot)$ |\n|---|---|---|---|\n| $V = 0$ | $W = 0$ | 0.5 | 0.5 |\n| $V = 0$ | $W = 1$ | 1 | 0 |\n| $V = 1$ | $W = 0$ | 1 | 0 |\n| $V = 1$ | $W = 1$ | 0.5 | 0.5 |\n\nThe value of $P(U = 1, V = 1, W = 1, Z = 1) =$ ______ (rounded off to **three** decimal places).\n\n(Figure from the official paper transcribed as text.)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.125,
+  "nat_high": 0.125,
+  "explanation": "The network factorises as $P(U)P(V \\mid U)P(W \\mid U)P(Z \\mid V, W)$. Hence $P(U{=}1, V{=}1, W{=}1, Z{=}1) = P(U{=}1)\\,P(V{=}1 \\mid U{=}1)\\,P(W{=}1 \\mid U{=}1)\\,P(Z{=}1 \\mid V{=}1, W{=}1) = 0.5 \\times 0.5 \\times 1 \\times 0.5 = 0.125$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.64 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.11",
+   "DA.1.15"
+  ],
+  "exam_year": 2024,
+  "exam_name": "GATE 2024 DA",
+  "question_ref": "Q.65",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Two fair coins are tossed independently. $X$ is a random variable that takes a value of 1 if both tosses are heads and 0 otherwise. $Y$ is a random variable that takes a value of 1 if at least one of the tosses is heads and 0 otherwise.\n\nThe value of the covariance of $X$ and $Y$ is ______ (rounded off to **three** decimal places).",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.062,
+  "nat_high": 0.063,
+  "explanation": "$E[X] = P(HH) = \\frac{1}{4}$ and $E[Y] = 1 - P(TT) = \\frac{3}{4}$. Since $X = 1$ implies $Y = 1$, $E[XY] = P(X = 1) = \\frac{1}{4}$. Then $\\text{Cov}(X, Y) = \\frac{1}{4} - \\frac{1}{4} \\cdot \\frac{3}{4} = \\frac{1}{16} = 0.0625$, which lies in the official range 0.062–0.063.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+  "source_note": "Official GATE 2024 DA master question paper (organizing institute IISc Bengaluru), as re-hosted on the official GATE 2026 (IIT Guwahati) site, Q.65 (paper sha256 8ba7f11014fc…). Answer/type/marks from the Official GATE 2024 DA final answer key (IISc Bengaluru) (https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]

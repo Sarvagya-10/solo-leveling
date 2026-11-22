@@ -1,0 +1,1617 @@
+[
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.02",
+   "GA.1.08"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.1",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Verbosity : Brevity :: Insolence :___________\n\nChoose the word that best fills the blank.",
+  "options": [
+   "Innocence",
+   "Respect",
+   "Solace",
+   "Wealth"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Verbosity (using too many words) is the opposite of brevity. Insolence (rude, disrespectful behaviour) is likewise the opposite of respect. So the answer is (B) Respect. Innocence, solace and wealth are not antonyms of insolence.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.1 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.2",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "The product of the digits of a three-digit number is 70. The sum of the digits of this three-digit number is _____",
+  "options": [
+   "12",
+   "14",
+   "16",
+   "18"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$70 = 2 \\times 5 \\times 7$. The digits must each be at most 9. Any choice that uses the digit 1 would need two digits with product 70 (for example 7 and 10), which is impossible. So the digits are 2, 5 and 7, and their sum is $2+5+7 = 14$, which is (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.2 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.08",
+   "GA.2.07"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.4",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider two distinct positive real numbers $m, n$, with $m > n$.\nLet $x = n^{\\log_{10}(m)}$ and $y = m^{\\log_{10}(n)}$. The relation between $x$ and $y$ is _______.",
+  "options": [
+   "$x > y$",
+   "$x < y$",
+   "$x = y$",
+   "$x = \\log_{10}(y)$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Take $\\log_{10}$ of both. $\\log_{10} x = \\log_{10}(m)\\,\\log_{10}(n)$ and $\\log_{10} y = \\log_{10}(n)\\,\\log_{10}(m)$. These are equal, so $x = y$ whatever $m$ and $n$ are. The answer is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.4 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.01",
+   "GA.1.11"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.5",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "‘If his latest movie had been a commercial success, the actor would have made enough money to sponsor his next movie.’\n\nBased only on the above sentence, which one of the following statements is true?",
+  "options": [
+   "The actor will certainly sponsor his next movie.",
+   "His latest movie was a commercial success.",
+   "The actor made enough money from his latest movie.",
+   "His latest movie was not commercially successful."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The sentence is a counterfactual (third) conditional: 'had been … would have'. It describes a situation that did not happen, so the latest movie was not a commercial success, which is (D). That also means the actor did not make enough money from it, so (B) and (C) are false. Nothing says he will certainly sponsor his next movie, so (A) is false.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.5 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.1.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.6",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "‘My friend and I parted __ the door __ the cabin that I had rented __ the night.’\n\nChoose the option with the correct sequence of words to fill the blanks.",
+  "options": [
+   "at; of; for",
+   "for; at; of",
+   "of; for; in",
+   "in; of; for"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "We parted *at* the door (a location), the door *of* the cabin (belonging to it), and rented *for* the night (a duration). So the sequence is 'at; of; for', which is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.6 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.12"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.7",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Five integers are picked from 0 to 20, with possible repetitions, such that their mean is 12, median is 18, and they have a single mode of 20.\n\nIgnoring permutations, the number of ways to pick these five integers is _____",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The mean is 12, so the sum is 60. Sort the numbers as $a \\le b \\le 18 \\le d \\le e$. For 20 to be the single mode it must appear at least twice. Only $d$ and $e$ can be 20, so $d = e = 20$, every other value appears at most once, and $a + b = 60 - 18 - 40 = 2$. The pair $a = b = 1$ would make 1 a second mode, so the only choice is $(a, b) = (0, 2)$, giving $\\{0, 2, 18, 20, 20\\}$. There is exactly 1 way, which is (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.7 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.8",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Rishi and Swathi are students of Class 5. Pavan and Tanvi are students of Class 4. Rishi and Pavan are boys. Swathi and Tanvi are girls. The four students played a total of three games of chess. The games were played one after another. A player who lost a game did not participate in any more games. It was observed that:\n\n(i) the first game was the only game where two students of the same class played against each other,\n\n(ii) the students of Class 5 won more games than the students of Class 4, and\n\n(iii) the boys won two games and the girls won one game.\n\nThe student who did not lose any game is __________.",
+  "options": [
+   "Pavan",
+   "Rishi",
+   "Swathi",
+   "Tanvi"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Suppose game 1 is Pavan vs Tanvi. Then a Class 4 student wins it, so Class 5 must win both later games. But game 3 would then be between the two Class 5 students, which breaks (i). So game 1 is Rishi vs Swathi, and its winner $W$ must win game 2 against a Class 4 student. Otherwise game 3 would be between the two Class 4 students. If $W$ were Swathi, the girls would have won two games. So $W$ is Rishi, who beats Pavan in game 2. Rishi must then lose game 3 to a girl to make the score boys 2, girls 1. That girl is Tanvi, so Tanvi never lost: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.8 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.3.03",
+   "GA.2.07"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.9",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "$P$, $Q$, $R$, $S$, $X$, and $Y$ are distinct single-digit whole numbers taking values from 0 to 9.\n\n$PQ$ is a two-digit number with $Q$ being in the units place and $P$ in the tens place. Similarly, $RS$ is a two-digit number.\n\nIt is known that $PQ$ and $RS$ are consecutive numbers and\n$(PQ)^2 + (RS)^2 = XYP$, with $XYP$ being a three-digit number.\n\nThe value of $Y$ is __________",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The sum of the squares is a three-digit number, so the two-digit numbers are at most about 21. The units digit of the sum must equal $P$, the tens digit of $PQ$. Checking the consecutive pairs, only $PQ = 19, RS = 20$ works: $19^2 + 20^2 = 361 + 400 = 761$. This gives $X = 7$, $Y = 6$ and $P = 1$, and the digits 1, 9, 2, 0, 7, 6 are all distinct. So $Y = 6$, which is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.9 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "GA.2.11"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.10",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "In the given figure, $P$, $Q$, and $R$ are three points on a circle of radius 10 cm with $O$ as its center, $\\overline{PQ} = \\overline{RQ}$, and $\\angle PQR = 45^\\circ$. The figure is representative.\nThe area of the shaded region $PQRO$ is ______________ cm$^2$.\n\nFigure: a circle with center $O$; $Q$ is at the top of the circle, $P$ is on the lower-left part and $R$ on the lower-right part of the circle. The chords $QP$ and $QR$ and the radii $OP$ and $OR$ are drawn. The shaded region is the arrowhead-shaped (non-convex) quadrilateral $PQRO$ bounded by $QP$, $PO$, $OR$ and $RQ$, with $O$ lying inside triangle $PQR$. The angle $45^\\circ$ is marked at $Q$.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "50",
+   "$25\\sqrt{2}$",
+   "$50\\sqrt{2}$",
+   "100"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The inscribed angle $\\angle PQR = 45^\\circ$, so the central angle $\\angle POR = 90^\\circ$. Because $PQ = RQ$, $Q$ is the midpoint of the major arc $PR$. That gives $\\angle POQ = \\angle ROQ = (360^\\circ - 90^\\circ)/2 = 135^\\circ$. Then area$(PQRO)$ = area$(\\triangle OPQ)$ + area$(\\triangle ORQ) = 2 \\times \\tfrac12 \\times 10 \\times 10 \\times \\sin 135^\\circ = 100 \\times \\tfrac{\\sqrt2}{2} = 50\\sqrt{2}$ cm$^2$, which is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.10 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.24",
+   "DA.6.23"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.11",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "For a classification problem, Principal Component Analysis (PCA) has been used to reduce the dimensionality of a feature space from 100 to 10.\n\nWhich of the following options is true about the angle $\\theta$ between the first and the tenth principal components?",
+  "options": [
+   "$\\theta = 0^\\circ$",
+   "$\\theta = 90^\\circ$",
+   "$90^\\circ < \\theta \\le 180^\\circ$",
+   "$0 < \\theta < 90^\\circ$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Principal components are eigenvectors of the symmetric covariance matrix and are chosen to be mutually orthogonal. So any two distinct principal components, including the 1st and the 10th, are at $\\theta = 90^\\circ$. The answer is (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.11 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.12"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.12",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider that you are training a classifier for a 10-class classification problem. Each input is represented as a 512-dimensional vector. There are 1000 samples, out of which first 100 will be used for testing. Let *Leave-One-Out-Cross-Validation* (LOOCV) be used for selection of the classifier model before testing.\n\nWhich of the following options is the correct number of validation splits that will be generated?",
+  "options": [
+   "10",
+   "512",
+   "900",
+   "1000"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The first 100 samples are held out for testing, so model selection uses the remaining $1000 - 100 = 900$ samples. LOOCV creates one split per sample, with that sample used for validation. That gives 900 validation splits: (C). The number of classes (10) and the dimension (512) do not matter.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.12 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.02",
+   "DA.7.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.13",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Which of the following algorithms is **NOT** an example of uninformed search?",
+  "options": [
+   "Breadth First Search",
+   "Depth First Search",
+   "A* Search",
+   "Depth-limited Search"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "BFS, DFS and depth-limited search use only the problem definition, with no heuristic, so they are uninformed. A* orders nodes by $f(n) = g(n) + h(n)$ using a heuristic $h$, so it is an informed search. The answer is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.13 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.14",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Which of the following statements is **NOT** true?\n\n(The names of the predicates are intuitive.)",
+  "options": [
+   "$\\forall x\\, \\forall y\\; \\mathit{Classmate}(x, y) \\Rightarrow \\mathit{Classmate}(y, x)$",
+   "$\\forall x\\; \\mathit{Likes}(x, \\mathit{Icecream}) \\;\\Rightarrow\\; \\neg \\exists x\\; \\neg \\mathit{Likes}(x, \\mathit{Icecream})$",
+   "“*Each king is a person*” is equivalent to $\\forall x\\; \\mathit{IsKing}(x) \\land \\mathit{IsPerson}(x)$",
+   "“*All humans are mortal*” is equivalent to $\\forall x\\; \\mathit{IsHuman}(x) \\Rightarrow \\mathit{IsMortal}(x)$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "'Each king is a person' should be written $\\forall x\\, \\mathit{IsKing}(x) \\Rightarrow \\mathit{IsPerson}(x)$. The conjunction form claims that everything is both a king and a person, so (C) is NOT true. (A) holds because being classmates is symmetric. (B) holds because $\\forall x\\, L(x) \\equiv \\neg\\exists x\\, \\neg L(x)$. (D) is the standard correct translation.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.14 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.13"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.15",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider that the quick sort algorithm is used to sort an array of $n$ distinct randomly ordered elements. In every call, the pivot is chosen as the first element of the current subarray.\n\nLet $T(n)$ denote the expected time to sort the array. Assume that the time to partition is linear in the size of the current subarray.\n\nWhich of the following recurrence relations correctly represents $T(n)$ in this scenario?",
+  "options": [
+   "$T(n) = T(1) + T(n-1) + O(n)$",
+   "$T(n) = T\\left(\\frac{n}{4}\\right) + T\\left(\\frac{3n}{4}\\right) + O(n)$",
+   "$T(n) = 2T\\left(\\frac{n}{2}\\right) + O(n)$",
+   "$T(n) = \\frac{1}{n}\\sum_{k=0}^{n-1}[T(k) + T(n-k-1)] + O(n)$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The input order is random, so the first element is equally likely to have any rank, each with probability $1/n$. If $k$ elements are smaller than the pivot, the subproblems have sizes $k$ and $n-k-1$, for $k = 0, \\dots, n-1$. Averaging over $k$ and adding the linear partition cost gives (D). (A) is the worst case, and (B) and (C) assume fixed split ratios.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.15 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.16",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider the given Python program.\n\n```python\ndef append_to_lst(val, lst=[]):\n    lst.append(val)\n    return lst\nprint(append_to_lst(1))\nprint(append_to_lst(2))\nprint(append_to_lst(3, []))\n```\n\nWhich of the following is the correct output of this program?",
+  "options": [
+   "`[1]`  \n`[2]`  \n`[3]`",
+   "`[1]`  \n`[1, 2]`  \n`[3]`",
+   "`[1]`  \n`[2]`  \n`[1, 2, 3]`",
+   "`[1]`  \n`[1, 2]`  \n`[1, 3]`"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A mutable default argument is created once, when the function is defined, and shared by every call that omits it. The 1st call appends to that shared list and prints [1]. The 2nd call appends to the same list and prints [1, 2]. The 3rd call passes a fresh empty list and prints [3]. The answer is (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.16 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.06"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.17",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let R(A,B,C,D,E) be a relational schema with functional dependency set $F = \\{A \\rightarrow BC,\\ CD \\rightarrow E,\\ E \\rightarrow A\\}$.\n\nWhich of the following statements is correct?",
+  "options": [
+   "AD, ED and CD are the only candidate keys of R.",
+   "AD and ED are the only candidate keys of R.",
+   "A, E and CD are the only candidate keys of R.",
+   "A and CD are the only candidate keys of R."
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "D never appears on a right-hand side, so every key contains D. The closures are $AD^+ = \\{A,B,C,D,E\\}$, $ED^+$ ($E\\to A \\to BC$) $= \\{A,B,C,D,E\\}$ and $CD^+$ ($CD \\to E \\to A \\to B$) $= \\{A,B,C,D,E\\}$, while $BD^+ = \\{B,D\\}$ and $D^+ = \\{D\\}$. So AD, ED and CD are minimal keys, and any other superkey contains one of them. A, E and CD alone cannot be keys without D, so the answer is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.17 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.15",
+   "DA.5.14"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.18",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider that the visualization of a 3-dimensional data cube is showing *Sales Quantity* for each combination of the attributes *Product Type*, *Month* and *Country*.\n\nFrom this, if we want to further visualize the *Sales Quantity* for each combination of *Product Type*, *Month* and *State*, which of the following OLAP operations should be performed?",
+  "options": [
+   "Slicing",
+   "Dicing",
+   "Roll-up",
+   "Drill-down"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Going from Country to State moves down the location concept hierarchy to a finer level of detail. That is a drill-down, (D). Roll-up goes the other way, to a coarser level. Slice and dice select sub-cubes without changing the granularity.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.18 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01",
+   "DA.1.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.19",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let $M$ be a randomly chosen non-empty subset of $S = \\{1,2,3,\\ldots,2026\\}$.\n\nWhich of the following is the probability that the product of all the elements of $M$ is even?",
+  "options": [
+   "$2^{1013}(2^{1013}-1)/2^{2026}$",
+   "$2^{1013}/2^{2026}$",
+   "$2^{1013}(2^{1013}-1)/(2^{2026}-1)$",
+   "$1/(2^{2026}-1)$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "There are $2^{2026}-1$ non-empty subsets, all equally likely. The product is odd only if every element is odd. $S$ has 1013 odd numbers, so there are $2^{1013}-1$ non-empty all-odd subsets. Favourable subsets: $(2^{2026}-1) - (2^{1013}-1) = 2^{1013}(2^{1013}-1)$. So the probability is $2^{1013}(2^{1013}-1)/(2^{2026}-1)$, which is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.19 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01",
+   "DA.1.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.20",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Suppose that a computer program provides a non-negative and integer-valued random solution to the equation $n_1 + n_2 + n_3 + n_4 = 20$.\n\nWhich of the following is the probability that all of $n_1, n_2, n_3, n_4$ in the provided solution are positive?",
+  "options": [
+   "$\\binom{19}{3}/\\binom{23}{3}$",
+   "$\\binom{20}{4}/\\binom{24}{4}$",
+   "$\\binom{20}{3}/\\binom{23}{3}$",
+   "$\\binom{19}{4}/\\binom{24}{4}$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "By stars and bars, the equation has $\\binom{20+3}{3} = \\binom{23}{3}$ non-negative solutions. Positive solutions: substitute $n_i = m_i + 1$ with $m_i \\ge 0$, so $\\sum m_i = 16$. That gives $\\binom{16+3}{3} = \\binom{19}{3}$ solutions. With every solution equally likely, the probability is $\\binom{19}{3}/\\binom{23}{3}$, which is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.20 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.06",
+   "DA.2.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.21",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Let $M = \\begin{pmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{pmatrix}$ be a $2 \\times 2$ matrix, where $\\theta = \\frac{2\\pi}{5}$, and $I_2 = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$.\n\nWhich of the following options is equal to $M^{2026}$ ?",
+  "options": [
+   "$M^2$",
+   "$M$",
+   "$M^{-1}$",
+   "$I_2$"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$M$ rotates by $\\theta$, so $M^k$ rotates by $k\\theta$. Since $5\\theta = 2\\pi$, $M^5 = I_2$. Because $2026 = 5 \\cdot 405 + 1$, $M^{2026} = (M^5)^{405} M = M$, which is (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.21 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.02",
+   "DA.2.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.22",
+  "qtype": "MCQ",
+  "marks": 1,
+  "stem": "Consider a set $S_1 = \\{x = (x_1, x_2, x_3)^T \\in \\mathbb{R}^3 \\mid x^T x \\le 16\\}$. Let $S_2$ be another set which is a subspace of $\\mathbb{R}^3$ with dimension two.\n\nWhich of the following gives the area of $S_1 \\cap S_2$?",
+  "options": [
+   "$16\\pi$",
+   "$4\\pi$",
+   "$4\\pi^2$",
+   "$16\\pi^2$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$S_1$ is the solid ball of radius 4 centred at the origin. A 2-dimensional subspace is a plane through the origin, so it passes through the centre of the ball. Their intersection is a disc of radius 4 with area $\\pi \\cdot 4^2 = 16\\pi$, which is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.22 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.17",
+   "DA.6.07",
+   "DA.6.08"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.23",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "In the following table, the `Task` column lists a few tasks related to machine learning. The `Algorithm` column lists a few algorithms.\n\nEach entry “`t`” from the `Task` column is to be matched with an appropriate entry “`a`” from the `Algorithm` column such that the task “`t`” can be solved using the algorithm “`a`”. Denote such a match as `t:a`\n\n| Task | Algorithm |\n|---|---|\n| T1 – Clustering | A1 – Markov Chain Monte Carlo |\n| T2 – Classification | A2 – K-Medoid |\n| T3 – Sampling | A3 – Linear Discriminant Analysis |\n| T4 – Feature Extraction | A4 – Naive Bayes |\n\nWhich of the following options is/are the correct matching(s)?",
+  "options": [
+   "T1:A4, T2:A3, T3:A1, T4:A2",
+   "T1:A2, T2:A4, T3:A1, T4:A3",
+   "T1:A3, T2:A4, T3:A1, T4:A2",
+   "T1:A4, T2:A2, T3:A1, T4:A3"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "K-Medoid is a clustering algorithm, Naive Bayes a classifier, MCMC a sampling method, and LDA a supervised feature extraction (projection) method. That gives T1:A2, T2:A4, T3:A1, T4:A3, which is only (B). (A) uses Naive Bayes for clustering and K-Medoid for feature extraction. (C) uses LDA for clustering and K-Medoid for feature extraction. (D) uses Naive Bayes for clustering and K-Medoid for classification.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.23 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.24",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Sentence $X$ is said to entail Sentence $Y$ if whenever $X$ is $TRUE$, $Y$ also must hold $TRUE$.\n\nWhich of the following statements is/are correct if $X$ entails $Y$?",
+  "options": [
+   "$X \\Rightarrow Y$",
+   "$X \\land \\neg Y$ is $FALSE$",
+   "if $X$ then $Y$",
+   "if $Y$ then $X$"
+  ],
+  "answer_key": "A,B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "By the deduction theorem, $X \\models Y$ exactly when $X \\Rightarrow Y$ is valid, so (A) holds. Equivalently, no model makes $X$ true and $Y$ false, so $X \\land \\neg Y$ is always FALSE, which is (B). 'If $X$ then $Y$' is the same implication, which is (C). (D) is the converse, which need not hold. The answers are A, B and C.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.24 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.25",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "You are given the following Pre-order and In-order traversals of a Binary Tree T with nodes E, F, G, P, Q, R, S.\n\nPre-order: `P  Q  S  E  R  F  G`\n\nIn-order: `S  Q  E  P  F  R  G`\n\nWhich of the following statements is/are true about the Binary Tree T?",
+  "options": [
+   "Node P is the root of T",
+   "The Post-order traversal of T is: `S  E  Q  F  G  R  P`",
+   "Node Q has only one child",
+   "The left subtree of node R contains the node G"
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The first pre-order node, P, is the root, so (A) is true. In-order puts {S, Q, E} in P's left subtree, rooted at Q with left child S and right child E. It puts {F, R, G} in the right subtree, rooted at R with left child F and right child G. So the post-order is S E Q F G R P, and (B) is true. (C) is false because Q has two children. (D) is false because G is R's right child.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.25 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.26",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Consider two relations `r` and `s` defined on the relational schemas R(A,B) and S(E,C), respectively. A is the primary key of R and E is a foreign key of S referencing A in R.\n\nWhich of the following operations will **NEVER** violate the foreign key constraint?",
+  "options": [
+   "Inserting records into relation `r`",
+   "Deleting records from relation `s`",
+   "Deleting records from relation `r`",
+   "Inserting records into relation `s`"
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The foreign key s.E references r.A. (A) is correct: inserting into the referenced relation r cannot leave any s tuple dangling. (B) is correct: deleting from the referencing relation s only removes references. (C) can violate the constraint: a deleted r tuple may still be referenced by some s.E. (D) can violate it: a new s tuple may carry an E value that is not present in r.A. The answers are A and B.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.26 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.05",
+   "DA.3.06"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.27",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Let $f(x) = x^3 - 3x^2 + 2$ be a function defined on $(-1, 3]$.\n\nWhich of the following statements is/are correct?",
+  "options": [
+   "$f(x)$ has exactly two roots in $[-0.9, 0]$.",
+   "$f(x)$ has a minimum at 2 only.",
+   "$f(x)$ has maximum at 0 only.",
+   "$f(x)$ has a root at 1."
+  ],
+  "answer_key": "B,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$f'(x) = 3x^2 - 6x = 0$ at $x = 0, 2$. The values are $f(0) = 2$, $f(2) = -2$ and $f(3) = 2$. $f(-1) = -2$, but $x = -1$ is excluded, so the minimum $-2$ is attained only at $x = 2$ and (B) is true. The maximum value 2 is attained at both $0$ and $3$, so (C) is false. $f(1) = 0$, so (D) is true. $f(x) = (x-1)(x^2 - 2x - 2)$ has roots $1, 1 \\pm \\sqrt3$, and only $1-\\sqrt3 \\approx -0.73$ lies in $[-0.9, 0]$, so (A) is false. The answers are B and D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.27 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.23",
+   "DA.1.22",
+   "DA.1.25"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.28",
+  "qtype": "MSQ",
+  "marks": 1,
+  "stem": "Suppose a random variable $Z$ follows $Normal(\\mu = 0, \\sigma^2 = 1)$ distribution with probability density function $g(z)$ and cumulative distribution function $G(z)$. Another random variable $Y$ follows $t_1$ distribution with probability density function $h(y)$ and cumulative distribution function $H(y)$. Let $c$ be the positive real number for which $g(c) = h(c)$.\n\nWhich of the following statements is/are correct?",
+  "options": [
+   "$G(0) = H(0)$",
+   "$G(c) < H(c)$",
+   "$G(-c) < H(-c)$",
+   "$g(0) = h(0)$"
+  ],
+  "answer_key": "A,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Both distributions are symmetric about 0, so $G(0) = H(0) = 0.5$ and (A) is true. $g(0) = 1/\\sqrt{2\\pi} \\approx 0.399$ and $h(0) = 1/\\pi \\approx 0.318$, so (D) is false. The $t_1$ (Cauchy) density has heavier tails, so $g > h$ on $(0, c)$ (here $c \\approx 1.85$). Then $G(c) = 0.5 + \\int_0^c g > 0.5 + \\int_0^c h = H(c)$, so (B) is false. By symmetry, $G(-c) = 1 - G(c) < 1 - H(c) = H(-c)$, so (C) is true. The answers are A and C.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.28 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.06",
+   "DA.6.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.29",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider that for a supervised learning task, the objective function being minimized is $f_w(x) = wx$, where $x \\in \\mathbb{R}$ is the input and $w \\in \\mathbb{R}$ is the parameter. Stochastic Gradient Descent with learning rate of 0.10 is used for parameter updates.\n\nSuppose that at the end of iteration $i$, the value of $w$ becomes 10.00.\n\nLet $x = 10.00$ be the input for iteration $(i + 1)$.\n\nThe value of $w$ at the end of iteration $(i + 1)$ is __________ . (Rounded off to **two** decimal places)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 8.9,
+  "nat_high": 9.1,
+  "explanation": "The gradient of $f_w(x) = wx$ with respect to $w$ is $x = 10$. The SGD update is $w \\leftarrow w - \\eta\\, x = 10 - 0.10 \\times 10 = 9.00$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.29 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.30",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Consider the game tree for a two-player turn-taking minimax game as shown in the figure. The value of a terminal node represents the utility of the game state if the game ends there. The numbers written next to the edges denote the strategies.\n\nThere are two players MAX and MIN. At any particular state of the game, MAX prefers to move to a state of maximum value. On the other hand, MIN prefers to move to a state of minimum value.\n\nSuppose MAX starts the game at the root and has three strategies: 1, 2 and 3. Next, MIN plays and also has three strategies: 1, 2 and 3. The game ends there. Both players always take optimal strategies throughout the game.\n\nAt the root, the best strategy for MAX is ___________ . (Answer in **integer**)\n\nGame tree: the root is a MAX node whose edges 1, 2, 3 lead to three MIN nodes. Each MIN node's edges 1, 2, 3 lead to terminal nodes with the following utilities:\n\n| MAX strategy (edge from root) | MIN strategy 1 | MIN strategy 2 | MIN strategy 3 |\n|---|---|---|---|\n| 1 | 8 | 6 | −1 |\n| 2 | 1 | 5 | 7 |\n| 3 | −4 | −3 | −12 |\n\n(Figure from the official paper transcribed as text.)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 2.0,
+  "nat_high": 2.0,
+  "explanation": "MIN picks the smallest leaf under each MIN node: strategy 1 gives $\\min(8, 6, -1) = -1$, strategy 2 gives $\\min(1, 5, 7) = 1$, and strategy 3 gives $\\min(-4, -3, -12) = -12$. MAX takes $\\max(-1, 1, -12) = 1$, which is reached through strategy 2. Answer: 2.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.30 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.08"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.31",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Let `A` be a sorted array containing 1000 distinct integers. You perform a recursive binary search on `A` to find an element `y`. Suppose each comparison checks whether the middle element computed during the current recursive step is equal to, less than, or greater than `y`.\n\nThe maximum number of comparisons that may have to be performed if `y` is not an element of `A` is _______ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 10.0,
+  "nat_high": 10.0,
+  "explanation": "Each 3-way comparison at least halves the remaining range. An unsuccessful search on $n$ elements needs at most $\\lfloor \\log_2 n \\rfloor + 1$ comparisons. Since $2^9 = 512 \\le 1000 < 1024$, the maximum is $9 + 1 = 10$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.31 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08",
+   "DA.5.07"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.32",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "In a relational database, a B+ Tree Index is to be constructed for a relation on a key field. In a B+ Tree, a Node Pointer points to a sub-tree and a Data Record Pointer points to a block of database records.\n\nLet, Node size = 4096 bytes, Node Pointer size = 10 bytes, Search Key Field size = 11 bytes and Data Record Pointer size = 12 bytes.\n\nThe maximum number of Node Pointers that can be present in a non-leaf node of the B+ Tree is ________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 195.0,
+  "nat_high": 195.0,
+  "explanation": "A non-leaf node with $p$ node pointers holds $p-1$ keys and no data record pointers, since those are only in leaves. So $10p + 11(p-1) \\le 4096$, which gives $21p \\le 4107$ and $p \\le 195.57$. The maximum is $p = 195$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.32 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.33",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "The number of bijections $f(\\cdot)$ from the set $S = \\{1, 2, 3, 4\\}$ to itself such that $f(f(n)) = n$, for all $n \\in S$, is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 10.0,
+  "nat_high": 10.0,
+  "explanation": "The condition $f \\circ f = \\text{id}$ means $f$ is an involution, made only of fixed points and disjoint transpositions. Count them: the identity gives 1, a single transposition gives $\\binom{4}{2} = 6$, and two disjoint transpositions give $3$. Total $= 10$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.33 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.19",
+   "DA.1.07"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.34",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "Let $X$ be an exponentially distributed random variable with mean $\\lambda (> 0)$. If $P(X > 5) = 0.35$, then the conditional probability $P(X > 10 \\mid X > 5)$ is ___________ . (Rounded off to **two** decimal places)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.34,
+  "nat_high": 0.36,
+  "explanation": "The exponential distribution is memoryless, so $P(X > 10 \\mid X > 5) = P(X > 5) = 0.35$. Directly: $P(X>10)/P(X>5) = e^{-10/\\lambda}/e^{-5/\\lambda} = e^{-5/\\lambda} = 0.35$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.34 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.3.02"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.35",
+  "qtype": "NAT",
+  "marks": 1,
+  "stem": "The value of $\\sum_{i=0}^{\\infty} \\sum_{j=1}^{\\infty} 2^{-i}\\, 3^{-j}$ is ______________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 1.0,
+  "nat_high": 1.0,
+  "explanation": "The double sum factorises: $\\sum_{i\\ge0} 2^{-i} = \\frac{1}{1-1/2} = 2$ and $\\sum_{j\\ge1} 3^{-j} = \\frac{1/3}{1-1/3} = \\frac12$. The value is $2 \\times \\frac12 = 1$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.35 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.20",
+   "DA.6.18"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.36",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let four points in three-dimensional space be:\n\nP1: $[2, 3, -1]$, P2: $[3, 1, 1]$, P3: $[5, -2, 3]$ and P4: $[3, 3, 3]$.\n\nHierarchical Agglomerative Clustering is used to cluster the above points. If Manhattan Distance is used as the distance metric during clustering, which of the following options indicates the two points that will be merged first?",
+  "options": [
+   "$P1, P2$",
+   "$P2, P3$",
+   "$P3, P4$",
+   "$P2, P4$"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The Manhattan distances are $d(P1,P2) = 1+2+2 = 5$, $d(P1,P3) = 3+5+4 = 12$, $d(P1,P4) = 1+0+4 = 5$, $d(P2,P3) = 2+3+2 = 7$, $d(P2,P4) = 0+2+2 = 4$ and $d(P3,P4) = 2+5+0 = 7$. The closest pair is P2, P4 (distance 4), so they merge first: (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.36 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.04",
+   "DA.6.11"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.37",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Which of the following statements is true for Ridge Regression?",
+  "options": [
+   "The regularizer in the objective function of Ridge Regression is used to guard against scenarios where the model works well for the test data, but poorly for the training data.",
+   "The regularizer of Ridge Regression uses $L_1$ norm.",
+   "Ridge Regression aims to reduce the number of parameters that have negative values.",
+   "The regularizer of Ridge Regression may increase the bias of the model, but it helps in reducing the variance in predictions."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Ridge regression adds the penalty $\\lambda\\|w\\|_2^2$, which shrinks the weights. This can add some bias but lowers variance, so (D) is true. (A) reverses overfitting, which is doing well on training data but poorly on test data. (B) describes Lasso, which uses the $L_1$ norm; Ridge uses $L_2$. (C) is wrong because Ridge shrinks magnitudes regardless of sign.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.37 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.38",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Assume that a Creative ($C$) person will Succeed ($S$) if the person is also Disciplined ($D$), but will not succeed otherwise. Now, consider the following statements:\n\n(i) $C \\land S \\Leftrightarrow D$\n\n(ii) $C \\Rightarrow (S \\Leftrightarrow D)$\n\n(iii) $C \\Leftrightarrow ((D \\Rightarrow S) \\lor \\neg S)$\n\nWhich of the following options is correct?",
+  "options": [
+   "Both (i) and (ii) are TRUE",
+   "Only (ii) is TRUE",
+   "Both (ii) and (iii) are TRUE",
+   "Only (iii) is TRUE"
+  ],
+  "answer_key": "B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The sentence says that for a creative person, success holds exactly when the person is disciplined: $C \\Rightarrow (S \\Leftrightarrow D)$, which is (ii). (i) means $(C \\land S) \\Leftrightarrow D$. It fails for a disciplined non-creative person, so it is not implied. In (iii), $(D \\Rightarrow S) \\lor \\neg S = \\neg D \\lor S \\lor \\neg S \\equiv TRUE$, so (iii) reduces to $C$. That asserts creativity, which is not given. Only (ii) is true: (B).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.38 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01",
+   "DA.4.02"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.39",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "A recursive function in Python is given.\n\n```python\ndef mystery(n):\n    if n <= 0:\n        return 1\n    else:\n        return mystery(n-1) + mystery(n-2)\n```\n\nNow, consider the following function call:\n\n```python\nmystery(4)\n```\n\nAssume that a typical runtime stack is used to manage function calls. Each function call is pushed onto the stack and removed only after it finishes execution.\n\nWhich of the following options denotes the total number of function calls (i.e., the total number of stack activations), including the initial call, to compute `mystery(4)`?",
+  "options": [
+   "5",
+   "9",
+   "15",
+   "17"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let $C(n)$ be the number of calls. $C(n) = 1$ for $n \\le 0$, and $C(n) = 1 + C(n-1) + C(n-2)$ otherwise. So $C(0) = C(-1) = 1$, $C(1) = 3$, $C(2) = 5$, $C(3) = 9$ and $C(4) = 1 + 9 + 5 = 15$. The answer is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.39 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.15",
+   "DA.4.14"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.40",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider a directed graph $G = (V, E)$, where $V$ is the finite set of vertices and $E$ is the set of directed edges between the vertices. $G$ may contain cycles but there is no self-loop. Further, $G$ may not be strongly connected.\n\nLet $G^R$ be the graph obtained by reversing the directions of all the edges in $G$ without changing the set of vertices.\n\nAssume that Breadth First Search (BFS) or Depth First Search (DFS) from any given vertex $v$ of a graph visits only the reachable vertices from $v$ in that graph.\n\nWhich of the following statements must always be true, regardless of the structure of $G$?",
+  "options": [
+   "If $u$ is a reachable vertex in the BFS of $G^R$ from $v$, then $u$ is also a reachable vertex in the DFS of $G$ from $v$.",
+   "In $G^R$, the BFS traversal from $v$ will visit exactly the same set of vertices as the DFS from $v$ in $G$.",
+   "The order of vertices visited in the BFS of $G^R$ from $v$ is the reverse of the order of vertices visited in the DFS of $G$ from $v$.",
+   "If $u$ is a reachable vertex in the DFS of $G$ from $v$, then $v$ is also a reachable vertex in the BFS of $G^R$ from $u$."
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "A path $v \\to \\dots \\to u$ in $G$ is exactly a path $u \\to \\dots \\to v$ in $G^R$. So if DFS of $G$ from $v$ reaches $u$, BFS of $G^R$ from $u$ reaches $v$, and (D) always holds. (A) fails: $u$ reachable from $v$ in $G^R$ means $u$ reaches $v$ in $G$, not the other way round. (B) fails because the two reachable sets differ in general. (C) fails because visit orders are unrelated.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.40 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.08",
+   "DA.4.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.41",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider a B+ Tree where the maximum number of key values in each leaf node is 2 and the maximum number of pointers in each non-leaf node is 3. Let the content of the B+ Tree be as shown in the figure.\n\nWhich of the following options denotes the key value(s) stored in the root node after inserting a key value 3 in the given B+ Tree?\n\nB+ Tree content: the root (non-leaf) node holds keys 5 and 8 and has three child pointers: the left pointer to leaf [1, 5], the middle pointer to leaf [7, 8], and the right pointer to leaf [9, 12]. The leaves are linked left to right: [1, 5] → [7, 8] → [9, 12] → NULL, and each key in a leaf has a pointer to its data record.\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "5",
+   "8",
+   "3 and 5",
+   "3, 5 and 8"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Key 3 belongs in leaf [1, 5], which becomes [1, 3, 5] and overflows the 2-key limit. It splits into [1, 3] and [5], and the separator 3 goes into the root. The root would then hold 3, 5, 8 with 4 pointers, above the limit of 3, so it splits into [3] and [8] and pushes the middle key 5 up as the new root. The root contains only 5: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.41 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.02"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.42",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the given relations $X$, $Y$ and $Z$. The relation $X$ has three columns $P$, $Q$ and $R$. The relation $Y$ has three columns $P$, $Q$ and $S$. The relation $Z$ has two columns $P$ and $T$.\n\n**X**\n\n| P | Q | R |\n|---|---|---|\n| P1 | Q1 | R1 |\n| P2 | Q2 | R2 |\n| P3 | Q3 | R2 |\n\n**Y**\n\n| P | Q | S |\n|---|---|---|\n| P1 | Q1 | 2 |\n| P1 | Q2 | 5 |\n| P2 | Q1 | 6 |\n| P3 | Q3 | 1 |\n\n**Z**\n\n| P | T |\n|---|---|\n| P1 | T1 |\n| P3 | T2 |\n| P4 | T3 |\n| P4 | NULL |\n\nConsider the relational algebra expression\n\n$$\\prod_{PRS}\\left[\\left(\\sigma_{(Q = Q3 \\,\\lor\\, R = R2)}[X \\bowtie Y]\\right) \\bowtie \\left(\\sigma_{(S > 1)}[Y \\bowtie Z]\\right)\\right]$$\n\nwhere $\\bowtie$ denotes natural join operation.\n\nWhich of the following options is the correct output for the given expression?",
+  "options": [
+   "Two rows (P1, R1, 2) and (P1, R1, 5)",
+   "Three rows (P1, R1, 2), (P1, R1, 5) and (P2, R2, 6)",
+   "One row (P1, R1, 2)",
+   "Zero rows"
+  ],
+  "answer_key": "D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$X \\bowtie Y$ (on P, Q) $= \\{(P1,Q1,R1,2), (P3,Q3,R2,1)\\}$, and the selection $Q=Q3 \\lor R=R2$ keeps $(P3,Q3,R2,1)$. $Y \\bowtie Z$ (on P) $= \\{(P1,Q1,2,T1), (P1,Q2,5,T1), (P3,Q3,1,T2)\\}$, and $\\sigma_{S>1}$ keeps the two P1 rows. The final natural join is on P, Q, S, and $(P3,Q3,1)$ matches neither $(P1,Q1,2)$ nor $(P1,Q2,5)$. The result is empty: zero rows, (D).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.42 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.15",
+   "DA.5.14"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.43",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Consider the concept hierarchies as shown in the figure.\n\nWhich of the following options denotes the total number of possible data cuboids from these concept hierarchies?\n\nConcept hierarchies (each drawn as a vertical chain from the highest to the lowest level):\n\n- Year — Month — Day\n- Country — State — City\n- Item Category — Item Type — Item\n\n(Figure from the official paper transcribed as text.)",
+  "options": [
+   "$4^3$",
+   "$2^3$",
+   "$2!$",
+   "$4!$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "For $n$ dimensions where dimension $i$ has $L_i$ hierarchy levels, the number of cuboids is $\\prod_i (L_i + 1)$; the $+1$ is the 'all' (aggregated-away) level. Here there are 3 dimensions with 3 levels each, so there are $(3+1)^3 = 4^3 = 64$ cuboids: (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.43 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.10",
+   "DA.1.15",
+   "DA.1.21"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.44",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let $X$ and $Y$ be two independent random variables. $X$ follows $Bernoulli(p = 0.3)$ distribution and $Y$ follows $Normal(\\mu = 0, \\sigma^2 = 100)$ distribution.\n\nWhich of the following options is the variance of $(2X - 1)Y$ ?",
+  "options": [
+   "100",
+   "90",
+   "49",
+   "21"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Let $W = 2X - 1 \\in \\{-1, +1\\}$, which is independent of $Y$, so $W^2 = 1$. Then $E[WY] = E[W]E[Y] = 0$ and $E[(WY)^2] = E[W^2]E[Y^2] = 1 \\times 100$. So $\\mathrm{Var}((2X-1)Y) = 100$, which is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.44 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.27",
+   "DA.1.20"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.45",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let\n\n$$L = \\lim_{n \\to \\infty} \\sum_{k=0}^{n} \\frac{e^{-n} n^k}{k!}$$\n\nWhich of the following is the value of $L$?",
+  "options": [
+   "0.5",
+   "1.0",
+   "0",
+   "$e^{-1}$"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The sum is $P(N_n \\le n)$ for $N_n \\sim \\text{Poisson}(n)$. $N_n$ is a sum of $n$ i.i.d. Poisson(1) variables with mean $n$ and variance $n$. By the CLT, $P\\left(\\frac{N_n - n}{\\sqrt n} \\le 0\\right) \\to \\Phi(0) = 0.5$. The answer is (A).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.45 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.12"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.46",
+  "qtype": "MCQ",
+  "marks": 2,
+  "stem": "Let $\\gamma_1, \\gamma_2, \\gamma_3$ be the eigenvalues of the matrix $\\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & \\cos t & \\sin t \\\\ 0 & -\\sin t & \\cos t \\end{bmatrix}$,\n\nwhere $t \\in [-\\pi, \\pi]$ is in radians.\n\nWhich one of the following options lists all the possible values of $t$ satisfying $\\gamma_1 + \\gamma_2 + \\gamma_3 = 1 + \\sqrt{2}$ ?",
+  "options": [
+   "$\\left\\{\\frac{\\pi}{3}, -\\frac{\\pi}{4}\\right\\}$",
+   "$\\left\\{\\frac{\\pi}{4}, -\\frac{\\pi}{3}\\right\\}$",
+   "$\\left\\{\\frac{\\pi}{4}, -\\frac{\\pi}{4}\\right\\}$",
+   "$\\left\\{\\frac{\\pi}{3}, -\\frac{\\pi}{3}\\right\\}$"
+  ],
+  "answer_key": "C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "The sum of the eigenvalues is the trace, $1 + 2\\cos t$. Setting $1 + 2\\cos t = 1 + \\sqrt2$ gives $\\cos t = \\frac{\\sqrt2}{2}$. On $[-\\pi, \\pi]$ that means $t = \\pm\\frac{\\pi}{4}$, which is (C).",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.46 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.47",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider that 20 stories of Author X and 10 stories of Author Y were kept together without mentioning the names of the authors. A classifier was then asked to predict the author (X or Y) of each of these stories. Let, out of X’s stories, 6 were classified as that of Y. On the other hand, out of Y’s stories, 2 were classified as that of X.\n\nConsidering X and Y as two classes, which of the following statements is/are true?",
+  "options": [
+   "Accuracy of the classifier is 11/15.",
+   "Precision of Class X is higher than the Precision of Class Y.",
+   "Recall of Class X is higher than the Recall of Class Y.",
+   "Accuracy of the classifier is 14/15."
+  ],
+  "answer_key": "A,B",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Correct: 14 of X and 8 of Y, so accuracy $= 22/30 = 11/15$. That makes (A) true and (D) false. Predicted X: 14 + 2 = 16, so Precision(X) $= 14/16 = 0.875$. Predicted Y: 8 + 6 = 14, so Precision(Y) $= 8/14 \\approx 0.571$. (B) is true. Recall(X) $= 14/20 = 0.7$ is less than Recall(Y) $= 8/10 = 0.8$, so (C) is false. The answers are A and B.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.47 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.7.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.48",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $P(x)$ be a predicate.\n\nWhich of the following statements is/are **NOT** valid in first-order logic?",
+  "options": [
+   "$\\forall x\\, P(x) \\Rightarrow \\exists x\\, P(x)$",
+   "$\\exists x\\, P(x) \\Rightarrow \\forall x\\, P(x)$",
+   "$\\exists x\\, P(x) \\Leftrightarrow \\forall x\\, P(x)$",
+   "$\\forall x\\, P(x) \\Rightarrow \\exists x\\, \\neg P(x)$"
+  ],
+  "answer_key": "B,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) is valid because FOL domains are non-empty: if every element satisfies $P$, some element does. (B) is not valid: one element satisfying $P$ does not make all of them satisfy it. (C) is not valid because its right-to-left direction already fails, as in (B). (D) is not valid: in any model where $\\forall x\\, P(x)$ holds, $\\exists x\\, \\neg P(x)$ is false. The NOT-valid statements are B, C and D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.48 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.10",
+   "DA.4.11"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.49",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider the problem of sorting the given array in ascending order:\n\n`P = [1, 2, 3, 5, 4]`\n\nConsider two sorting algorithms Bubble Sort (BS) and Insertion Sort (IS).\n\nLet `N1` be the total number of comparisons done by BS on the elements of `P` and `N2` be the total number of comparisons done by IS on the elements of `P`.\n\nWhich of the following options is/are correct?",
+  "options": [
+   "`N1` = 10, `N2` = 4",
+   "`N1` > `N2`",
+   "IS on `P` will perform only one swap",
+   "Both BS and IS on `P` will make at least one unnecessary comparison (i.e., comparing elements that are already in correct order)"
+  ],
+  "answer_key": "B,C,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Standard bubble sort on 5 elements makes $4+3+2+1 = 10$ comparisons; even with an early-exit flag it makes $4 + 3 = 7$. Insertion sort makes 1, 1, 1 comparisons for 2, 3, 5 and 2 for 4 (against 5, then 3), so $N2 = 5$. So (A) is false and (B) is true. (C) is true: IS moves only 4 past 5, a single swap/shift. (D) is true: both algorithms compare already-ordered pairs such as (1, 2). The answers are B, C and D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.49 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.50",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider the given Python program.\n\n```python\ndef outer():\n    x = []\n    def inner(val):\n        x.append(val)\n        return x\n    return inner\nf1 = outer()\nf2 = outer()\nprint(f1(10))    # Line P\nprint(f1(20))    # Line Q\nprint(f2(30))    # Line R\nprint(f1(40))    # Line S\n```\n\nWhich of the following options is/are correct?",
+  "options": [
+   "`f1` and `f2` share the same list `x`",
+   "Output of `Line Q` is `[10, 20]`",
+   "Output of `Line R` is `[10, 20, 30]`",
+   "Output of `Line S` is `[10, 20, 40]`"
+  ],
+  "answer_key": "B,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "Each call to `outer()` creates a new list `x`, and the returned closure captures that list. So `f1` and `f2` have separate lists, and (A) is false. Line P prints [10] and Line Q prints [10, 20], so (B) is true. Line R uses f2's own list and prints [30], so (C) is false. Line S prints [10, 20, 40], so (D) is true. The answers are B and D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.50 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.51",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Consider a table `Employee(EmpID, TeamID)`, where the column `EmpID` (ID of an employee) is the primary key. The column `TeamID` denotes the team ID of the team of which the employee is a member. `TeamID` is a NOT NULL column.\n\nWe want to display the size of the team (denoted as `TeamSize`) in which each employee is a member by using SQL. As an example, the desired output for the given `Employee` table is also shown in tabular form.\n\nWhich of the following is/are correct?\n\n**Employee**\n\n| EmpID | TeamID |\n|---|---|\n| 1 | 8 |\n| 2 | 8 |\n| 3 | 8 |\n| 4 | 7 |\n| 5 | 7 |\n| 6 | 9 |\n\n**Output**\n\n| EmpID | TeamSize |\n|---|---|\n| 1 | 3 |\n| 2 | 3 |\n| 3 | 3 |\n| 4 | 2 |\n| 5 | 2 |\n| 6 | 1 |",
+  "options": [
+   "`SELECT E.EmpID, B.TeamSize`  \n`FROM Employee AS E, (SELECT TeamID, COUNT(TeamID) AS TeamSize FROM Employee GROUP BY TeamID) AS B`  \n`WHERE E.TeamID = B.TeamID`",
+   "`SELECT A.EmpID, COUNT(B.TeamID) AS TeamSize`  \n`FROM Employee AS A, Employee AS B`  \n`WHERE A.TeamID = B.TeamID AND A.EmpID = B.EmpID`  \n`GROUP BY A.EmpID`",
+   "`SELECT B.EmpID, B.TeamSize`  \n`FROM (SELECT EmpID, COUNT(TeamID) AS TeamSize`  \n`FROM Employee GROUP BY EmpID) AS B`",
+   "`SELECT A.EmpID, B.TeamSize`  \n`FROM Employee AS A, (SELECT COUNT(TeamID) AS TeamSize FROM Employee GROUP BY TeamID) AS B`  \n`WHERE A.TeamID = B.TeamID`"
+  ],
+  "answer_key": "A",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) is correct: the derived table B gives each team's size, and joining on TeamID attaches it to every employee. (B) is wrong: the condition A.EmpID = B.EmpID matches each employee only with itself, so every count is 1. (C) is wrong: grouping by the primary key EmpID makes every count 1. (D) is wrong: the derived table B has no TeamID column, so B.TeamID is invalid. Only A is correct.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.51 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.05",
+   "DA.2.07"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.52",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $M = \\left(I_n - \\frac{1}{n}\\, \\mathbf{1}\\mathbf{1}^T\\right)$ be a matrix, where $\\mathbf{1} = (1,1,1,\\ldots,1)^T \\in \\mathbb{R}^n$ and $I_n$ is the identity matrix of order $n$.\n\nWhich of the following options is/are correct?",
+  "options": [
+   "$M^T = M$",
+   "$M^2 = I_n$",
+   "$\\mathit{Trace}(M) = n$",
+   "$M$ is a projection matrix"
+  ],
+  "answer_key": "A,D",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "$M$ is the centering matrix, and $(\\mathbf{1}\\mathbf{1}^T)^T = \\mathbf{1}\\mathbf{1}^T$, so $M^T = M$ and (A) holds. Using $\\mathbf{1}^T\\mathbf{1} = n$, $M^2 = I - \\frac{2}{n}\\mathbf{1}\\mathbf{1}^T + \\frac{1}{n^2}\\mathbf{1}(\\mathbf{1}^T\\mathbf{1})\\mathbf{1}^T = M$. So $M$ is idempotent and $M^2 \\ne I_n$, and (B) is false. $\\mathrm{Trace}(M) = n - 1$, so (C) is false. A symmetric idempotent matrix is an (orthogonal) projection matrix, so (D) holds. The answers are A and D.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.52 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.24",
+   "DA.1.21",
+   "DA.1.19"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.53",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $X_1, X_2, \\ldots, X_n$ be $n$ independent random variables. Each of the random variables follows $Normal(\\mu = 0, \\sigma^2 = 1)$ distribution. Define $\\bar{X} = \\frac{1}{n}\\sum_{i=1}^{n} X_i$ .\n\nWhich of the following statements is/are correct?",
+  "options": [
+   "$\\sum_{i=1}^{n} {X_i}^2$ follows Chi-square distribution with $n$ degrees of freedom.",
+   "$\\sum_{i=1}^{n} (X_i - \\bar{X})^2$ follows Chi-square distribution with $(n-1)$ degrees of freedom.",
+   "${X_1}^2 + {X_n}^2$ follows exponential distribution with mean 2.",
+   "$\\left(\\sqrt{n}\\, \\bar{X}\\right)^2$ follows Chi-square distribution with 2 degrees of freedom."
+  ],
+  "answer_key": "A,B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) is true: a sum of $n$ squared i.i.d. $N(0,1)$ variables is $\\chi^2_n$. (B) is true: for a normal sample, $\\sum (X_i - \\bar X)^2 = (n-1)S^2/\\sigma^2 \\sim \\chi^2_{n-1}$. (C) is true: $X_1^2 + X_n^2 \\sim \\chi^2_2$, and $\\chi^2_2$ is the exponential distribution with mean 2. (D) is false: $\\sqrt n\\, \\bar X \\sim N(0,1)$, so its square is $\\chi^2_1$, not $\\chi^2_2$. The answers are A, B and C.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.53 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.25",
+   "DA.1.13"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.54",
+  "qtype": "MSQ",
+  "marks": 2,
+  "stem": "Let $X$ be a discrete valued random variable with cumulative distribution function $F(x)$.\n\nWhich of the following statements is/are correct?",
+  "options": [
+   "$F(x)$ is always a positive function.",
+   "$F(x)$ is a non-decreasing function.",
+   "$F(x)$ has jump discontinuity.",
+   "$F(x)$ is a left continuous function."
+  ],
+  "answer_key": "B,C",
+  "nat_low": null,
+  "nat_high": null,
+  "explanation": "(A) is false: $F(x) = 0$ below the smallest support point, so it is not always positive. (B) is true: every CDF is non-decreasing. (C) is true: a discrete CDF is a step function that jumps by $P(X = x_i)$ at each support point. (D) is false: CDFs are right-continuous, and at the jumps they are not left-continuous. The answers are B and C.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.54 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.55",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider that Linear Ridge Regression is being used to learn a prediction function $y_{pred} = w^T x$, where $w, x \\in \\mathbb{R}^2$ and Mean Absolute Error (MAE) is used to measure the prediction error. A weight of 0.20 is associated with the regularizer.\n\nAt an intermediate step of the training process, assume that the parameter $w = [-3.00,\\ 4.00]^T$. In the next step, for the input $x = [1.00,\\ 2.00]^T$, the predicted value of $y$ is noted. Let the relation between $x = [x_1,\\ x_2]^T$ and the true value of $y$ be $y_{true} = x_1 + x_2$.\n\nThe value of the overall regularized loss function for this instance is _______ . (Rounded off to **two** decimal places)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 6.9,
+  "nat_high": 7.1,
+  "explanation": "$y_{pred} = -3(1) + 4(2) = 5$ and $y_{true} = 1 + 2 = 3$, so MAE $= |5 - 3| = 2$. The ridge (squared $L_2$) regularizer is $0.20 \\times \\|w\\|_2^2 = 0.20 \\times (9 + 16) = 5$. The total loss is $2 + 5 = 7.00$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.55 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.6.14",
+   "DA.6.15"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.56",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider a fully-connected feed-forward multi-layer perceptron. It has 30 neurons in the input layer, followed by two hidden layers and an output layer. The first hidden layer has 4 neurons and the second hidden layer has 3 neurons. The output layer has only one neuron. Assume that no bias parameters are used.\n\nThe number of learnable parameters in the multi-layer perceptron is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 135.0,
+  "nat_high": 135.0,
+  "explanation": "With no biases, the parameters are just the weights between consecutive layers: $30 \\times 4 + 4 \\times 3 + 3 \\times 1 = 120 + 12 + 3 = 135$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.56 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.08"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.57",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "A clinic specializes in testing for a disease D. The result of the test can be either positive or negative.\n\nA study revealed that if a person suffers from the disease D, the test result in that clinic comes out positive 80% of the time, and negative 20% of the time. If a person is not suffering from the disease D, the test comes out positive 10% of the time and negative 90% of the time. It is also known that among the general population, the disease D occurs in 30% of the individuals.\n\nIf a person tests positive for D in that clinic, the probability that he/she actually suffers from the disease D is __________ . (Rounded off to **two** decimal places)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.76,
+  "nat_high": 0.78,
+  "explanation": "By Bayes' theorem, $P(D \\mid +) = \\dfrac{0.8 \\times 0.3}{0.8 \\times 0.3 + 0.1 \\times 0.7} = \\dfrac{0.24}{0.31} \\approx 0.774$. Rounded, this is $0.77$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.57 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.4.01",
+   "DA.4.10"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.58",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider the given Python program.\n\n```python\ndef fun(L, i=0):\n    if i >= len(L)-1:\n        return 0\n    if L[i] > L[i+1]:\n        L[i+1], L[i] = L[i], L[i+1]\n        return 1+fun(L, i+1)\n    else:\n        return fun(L, i+1)\ndata = [5, 3, 4, 1, 2]\ncount = 0\nfor _ in range(len(data)):\n    count += fun(data)\nprint(count)\n```\n\nThe output of the program is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 8.0,
+  "nat_high": 8.0,
+  "explanation": "Each call to `fun` is one bubble-sort pass that returns its number of adjacent swaps. Pass 1 gives [3,4,1,2,5] with 4 swaps, pass 2 gives [3,1,2,4,5] with 2 swaps, pass 3 gives [1,2,3,4,5] with 2 swaps, and passes 4 and 5 make 0 swaps. The total is 8, which equals the number of inversions in [5, 3, 4, 1, 2].",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.58 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.03"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.59",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let there be two relations $X$ and $Y$ as shown. $X$ has three columns $P$, $Q$ and $R$. $Y$ has two columns $P$ and $S$.\n\n**X**\n\n| P | Q | R |\n|---|---|---|\n| P1 | Q1 | R1 |\n| P2 | Q2 | R2 |\n| P3 | Q3 | R2 |\n\n**Y**\n\n| P | S |\n|---|---|\n| P1 | 10 |\n| P1 | 15 |\n| P2 | 20 |\n| P3 | 1 |\n\nConsider that the following tuple relational calculus expression is evaluated.\n\n$$\\{t \\mid t \\in X \\land \\exists z \\in X (t[P] = z[P]) \\;\\land\\; \\exists m \\in Y\\, (m[P] = t[P] \\land m[S] > 1)\\}$$\n\nThe number of tuples that will be returned is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 2.0,
+  "nat_high": 3.0,
+  "explanation": "For every $t \\in X$ the condition $\\exists z \\in X\\,(t[P] = z[P])$ is trivially true (take $z = t$). We still need some $m \\in Y$ with the same P and $S > 1$. P1 qualifies (S = 10, 15) and P2 qualifies (S = 20), but P3 has only S = 1. So the result is $\\{(P1,Q1,R1), (P2,Q2,R2)\\}$, which is 2 tuples. The official range is 2 to 3.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.59 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.04"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.60",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let `Account` be a relation as shown.\n\n**Account**\n\n| AccNo | Balance |\n|---|---|\n| A1 | 5000 |\n| A2 | 5000 |\n| A3 | 10000 |\n| A4 | 15000 |\n| A5 | 18000 |\n\nConsider the given SQL query.\n\n```sql\nSELECT AccNo FROM Account AS A\nWHERE (SELECT COUNT(*) FROM Account AS B\nWHERE A.Balance < B.Balance) >= (SELECT COUNT(*)\nFROM Account AS C WHERE A.Balance > C.Balance)\n```\n\nThe number of rows returned by the SQL query is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 3.0,
+  "nat_high": 3.0,
+  "explanation": "For each account, compare (#accounts with a higher balance) against (#accounts with a lower balance). A1 and A2 (5000): $3 \\ge 0$, kept. A3 (10000): $2 \\ge 2$, kept. A4 (15000): $1 \\ge 3$ fails. A5 (18000): $0 \\ge 4$ fails. The query returns 3 rows.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.60 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.5.01",
+   "DA.5.06"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.61",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Consider an ER model with the entities E1($A_{11}$,$A_{12}$,$A_{13}$) and E2($A_{21}$,$A_{22}$,$A_{23}$), where, $A_{11}$, $A_{12}$, $A_{13}$ are the attributes of E1, and $A_{21}$, $A_{22}$, $A_{23}$ are the attributes of E2. Let $A_{22}$ be a multi-valued attribute. $A_{11}$ and $A_{21}$ are the primary keys of E1 and E2, respectively.\n\nLet R12 be a many-to-many relationship between E1 and E2. Participation of both E1 and E2 in R12 is total.\n\nThe minimum number of relations required to convert the ER model into relational model (assuming there is no other functional dependency) where each relation is in third normal form (3NF) is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 4.0,
+  "nat_high": 4.0,
+  "explanation": "E1 gives E1($A_{11}$, $A_{12}$, $A_{13}$). E2 without its multi-valued attribute gives E2($A_{21}$, $A_{23}$). The multi-valued attribute needs its own relation, E2\\_A22($A_{21}$, $A_{22}$). The many-to-many relationship needs R12($A_{11}$, $A_{21}$), and total participation does not let an M:N relationship merge into either entity. That makes 4 relations, each in 3NF.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.61 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.10"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.62",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "For a given data set $\\{x_1, x_2, \\ldots, x_n\\}$, where $n = 100$, it is known that\n\n$$\\frac{1}{2000} \\sum_{i=1}^{n} \\sum_{j=1}^{n} (x_i - x_j)^2 = 99$$\n\nLet us denote $\\bar{x} = \\frac{1}{n}\\sum_{i=1}^{n} x_i$\n\nThe value of $\\frac{1}{99}\\sum_{i=1}^{n} (x_i - \\bar{x})^2$ is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 10.0,
+  "nat_high": 10.0,
+  "explanation": "Use $\\sum_i\\sum_j (x_i - x_j)^2 = 2n\\sum_i (x_i - \\bar x)^2$. With $n = 100$: $\\frac{200}{2000}\\sum_i (x_i-\\bar x)^2 = 99$, so $\\sum_i (x_i - \\bar x)^2 = 990$. Then $\\frac{990}{99} = 10$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.62 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.11",
+   "DA.1.09",
+   "DA.1.18"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.63",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $X$ be a random variable that follows $Uniform(-1,1)$ distribution. The conditional distribution of the random variable $Y$ given $X = x$ is the $Uniform(x^2 - 0.1, x^2 + 0.1)$ distribution.\n\nThe value of $\\mathit{correlation}(X, Y)$ is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.0,
+  "nat_high": 0.0,
+  "explanation": "$E[Y \\mid X] = X^2$, so $E[XY] = E[X \\cdot E[Y\\mid X]] = E[X^3] = 0$, because $X$ is symmetric about 0. With $E[X] = 0$, $\\mathrm{Cov}(X, Y) = E[XY] - E[X]E[Y] = 0$. So the correlation is 0, even though $Y$ depends strongly on $X$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.63 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.1.16",
+   "DA.1.15",
+   "DA.1.05"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.64",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $A_{5\\times5}$ be a matrix such that each of its elements follows $Bernoulli(p = 0.50)$ distribution independently.\n\nThe probability that the row-sum of the second row and the column-sum of the third column are both equal to 3 is ________ . (Rounded off to **two** decimal places)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 0.08,
+  "nat_high": 0.12,
+  "explanation": "The row and the column share the entry $a_{23}$. If $a_{23} = 1$, the other 4 entries of the row need two 1s and so do the column's: $\\binom42^2/2^8 = 36/256$. If $a_{23} = 0$, each needs three 1s among 4: $\\binom43^2/2^8 = 16/256$. The probability is $\\frac12\\cdot\\frac{36}{256} + \\frac12\\cdot\\frac{16}{256} = \\frac{52}{512} \\approx 0.10$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.64 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ },
+ {
+  "source_type": "official_pyq",
+  "verification_status": "verified",
+  "topic_codes": [
+   "DA.2.09",
+   "DA.2.12"
+  ],
+  "exam_year": 2026,
+  "exam_name": "GATE 2026 DA",
+  "question_ref": "Q.65",
+  "qtype": "NAT",
+  "marks": 2,
+  "stem": "Let $A = \\left(I_n - \\frac{1}{n}\\, \\mathbf{1}\\mathbf{1}^T\\right)$ be a matrix, where $\\mathbf{1} = (1,1,1,\\ldots,1)^T \\in \\mathbb{R}^n$ and $I_n$ is the identity matrix of order $n$.\n\nThe value of $\\max_{S} x^T A x$ , where $S = \\{x \\in \\mathbb{R}^n \\mid x^T x = 1\\}$, is __________ . (Answer in **integer**)",
+  "options": [],
+  "answer_key": null,
+  "nat_low": 1.0,
+  "nat_high": 1.0,
+  "explanation": "$A$ is symmetric and idempotent (the centering projection). Its eigenvalues are 0, with eigenvector $\\mathbf{1}$, and 1 with multiplicity $n-1$. By the Rayleigh quotient, the maximum of $x^TAx$ over unit vectors is the largest eigenvalue, 1. It is attained by any unit $x$ with $\\sum x_i = 0$.",
+  "explanation_source": "ai_authored",
+  "source_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+  "source_note": "Official GATE 2026 DA master question paper (IIT Guwahati), Q.65 (paper sha256 4adb2f713433…). Answer/type/marks from the Official GATE 2026 DA answer key (IIT Guwahati) (https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf). Question text transcribed by Claude from the official PDF; explanation written by Claude, not official."
+ }
+]
