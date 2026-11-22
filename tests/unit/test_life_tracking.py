@@ -83,7 +83,20 @@ def test_worklogs_targets_independent(db):
     assert worklog_service.summary(db, "research", D, D).days_met == 1
     with pytest.raises(ValidationError):
         worklog_service.add_log(db, WorkLogInput("finance", D, 0, "x"), today=D)
-    assert worklog_service.projects(db, "finance")[0].name == "Valuation"
+    # finance has exactly one project (APE) and no tags, whatever the caller passes
+    assert [p.name for p in worklog_service.projects(db, "finance")] == ["APE"]
+
+
+def test_finance_logs_always_belong_to_ape_without_tags(db):
+    log = worklog_service.add_log(db, WorkLogInput("finance", D, 60, "Backtest", project_name="Other",
+                                                   tags="a,b"), today=D)
+    assert log.project.name == "APE" and log.tags is None
+    res = worklog_service.add_log(db, WorkLogInput("research", D, 60, "Lit review", project_name="Thesis",
+                                                   tags="nlp, rl"), today=D)
+    assert res.project.name == "Thesis" and res.tags == "nlp,rl"
+    assert settings_service.get_setting(db, "finance_target_label") == "+1.2%"
+    with pytest.raises(ValidationError):
+        settings_service.set_setting(db, "finance_target_label", "")
 
 
 def test_reflection_requires_all_prompts_and_search(db):

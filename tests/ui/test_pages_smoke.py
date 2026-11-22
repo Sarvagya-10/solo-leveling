@@ -231,3 +231,51 @@ def test_pages_render_with_bundled_official_pyqs(app_env, monkeypatch, module):
         assert s.scalar(select(func.count(Question.id)).where(Question.verification_status == "verified")) > 150
     at = _run(module, "render")
     assert not at.exception, [e.value for e in at.exception]
+
+
+def test_finance_page_shows_ape_target_and_no_tags_or_new_project(app_env):
+    at = _run("shogun.ui.pages.worklogs", "render_finance")
+    assert not at.exception
+    markup = " ".join(m.value for m in at.markdown)
+    assert "TARGET +1.2%" in markup and "APE" in markup
+    labels = [t.label for t in at.text_input]
+    assert not any("Tags" in label or "New project" in label for label in labels)
+    research = _run("shogun.ui.pages.worklogs", "render_research")
+    assert any("Tags" in t.label for t in research.text_input)
+
+
+def test_running_app_upgrades_an_old_database_schema(app_env):
+    """Regression: a DB created before migration 0002 must be upgraded when the app opens it."""
+    import sqlite3
+
+    from alembic import command
+    from alembic.config import Config
+
+    from shogun.config import PROJECT_ROOT, load_config
+    from shogun.ui import context
+
+    cfg = load_config()
+    alembic_cfg = Config(str(PROJECT_ROOT / "alembic.ini"))
+    alembic_cfg.set_main_option("script_location", str(PROJECT_ROOT / "migrations"))
+    alembic_cfg.set_main_option("sqlalchemy.url", cfg.db_url)
+    alembic_cfg.attributes["configure_logger"] = False
+    command.upgrade(alembic_cfg, "0001")
+    con = sqlite3.connect(cfg.db_path)
+    assert "explanation_source" not in [r[1] for r in con.execute("pragma table_info(questions)")]
+    con.close()
+    context.reset_ctx()
+    at = _run("shogun.ui.pages.cards", "render")
+    assert not at.exception, [e.value for e in at.exception]
+    con = sqlite3.connect(cfg.db_path)
+    assert "explanation_source" in [r[1] for r in con.execute("pragma table_info(questions)")]
+    assert con.execute("select version_num from alembic_version").fetchone()[0] == "0002"
+    con.close()
+
+
+def test_bootstrap_reruns_when_schema_token_changes(app_env, monkeypatch):
+    from shogun.ui import context
+
+    first = context.get_ctx()
+    assert context.get_ctx() is first
+    monkeypatch.setattr(context, "schema_token", lambda: "new-migration-added")
+    assert context.get_ctx() is not first

@@ -97,6 +97,10 @@ def bar_chart(x: Sequence[Any], y: Sequence[float], *, title: str | None = None,
     fig = go.Figure(trace)
     fig.update_layout(bargap=0.35, showlegend=False)
     base_layout(fig, title=title, y_title=y_title, height=height, percent=percent and not horizontal)
+    if all(v >= 0 for v in y):  # counts/minutes never go below zero, even when every value is 0
+        (fig.update_xaxes if horizontal else fig.update_yaxes)(rangemode="tozero")
+        if not any(y):
+            (fig.update_xaxes if horizontal else fig.update_yaxes)(range=[0, 1])
     if horizontal:
         fig.update_yaxes(autorange="reversed", gridcolor=SURFACE)
         fig.update_xaxes(gridcolor=GRID, showgrid=True, ticksuffix="%" if percent else None)

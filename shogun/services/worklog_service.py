@@ -14,6 +14,7 @@ from sqlalchemy.orm import Session, joinedload
 
 from shogun.db.models import Project, WorkLog
 from shogun.services import settings_service
+from shogun.services.defaults import FINANCE_PROJECT
 from shogun.services.errors import NotFoundError, ValidationError
 from shogun.timeutil import date_range
 
@@ -66,7 +67,10 @@ def add_log(session: Session, data: WorkLogInput, *, today: date) -> WorkLog:
     tags = ",".join(t.strip() for t in (data.tags or "").split(",") if t.strip()) or None
     if tags and len(tags) > 200:
         raise ValidationError("Tags are too long (max 200 characters)")
-    project = get_or_create_project(session, data.domain, data.project_name)
+    project_name = data.project_name
+    if data.domain == "finance":  # finance has exactly one project and no tags
+        project_name, tags = FINANCE_PROJECT, None
+    project = get_or_create_project(session, data.domain, project_name)
     log = WorkLog(
         domain=data.domain, log_date=data.log_date, duration_minutes=data.duration_minutes,
         project_id=project.id if project else None, tags=tags, what_done=data.what_done.strip(),

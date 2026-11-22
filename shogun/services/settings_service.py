@@ -11,6 +11,7 @@ from sqlalchemy.orm import Session
 
 from shogun.config import DEFAULT_TIMEZONE, validate_timezone
 from shogun.db.models import Setting
+from shogun.services.defaults import FINANCE_TARGET_LABEL
 from shogun.services.errors import ValidationError
 
 DEFAULTS: dict[str, Any] = {
@@ -20,6 +21,7 @@ DEFAULTS: dict[str, Any] = {
     "daily_study_target_minutes": 240,
     "daily_pyq_target": 10,
     "finance_target_minutes": 60,
+    "finance_target_label": FINANCE_TARGET_LABEL,
     "research_target_minutes": 60,
     "attention_baseline_minutes": 5,
     "attention_target_minutes": 200,
@@ -72,6 +74,11 @@ def _validate(key: str, value: Any) -> Any:
         if value not in WAR_RULES:
             raise ValidationError(f"war_eligibility_rule must be one of {sorted(WAR_RULES)}")
         return value
+    if key == "finance_target_label":
+        label = str(value or "").strip()
+        if not label or len(label) > 24:
+            raise ValidationError("Finance target must be 1-24 characters, e.g. +1.2%")
+        return label
     if key in {"war_include_unreviewed_ai", "privacy_hide_not_todo"}:
         return bool(value)
     if key == "groq_model":

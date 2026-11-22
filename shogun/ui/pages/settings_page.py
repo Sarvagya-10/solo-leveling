@@ -42,6 +42,8 @@ def _targets(ctx: AppContext) -> None:
         res = c2.number_input("Research target (min)", 1, 1440, int(cur["research_target_minutes"]), step=5)
         base = c3.number_input("Attention baseline (min)", 1, 1440, int(cur["attention_baseline_minutes"]))
         att = c4.number_input("Attention target (min)", 1, 1440, int(cur["attention_target_minutes"]))
+        fin_label = st.text_input("Finance headline target (shown big on the Finance page)",
+                                  value=str(cur["finance_target_label"]), max_chars=24)
         rule = st.radio("Weekend Full War eligibility", list(settings_service.WAR_RULES),
                         format_func=settings_service.WAR_RULES.get,
                         index=list(settings_service.WAR_RULES).index(cur["war_eligibility_rule"]))
@@ -52,7 +54,8 @@ def _targets(ctx: AppContext) -> None:
         if st.form_submit_button("Save settings", type="primary"):
             values = {"timezone": tz, "tracking_start_date": start.isoformat(), "pyq_target_default": pyq_target,
                       "daily_study_target_minutes": study_target, "daily_pyq_target": pyq_daily,
-                      "finance_target_minutes": fin, "research_target_minutes": res,
+                      "finance_target_minutes": fin, "finance_target_label": fin_label,
+                      "research_target_minutes": res,
                       "attention_baseline_minutes": base, "attention_target_minutes": att,
                       "war_eligibility_rule": rule, "war_include_unreviewed_ai": unrev, "privacy_hide_not_todo": priv}
 

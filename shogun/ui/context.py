@@ -20,7 +20,7 @@ from sqlalchemy import Engine
 from sqlalchemy.orm import Session
 
 from shogun.ai.errors import AIError
-from shogun.config import AppConfig, load_config
+from shogun.config import DATA_DIR, PROJECT_ROOT, AppConfig, load_config
 from shogun.db.session import get_engine, run_migrations, session_scope
 from shogun.logging_setup import configure_logging, get_logger, register_secret
 from shogun.services import exam_service, gamification_service, settings_service
@@ -51,8 +51,22 @@ class AppContext:
         return local_today(self.tz)
 
 
+def schema_token() -> str:
+    """Fingerprint of migrations + bundled data.
+
+    The bootstrap (migrate + seed) is cached per process; keying the cache on this token makes a
+    running server re-run migrations and seeding as soon as a new migration or PYQ bundle appears
+    (e.g. after ``git pull``), instead of serving new code against an old schema.
+    """
+    parts = sorted(p.name for p in (PROJECT_ROOT / "migrations" / "versions").glob("*.py"))
+    parts += sorted(f"{p.name}:{p.stat().st_size}" for p in (DATA_DIR / "pyq").glob("gate_*.json"))
+    parts += sorted(f"{p.name}:{p.stat().st_size}" for p in (DATA_DIR / "syllabus").glob("*.json"))
+    return "|".join(parts)
+
+
 @st.cache_resource(show_spinner="Opening the gate…")
-def _bootstrap() -> AppContext:
+def _bootstrap(token: str) -> AppContext:
+    del token  # only used as the cache key
     config = load_config()
     configure_logging(config.log_level, config.logs_dir)
     register_secret(config.groq_api_key.get())
@@ -74,7 +88,7 @@ def _bootstrap() -> AppContext:
 
 
 def get_ctx() -> AppContext:
-    return _bootstrap()
+    return _bootstrap(schema_token())
 
 
 def reset_ctx() -> None:

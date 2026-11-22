@@ -4,6 +4,12 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+FINANCE_PROJECT = "APE"
+"""The single finance project. Every finance log belongs to it."""
+
+FINANCE_TARGET_LABEL = "+1.2%"
+"""Default headline target shown on the Finance page (editable in Settings)."""
+
 
 @dataclass(frozen=True)
 class HabitDef:

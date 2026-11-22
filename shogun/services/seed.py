@@ -19,8 +19,8 @@ from sqlalchemy.orm import Session
 from shogun.config import DATA_DIR
 from shogun.db.models import Achievement, AvoidanceRule, Habit, Subject, Topic, TopicProgress
 from shogun.logging_setup import get_logger
-from shogun.services import question_service, settings_service
-from shogun.services.defaults import ACHIEVEMENTS, DEFAULT_AVOIDANCE_RULES, DEFAULT_HABITS
+from shogun.services import question_service, settings_service, worklog_service
+from shogun.services.defaults import ACHIEVEMENTS, DEFAULT_AVOIDANCE_RULES, DEFAULT_HABITS, FINANCE_PROJECT
 from shogun.syllabus import SyllabusSpec, load_official_syllabi
 
 log = get_logger("seed")
@@ -162,6 +162,7 @@ def seed_all(session: Session, today: date, specs: list[SyllabusSpec] | None = N
     seed_habits(session)
     seed_avoidance_rules(session)
     seed_achievements(session)
+    worklog_service.get_or_create_project(session, "finance", FINANCE_PROJECT)
     if bundled_pyqs:
         seed_bundled_pyqs(session)
     if settings_service.get_setting(session, "tracking_start_date") is None:
