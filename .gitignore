@@ -1,0 +1,42 @@
+# --- Secrets: never commit real credentials ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# --- Local runtime data (database, backups, exports, logs) ---
+var/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# --- Python / tooling ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Original user-supplied syllabus download (a byte-identical copy is versioned
+# under data/syllabus/source/DA_GATE2027_Syllabus.pdf)
+/DA_GATE2027_Syllabus*.pdf
+
+# Screenshot / layout inspection output
+artifacts/

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "syllabus_version": "GATE2027-GA-v1",
+  "exam": "GATE 2027",
+  "organizing_institute": "IIT Madras",
+  "paper_code": "GA",
+  "paper_name": "General Aptitude",
+  "source": {
+    "official_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/GA_GATE2027_Syllabus.pdf",
+    "listing_url": "https://gate2027.iitm.ac.in/exam_papers_and_syllabus",
+    "local_file": "data/syllabus/source/GA_GATE2027_Syllabus.pdf",
+    "sha256": "3708769a165e5019d4fa0d2af95786dee8fbf239976d7d403d810bd54b9d7603",
+    "provenance": "Downloaded from the official GATE 2027 (IIT Madras) site on 2026-11-22. Only the four sections present in this PDF are used; no unofficial categories are added.",
+    "transcribed_on": "2026-11-22"
+  },
+  "decomposition_rule": "official_text is verbatim from the PDF (including its original punctuation). Every topic's source_phrase, group and context are exact substrings of official_text.",
+  "sections": [
+    {
+      "number": 1,
+      "code": "GA.1",
+      "name": "Verbal Aptitude",
+      "official_text": "Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech.\n\nBasic vocabulary: words, idioms, and phrases in context.\n\nReading and comprehension, Narrative sequencing.",
+      "topics": [
+        {"code": "GA.1.01", "name": "Tenses", "source_phrase": "tenses", "group": "Basic English grammar"},
+        {"code": "GA.1.02", "name": "Articles", "source_phrase": "articles", "group": "Basic English grammar"},
+        {"code": "GA.1.03", "name": "Adjectives", "source_phrase": "adjectives", "group": "Basic English grammar"},
+        {"code": "GA.1.04", "name": "Prepositions", "source_phrase": "prepositions", "group": "Basic English grammar"},
+        {"code": "GA.1.05", "name": "Conjunctions", "source_phrase": "conjunctions", "group": "Basic English grammar"},
+        {"code": "GA.1.06", "name": "Verb-noun agreement", "source_phrase": "verb-noun agreement", "group": "Basic English grammar"},
+        {"code": "GA.1.07", "name": "Other parts of speech", "source_phrase": "other parts of speech", "group": "Basic English grammar"},
+        {"code": "GA.1.08", "name": "Words in context", "source_phrase": "words", "group": "Basic vocabulary", "context": "in context"},
+        {"code": "GA.1.09", "name": "Idioms in context", "source_phrase": "idioms", "group": "Basic vocabulary", "context": "in context"},
+        {"code": "GA.1.10", "name": "Phrases in context", "source_phrase": "phrases in context", "group": "Basic vocabulary"},
+        {"code": "GA.1.11", "name": "Reading and comprehension", "source_phrase": "Reading and comprehension"},
+        {"code": "GA.1.12", "name": "Narrative sequencing", "source_phrase": "Narrative sequencing"}
+      ]
+    },
+    {
+      "number": 2,
+      "code": "GA.2",
+      "name": "Quantitative Aptitude",
+      "official_text": "Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2-and 3-dimensional plots, maps, and tables.\n\nNumerical computation and estimation: ratios, percentages, powers, exponents and logarithms, permutations and combinations, and series. Mensuration and geometry, Elementary statistics and probability.",
+      "topics": [
+        {"code": "GA.2.01", "name": "Data graphs (bar graphs, pie charts, and other graphs representing data)", "source_phrase": "data graphs (bar graphs, pie charts, and other graphs representing data)", "group": "Data interpretation"},
+        {"code": "GA.2.02", "name": "2- and 3-dimensional plots", "source_phrase": "2-and 3-dimensional plots", "group": "Data interpretation"},
+        {"code": "GA.2.03", "name": "Maps", "source_phrase": "maps", "group": "Data interpretation"},
+        {"code": "GA.2.04", "name": "Tables", "source_phrase": "tables", "group": "Data interpretation"},
+        {"code": "GA.2.05", "name": "Ratios", "source_phrase": "ratios", "group": "Numerical computation and estimation"},
+        {"code": "GA.2.06", "name": "Percentages", "source_phrase": "percentages", "group": "Numerical computation and estimation"},
+        {"code": "GA.2.07", "name": "Powers", "source_phrase": "powers", "group": "Numerical computation and estimation"},
+        {"code": "GA.2.08", "name": "Exponents and logarithms", "source_phrase": "exponents and logarithms", "group": "Numerical computation and estimation"},
+        {"code": "GA.2.09", "name": "Permutations and combinations", "source_phrase": "permutations and combinations", "group": "Numerical computation and estimation"},
+        {"code": "GA.2.10", "name": "Series", "source_phrase": "series", "group": "Numerical computation and estimation"},
+        {"code": "GA.2.11", "name": "Mensuration and geometry", "source_phrase": "Mensuration and geometry"},
+        {"code": "GA.2.12", "name": "Elementary statistics and probability", "source_phrase": "Elementary statistics and probability"}
+      ]
+    },
+    {
+      "number": 3,
+      "code": "GA.3",
+      "name": "Analytical Aptitude",
+      "official_text": "Logic: deduction and induction, Analogy, Numerical relations and reasoning.",
+      "topics": [
+        {"code": "GA.3.01", "name": "Logic: deduction and induction", "source_phrase": "deduction and induction", "group": "Logic"},
+        {"code": "GA.3.02", "name": "Analogy", "source_phrase": "Analogy"},
+        {"code": "GA.3.03", "name": "Numerical relations and reasoning", "source_phrase": "Numerical relations and reasoning"}
+      ]
+    },
+    {
+      "number": 4,
+      "code": "GA.4",
+      "name": "Spatial Aptitude",
+      "official_text": "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping paper folding, cutting, and patterns in 2 and 3 dimensions.",
+      "topics": [
+        {"code": "GA.4.01", "name": "Translation", "source_phrase": "translation", "group": "Transformation of shapes"},
+        {"code": "GA.4.02", "name": "Rotation", "source_phrase": "rotation", "group": "Transformation of shapes"},
+        {"code": "GA.4.03", "name": "Scaling", "source_phrase": "scaling", "group": "Transformation of shapes"},
+        {"code": "GA.4.04", "name": "Mirroring", "source_phrase": "mirroring", "group": "Transformation of shapes"},
+        {"code": "GA.4.05", "name": "Assembling", "source_phrase": "assembling", "group": "Transformation of shapes"},
+        {"code": "GA.4.06", "name": "Grouping", "source_phrase": "grouping", "group": "Transformation of shapes"},
+        {"code": "GA.4.07", "name": "Paper folding", "source_phrase": "paper folding", "group": "Transformation of shapes"},
+        {"code": "GA.4.08", "name": "Cutting", "source_phrase": "cutting", "group": "Transformation of shapes"},
+        {"code": "GA.4.09", "name": "Patterns in 2 and 3 dimensions", "source_phrase": "patterns in 2 and 3 dimensions", "group": "Transformation of shapes"}
+      ]
+    }
+  ]
+}

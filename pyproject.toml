@@ -1,0 +1,49 @@
+[project]
+name = "shogun-solo-leveling"
+version = "1.0.0"
+description = "Shogun : Phase 3 - Solo Leveling — GATE DA 2027 preparation and life-execution System"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q --strict-markers"
+markers = [
+    "ui: Streamlit AppTest smoke tests (slower)",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning:altair.*",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["migrations/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "S"]
+ignore = [
+    "S101",  # assert in tests
+    "S311",  # deterministic seeded random is intentional (paper assembly), not crypto
+    "S608",  # SQL built only from internal table names in backup service
+    "E501",  # long lines in HTML/CSS strings
+    "B008",
+    "UP042",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+packages = ["shogun"]
+ignore_missing_imports = true
+warn_unused_ignores = false
+check_untyped_defs = true
+no_implicit_optional = true
+exclude = ["shogun/ui/"]
+
+[tool.coverage.run]
+source = ["shogun"]
+omit = ["shogun/ui/*"]
