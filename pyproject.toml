@@ -30,6 +30,8 @@ ignore = [
     "E501",  # long lines in HTML/CSS strings
     "B008",
     "UP042",
+    "SIM105",  # explicit try/except/pass reads clearer in provider error handling
+    "SIM117",  # nested `with` blocks mirror Streamlit layout nesting
 ]
 
 [tool.ruff.lint.per-file-ignores]

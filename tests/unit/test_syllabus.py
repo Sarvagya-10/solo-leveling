@@ -9,7 +9,14 @@ from sqlalchemy import func, select
 from shogun.config import PROJECT_ROOT
 from shogun.db.models import Subject, Topic, TopicProgress
 from shogun.services.seed import seed_all
-from shogun.syllabus import DA_FILE, GA_FILE, SyllabusSpec, load_official_syllabi, load_syllabus, uncovered_words
+from shogun.syllabus import (
+    DA_FILE,
+    GA_FILE,
+    SyllabusSpec,
+    load_official_syllabi,
+    load_syllabus,
+    uncovered_words,
+)
 from tests.conftest import SEED_DAY
 
 EXPECTED_DA_SECTIONS = [
