@@ -26,8 +26,11 @@ def _set_sqlite_pragmas(dbapi_connection, _record) -> None:  # type: ignore[no-u
 def make_engine(db_url: str) -> Engine:
     if not db_url.startswith("sqlite"):
         # External server database (PostgreSQL): resilient to dropped idle connections on free tiers.
+        # prepare_threshold=None: no server-side prepared statements, so transaction-mode poolers
+        # (Neon/Supabase "-pooler" endpoints, PgBouncer) work reliably.
+        connect_args = {"prepare_threshold": None} if "+psycopg" in db_url else {}
         return create_engine(db_url, future=True, pool_pre_ping=True, pool_recycle=300, pool_size=3,
-                             max_overflow=2)
+                             max_overflow=2, connect_args=connect_args)
     if db_url.startswith("sqlite:///") and db_url != "sqlite:///:memory:":
         Path(db_url.removeprefix("sqlite:///")).parent.mkdir(parents=True, exist_ok=True)
     engine = create_engine(db_url, future=True, connect_args={"check_same_thread": False})
