@@ -64,13 +64,31 @@ def schema_token() -> str:
     return "|".join(parts)
 
 
+_SECRET_KEYS = ("DATABASE_URL", "SHOGUN_DATABASE_URL", "GROQ_API_KEY", "SERPAPI_API_KEY", "GROQ_MODEL",
+                "SHOGUN_TIMEZONE")
+
+
+def _import_streamlit_secrets() -> None:
+    """Expose Streamlit Cloud secrets (``.streamlit/secrets.toml`` / app settings) as environment variables."""
+    try:
+        secrets = dict(st.secrets)
+    except Exception:  # no secrets configured — normal for local runs
+        return
+    for key in _SECRET_KEYS:
+        value = secrets.get(key)
+        if isinstance(value, str) and value.strip() and not os.environ.get(key):
+            os.environ[key] = value.strip()
+
+
 @st.cache_resource(show_spinner="Opening the gate…")
 def _bootstrap(token: str) -> AppContext:
     del token  # only used as the cache key
+    _import_streamlit_secrets()
     config = load_config()
     configure_logging(config.log_level, config.logs_dir)
     register_secret(config.groq_api_key.get())
     register_secret(config.serpapi_api_key.get())
+    register_secret(config.database_url.get())
     run_migrations(config.db_url)
     engine = get_engine(config.db_url)
     with session_scope(engine) as s:

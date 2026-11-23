@@ -122,6 +122,13 @@ def _post_restore(ctx: AppContext) -> None:
 
 def _data(ctx: AppContext) -> None:
     cfg = ctx.config
+    st.markdown("##### Storage")
+    (st.error if cfg.storage_is_ephemeral else st.success)(f"Data is stored in: **{cfg.storage_label}**")
+    if not backup_service.supports_file_backups(ctx.engine):
+        st.info("File backups apply to a local SQLite database. Your hosted PostgreSQL provider keeps its own "
+                "backups; you can also download a full JSON export below at any time.")
+        _exports(ctx)
+        return
     st.markdown("##### Backups")
     c1, c2 = st.columns([1, 2])
     if c1.button("Create backup now", type="primary", key="bk_now"):
@@ -145,6 +152,11 @@ def _data(ctx: AppContext) -> None:
             except (ShogunError, OSError) as exc:
                 st.error(f"Restore failed: {exc}")
 
+    _exports(ctx)
+
+
+def _exports(ctx: AppContext) -> None:
+    cfg = ctx.config
     st.markdown("##### Export")
     inc = st.checkbox("Include private not-to-do data in exports", value=False, key="exp_priv")
     with ctx.session() as s:
@@ -163,7 +175,7 @@ def _data(ctx: AppContext) -> None:
     if st.button("Import", disabled=up is None or confirm != "IMPORT", key="imp_go"):
         try:
             payload = json.loads(up.getvalue().decode("utf-8"))
-            safety = backup_service.backup_database(ctx.engine, cfg.backups_dir, "pre-import")
+            safety = backup_service.safety_snapshot(ctx.engine, cfg.backups_dir, "pre-import")
             with ctx.session() as s:
                 report = backup_service.import_data(s, payload)
             _post_restore(ctx)
@@ -179,12 +191,13 @@ def _data(ctx: AppContext) -> None:
     st.markdown("##### Reset")
     with st.container(border=True):
         st.error("Reset permanently deletes ALL your logs, progress, revisions, papers, XP and settings. An automatic "
-                 "backup is taken first, but download an export too.")
+                 "safety snapshot is taken first, but download a JSON export above too — on a cloud host the "
+                 "snapshot file itself is not permanent.")
         ok = st.checkbox("I understand this deletes all my data", key="reset_ok")
         word = st.text_input("Type RESET to confirm", key="reset_word")
         if st.button("Reset everything", disabled=not ok or word != backup_service.RESET_CONFIRMATION, key="reset_go"):
             try:
-                safety = backup_service.backup_database(ctx.engine, cfg.backups_dir, "pre-reset")
+                safety = backup_service.safety_snapshot(ctx.engine, cfg.backups_dir, "pre-reset")
                 with ctx.session() as s:
                     backup_service.reset_all_data(s, word)
                 _post_restore(ctx)

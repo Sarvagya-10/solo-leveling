@@ -62,10 +62,29 @@ class AppConfig:
     groq_api_key: Secret = field(repr=True)
     serpapi_api_key: Secret = field(repr=True)
     groq_model: str | None = None
+    database_url: Secret = field(default_factory=lambda: Secret(None))
+    cloud_host: bool = False
 
     @property
     def db_url(self) -> str:
-        return f"sqlite:///{self.db_path.as_posix()}"
+        """SQLAlchemy URL: the external database if configured, else the local SQLite file."""
+        external = self.database_url.get() if self.database_url.is_set else None
+        return external or f"sqlite:///{self.db_path.as_posix()}"
+
+    @property
+    def is_sqlite(self) -> bool:
+        return self.db_url.startswith("sqlite")
+
+    @property
+    def storage_is_ephemeral(self) -> bool:
+        """True when data would be lost on restart (local SQLite file on a cloud host such as Streamlit Cloud)."""
+        return self.cloud_host and self.is_sqlite
+
+    @property
+    def storage_label(self) -> str:
+        if not self.is_sqlite:
+            return "External PostgreSQL database (permanent)"
+        return f"Local SQLite file {self.db_path}" + (" — TEMPORARY on this cloud host" if self.cloud_host else "")
 
     @property
     def backups_dir(self) -> Path:
@@ -78,6 +97,24 @@ class AppConfig:
     @property
     def logs_dir(self) -> Path:
         return self.var_dir / "logs"
+
+
+def normalize_database_url(url: str | None) -> str | None:
+    """Accept Neon/Supabase/Heroku style URLs and select the psycopg (v3) driver."""
+    cleaned = (url or "").strip().strip('"').strip("'")
+    if not cleaned:
+        return None
+    for prefix in ("postgres://", "postgresql://"):
+        if cleaned.startswith(prefix):
+            return "postgresql+psycopg://" + cleaned[len(prefix):]
+    return cleaned
+
+
+def detect_cloud_host(env: dict[str, str]) -> bool:
+    """Streamlit Community Cloud runs apps from /mount/src; allow an explicit override for other hosts."""
+    if env.get("SHOGUN_EPHEMERAL_HOST", "").lower() in ("1", "true", "yes"):
+        return True
+    return PROJECT_ROOT.as_posix().startswith("/mount/src") or env.get("HOSTNAME", "") == "streamlit"
 
 
 def validate_timezone(name: str) -> str:
@@ -125,4 +162,6 @@ def load_config(env_file: Path | None = None, *, override: dict[str, str] | None
         groq_api_key=Secret(env.get("GROQ_API_KEY")),
         serpapi_api_key=Secret(env.get("SERPAPI_API_KEY")),
         groq_model=model,
+        database_url=Secret(normalize_database_url(env.get("SHOGUN_DATABASE_URL") or env.get("DATABASE_URL"))),
+        cloud_host=detect_cloud_host(env),
     )

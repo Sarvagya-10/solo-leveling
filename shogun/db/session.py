@@ -24,6 +24,10 @@ def _set_sqlite_pragmas(dbapi_connection, _record) -> None:  # type: ignore[no-u
 
 
 def make_engine(db_url: str) -> Engine:
+    if not db_url.startswith("sqlite"):
+        # External server database (PostgreSQL): resilient to dropped idle connections on free tiers.
+        return create_engine(db_url, future=True, pool_pre_ping=True, pool_recycle=300, pool_size=3,
+                             max_overflow=2)
     if db_url.startswith("sqlite:///") and db_url != "sqlite:///:memory:":
         Path(db_url.removeprefix("sqlite:///")).parent.mkdir(parents=True, exist_ok=True)
     engine = create_engine(db_url, future=True, connect_args={"check_same_thread": False})
@@ -71,7 +75,7 @@ def run_migrations(db_url: str) -> None:
 
     cfg = Config(str(PROJECT_ROOT / "alembic.ini"))
     cfg.set_main_option("script_location", str(PROJECT_ROOT / "migrations"))
-    cfg.set_main_option("sqlalchemy.url", db_url)
+    cfg.set_main_option("sqlalchemy.url", db_url.replace("%", "%%"))  # configparser escaping
     cfg.attributes["configure_logger"] = False
     command.upgrade(cfg, "head")
     log.info("Database schema is at the latest migration")

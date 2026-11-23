@@ -16,7 +16,7 @@ if config.config_file_name is not None and config.attributes.get("configure_logg
 
 # When invoked from the CLI (`alembic upgrade head`) use the app configuration's DB path.
 if not config.attributes.get("url_injected") and config.get_main_option("sqlalchemy.url") == "sqlite:///var/shogun.db":
-    config.set_main_option("sqlalchemy.url", load_config().db_url)
+    config.set_main_option("sqlalchemy.url", load_config().db_url.replace("%", "%%"))
 
 target_metadata = Base.metadata
 

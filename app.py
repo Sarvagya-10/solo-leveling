@@ -86,6 +86,11 @@ with ctx.session() as session:
     elif snapshot.level.level < last_level:
         settings_service.set_setting(session, "last_seen_level", snapshot.level.level)
 
+if ctx.config.storage_is_ephemeral:
+    st.error("**Your data is NOT being saved permanently.** This copy of the app runs on a cloud host where the "
+             "local database file is wiped on every restart or update. Add a `DATABASE_URL` secret pointing to "
+             "a free PostgreSQL database (Neon / Supabase) — see README → *Permanent storage on Streamlit Cloud*.",
+             icon="⚠️")
 status_bar(APP_TITLE, snapshot, today.strftime("%a %d %b %Y"))
 show_flash()
 navigation.run()

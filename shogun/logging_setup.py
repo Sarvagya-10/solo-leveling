@@ -17,6 +17,7 @@ _PATTERNS = [
     re.compile(r"(?i)(api_key=)[^&\s'\"]+"),
     re.compile(r"(?i)(bearer\s+)[A-Za-z0-9._\-]+"),
     re.compile(r"\b[a-f0-9]{64}\b"),
+    re.compile(r"((?:postgres|postgresql)(?:\+\w+)?://[^:/@\s]+:)[^@\s]+(?=@)"),
 ]
 _registered_secrets: set[str] = set()
 

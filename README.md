@@ -77,6 +77,7 @@ Copy `.env.example` to `.env` (git-ignored) and fill in what you need:
 | `GROQ_API_KEY` | Groq Cloud key for AI cards / practice / extraction / suggestions | unset → AI features show a configuration message |
 | `GROQ_MODEL` | Preferred model id | empty → strongest model available to your key |
 | `SERPAPI_API_KEY` | SerpAPI key (DuckDuckGo engine) for source search | unset → search disabled |
+| `DATABASE_URL` | Permanent PostgreSQL database (Neon/Supabase). **Required on Streamlit Cloud** | unset → local SQLite file |
 | `SHOGUN_DB_PATH` | SQLite database path | `var/shogun.db` |
 | `SHOGUN_VAR_DIR` | Backups / exports / logs directory | `var/` |
 | `SHOGUN_TIMEZONE` | Initial timezone (changeable in Settings) | `Asia/Kolkata` |
@@ -212,6 +213,34 @@ transports, and every test uses its own temporary SQLite database.
 
 You can also back up by copying `var/shogun.db` while the app is stopped.
 
+## Permanent storage on Streamlit Cloud
+
+Streamlit Community Cloud gives the app a **temporary disk**: the local SQLite file is wiped whenever
+the app restarts — after every push to GitHub, after a settings/secrets change, and when an idle app
+is put to sleep. The app shows a red banner on every page while it is running like that.
+
+To keep data permanently, point the app at a free hosted PostgreSQL database:
+
+1. Create a free database at [neon.tech](https://neon.tech) (or [supabase.com](https://supabase.com)).
+   Copy its connection string, e.g. `postgresql://user:password@ep-xxx.aws.neon.tech/neondb?sslmode=require`.
+2. In Streamlit Cloud: **your app → ⋮ → Settings → Secrets**, add (TOML):
+   ```toml
+   DATABASE_URL = "postgresql://user:password@ep-xxx.aws.neon.tech/neondb?sslmode=require"
+   GROQ_API_KEY = "..."      # optional, for AI features
+   SERPAPI_API_KEY = "..."   # optional, for source search
+   ```
+3. Save. The app restarts, creates its tables in PostgreSQL and seeds the syllabus and PYQ bank.
+   *Settings & Data → Storage* should now say **External PostgreSQL database (permanent)** and the
+   red banner disappears.
+4. (Optional) copy existing local data from this laptop into the same database:
+   ```powershell
+   $env:TARGET_DATABASE_URL = "postgresql://user:password@...neon.tech/neondb?sslmode=require"
+   python scripts/copy_data.py
+   ```
+
+Locally you can use the same `DATABASE_URL` in `.env` so the laptop and the website share one database.
+The URL contains a password: it is read only from secrets/environment and is redacted from logs.
+
 ## Deployment
 
 The app is single-user by design (one SQLite file).
@@ -219,9 +248,9 @@ The app is single-user by design (one SQLite file).
 * **Local / home server:** `streamlit run app.py --server.port 8501 --server.address 0.0.0.0`.
   Put it behind a reverse proxy with authentication if it is reachable from a network —
   the app itself has no login.
-* **Streamlit Community Cloud:** works, but its filesystem is ephemeral; data will be lost
-  on restarts unless you export/import regularly. Add keys under *Secrets* as
-  environment variables (`GROQ_API_KEY`, `SERPAPI_API_KEY`, `GROQ_MODEL`).
+* **Streamlit Community Cloud:** set `DATABASE_URL` (see *Permanent storage on Streamlit Cloud*) —
+  without it the app's disk is wiped on every restart. Add `GROQ_API_KEY`, `SERPAPI_API_KEY`,
+  `GROQ_MODEL` under *Secrets* too.
 * **Docker (example):**
   ```dockerfile
   FROM python:3.11-slim

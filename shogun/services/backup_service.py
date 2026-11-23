@@ -20,7 +20,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import Engine, MetaData, Table, delete, insert, select
+from sqlalchemy import Engine, MetaData, Table, delete, insert, select, text
 from sqlalchemy.orm import Session
 
 from shogun import __version__
@@ -48,7 +48,14 @@ TOPIC_FK_COLUMNS: dict[str, tuple[str, ...]] = {
 }
 
 
+def supports_file_backups(engine: Engine) -> bool:
+    return engine.dialect.name == "sqlite" and engine.url.database not in (None, "", ":memory:")
+
+
 def _sqlite_path(engine: Engine) -> Path:
+    if engine.dialect.name != "sqlite":
+        raise ValidationError("File backups apply to the local SQLite database only. With a hosted PostgreSQL "
+                              "database use the JSON export (and your provider's own backups).")
     db = engine.url.database
     if not db or db == ":memory:":
         raise ValidationError("Backups require a file-based SQLite database")
@@ -70,6 +77,18 @@ def backup_database(engine: Engine, backups_dir: Path, label: str = "manual") ->
     finally:
         src.close()
     log.info("Backup written: %s", dest.name)
+    return dest
+
+
+def safety_snapshot(engine: Engine, backups_dir: Path, label: str) -> Path:
+    """Snapshot before a destructive operation: SQLite file backup, or a full JSON export for PostgreSQL."""
+    if supports_file_backups(engine):
+        return backup_database(engine, backups_dir, label)
+    backups_dir.mkdir(parents=True, exist_ok=True)
+    stamp = utcnow().strftime("%Y%m%d-%H%M%S-%f")
+    dest = backups_dir / f"shogun-{stamp}-{label}.json"
+    with Session(engine) as session:
+        dest.write_bytes(export_json_bytes(session, include_private=True))
     return dest
 
 
@@ -241,7 +260,22 @@ def import_data(session: Session, payload: dict[str, Any]) -> ImportReport:
             session.execute(insert(table), clean_rows)
         counts[name] = len(clean_rows)
     session.flush()
+    _reset_sequences(session, md)
     return ImportReport(rows=counts, skipped=skipped)
+
+
+def _reset_sequences(session: Session, md: MetaData) -> None:
+    """After inserting explicit ids, move PostgreSQL id sequences past the highest id (no-op on SQLite)."""
+    if session.get_bind().dialect.name != "postgresql":
+        return
+    for name in USER_DATA_TABLES:
+        table = md.tables[name]
+        if "id" not in table.columns:
+            continue
+        session.execute(text(
+            f"SELECT setval(pg_get_serial_sequence('{name}', 'id'), "
+            f"COALESCE((SELECT MAX(id) FROM {name}), 0) + 1, false)"
+        ))
 
 
 def reset_all_data(session: Session, confirmation: str) -> None:
